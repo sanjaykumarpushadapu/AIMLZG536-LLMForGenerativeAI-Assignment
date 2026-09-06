@@ -1,0 +1,446 @@
+WHO DISCUSSION PAPER
+(Version dated 9 August 2021)
+
+DRAFT RECOMMENDATIONS TO
+STRENGTHEN AND MONITOR DIABETES RESPONSES
+WITHIN NATIONAL NONCOMMUNICABLE DISEASE PROGRAMMES,
+INCLUDING POTENTIAL TARGETS
+
+CHALLENGES AND OPPORTUNITIES
+
+1. Never in the past has our knowledge been so profound and the modalities to prevent diabetes and
+treat all people living with diabetes so great. And yet, many people and communities in need of effective
+prevention, life-enhancing and live-saving treatment for diabetes do not receive them:
+
+a) There is growing awareness and concern about the large and escalating burden of diabetes. The
+global age-adjusted prevalence of diabetes among adults over 18 years of age rose from 4.7% in
+1980 to 8.5% in 2014.1 Today, more than 420 million people are living with diabetes worldwide.
+This number is estimated to rise to 570 million by 2030 and to 700 million by 2045.2 One in two
+adults with diabetes are unaware of their condition and are at great risk of debilitating
+complications that can be prevented through diagnosis and proper disease management.
+b) The increasing prevalence of diabetes is largely caused by the increasing prevalence of obesity
+and concurrent physical inactivity . The prevalence of overweight and obesity among children
+and adolescents aged 5-19 has risen dramatically from 4% in 1975 to over 18% in 2016.3 Only
+40% of countries have an operational policy addressing overweight and obesity.4
+
+c) Contrary to the other main noncommunicable diseases (NCDs) the premature mortality for
+diabetes has increased by 5% from 2000 to 2016.5
+
+d) The global cost of diabetes for 2015 has been estimated at US$1·31 trillion or 1·8% of global
+gross domestic product (GDP). While the main drivers of cost are hospital inpatient and
+outpatient care, indirect costs accounted for 34·7% of the total burde n, mostly attributable to
+production losses due to labour-force dropout and premature mortality.6
+
+e) Twenty-seven percent of countries do not have an operational policy, strategy or action plan for
+diabetes, and 20% do not have it for reducing unhealthy diet and physical inactivity.
+
+f) Limited progress has been seen for diabetes towards target 3.8 of the Sustainable Development
+Goals on achieving universal health coverage (UHC). The WHO UHC Monitoring Report (2019)
+shows that diabetes health services are conspicuous by their lack of progress as part of universal
+
+1 Global report on diabetes. Geneva: World Health Organization; 2016
+2 Saeedi P, Petersohn I, Salpea P, Malanda B, Karuranga S, Unwin N, Colagiuri S, Guariguata L, Motala AA, Ogurtsova K, Shaw
+JE, Bright D, Williams R; IDF Diabetes Atlas Committee. Global and regional diabetes prevalence estimates for 2019 and
+projections for 2030 and 2045: Results from the International Diabetes Federation Diabetes Atlas, 9th edition. Diabetes Res Clin
+Pract 2019;157:107843
+3 https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight
+4 Assessing national capacity for the prevention and control of noncommunicable diseases: report of the 2019 global survey.
+Geneva: World Health Organization; 2020. Licence: CC BY-NC-SA 3.0 IGO
+5 World health statistics 2020: monitoring health for the SDGs, sustainable development goals. Geneva: World Health
+Organization; 2020
+6 Bommer C, Heesemann E, Sagalova E, Manne-Goehler J, Atun R, Bärnighausen T et al. The global economic burden of
+diabetes in adults aged 20–79 years: a cost-of-illness study. Lancet Diabetes Endocrinol 2017; 5: 423–30
+
+health coverage in comparison to those for communicable diseases.1 Only two-thirds of countries
+report having time-bound NCD targets, which may include targets of no increase in diabetes and
+obesity and improved access to medicines and technologies, in line with the nine voluntary global
+targets of the WHO Global Monitoring Framework.
+
+g) In general, primary health -care facilities in low -income countries do not have the basic
+technologies needed to diagnose and manage diabetes.1 Essential medicines for diab etes are
+generally available in about 80% of facilities of the public health care sector.
+
+h) Insulins and associated health technology products remain unaffordable in many countries
+particularly to patients paying out of pocket or to health systems in many LMIC that are unable
+to provide sustained and equitable coverage for all people with diabete s due to high prices of
+these products. Effective public policymaking to improve access to affordable medicines and
+health products requires the use of evidence from accurate analysis of sound and transparent data
+on prices and availability.23
+
+i) The COVID-19 pandemic has revealed the fragility of overstretched health care systems. A
+WHO survey indicated that half of countries surveyed had partially or completely disrupted
+services for diagnosis and treatment for diabetes and diabetes -related complications. One-third
+of countries did not have diabetes in their emergency preparedness plans.4
+
+j) Data on diabetes derived from monitoring and surveillance systems in most countries are sparse
+and inadequate. Only 56% of countries have recently conducted a diabetes prevalence survey.
+While 50% of countries, mostly high -income ones, report having diabetes registries, their
+predominantly hospital-based nature and limited coverage do not provide sufficient information
+on diabetes outcomes .5 Less t han two -thirds of low -income countrie s report having vital
+registration systems to capture information on cause of death and the reliability of the
+information on diabetes is doubtful . Most countries do not have a system in place to evaluate
+national actions or programmes.
+
+k) Only one-third of countries report having a policy or plan for NCD research and research is
+among the least-funded key actions of the Global action plan for the prevention and control of
+noncommunicable diseases.
+2. Opportunities exist to facilitate solutions to the challenges. The main opportunities are:
+
+a) Tracer for all NCDs: optimal management of diabetes requires coordinated inputs from a range
+of health professionals, access to essential medicines and technologies and a system that supports
+patient empowerment. This has relevance beyond diabetes and diabetes could serve as a tracer
+condition for general comprehensiveness and strength of national responses to NCDs.
+
+b) A solid basis for scaling up: 85% of countries report having staff dedicated to diabetes in their
+NCD unit/branch/department; 73% of countries report having an operational policy, strategy or
+action plan on diabetes, increasing from 45% in 2010. Eighty percent of countries report having
+operational policies or strategies for reducing unhealthy diet and physical inactivity. Eighty-four
+percent report having national diabetes management guidelines that are used in at least 50% of
+health facilities.
+
+1 https://www.who.int/data/monitoring-universal-health-coverage
+2 Babar ZUD, Ramzan S, El-Dahiyat F, Tachmazidis I, Adebisi A and Hasan SS. The availability, pricing, and affordability of
+essential diabetes medicines in 17 low-, middle-, and high-income countries. Frontiers in pharmacology 2019:10:1375.
+3 https://www.who.int/publications/i/item/9789240011878
+4 The impact of the COVID-19 pandemic on noncommunicable disease resources and services: results of a rapid assessment.
+Geneva: World Health Organization; 2020
+5 https://apps.who.int/iris/bitstream/handle/10665/204871/9789241565257_eng.pdf?sequence=1
+
+c) Improving accountability: Setting time-bound national targets and indicators for diabetes and
+obesity prevention and control, complementary to existing NCD targets could stimulate
+accelerated implementation of existing policies and introduction of new ones.
+
+d) Towards u niversal health coverage : the global push towards universal health coverage to
+achieve SDG target 3.8 is an opportunity to include diabetes prevention and control in benefit
+packages and address diabetes more effectively and equitably, and ensuring financial protection
+of the most vulnerable.
+
+e) A new perspective on NCDs: The COVID-19 pandemic has disproportionately affected people
+with diabetes and this can provide an impetus to better integrate diabetes in pandemic and other
+emergency preparedness and response.
+
+f) Marking the 100 year anniversary of insulin : The establishment of the Global Diabetes
+Compact offers an opportunity for the global diabetes community to come together to reflect on
+addressing barriers in accessing insulin and associated health technologies, including the
+promotion of convergence and harmonization of regulatory requirements for insulin and other
+medicines and health products for the treatment of diabetes; and assessment of the feasibility and
+potential value of establishing a web-based tool to share information relevant to the transparency
+of markets for diabetes medicines and health products.
+
+g) Harnessing d igital technologies : Increasing use of digital technologies could facilitate
+monitoring and surveillance , enhancing the ca pacity to assess and report on risk factors,
+availability and real need of essential medicines, diabetes outcomes and national responses.
+
+h) Promoting inclusiveness: Participation of individuals with diabetes and their carers provides
+essential expertise to positively impact policy design, and powerful narratives to raise awareness
+of diabetes among the public and build commitment among policymakers. The involvement and
+active participation of people living with diabetes in the Global Diabetes Compact provides a
+platform and model for their meaningful participation in decision making.
+
+LESSONS LEARNED
+
+3. Lessons learned in implementing activities for the prevention, control and monitoring of diabete s
+include:
+a) Diabetes through a pandemic lens: The disruption of services by the COVID -19 pandemic
+and particular vulnerability of people with diabetes have shown that countries need not only to
+restore the health care system to the level it was before . Member States need to build back
+better to integrate diabetes management, including diabetes complications, into primary health
+care and relevant health programmes and work with global financial institutions to include
+funding for diabetes as a critical comorbidity.1
+
+b) Monitoring outcomes: Improving the accuracy and availability of data on the prevalence of
+diabetes, access to prevention interventions, care and essential medicines , and complications
+of diabetes is needed to evaluate the effects of diabetes policy and initiatives. WHO has
+initiated regular national WHO STEPwise Approach to NCD Risk Factor Surveillance
+
+1 Responding to non-communicable diseases during and beyond the COVID-19 pandemic.
+Geneva: World Health Organization and the United Nations Development Programme, 2020 (WHO/2019nCoV/Non-communicable_diseases/Policy_brief/2020.1). Licence: CC BY-NC-SA 3.0 IGO.
+
+(STEPS) in order to improve monitoring of NCD risk factors.1 However, these surveys do not
+fully capture the performance of the health system. This will require guidance and support for
+improving the availability and quality of data in health facilities.
+STRENGTHENING DIABETES RESPONSES
+
+4. Recommended actions for Member States:
+
+a) Strengthen national capacity, leadership, governance, multisectoral action and
+partnerships to accelerate country response for the prevention and control of diabetes:
+
+o Strengthen the capacity of ministries of health to exercise a strategic leadership and
+coordination role in diabetes policy development that engages all stakeholders across
+government, civil society, people living with diabetes, and the private sector, ensuring that
+issues relating to the prevention and control of diabetes receive a coordinated,
+comprehensive and integrated response.
+
+o Provide sufficient national budgetary allocation for diabetes prevention and control, and
+identify financing mechanisms to reduce out-of-pocket expenditure.
+
+o Strengthen the design and implementation of policies for diabetes by ensuring that existing
+national UHC benefit packages and NCD multisectoral strategy/policy/action plans contain
+the necessary provisions for diabetes prevention and management.
+
+o Consider setting national diabetes coverage targets, building on the guidance provided by
+WHO, to progressively cover more people with quality diabetes care , increase
+accountability, and p eriodically assess national capacity for the prevention and control of
+diabetes.
+
+b) Reduce modifiable risk factors for diabetes and underlying social determinants:
+
+o Accelerate implementation of policies and strategies to reduce risk factors for diabetes
+and its complications.
+
+o Promote health literacy and strengthen involvement of people living with NCDs in
+clinical decision-making with a focus on health-professional-patient communication.
+
+o Consider disproportionate diabetes burdens among subpopulations and address the
+underlying social determinants that expose these populations to greater risk of
+developing diabetes and its complications, substandard care, or lack of access to essential
+diabetes medicines.
+
+c) Strengthen and orient health systems to address the prevention and control of diabetes
+through people-centered primary health care and universal health coverage:
+
+o Expand the delivery of and prioritize primary health care as a cornerstone of sustainable,
+people-centered, community-based and integrated diabetes care.
+
+o Set minimum standards of diabetes management across the continuum of care with a
+focus on primary health care, while strengthening referral systems between primary and
+other levels of care.
+
+1 https://www.who.int/teams/noncommunicable-diseases/surveillance/systems-tools/steps
+
+o Consider adopting global coverage targets to be achieved by 2030* to stimulate early
+detection and improved management , and consider their adaptation to local
+circumstances.
+
+o Strengthen health workforce and institutional capacity to detect early and manage
+diabetes, includ ing diagnosis and management of diabetes related complications,
+provision of psycho-social support, promotion of self-care, and provi sion of palliative
+care and rehabilitation.
+
+o Ensure availability and affordability of essential medicines and priority devi ces by
+bundling medicines, insulin delivery devices and blood glucose monitoring devices as
+part of national benefit packages.
+
+o Ensure uninterrupted treatment of people living with diabetes in humanitarian
+emergencies.
+
+o Evaluate the impact of innovative digital health solutions.
+
+o Include PLWD in decision making processes on policies, strategies and implementation
+of diabetes prevention and control.
+
+d) Promote and support national capacity for high -quality research and development for the
+prevention and control of diabetes
+
+o Explore the reasons for little progress on NCD research and options to address them.
+
+5. Recommended actions for International Partners, including the private sector:
+
+a) Strengthen national capacity, leadership, governance, multisectoral action and
+partnerships to accelerate country response for the prevention and control of diabetes:
+
+o Maintain visibility of diabetes on the global health and development agenda.
+
+o Align international cooperation on diabetes with national plans concerning non communicable diseases in order to strengthen aid effectiveness and the development impact
+of external resources in support of diabetes.
+
+o Civil society to foster accountability and support countries in regular review of progress of
+national diabetes roadmaps toward the achievement of national diabetes targets.
+
+b) Reduce modifiable risk factors for diabetes and underlying social determinants:
+
+o Advocate for and support population-based policies, health promotion activities and health
+literacy campaigns.
+
+o Advocate for and help implement and evaluate community -based diabetes prevention and
+control initiatives.
+
+c) Strengthen and orient health systems to prevent and control of diabetes through people-centered
+primary health care and universal health coverage:
+
+o Commit to support of activities that improve affordability and availability of essential
+medicines and basic technologies for diagnosis, management, and self -care of people with
+diabetes.
+
+o Support and scale up implementation of digital health solutions bas ed on country need
+assessments.
+
+o Invite the private sector to strengthen its commitment and contribution to the prevention and
+management of diabetes by participating in WHO prequalification programmes for insulin
+and self-monitoring devices, to register and publish their contributions, i ncluding through
+the reporting mechanism WHO will use to register and publish these contributions, and to
+participate in international pooled -procurement mechanisms for diabetes medicines (once
+established) led by the United Nations and other intergovernme ntal organizations, and
+international financing mechanisms.
+
+d) Promote and support national capacity for high -quality research and development for the
+prevention and control of diabetes
+
+o Invest in and support national capacity for research on diabetes prevention and control relevant
+to the implementation of recommendations.
+
+6. Recommended actions for WHO:
+
+a) Strengthen national capacity, leadership, governance, multisectoral action and
+partnerships to accelerate country response for the prevention and control of diabetes
+
+o Convene and lead partners through the Global Diabetes Compact to raise awareness, create
+synergies for action, and harness the collective capacity of global, regional and national
+actors working to improve diabetes prevention and control.
+
+o Support country activities for including diabetes in UHC and develop recommendations for
+adequate, predictable, and sustained financing of diabetes prevention and control, including
+in resource-constrained settings, and to address the needs of disadvantaged and marginalized
+populations.
+
+o Scale-up meaningful engagement of people with diabetes in the design, implementation and
+evaluation of programmes and services for diabetes.
+
+b) Reduce modifiable risk factors for diabetes and underlying social determinants:
+
+o Provide guidance on prevention of type 2 diabetes through health promotion and
+health literacy.
+
+c) Strengthen and orient health systems to prevent and control of diabetes thro ugh
+people-centered primary health care and universal health coverage:
+
+o Support country adaptation and implementation of WHO diabetes management
+guidelines.
+
+o Develop technical and normative products to cover the whole spectrum of diabetes care
+and facilitate implementation of evidence-based digital solutions.
+
+o Develop bundled management -enhancing solutions with the private sector,
+prequalification of insulin, pooled procurement, and harmonization of regulatory
+requirements.
+
+o Develop guidance for ena bling uninterrupted treatment of diabetes in humanitarian
+emergencies.
+
+o Estimate the cost of achieving the global coverage targets.
+
+d) Promote and support national capacity for high -quality research , innovation and
+development for the prevention and control of diabetes
+
+o Develop a plan for supporting national research in diabetes prevention and control.
+
+o Support prioritization of research agenda for diabetes prevention and control and
+promote implementation research to assess effectiveness of individual and population wide interventions to prevent and control diabetes and obesity.
+
+o Support countries in developing diabetes-related research policies or plans that include
+community-based research and an evaluation of the impact of interventions and policies.
+
+SETTING DIABETES COVERAGE TARGETS
+
+7. The Secretariat, supported by an academic group, developed an approach to setting diabetes
+coverage targets based on which it drafted a proposal1. The draft proposed coverage targets were discussed
+at a technical consultation to seek additional expert advice on refining the methods and results. The expert
+consultation was held on 28-29 July 2021 and a technical paper will be submitted for publication.
+
+8. Following this process, the Secretariat recommends that five voluntary global diabetes coverage
+targets be established for achieved by 2030:
+
+o 80% of people with diabetes are diagnosed.
+o 80% of people with diagnosed diabetes have good control of glycaemia.
+o 80% of people with diagnosed diabetes have good control of blood pressure.
+o 60% of people with diabetes receive statins.
+o 100% of people with type 1 diabetes have access to insulin and blood glucose self-monitoring.
+9. Modelling projections have demonstrated that:
+o Achieving the target levels of diagnosis, treatment, and control of 3 targets (glycemia, blood
+pressure, and statin use) of at least 60% results in a gain in median DALY of 38 per 1000 persons
+over 10 years, whereas achieving a target of 80% results in a gain in median DALYs of 64 per
+1000 persons over 10 years.
+o In most regions, improving treatment and control without screening reduces CVD deaths by 2535% and improving diagnosis, treatment, and control reduces the most common cause of deaths
+(CVD) by more than 40%.
+
+10. Achieving the five voluntary global diabetes coverage targets will contribute to the achievement of
+SDG target 3.4 (one-third premature mortality reduction from noncommunicable diseases). The five targets
+are also aligned with the WHO Global Action Plan for the Prevention and Control of Noncommunicable
+Diseases 2013 -20202, the UN High -Level Meeting on Prevention and Control of Noncommunicable
+Diseases (2018)3 and health systems strengthening for social protection and universal health coverage, as
+set out in United Nations General Assembly resolution 72/81.
+
+11. The methodology used to develop the targets is summarized in a technical paper which is available
+on WHO’s website.
+
+1 Gregg E, Buckley J, Ali MK, Davies J, Flood D, Griffiths B et al. Target Setting to Reduce the Global Burden of Diabetes
+Mellitus by 2030: The Current Status and Scientific Rationale (unpublished data)
+
+2 WHO. Global Action Plan for the Prevention and Control of Noncommunicable Diseases 2013 -2020. Available at:
+http://apps.who.int/iris/bitstream/handle/10665/94384/9789241506236_eng.pdf?sequence=1
+32018 Political Declaration on NCDs. Available at : https://www.un.org/en/ga/search/view_doc.asp?symbol=A/RES/73/2
+
+MONITORING DIABETES RESPONSES
+
+Recommended actions to monitor the trends and determinants of diabetes and evaluate progress in
+their prevention and control
+
+12. Recommended actions for Member States:
+
+o Develop and strengthen surveillance and monitoring systems for diabetes and other NCD risk
+factors, guided by WHO NCD surveillance framework.
+
+o Develop and strengthen monitoring systems to evaluate the treatment gap and clinical outcomes
+(morbidity and mortality) and health syste m performance (capacity and interventions) through
+the systematic collection of standardized routine facility-based diabetes care indicators.
+
+13. Recommended actions for International Partners, including the private sector:
+
+o Support the development and maintenance of surveillance systems and promote the use of
+information and communications technology.
+
+o Invest in information systems that link various sources of information on management and
+outcomes.
+
+14. Recommended actions for WHO:
+
+o Continue monitoring NCD risk factor dynamics and country capacity to prevent and control
+NCDs, including diabetes.
+
+o Develop a monitoring framework and tool for monitoring the performance of health care system
+through monitoring of processes of care and outcomes at the level of health facilities.
+
+o Support the development and maintenance of surveillance systems and promote the use of
+information and communications technology.
+
+ACTION BY THE EXECUTIVE BOARD
+
+15. The Executive Board is invited to adopt the recommendations for Member States, international
+partners and WHO (paragraphs 4 to 6, and 12 to 14), as well as the five voluntary global diabetes coverage
+targets (paragraph 8), and recommend their endorsement at the World Health Assembly.
+
+= = =
+
+DISCLAIMER
+
+All rights reserved.
+
+This WHO Discussion Paper does not represent an official position of the World Health Organization. It is a
+tool to explore the views of interested parties on the subject matter. References to international partners are
+suggestions only and do not constitute or imply any endorsement whatsoever of this discussion paper.
+
+The World Health Organization does not warrant that the information contained in this discussion paper is
+complete and correct and shall not be liable for any damages incurred as a result of its use. The information
+contained in this discussion paper may be freely used and copied for educational and other non -commercial
+and non -promotional purposes, provided that any reproduction of the information be accompanied by an
+acknowledgement of the World Health Organization as the source. Any other use of the information requires
+the permission from the World Health Organization, and requests should be directed to World Health
+Organization, 20 Avenue Appia, 1211 Geneva 27, Switzerland, varenneb@who.int.
+
+The designations employed and the presentation of the material in this discussion paper note do not imply the
+expression of any opinion whatsoever on the part of the World Health Organization concerning the legal status
+of any country, territory, city or area or of its authorities, or concerning the delimitation of its frontiers or
+boundaries. The mention of specific companies or of certain manufacturers’ products does not imply that they
+are endorsed or recommended by the World Health Organization in preference to others of a similar nature that
+are not mentioned. Errors and omissions excepted, the names of proprietary products are distinguished by initial
+capital letters.
+
+All reasonable precautions have been taken by the World Health Organization to verify the information
+contained in this discussion paper. However, this discussion paper is being distributed without warranty of any
+kind, either expressed or implied. The responsibility for the interpretation and use of the presentation lies with
+the reader. In no event shall the World Health Organization be liable for damages arising from its use.
+
+© World Health Organization, 2021. All rights reserved.
+
+The following copy right notice applies: www.who.int/about/copyright

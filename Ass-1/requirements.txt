@@ -1,0 +1,39 @@
+# Assignment 1A - Building & Fine-Tuning a Domain-Specific LLM
+# Domain: Medical & Clinical Literature (Type 2 Diabetes, Variant 1)
+# Model:  microsoft/biogpt-large
+#
+#   pip install -r requirements.txt
+#
+# Versions are pinned ONLY where the package has actually been run and verified
+# (Step 1 + notebook tooling). The training stack is deliberately left unpinned:
+# those versions are dictated by the CUDA build of whichever GPU runtime you use
+# (free Colab T4 / BITS A100), and pinning them here would fight the runtime's
+# own preinstalled wheels.
+
+# --- Step 1: extraction & cleaning (verified locally) ------------------------
+pypdf==6.15.0        # page-by-page PDF text extraction
+langdetect==1.0.9    # English-only language filter
+
+# --- Notebook tooling (verified locally) -------------------------------------
+nbformat==5.11.1     # building / editing the notebook programmatically
+nbclient==0.11.0     # executing the notebook so outputs are embedded
+ipykernel==7.3.0     # the kernel nbclient runs the notebook in
+jupyter              # optional - only needed to open the notebook UI locally
+
+# --- Step 2: tokenization & packed dataset -----------------------------------
+transformers         # AutoTokenizer / AutoModelForCausalLM
+pyarrow              # Parquet writer for packed_train / packed_eval
+pandas==2.3.3        # dataframe wrapper around the packed sequences
+
+# --- Steps 3-4: model loading & CPT training ---------------------------------
+torch                # install the build matching your GPU's CUDA version
+accelerate           # required by transformers.Trainer
+matplotlib==3.10.9   # Step 4 loss curve
+sacremoses           # REQUIRED by biogpt-large: its tokenizer is Moses-based and
+                     # will not load without this. Not needed for Llama/GPT-2 models.
+
+# --- Part B: QLoRA instruction fine-tuning -----------------------------------
+peft                 # LoRA adapters
+bitsandbytes         # 4-bit (nf4) quantization for QLoRA
+trl                  # SFTTrainer
+datasets             # loading instruction_dataset.jsonl into SFTTrainer

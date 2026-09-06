@@ -1,0 +1,2623 @@
+SIGN 154 • Pharmacological management of glycaemic control
+in people with type 2 diabetes
+A national clinical guideline November 2017
+Evidence
+www.healthcareimprovementscotland.org
+Edinburgh Office | Gyle Square |1 South Gyle Crescent | Edinburgh | EH12 9EB
+Telephone 0131 623 4300 Fax 0131 623 4299
+Glasgow Office | Delta House | 50 West Nile Street | Glasgow | G1 2NP
+Telephone 0141 225 6999 Fax 0141 248 3776
+The Healthcare Environment Inspectorate, the Scottish Health Council, the Scottish Health Technologies Group, the Scottish
+Intercollegiate Guidelines Network (SIGN) and the Scottish Medicines Consortium are key components of our organisation.
+KEY TO EVIDENCE STATEMENTS AND RECOMMENDATIONS
+LEVELS OF EVIDENCE
+1++ High-quality meta-analyses, systematic reviews of RCTs, or RCTs with a very low risk of bias
+1+ Well-conducted meta-analyses, systematic reviews, or RCTs with a low risk of bias
+1 - Meta-analyses, systematic reviews, or RCTs with a high risk of bias
+2++
+High-quality systematic reviews of case-control or cohort studies
+High-quality case-control or cohort studies with a very low risk of confounding or bias and a high probability that the
+relationship is causal
+2+ Well-conducted case-control or cohort studies with a low risk of confounding or bias and a moderate probability that the
+relationship is causal
+2
+- Case-control or cohort studies with a high risk of confounding or bias and a significant risk that the relationship is not causal
+3 Non-analytic studies, eg case reports, case series
+4 Expert opinion
+RECOMMENDATIONS
+Some recommendations can be made with more certainty than others. The wording used in the recommendations in this guideline
+denotes the certainty with which the recommendation is made (the ‘strength’ of the recommendation).
+The ‘strength’ of a recommendation takes into account the quality (level) of the evidence. Although higher-quality evidence is more
+likely to be associated with strong recommendations than lower-quality evidence, a particular level of quality does not automatically
+lead to a particular strength of recommendation.
+Other factors that are taken into account when forming recommendations include: relevance to the NHS in Scotland; applicability
+of published evidence to the target population; consistency of the body of evidence, and the balance of benefits and harms of the
+options.
+R
+For ‘strong’ recommendations on interventions that ‘should’ be used, the guideline development group is confident that, for
+the vast majority of people, the intervention (or interventions) will do more good than harm. For ‘strong’ recommendations on
+interventions that ‘should not’ be used, the guideline development group is confident that, for the vast majority of people, the
+intervention (or interventions) will do more harm than good.
+R
+For ‘conditional’ recommendations on interventions that should be ‘considered’ , the guideline development group is confident
+that the intervention will do more good than harm for most patients. The choice of intervention is therefore more likely to vary
+depending on a person’s values and preferences, and so the healthcare professional should spend more time discussing the
+options with the patient.
+GOOD-PRACTICE POINTS
+ Recommended best practice based on the clinical experience of the guideline development group.
+NICE has accredited the process used by Scottish Intercollegiate Guidelines Network
+to produce clinical guidelines. The accreditation term is valid until 31 March 2020
+and is applicable to guidance produced using the processes described in SIGN 50: a
+guideline developer’s handbook, 2015 edition (www.sign.ac.uk/guidelines/fulltext/50/
+index.html). More information on accreditation can be viewed at www.nice.org.uk/
+accreditation
+Healthcare Improvement Scotland (HIS) is committed to equality and diversity and assesses all its publications for likely impact on the
+six equality groups defined by age, disability, gender, race, religion/belief and sexual orientation.
+SIGN guidelines are produced using a standard methodology that has been equality impact assessed to ensure that these equality
+aims are addressed in every guideline. This methodology is set out in the current version of SIGN 50, our guideline manual, which
+can be found at www.sign.ac.uk/guidelines/fulltext/50/index.html. The EQIA assessment of the manual can be seen at www.
+sign.ac.uk/pdf/sign50eqia.pdf. The full report in paper form and/or alternative format is available on request from the Healthcare
+Improvement Scotland Equality and Diversity Officer.
+Every care is taken to ensure that this publication is correct in every detail at the time of publication. However, in the event of errors
+or omissions corrections will be published in the web version of this document, which is the definitive version at all times. This version
+can be found on our web site www.sign.ac.uk.
+This document is produced from elemental chlorine-free material and is sourced from sustainable forests.
+Scottish Intercollegiate Guidelines Network
+Pharmacological management of glycaemic control
+in people with type 2 diabetes
+A national clinical guideline
+November 2017
+Scottish Intercollegiate Guidelines Network
+Gyle Square, 1 South Gyle Crescent
+Edinburgh EH12 9EB
+www.sign.ac.uk
+First published November 2017
+ISBN 978 1 909103 61 0
+Citation text
+Scottish Intercollegiate Guidelines Network (SIGN).
+Pharmacological management of glycaemic control in people with type 2 diabetes. Edinburgh: SIGN; 2017.
+(SIGN publication no. 154). [November 2017]. Available from URL: http://www.sign.ac.uk
+SIGN consents to the photocopying of this guideline for the purpose
+of implementation in NHSScotland.
+Contents
+1 Introduction ...................................................................................................................................................................... 1
+1.1 The need for a guideline ......................................................................................................................................................................1
+1.2 Remit of the guideline .......................................................................................................................................................................... 2
+1.3 Statement of intent ................................................................................................................................................................................ 4
+2 Key recommendations ....................................................................................................................................................6
+2.1 Targets for glycaemic control .............................................................................................................................................................6
+2.2 Metformin .................................................................................................................................................................................................. 6
+2.3 Sodium glucose co-transporter 2 inhibitors .................................................................................................................................6
+2.4 Glucagon-like peptide-1 receptor agonists ..................................................................................................................................6
+3 Targets for glycaemic control ........................................................................................................................................7
+3.1 Treating to glycaemic targets .............................................................................................................................................................7
+3.2 Mortality ..................................................................................................................................................................................................... 7
+3.3 Cardiovascular risk .................................................................................................................................................................................. 8
+3.4 Microvascular morbidity ......................................................................................................................................................................8
+3.5 Hypoglycaemia ........................................................................................................................................................................................ 8
+3.6 Weight gain ...............................................................................................................................................................................................9
+4 Metformin ......................................................................................................................................................................... 10
+4.1 Glycaemic control ................................................................................................................................................................................... 10
+4.2 Hypoglycaemia, weight gain and adverse effects ......................................................................................................................11
+4.3 Cardiovascular morbidity and mortality ........................................................................................................................................ 11
+5 Sulphonylureas ................................................................................................................................................................ 12
+5.1 Glycaemic control ................................................................................................................................................................................... 12
+5.2 Hypoglycaemia, weight gain and adverse effects ......................................................................................................................12
+5.3 Cardiovascular morbidity and mortality ........................................................................................................................................ 13
+6 Thiazolidinediones .......................................................................................................................................................... 15
+6.1 Pioglitazone .............................................................................................................................................................................................. 15
+6.2 Rosiglitazone ............................................................................................................................................................................................ 16
+7 Dipeptidyl peptidase-4 inhibitors ................................................................................................................................17
+7.1 Glycaemic control ................................................................................................................................................................................... 17
+7.2 Hypoglycaemia, weight gain and adverse effects ......................................................................................................................18
+7.3 Cardiovascular morbidity and mortality ........................................................................................................................................ 19
+8 Sodium glucose co-transporter 2 inhibitors...............................................................................................................20
+8.1 Glycaemic control ................................................................................................................................................................................... 20
+8.2 Hypoglycaemia, weight gain and adverse effects ......................................................................................................................21
+8.3 Cardiovascular morbidity and mortality ........................................................................................................................................ 23
+9 Glucagon-like peptide-1 receptor agonists ................................................................................................................24
+9.1 Glycaemic control ................................................................................................................................................................................... 24
+9.2 Hypoglycaemia, weight gain and adverse effects ......................................................................................................................25
+Contents
+9.3 Cardiovascular morbidity and mortality ........................................................................................................................................ 26
+10 Insulin ................................................................................................................................................................................. 28
+10.1 Continuing oral agents when initiating basal insulin ................................................................................................................28
+10.2 Choosing basal insulin ..........................................................................................................................................................................28
+10.3 Insulin initiation and intensification ................................................................................................................................................29
+11 Algorithm for glucose lowering ....................................................................................................................................30
+12 Provision of information.................................................................................................................................................31
+12.1 Checklist for provision of information .............................................................................................................................................31
+12.2 Sources of further information ..........................................................................................................................................................35
+13 Implementing the guideline ..........................................................................................................................................36
+13.1 Implementation strategy .....................................................................................................................................................................36
+13.2 Resource implications of key recommendations .......................................................................................................................36
+13.3 Auditing current practice ....................................................................................................................................................................36
+13.4 Health technology assessment advice for NHSScotland .........................................................................................................36
+14 The evidence base ...........................................................................................................................................................37
+14.1 Systematic literature review ................................................................................................................................................................37
+14.2 Recommendations for research......................................................................................................................................................... 38
+15 Development of the guideline ......................................................................................................................................39
+15.1 Introduction .............................................................................................................................................................................................. 39
+15.2 The guideline development group ..................................................................................................................................................39
+15.3 Consultation and peer review ............................................................................................................................................................40
+Abbreviations ................................................................................................................................................................................42
+Annex 1 ...........................................................................................................................................................................................45
+References......................................................................................................................................................................................46
+Pharmacological management of glycaemic control in people with type 2 diabetesPharmacological management of glycaemic control in people with type 2 diabetes
+| 1
+1 Introduction
+1.1 THE NEED FOR A GUIDELINE
+The immediate purpose of lowering blood glucose in people with type 2 diabetes is to provide relief from
+symptoms (thirst, polyuria, nocturia, and blurred vision). Thereafter, the aim is to prevent microvascular
+complications: loss of vision (retinopathy), renal failure (nephropathy), and foot ulceration (neuropathy).
+High blood glucose (hyperglycaemia) is also one of the features of diabetes, along with raised blood pressure
+and cholesterol, which is associated with macrovascular complications (myocardial infarction, stroke, and
+peripheral arterial disease).
+The effects of glucose-lowering therapies on cardiovascular morbidity and mortality are therefore of major
+importance and not necessarily related to glucose lowering. Until 2010, the majority of clinical trials focused
+narrowly on glucose control (as assessed by HbA1c (glycated haemoglobin) concentrations), and on the risks
+of weight gain and hypoglycaemia rather than on cardiovascular morbidity and mortality. Since then, several
+large cardiovascular outcome trials have been published comparing individual glucose-lowering agents
+with standard of care (individually described within this guideline). Almost all were initiated in response to
+changes in regulatory requirements, initially in the USA and subsequently in Europe, that were introduced
+in 2008 following controversy regarding the safety of the thiazolidinedione agent rosiglitazone.
+1
+1.1.1 UPDATING THE EVIDENCE
+Some of the content in this guideline was originally published in section 6 of SIGN 116: Management of
+diabetes.
+2
+Given the significant volume of new evidence relating to pharmacological treatment of glucose lowering
+in people with type 2 diabetes that has been published since SIGN 116 was issued in 2010, and to support
+the publication of a revised Scottish Diabetes Prescribing Strategy, this update is published as a stand-alone
+guideline.
+Other than the addition of a single new meta-analysis which pools results from RCTs that were already
+included in the current guideline, section 3 describing targets for glycaemic control was not updated and
+text and recommendations in this section are reproduced verbatim from SIGN 116. The original supporting
+evidence was not re-appraised by the current guideline development group.
+This guideline was developed as a rapid update using an adaptation to SIGN’s standard methodology. This
+approach used evidence from five sources: the existing guideline published as a chapter of SIGN 116, a
+comprehensive series of systematic reviews and meta-analyses developed by the Agency of Healthcare
+Research and Quality (AHRQ), published in 2016,
+3 the National Institute for Health and Care Excellence
+(NICE) clinical guideline on type 2 diabetes in adults, published in 2015,4 new searches for primary literature
+carried out to update these sources to November 2016 and finally, cardiovascular outcome trials published
+during the development period of the guideline (up to September 2017). Further information about the
+SIGN systematic review can be found in section 14.1.
+Pharmacological management of glycaemic control in people with type 2 diabetesPharmacological management of glycaemic control in people with type 2 diabetes
+1 • Introduction
+2 |
+1.2 REMIT OF THE GUIDELINE
+1.2.1 OVERALL OBJECTIVES
+This guideline provides evidence-based recommendations and best practice guidance on: (i) optimal
+targets for glucose control for the prevention of microvascular and macrovascular complications, which
+remain consistent with advice first published in SIGN 116; and (ii) the risks and benefits of the principal
+therapeutic classes of glucose-lowering agents and insulins currently available for those who require measures
+beyond diet and exercise to achieve glucose targets, which have been updated from SIGN 116. An updated
+algorithm to guide the choice of first-, second- and third-line glucose-lowering agent, which incorporates
+the summarised evidence and the clinical experience of the guideline development group, is included.
+While lifestyle interventions, including appropriate diet, physical activity, blood glucose monitoring and
+other behaviours are vital to self management in people with type 2 diabetes, these are outwith the remit
+of this guideline. Further information on these topics can be found in SIGN 116.
+2
+The management of glucose control in the dying patient with type 2 diabetes is also excluded from the
+remit of this document.
+| 3
+1.2.2 SUMMARY OF UPDATES TO THE GUIDELINE, BY SECTION
+
+1.1 The need for a guideline New
+1.2 Remit of the guideline New
+2 Key recommendations New
+3 Targets for glycaemic control Minor update
+4.1 Metformin – glycaemic control Updated
+4.2 Metformin – hypoglycaemia, weight gain and adverse effects Updated
+4.3 Metformin – cardiovascular morbidity and mortality Minor update
+5.1 Sulphonylureas – glycaemic control Updated
+5.2 Sulphonylureas – hypoglycaemia, weight gain and adverse effects Updated
+5.3 Sulphonylureas – cardiovascular morbidity and mortality Updated
+6.1 Pioglitazone Updated
+6.2 Rosiglitazone Completely revised
+7.1 Dipeptidyl peptidase-4 inhibitors – glycaemic control Updated
+7.2 Dipeptidyl peptidase-4 inhibitors – hypoglycaemia, weight gain and
+adverse effects Updated
+7.3 Dipeptidyl peptidase-4 inhibitors – cardiovascular morbidity and
+mortality Completely revised
+8 Sodium glucose co-transporter 2 inhibitors New
+9.1 Glucagon-like peptide-1 receptor agonists – glycaemic control Updated
+9.2 Glucagon-like peptide-1 receptor agonists – hypoglycaemia, weight gain
+and adverse effects Updated
+9.3 Glucagon-like peptide-1 receptor agonists – cardiovascular morbidity and
+mortality Completely revised
+10.1 Continuing oral agents when initiating basal insulin Updated
+10.2 Choosing basal insulin Updated
+10.3 Insulin initiation and intensification Minor update
+11 Algorithm for glucose lowering Completely revised
+12.1 Checklist for provision of information Updated
+Following the results of the Acarbose Cardiovascular Evaluation (ACE) trial which showed no differences
+between participants taking acarbose and placebo for any cardiovascular outcomes, but significantly more
+adverse effects with acarbose,
+5 and informed by the knowledge that only 0.1–0.2% of people who were
+prescribed antidiabetic drugs in Scotland in 2016–2017 received acarbose6 the section on alpha-glucosidase
+inhibitors has been omitted.
+1 • Introduction
+4 |
+1.2.3 TARGET USERS OF THE GUIDELINE
+This guideline will be of interest to healthcare professionals involved in the management of people with
+type 2 diabetes, including diabetologists, diabetes specialist nurses, general practitioners, pharmacists and
+practice nurses as well as people with type 2 diabetes, carers, voluntary organisations and policy makers.
+1.3 STATEMENT OF INTENT
+This guideline is not intended to be construed or to serve as a standard of care. Standards of care are
+determined on the basis of all clinical data available for an individual case and are subject to change
+as scientific knowledge and technology advance and patterns of care evolve. Adherence to guideline
+recommendations will not ensure a successful outcome in every case, nor should they be construed as
+including all proper methods of care or excluding other acceptable methods of care aimed at the same results.
+The ultimate judgement must be made by the appropriate healthcare professional(s) responsible for clinical
+decisions regarding a particular clinical procedure or treatment plan. This judgement should only be arrived
+at through a process of shared decision making with the patient, covering the diagnostic and treatment
+choices available. It is advised, however, that significant departures from the national guideline or any local
+guidelines derived from it should be documented in the patient’s medical records at the time the relevant
+decision is taken.
+1.3.1 INFLUENCE OF FINANCIAL AND OTHER INTERESTS
+It has been recognised that financial interests in, or close working relationships with, pharmaceutical
+companies may have an influence on the interpretation of evidence from clinical studies.
+It is not possible to completely eliminate any possible bias from this source, nor even to quantify the degree
+of bias with any certainty. SIGN requires that all those involved in the work of guideline development should
+declare all financial interests, whether direct or indirect, annually for as long as they are actively working
+with the organisation. By being explicit about the influences to which contributors are subjected, SIGN
+acknowledges the risk of bias and makes it possible for guideline users or reviewers to assess for themselves
+how likely it is that the conclusions and guideline recommendations are based on a biased interpretation
+of the evidence.
+Signed copies are retained by the SIGN Executive and a register of interests is available in the supporting
+material section for this guideline at www.sign.ac.uk
+1.3.2 PRESCRIBING OF LICENSED MEDICINES OUTWITH THEIR MARKETING AUTHORISATION
+Recommendations within this guideline are based on the best clinical evidence. Some recommendations
+may be for medicines prescribed outwith the marketing authorisation also known as product licence. This
+is known as ‘off-label’ use.
+Medicines may be prescribed ‘off label’ in the following circumstances:
+y for an indication not specified within the marketing authorisation
+y for administration via a different route
+y for administration of a different dose
+y for a different patient population.
+An unlicensed medicine is a medicine which does not have marketing authorisation for medicinal use in
+humans.
+Generally ‘off-label’ prescribing of medicines becomes necessary if the clinical need cannot be met by licensed
+medicines within the marketing authorisation. Such use should be supported by appropriate evidence and
+experience.
+7
+“Prescribing medicines outside the conditions of their marketing authorisation alters (and probably increases)
+the prescribers’ professional responsibility and potential liability” .
+7
+| 5
+The General Medical Council (GMC) recommends that when prescribing a medicine ‘off label’ , doctors should:
+y be satisfied that such use would better serve the patient’s needs than an authorised alternative (if one
+exists)
+y be satisfied that there is sufficient evidence/experience of using the medicines to show its safety and
+efficacy, seeking the necessary information from appropriate sources
+y record in the patient’s clinical notes the medicine prescribed and, when not following common practice,
+the reasons for the choice
+y take responsibility for prescribing the medicine and for overseeing the patient’s care, including monitoring
+the effects of the medicine.
+Non-medical prescribers should ensure that they are familiar with the legislative framework and their own
+professional prescribing standards.
+Prior to any prescribing, the licensing status of a medication should be checked in the summary of product
+characteristics (SPC).
+8 The prescriber must be competent, operate within the professional code of ethics of
+their statutory bodies and the prescribing practices of their employers.9
+1.3.3 HEALTH TECHNOLOGY ASSESSMENT ADVICE FOR NHSSCOTLAND
+Specialist teams within Healthcare Improvement Scotland issue a range of advice that focuses on the safe
+and effective use of medicines and technologies in NHSScotland.
+The Scottish Medicines Consortium (SMC) provides advice to NHS boards and their Area Drug and Therapeutics
+Committees about the status of all newly-licensed medicines, all new formulations of existing medicines and
+new indications for established products. NHSScotland should take account of this advice and ensure that
+medicines accepted for use are made available to meet clinical need where appropriate.
+Until 1 October 2017, Healthcare Improvement Scotland reviewed Multiple Technology Appraisals (MTAs)
+produced by the National Institute for Health and Care Excellence (NICE) and provided advice about their
+applicability in NHSScotland. If Healthcare Improvement Scotland has advised that MTA guidance was
+applicable in Scotland, NHSScotland should take account of this and ensure that recommended medicines
+and treatment are made available to meet clinical need where appropriate.
+NICE MTAs deemed valid for NHSScotland supersede extant SMC advice as they are generally underpinned
+by a larger and more recent evidence base.
+SMC advice and NICE MTA guidance relevant to this guideline are summarised in section 13.
+1 • Introduction
+6 |
+2 Key recommendations
+The following were highlighted by the guideline development group as the key clinical recommendations
+that should be prioritised for implementation.
+2.1 TARGETS FOR GLYCAEMIC CONTROL
+R An HbA1c target of 7.0% (53 mmol/mol) among people with type 2 diabetes is reasonable to
+reduce the risk of microvascular and macrovascular disease. A target of 6.5% (48 mmol/mol) may
+be appropriate at diagnosis. Targets should be set with individuals in order to balance benefits
+with harms, in particular hypoglycaemia and weight gain.
+2.2 METFORMIN
+R Metformin should be considered as the first-line oral treatment option for people with type 2
+diabetes.
+2.3 SODIUM GLUCOSE CO-TRANSPORTER 2 INHIBITORS
+R In individuals with type 2 diabetes and established cardiovascular disease, SGLT2 inhibitors with
+proven cardiovascular benefit (currently empagliflozin and canagliflozin) should be considered.
+2.4 GLUCAGON-LIKE PEPTIDE-1 RECEPTOR AGONISTS
+R For individuals with type 2 diabetes and established cardiovascular disease, GLP-1 receptor agonist
+therapies with proven cardiovascular benefit (currently liraglutide) should be considered.
+| 7
+3 Targets for glycaemic control
+3.1 TREATING TO GLYCAEMIC TARGETS
+Reducing HbA1c levels is associated with a reduction in microvascular and macrovascular complications in
+patients with type 2 diabetes. Several studies have assessed the benefit of intensive glycaemic control on
+cardiovascular risk and other outcomes, in particular by achievement of predefined HbA1c targets ranging
+from 6.4% (46 mmol/mol) to 8.0% (64 mmol/mol). Studies that were not primarily designed to compare
+intensive glycaemic control versus a less intensive strategy were not considered to contribute to the evidence
+base informing optimal glycaemic targets.
+The United Kingdom Prospective Diabetes Study 33 (UKPDS 33) examined the effects of sulphonylureas,
+metformin and insulin over a median 10 year period in people with newly diagnosed diabetes. Mean
+HbA1c was lowered to 7.0% (53 mmol/mol) in the intensive arm compared to 7.9% (63 mmol/mol) in the
+conventional treatment group.
+10 In UKPDS 34, HbA1c was lowered to 7.4% (57 mmol/mol) in a subgroup
+of overweight people who were randomised to metformin compared with 8.0% (64 mmol/mol) in the
+conventional therapy group.
+11
+The Action in Diabetes and Vascular Disease: Preterax and Diamicron MR Controlled Evaluation (ADVANCE)
+study used modified-release (MR) gliclazide then increased metformin, thiazolidinedione, acarbose and insulin
+(initial basal with prandial added as required) to reduce HbA1c to a mean of 6.5% (48 mmol/mol) compared
+with a mean of 7.3% (56 mmol/mol) from a baseline of 7.5% (58 mmol/mol) by aiming for a target of <6.5%
+(48 mmol/mol) as compared with standard care. Mean duration of diabetes in this trial was 7.9 years.
+12
+The Action to Control Cardiovascular Risk in Diabetes (ACCORD) study used the standard range of presently
+available therapy (including sulphonylureas, metformin, thiazolidinediones, insulin, dipeptidyl peptidase-4
+(DPP-4) inhibitors and exenatide) to reduce HbA1c rapidly to a mean of 6.4% (46 mmol/mol) compared
+with a mean of 7.5% (58 mmol/mol) from a baseline of 8.3% (67 mmol/mol) by aiming for a target of 6.0%
+(42 mmol/mol) as compared with a target of 7.0 to 7.9% (53 to 63 mmol/mol). Mean duration of diabetes
+in this trial was 10 years.
+13
+The Veterans Affairs Diabetes Trial (VADT) compared an intensive treatment strategy (maximal doses of
+metformin and rosiglitazone for people with body mass index (BMI) ≥27 kg/m
+2; maximal doses of glimepiride
+and rosiglitazone for people with BMI <27 kg/m 2; insulin added in if HbA1c >6% (42 mmol/mol)) with a
+standard treatment strategy (half maximal doses of same agents; insulin added in if HbA1c >9% (74.9 mmol/
+mol)) in males with type 2 diabetes and baseline HbA1c 9.4% (79.2 mmol/mol). Achieved HbA1c levels were
+6.9% (51.9 mmol/mol) and 8.4% (68.3 mmol/mol), respectively. Mean duration of diabetes in this trial was
+11.5 years.
+14
+3.2 MORTALITY
+Reducing blood glucose to specific mean HbA1c targets did not significantly reduce mortality during follow
+up in most RCTs; however, there was a 36% relative risk reduction (95% confidence interval (CI) 9% to 55%)
+in all-cause mortality associated with intensive metformin treatment in UKPDS 34.
+11 In the study (ACCORD)
+with the lowest mean HbA1c attained in the intensive treatment group (6.4% (46 mmol/mol)), treatment was
+stopped early as mortality in this group was significantly higher than in the usual care group (hazard ratios,
+HR 1.22, 95% CI 1.01 to 1.46 for all-cause mortality; and 1.35, 95% CI 1.04 to 1.76 for cardiovascular disease
+mortality).
+13 The excess mortality may have occurred as a consequence of rapid reduction of HbA1c rather
+than the absolute value attained but there is no evidence to show that more gradual reduction of HbA1c to
+the same target is associated with lower mortality.
+Ten-year follow up of UKPDS 33 and 34 suggested a long-term beneficial effect of more intensive glycaemic
+control in the early years after diagnosis of diabetes despite similar control in intensive and conventional groups
+after study close.
+15 Reductions in all-cause mortality were reported for people treated with sulphonylurea or
+insulin (relative risk (RR) 13%, p=0.007) and for people treated with metformin (RR 27%, p=0.002).
+3 • Targets for glycaemic control
+1+
+1+
+1+
+1+
+1+
+2+
+8 |
+3.3 CARDIOVASCULAR RISK
+Two meta-analyses of the heterogeneous trials mentioned above have used different approaches to compare
+the effect of improved glycaemic control (reflected by achieved HbA1c of 6.4 to 7.0% (46.4 to 53.0 mmol/
+mol) in the intervention groups, compared with 7.3 to 8.4% (56.2 to 68.3 mmol/mol) in the control groups).
+One meta-analysis, using summary data and including the UKPDS metformin substudy, reported that
+intensive glycaemic control reduced the risk for cardiovascular disease (RR 0.90, 95% CI 0.83 to 0.98) but did
+not reduce the risk for all-cause mortality (RR 0.98, 95% CI 0.84 to 1.15), cardiovascular mortality (RR 0.97,
+95% CI 0.76 to 1.24) or stroke (RR 0.98, 95% CI 0.86 to 1.11).
+16 The other meta-analysis, using individual level
+data and excluding the UKPDS metformin substudy, reported that intensive glycaemic control reduced the
+risk for major cardiovascular disease (HR 0.91, 95% CI 0.84 to 0.99), mainly because of a 15% reduced risk of
+myocardial infarction (HR 0.85, 95% CI 0.76 to 0.94), but did not reduce the risk for all-cause mortality (HR
+1.04, 95% CI 0.90 to 1.20), cardiovascular mortality (HR 1.10, 95% CI 0.84 to 1.42), stroke (HR 0.96, 95% CI 0.83
+to 1.1) or hospitalised/fatal heart failure (HR 1.00, 95% CI 0.86 to 1.16).
+17
+3.4 MICROVASCULAR MORBIDITY
+Several RCTs showed that reduction of HbA1c to a mean level of 6.4 to 8.0% (46 to 64 mmol/mol) reduces
+microvascular disease morbidity. The ADVANCE trial showed that the absolute risk of major microvascular
+outcomes (worsening or new retinopathy or nephropathy) decreased by 1.5% (RR reduction 14%, CI 3%
+to 23%).
+12 The VADT reported reduction in microalbuminuria with absolute risk reduction (ARR) of 2.5%
+(p=0.05).14 The UKPDS 33 showed a 25% relative risk reduction in aggregate microvascular endpoints (95%
+CI 7% to 40%).10
+A meta-analysis of individual participant data from ACCORD, ADVANCE, UKPDS, and VADT produced similar
+estimates: intensive glucose control compared with less-intensive glucose control (an absolute HbA1c
+reduction of 0.90% (95% CI 0.58 to 1.22) resulted in a relative reduction of 20% in the risk of renal events (HR
+0.80, 95% CI 0.72 to 0.88) and in eye events of 13% (HR 0.87, 95% CI 0.76 to 1.00; p=0.04), but no reduction
+in neuropathy events (HR 0.98, 95% CI 0.87 to 1.09).
+18
+3.5 HYPOGLYCAEMIA
+Treatment to glycaemic targets increases incidence of hypoglycaemia. Significantly more episodes were
+reported in intensive versus conventional therapy groups in most studies, for example 10.5% v 3.5% for
+hypoglycaemia requiring medical assistance in the ACCORD trial (p<0.001),
+13 2.7% v 1.5% in the ADVANCE
+trial (HR 1.86, 95% CI 1.42 to 2.40).12 UKPDS 33 showed a higher rate of major hypoglycaemia in participants
+on insulin or sulphonylureas than diet alone (insulin 1.8%, chlorpropamide 1.0%, glibenclamide 1.4%, diet
+0.7%).
+10
+1++
+1+
+1++
+1+
+| 9
+3.6 WEIGHT GAIN
+Participants who were allocated to intensive control groups gained more weight or were heavier at follow
+up than conventional treatment groups in most studies (see Table 1).
+Table 1: Trials of intensive therapy to achieve glycaemic control
+Trial
+(duration)
+Weight gain (kg)
+Intensive therapy group Conventional therapy group
+ACCORD13
+(3 years) 3.5 0.4
+ADVANCE12
+(median 5 years) 0.0 -1.0
+UKPDS 3310
+(median 10 years) 5.6 2.5
+UKPDS 3411
+(median 10.7 years) Not specified
+VADT14
+(median 5.6 years) 8.2 4.1
+R An HbA1c target of 7.0% (53 mmol/mol) among people with type 2 diabetes is reasonable to
+reduce the risk of microvascular and macrovascular disease. A target of 6.5% (48 mmol/mol) may
+be appropriate at diagnosis. Targets should be set with individuals in order to balance benefits
+with harms, in particular hypoglycaemia and weight gain.
+3 • Targets for glycaemic control
+10 |
+4 Metformin
+Metformin is a small molecule from the biguanide family that has been used as a glucose-lowering agent
+for around 60 years. Actions at a molecular level are complex but effects on physiology include reduced
+production of glucose by the liver, weight loss or stabilisation, and improved insulin sensitivity. It is available
+in both standard- and modified-release forms.
+4.1 GLYCAEMIC CONTROL
+4.1.1 GLYCAEMIC CONTROL COMPARED TO PLACEBO (OR DIET)
+One systematic review from 2005 considered the effectiveness of metformin monotherapy compared with
+placebo or any active combination.
+19 When compared with placebo, metformin resulted in greater reduction
+of HbA1c (standardised mean difference, SMD 0.97, 95% CI -1.25 to -0.69), and fasting plasma glucose (FPG)
+(SMD -0.87, 95% CI -1.13 to -0.61), but there were no significant differences in BMI or weight, total cholesterol,
+high-density lipoprotein (HDL) cholesterol, low-density lipoprotein (LDL) cholesterol, triglycerides, or blood
+pressure.
+When compared with diet, there was greater reduction in HbA1c (SMD -1.06, 95% CI 1.89 to -0.22) and
+total cholesterol with metformin but no difference in FPG, BMI or weight, HDL cholesterol, LDL cholesterol,
+triglycerides, or blood pressure.
+4.1.2 GLYCAEMIC CONTROL COMPARED WITH OTHER GLUCOSE-LOWERING AGENTS
+The results of two large systematic reviews taken together suggest that metformin and second generation
+sulphonylureas have similar effects on HbA1c.
+19,20 In the first, participants using metformin had marginally
+larger reductions in HbA1c compared with those using sulphonylureas (SMD -0.14, 95% CI -0.28 to -0.01).19
+In the second review, second generation sulphonylureas did not significantly lower HbA1c compared with
+metformin (SMD 0.09, 95% CI -0.30 to 0.10).
+20 There was no significant difference in HbA1c between those
+participants using metformin and those using insulin, meglitinides or alpha-glucosidase inhibitors.19
+An RCT in patients inadequately controlled by diet alone showed that canagliflozin was non-inferior to
+metformin with an HbA1c reduction of 1.42% standard error (SE) ±0.07 (15.5 mmol/mol ±0.8) with canagliflozin
+300 mg and 1.37% ±0.07 (15 mmol/mol ±0.8) with canagliflozin 100 mg compared with 1.30% ±0.07 (14.2
+mmol/mol ±0.8) with metformin monotherapy.
+21 A similar study comparing metformin with dulaglutide
+in patients inadequately controlled by diet or a single oral agent showed that dulaglutide 1.5 mg was
+associated with greater mean HbA1c reduction (±SE) of -0.78% ±0.06 (-8.5 mmol/mol ±0.7) and -0.71% ±0.06
+(-7.8 mmol/mol ±0.7) for 1.5 mg and 0.75 mg doses respectively compared with -0.56% ±0.06 (-6.1 mmol/
+mol ±0.7) in those using metformin.
+22 A series of meta-analyses from AHRQ which incorporated 219 RCTs
+of glucose-lowering medications in people with type 2 diabetes reported only one statistically significant
+difference in HbA1c reduction when comparing any of the currently available drug classes when used as
+monotherapy. Metformin gave a greater reduction in HbA1c than DPP-4 inhibitors (pooled between-group
+difference -0.4% (-4.37 mmol/mol), 95% CI -0.5% to -0.3% (-5.46 to -3.28 mmol/mol)) in a meta-analysis of
+six short-duration (24–36 weeks) studies.
+3
+1++
+1++
+1++
+1+
+| 11
+4.2 HYPOGLYCAEMIA, WEIGHT GAIN AND ADVERSE EFFECTS
+The main adverse event reported more frequently with metformin compared with placebo in one systematic
+review was diarrhoea (absolute risk increase (ARI) 6.8%; RR 3.09, 95% CI 1.58 to 6.07). Hypoglycaemia was
+reported more frequently with metformin compared with diet (ARI 2.9%; RR 4.21, 95% CI 1.40 to 12.66).
+19
+Meta-analyses of RCTs of moderate to high quality involving comparisons of the effects of metformin,
+sulphonylurea and thiazolidinedione monotherapies on weight have favoured metformin by approximately
+-2.5 kg (pooled mean between-group differences). Comparisons with DPP-4 inhibitors showed a smaller
+benefit (-1.3 kg, 95% CI -1.6 kg to -1.0 kg).
+3 One RCT showed that canagliflozin monotherapy was superior to
+metformin in terms of weight loss (difference from metformin 0.9 kg (-1.6 kg to -0.2 kg) for canagliflozin 100
+mg; -1.8 kg (95% CI -2.4 kg to -1.1 kg) for canagliflozin 300 mg),
+21 while another study showed comparable
+weight loss with metformin monotherapy compared with dulaglutide.22
+A systematic review of the risk of lactic acidosis with metformin found no cases of fatal or non-fatal lactic
+acidosis in 274 comparative trials and cohort studies amounting to 59,321 patient-years of metformin use.
+It estimated that the upper limit of the true incidence of lactic acidosis per 100,000 patient years was 5.1
+compared with 5.8 in the non-metformin group. Furthermore, there was no difference in lactate levels for
+metformin compared with non-metformin therapies.
+23
+Metformin should be used with caution in people with moderate renal impairment, including progressive
+dose reductions in those with declining kidney function and avoided in those with severe renal impairment.
+Further information should be sought from the British National Formulary (BNF) and SPC.
+4.3 CARDIOVASCULAR MORBIDITY AND MORTALITY
+The UKPDS 34 allocated patients to either conventional (initial dietary modification with addition of a
+sulphonylurea when fasting plasma glucose >15 mmol/l or a more intensive glycaemic control strategy (which
+could include metformin, sulphonylurea or insulin therapy). For overweight patients (54% of whom were
+obese), those allocated to metformin (n=342) had improved outcomes compared with those on conventional
+treatment (n=411), for any diabetes-related outcomes (RR 0.68, 95% CI 0.58 to 0.87), diabetes-related death
+(RR 0.58, 95% CI 0.37 to 0.91) and all-cause mortality (RR 0.64, 95% CI 0.45 to 0.91).
+11 The metformin group
+also had a significantly reduced risk of myocardial infarction (RR 0.61, 95% CI 0.41 to 0.89). There were no
+significant differences between metformin and other comparison arms for other outcomes such as stroke,
+peripheral arterial disease and microvascular disease.
+Despite the benefits of metformin for overweight patients in comparison to a conventional treatment strategy,
+no benefits were observed for any of the above outcomes in comparisons between intensive treatment with
+metformin and intensive treatment with chlorpropamide, glibenclamide, or insulin (n=951).
+11
+R Metformin should be considered as the first-line oral treatment option for people with type 2
+diabetes.
+4 • Metformin
+1++
+1++
+1+
+1++
+1++
+1++
+12 |
+5 Sulphonylureas
+Sulphonylureas increase endogenous release of insulin from pancreatic β-cells. First-generation agents
+(acetohexamide, chlorpropamide, tolbutamide, tolazamide) are rarely used in the UK. Of the secondgeneration agents (glipizide, gliclazide, glibenclamide (glyburide), glimepiride) the most commonly used
+are gliclazide and glimepiride. Gliclazide is available in both standard and modified-release forms.
+5.1 GLYCAEMIC CONTROL
+UKPDS 33 showed that the sulphonylureas chlorpropamide and glibenclamide were more effective at
+reducing HbA1c than diet alone.
+10 Placebo comparator studies with newer sulphonylureas showed reduction
+in HbA1c but these were largely short-duration trials of less than six months. One systematic review
+demonstrated a significant reduction in HbA1c with glibenclamide versus placebo.
+24
+The results of two large systematic reviews taken together suggest that metformin and sulphonylureas have
+similar effects on HbA1c (see section 4.1.2).
+19,20
+Gliclazide MR and glimepiride were shown to be equally effective at reducing HbA1c at 27 weeks after
+initiation of treatment. HbA1c was not reduced further by glimepiride versus the longer established agent
+glibenclamide over 12–15 months.
+25
+A meta-analysis of six short-term (16–52 weeks) studies including 1,364 patients suggested that sulphonylureas
+can achieve significant improvements in glycaemic control when added to metformin in patients who have
+inadequate glycaemic control.
+26
+The NICE guideline on type 2 diabetes in adults recommends sulphonylureas as a second- or third-line
+treatment after metformin, or as an alternative first-line treatment in those who cannot tolerate or have
+contraindications to metformin.
+4 The AHRQ review reported no significant difference in effect on HbA1c
+between sulphonylureas and metformin when used as monotherapy. There was insufficient evidence
+to compare sulphonylureas with thiazolidinediones (TZDs), DPP-4 inhibitors or glucagon-like peptide-1
+(GLP-1) receptor agonists for long-term effects on HbA1c. Results of meta-analyses of trials comparing
+HbA1c reduction with sulphonylureas in combination with metformin versus other metformin-containing
+combinations did not favour sulphonylureas.
+3
+A number of trials have compared the use of sulphonylureas to newer diabetes treatments but most were
+designed to show a reduction in adverse effects rather than directly comparing HbA1c reduction (see section
+5.2).
+5.2 HYPOGLYCAEMIA, WEIGHT GAIN AND ADVERSE EFFECTS
+The UKPDS 33 showed a higher rate of major hypoglycaemia (defined as requiring third-party help or
+medical intervention) and greater weight gain (2.6 kg for chlorpropamide, 1.7 kg for glibenclamide) in
+participants on sulphonylureas than in those on diet alone (see sections 3.5 and 3.6).
+27 A Scottish populationbased study showed that one person with type 2 diabetes in every 100 treated with a sulphonylurea each
+year experienced an episode of major hypoglycaemia, compared with one in every 2,000 treated with
+metformin and one in every 10 treated with insulin.
+28 One RCT over 27 weeks showed a significant reduction
+in confirmed hypoglycaemia (<3 mmol/l) with gliclazide MR versus glimepiride, while body weight increase
+was equivalent.
+25 One systematic review reported that confirmed hypoglycaemia (defined as plasma glucose
+≤3.3 mmol) was no more frequent compared with placebo in patients taking glipizide and glimepiride over
+three to four months although there was weight gain of 4.8 kg with glimepiride versus placebo.
+24
+The AHRQ review included 15 studies comparing the incidence of hypoglycaemia associated with use of
+sulphonylureas versus metformin. Five short-term RCTs were combined in meta-analysis, suggesting an
+increased risk of mild to moderate hypoglycaemia with sulphonylureas compared with metformin (pooled
+odds ratio (OR), 2.59, 95% CI 0.98 to 8.86). Nine studies were identified comparing TZDs with sulphonylureas
+of which five were combined in meta-analysis. The risk of total hypoglycaemia was higher in participants
+1+
+1++
+1+
+1++
+1++
+4
+1+
+3
+1++
+| 13
+taking sulphonylurea compared with TZD monotherapy (pooled OR 6.31, 95% CI 4.08 to 9.76). Four RCTs
+were identified comparing the incidence of hypoglycaemia in those taking sulphonylureas versus DPP-4
+inhibitors. These could not be combined in meta-analysis but the odds of hypoglycaemia were significantly
+greater with sulphonylureas than DPP-4 inhibitors in all trials (range in OR 3.8 to 12.4). Five RCTs comparing
+sulphonylureas with GLP-1 receptor agonists for hypoglycaemia could also not be combined in meta-analysis
+but GLP-1 receptor agonists showed a lower incidence of mild, moderate and total hypoglycaemia in all
+trials (range in OR 3.1 to 5.3).
+3
+Given concerns about the risk of hypoglycaemia and weight gain with sulphonylureas, an RCT was conducted
+comparing alogliptin (25 mg) with glipizide (5 mg) once daily in older patients (aged 65–90 years) who had
+not achieved glycaemic targets on diet and exercise with or without a single oral agent as monotherapy.
+29 In
+a post hoc analysis, the proportion of patients achieving the primary composite end point of HbA1c below
+7.0% without hypoglycaemia or weight gain was significantly higher for the alogliptin group compared
+with the glipizide group (24% v 13%, p<0.03). Patients with a baseline HbA1c of <8.0% receiving alogliptin
+were also more likely to achieve HbA1c <7.0% without hypoglycaemia or weight gain than those receiving
+glipizide (OR 2.7, 95% CI 1.53 to 4.81).
+30
+An extension study to a 52-week double-blind RCT of once-daily canagliflozin 100 mg, canagliflozin 300 mg or
+glimepiride in addition to metformin monotherapy followed up participants to 104 weeks. Post hoc analysis
+showed that the proportion of participants achieving reductions in both HbA1c and body weight at 104 weeks
+was 66%, 71%, and 27%, respectively. Odds for achieving this composite end point favoured canagliflozin 100
+and 300 mg compared with glimepiride (OR 5.6, 95% CI 4.2 to 7.5 and 7.4, 95% CI 5.5 to 9.8, respectively).
+31
+A similar extension study of an RCT comparing once-daily saxagliptin 5 mg with glipizide (5–20 mg/day,
+titrated) on a background of metformin monotherapy indicated lower rates of all types of hypoglycaemia
+(including severe) with saxagliptin over 104 weeks: 38.4% in the glipizide group versus 3.5% in the saxagliptin
+group experienced any hypoglycaemia (between-group difference -34.9%, 95% CI -39.8% to -30.0%).
+32 Fewer
+than 3% of all hypoglycaemia events were nocturnal, but all of these occurred in those taking glipizide rather
+than saxagliptin.
+33
+In one RCT of exenatide twice daily or glimepiride in individuals who had not achieved adequate glycaemic
+control on metformin over three years, body weight decreased with exenatide (-3.9 kg, SE 0.33) and increased
+with glimepiride (1.3 kg, SE 0.32, p<0.0001) while documented symptomatic hypoglycaemia (blood glucose <3.9
+mmol/L) was reported by 98 (19.2%) with exenatide and 237 (46.7%) with glimepiride, respectively (p<0.0001).
+34
+Sulphonylureas should be used with caution in people with mild/moderate renal impairment and avoided
+in those with severe renal impairment. Further information should be sought from the BNF and SPC.
+5.3 CARDIOVASCULAR MORBIDITY AND MORTALITY
+The AHRQ review identified two high-quality RCTs and three retrospective cohort studies comparing metformin
+with sulphonylureas.
+3 The first RCT, A Diabetes Outcome Progression trial (ADOPT) reported a numerically but
+not significantly higher incidence of fatal myocardial infarction (MI) with glibenclamide (3/1,441, 0.2%) than
+metformin (2/1,454, 0.1%) (RR 1.5, 95% CI 0.3 to 9.0), but lower rates of cardiovascular disease (CVD) adverse
+events over four years follow up with glibenclamide (26/1,441, 1.8%) than with metformin (46/1,454, 3.2%).
+However, although 4,360 individuals were randomised, absolute event rates were very low and the study
+was not designed to examine cardiovascular disease and therefore had insufficient statistical power for this
+outcome. The second RCT was conducted in China among patients with known coronary heart disease and
+randomised 304 participants to glipizide (30 mg daily) or metformin (1.5 g daily) for five years (median follow
+up). While the hazard ratio for the primary composite cardiovascular outcome (non-fatal myocardial infarction,
+non-fatal stroke or arterial revascularisation, death from a cardiovascular cause, and death from any cause) for
+metformin treatment was 0.54 (95% CI 0.30 to 0.90, p=0.026), there was no statistically significant difference
+in the rate of cardiovascular mortality with glipizide (11/148, 7.4%) compared with metformin (7/156, 4.5%)
+(RR of cardiovascular mortality comparing sulphonylurea with metformin 1.66 (95% CI 0.66 to 4.16).
+All three cohort studies reported a significantly higher risk of cardiovascular mortality for sulphonylurea
+versus metformin.
+3
+5 • Sulphonylureas
+1++
+11++
+1++
+11++
+14 |
+In overweight participants of UKPDS 34 (see sections 3 and 4.3) non-statistically significant trends were
+observed for higher rates of diabetes-related death, all-cause mortality, myocardial infarction and stroke
+with an intensive treatment strategy based on sulphonylureas or insulin than with an intensive treatment
+strategy based on metformin.
+11 However, in comparisons of intensive treatment strategies versus conventional
+treatment with agents used for the seven major UKPDS outcomes, the only mean relative risk higher than
+unity was for stroke when treatment was based on sulphonylureas or insulin (RR 1.14, 95% CI 0.70 to 1.84,
+not statistically significant).
+An ongoing large RCT (CAROLINA) will provide comparative evidence on the cardiovascular safety of
+glimepiride in relation to linagliptin.
+35,36
+R Sulphon ylureas should be considered as first-line oral agents in people who are intolerant of, or
+have contraindications to metformin.
+R
+Sulphon
+ylureas should be considered as add-on second-line treatment to other oral therapies
+and may be useful in triple oral therapy.
+
+9 Sulphon
+ylurea therapy is associated with hypoglycaemia (caution should be taken in the elderly)
+and weight gain.
+1++
+| 15
+6 Thiazolidinediones
+Thiazolidinediones increase whole-body insulin sensitivity by activating nuclear receptors and promoting
+esterification and storage of circulating free fatty acids in subcutaneous adipose tissue. Pioglitazone is now
+the only TZD with a marketing authorisation in the UK.
+6.1 PIOGLITAZONE
+6.1.1 GLYCAEMIC CONTROL
+Pioglitazone is effective at lowering HbA1c as monotherapy and in dual or triple therapy when combined
+with metformin, sulphonylureas, DPP-4 inhibitors or insulin.
+3,29,37,38 Combination therapy using doses of 15–30
+mg daily have been shown to lower HbA1c by 0.64 to 1.26% (6.99 to 13.77 mmol/mol).39
+Some sodium glucose co-transporter 2 (SGLT2) inhibitors, DPP-4 inhibitors and GLP-1 receptor agonists are
+licensed for use with pioglitazone, but specific evidence was not identified in support of all combinations.
+Pioglitazone is accepted for restricted use by SMC as monotherapy for individuals
+who have already experienced
+severe hypoglycaemia or in whom metformin and sulphonylureas are contraindicated or not tolerated. It is not
+accepted as monotherapy for any other group.
+6.1.2 HYPOGLYCAEMIA, WEIGHT GAIN AND ADVERSE EFFECTS
+A systematic review of 18 RCTs with 11,565 participants providing loosely defined data on oedema reported
+a raised incidence with pioglitazone (RR 2.86, 95% CI 2.14 to 3.18). 40 This finding has been supported by
+other meta-analyses.39,41-43
+Pioglitazone is associated with weight gain.39 Meta-analyses of RCTs have shown TZDs to increase weight more
+than sulphonylureas (mean difference 1.2 kg, 95% CI 0.6 to 1.8 kg), DPP-4 inhibitors (range in mean difference
+2.3–2.5 kg) and GLP-1 receptor agonists (mean difference 3.5 kg, data not pooled).
+3 Thiazolidinediones
+reduced weight less than metformin (mean difference 2.6 kg, 95% CI 1.2 to 4.1 kg).44
+One meta-analysis of five RCTs of one to four years duration reported fractures in 5.8% of women with type
+2 diabetes treated with TZDs in comparison with 3.0% treated with other agents (OR 2.23, 95% CI 1.65 to
+3.01). In this meta-analysis there was no increase in rates of fracture in men (OR 1.00, 95% CI 0.73 to 1.39).
+45
+However, nationwide Scottish epidemiological data showed that, in 37,479 individuals exposed to TZDs,
+hip fracture risk increased with cumulative exposure in both men (OR 1.20, 95% CI 1.03 to 1.41) and women
+(OR 1.18, 95% CI 1.07 to 1.29).
+46 Similarly, a prospective population-based cohort study confirmed a 28%
+increased risk of peripheral fracture in both men and women (HR 1.28, 95% CI 1.10 to 1.48).47
+A meta-analysis of 14 epidemiological studies reported an increased risk of bladder cancer in people who
+had ever used pioglitazone compared with those who had never used it (HR 1.16, 95% CI 1.06 to 1.25), with
+a small incremental risk associated with each year of treatment (HR 1.16, 95% CI 1.03 to 1.30) or 10 gram
+increase in cumulative dose (HR 1.05, 95% CI 1.02 to 1.09).
+48
+The US Food and Drug Administration (FDA) and the European Medicines Agency (EMA) 49 advise that this
+agent should not be used in patients with active bladder cancer or a history of bladder cancer. Pioglitazone
+should not be used in patients with hepatic impairment. Further information should be sought from the
+BNF and SPC.
+6.1.3 CARDIOVASCULAR MORBIDITY
+A Cochrane systematic review reported insufficient evidence to draw conclusions on the effect of pioglitazone
+on outcomes such as mortality, morbidity, adverse events or health-related quality of life.
+40
+A subgroup analysis from the PROactive trial suggested a reduction in fatal and non-fatal MI in the subgroup
+with previous myocardial infarction (n=2,445, HR 0.72, 95% CI 0.52 to 0.99, p=0.045; number needed to treat
+(NNT)=51 (95% CI 26 to 2,634).
+50 In patients with previous stroke (n=984), subgroup analysis showed that
+6 • Thiazolidinediones
+1++
+1++
+1++
+1++
+2+
+3
+2+
+1++
+1+
+16 |
+pioglitazone reduced fatal or non-fatal stroke (HR 0.53, 95% CI 0.34 to 0.85, p=0.0085; NNT=21, 95% CI 12 to
+75), while there was no effect on stroke risk in patients with no history of prior stroke (HR 1.06, 95% CI 0.73
+to 1.52, p=0.767).
+51
+However, a meta-analysis of 84 published and 10 unpublished trials of pioglitazone compared with placebo or
+other therapy, and excluding the PROactive trial, reported a reduction in all-cause mortality with pioglitazone
+(OR 0.30, 95% CI 0.14 to 0.63), but no significant effect on non-fatal coronary events.
+52 A further metaanalysis with 16,390 patients found a reduction in the primary composite endpoint (death, MI or stroke)
+with pioglitazone compared with control (HR 0.82, 95% CI 0.72 to 0.94, p=0.005).
+53
+A meta-analysis of studies including chronic heart failure (CHF) as an end point found an increased risk of
+CHF with pioglitazone when compared with placebo or other medications, with an overall RR of 1.32 (95%
+CI 1.04 to 1.68).
+43
+These findings are corroborated by further data from a manufacturer-sponsored meta-analysis including
+16,390 patients.
+53 Serious heart failure was increased with pioglitazone (200 patients (2.3%) v 139 patients
+in the control group (1.8%) (HR 1.41, 95% CI 1.14 to 1.76, p=0.002)).
+The PROactive study found that, although more patients treated with pioglitazone had a serious heart failure
+event compared with placebo (p=0.007), mortality due to heart failure was similar.54
+A study comparing pioglitazone to glibenclamide in patients with known grade II or III New York Heart
+Association (NYHA) heart failure functional class reported more hospitalisations with pioglitazone (9.9%)
+than glibenclamide (4.7%) but no difference in mortality.
+55
+R Pioglitazone should be considered, usually as dual or triple therapy, for lowering HbA1c.
+R Pioglitazone should not be used in patients with heart failure.
+R The risk of fracture should be considered during long-term use of pioglitazone.
+9 Patients prescribed pioglitazone should be made aware of the increased risk of peripheral oedema,
+heart failure, weight gain, bladder cancer and fractures.
+6.2 ROSIGLITAZONE
+In September 2010 the European Medicines Agency (EMA) completed a review of rosiglitazonecontaining medicines at the request of the European Commission, following reports of an increase in
+the risk of cardiovascular problems with rosiglitazone. The Agency’s Committee for Medicinal Products
+for Human Use (CHMP) concluded that the benefits of rosiglitazone did not outweigh its risks, and
+that the marketing authorisation for all rosiglitazone-containing medicines should be suspended
+across the European Union (EU). The marketing authorisation for Avandia (rosiglitazone) in the EU was
+suspended on 11 July 2015 when the holder of the MA decided not to apply for a renewal. Further
+information can be found on the EMA website (www.ema.europa.eu/docs/en_GB/document_library/
+Public_statement/2016/06/WC500208350.pdf ).
+In February 2011 the U.S. Food and Drug Administration (FDA) notified the public that information
+on the cardiovascular risks of rosiglitazone has been added to the physician labelling and patient
+Medication Guide. Following re-evaluation of contemporary evidence on the cardiovascular safety
+of rosiglitazone, restrictions on its use were reduced in 2013 and, ultimately, removed in 2015. From
+December 2015, distribution of rosiglitazone-containing medicines is no longer restricted in the USA.
+Further details are available on the FDA website (www.fda.gov/Drugs/DrugSafety/ucm376389.htm).
+1+
+1++
+11+
+111+
+| 17
+7 Dipeptidyl peptidase-4 inhibitors
+Dipeptidyl peptidase-4 inhibitors are oral agents that inhibit the activity of the enzyme DPP-4 and hence
+prolong the actions of endogenous GLP-1 (see section 9). Five DPP-4 inhibitors are currently available:
+alogliptin, linagliptin, saxagliptin, sitagliptin and vildagliptin.
+7.1 GLYCAEMIC CONTROL
+Compared with placebo, sitagliptin, vildagliptin and saxagliptin were shown to be effective at lowering
+HbA1c by 0.7% (7.65 mmol/mol), 0.6% (6.56 mmol/mol) and 0.6% (6.56 mmol/mol) respectively.
+56-58 These
+data include studies where DPP-4 inhibitors have been used as monotherapy compared with placebo, 56-58
+dual therapy in combination with metformin, sulphonylurea or TZD compared with placebo 56-58 and for
+sitagliptin as triple therapy in combination with metformin and sulphonylurea.59 The AHRQ review showed
+greater reduction in HbA1c with metformin than DPP-4 inhibitors (pooled mean between-group difference
+-0.4% (-4.37 mmol/mol), 95% CI -0.5% to -0.3% (-5.46 to -3.28 mmol/mol)) and greater reduction with
+sulphonylureas than DPP-4 inhibitors (pooled mean between-group difference -0.2% (-2.19 mmol/mol), 95%
+CI, -0.3 to -0.1% (-3.3 to -1.09 mmol/mol)).
+3 However, there is some evidence from a network meta-analysis
+of the benefit of DPP-4 inhibitors over metformin after two years of treatment (mean relative difference in
+HbA1c between vildagliptin and metformin 0.5% (-5.46 mmol/mol) (95% credible interval -0.78 to -0.22%
+(8.52 to -2.40 mmol/mol)).
+4
+Linagliptin, sitagliptin and vildagliptin are accepted for use as monotherapy by SMC. They should be
+considered for use in those for whom both metformin and sulphonylureas are inappropriate due to
+contraindications or intolerance
+.
+The AHRQ review reported that in combination therapy, metformin and a DPP-4 inhibitor provide HbA1c
+reduction that is:
+i. greater than metformin alone (pooled between-group difference -0.65% (-7.10 mmol/mol), 95% CI -0.60%
+to -0.70% (-6.56 to -7.65 mmol/mol));
+ii. not significantly different to metformin and a sulphonylurea (pooled between-group difference -0.09%
+(-0.98 mmol/mol), 95% CI -0.21% to 0.03% (-2.30 to 0.33 mmol/mol));
+iii. less than metformin in combination with either a TZD (pooled between-group difference 0.12% (1.31
+mmol/mol), 95% CI 0.02% to 0.21% (0.22 to 2.30 mmol/mol)), an SGLT2 inhibitor (pooled between-group
+difference 0.17% (1.86 mmol/mol), 95% CI 0.08% to 0.26% (0.87 to 2.84 mmol/mol)) or a GLP-1 agonist
+(pooled between-group difference 0.65% (7.10 mmol/mol), 95% CI 0.54% to 0.75% (5.90 to 8.20 mmol/
+mol)).
+The authors note that their meta-analyses may have underestimated the magnitude of HbA1c reduction
+with the metformin and TZD combination with respect to the metformin and DPP-4 inhibitor combination
+as some studies did not use optimal doses of metformin plus TZD.
+3
+The combination of metformin, sitagliptin and a sulphonylurea is not as effective as metformin and neutral
+protamine Hagedorn (NPH) insulin for HbA1c reduction (mean difference between groups 2.10% (22.95
+mmol/mol), 95% credible interval 0.80% to 3.45% (8.74 to 33.71 mmol/mol)) and compares poorly with all
+other insulin-containing regimens.
+4
+When added to combination therapy of metformin and a sulphonylurea, sitagliptin provided less HbA1c
+reduction at 52 weeks than the SGLT2 inhibitor canagliflozin. The latter also reduced weight and lowered
+blood pressure.
+60
+The addition of linagliptin to basal insulin and metformin combination therapy produced a significant
+reduction in HbA1c at 24 weeks compared with placebo (-0.7% (-7.65 mmol/mol), 95% CI 0.8 to 0.6% (-8.74
+to -6.56 mmol/mol), with similar rates of investigator-reported hypoglycaemia in each group (30.7 v 31.6%).
+61
+Similarly, pretreatment with sitagliptin prior to commencing basal insulin glargine U100 (100 units/ml)
+provided superior glycaemic control despite lower insulin doses and fewer episodes of hypoglycaemia.
+62
+7 • Dipeptidyl peptidase-4 inhibitors
+1++
+4
+1++
+4
+1++
+1+
+18 |
+7.2 HYPOGLYCAEMIA, WEIGHT GAIN AND ADVERSE EFFECTS
+Systematic reviews indicate that DPP-4 inhibitors are well tolerated with no difference in discontinuation
+rates due to adverse events between sitagliptin or vildagliptin intervention and placebo or active control
+groups.
+57,63 In the AHRQ review, data from six RCTs showed lower rates of symptomatic hypoglycaemia in
+participants taking DPP-4 inhibitors compared with metformin (pooled OR 0.52, 95% CI 0.30 to 0.90). Three
+short-term studies comparing TZDs with DPP-4 inhibitors that could not be combined in meta-analysis showed
+no significant differences in overall hypoglycaemia. Four RCTs of varying duration showed lower rates of
+hypoglycaemia with DPP-4 inhibitors compared with sulphonylureas (range in OR 3.8 to 12.4) while a single
+RCT comparing DPP-4 inhibitors with SGLT2 inhibitors reported no significant difference in hypoglycaemia
+between groups. In a further trial comparing a DPP-4 inhibitor (sitagliptin) with a GLP-1 receptor agonist
+(exenatide), rates of symptomatic hypoglycaemia were low with both agents (3.1% v 5.2%, respectively).
+3
+The pooled OR for mild or moderate hypoglycaemia across 27 RCTs comparing metformin and a DPP-4
+inhibitor combination therapy with metformin monotherapy indicated a similar risk of hypoglycaemia
+(pooled OR 0.97, 95% CI 0.63 to 1.51).
+3 DPP-4 inhibitors in combination with metformin were associated with
+lower rates of hypoglycaemia than either sulphonylureas or basal insulin in combination with metformin. All
+other metformin-based combinations resulted in similar rates of hypoglycaemia to metformin and a DPP-4.
+In the AHRQ review, six RCTs reported smaller reductions in weight with DPP-4 inhibitors than metformin
+(pooled between-group difference 1.3 kg, 95% CI 1.0 kg to 1.6 kg). One double-blind RCT comparing the
+DPP-4 inhibitor, sitagliptin (100 mg daily), with the SGLT2 inhibitor, empagliflozin (10 mg and 25 mg daily)
+found greater weight loss with empagliflozin (calculated mean between-group difference of 2.5 kg and 2.7
+kg for 10 mg and 25 mg empagliflozin, respectively). However, two RCTs found that use of DPP-4 inhibitors
+resulted in greater weight loss than TZDs (mean between-group difference of 2.3 kg and 2.5 kg. This was
+also the case for three RCTs which found that use of DPP-4 inhibitors resulted in greater weight loss than
+sulphonylureas (range in mean between-group differences of 0.9 kg to 1.8 kg).
+3
+In keeping with these findings, weight gain was lower when metformin was combined with a DPP-4 inhibitor
+than with a TZD or a sulphonylurea. However, greater weight loss was observed with GLP-1 receptor agonists
+than with DPP-4 inhibitors when both were combined with metformin.
+3
+Cases of pancreatitis were numerically (but not statistically) higher with DPP-4 inhibitors than with placebo
+in the large SAVOR-TIMI 53,
+64 EXAMINE65 and TECOS66 trials There is also low-quality evidence from four RCTs
+that severe allergic reactions are more prevalent with DPP-4 inhibitors when added to metformin compared
+with metformin alone (range of between-group rate differences for severe allergic reaction 0.4% to 1.1%),
+3
+however, such reactions are uncommon.
+Dose reductions are advised for specific DPP-4 inhibitors (alogliptin, sitagliptin, saxagliptin and vildagliptin)
+when used in people with moderate/severe renal impairment. Further information should be sought from
+the BNF and SPC.
+1++
+1++
+1++
+1+
+1++
+| 19
+7.3 CARDIOVASCULAR MORBIDITY AND MORTALITY
+Three major cardiovascular (CV) outcome trials of DPP-4 inhibitors compared with placebo and standard of
+care have been conducted to date (SAVOR-TIMI 53,64 EXAMINE65 and TECOS66). An ongoing study (CARMELINA)
+is investigating the long-term impact on cardiovascular morbidity, mortality and renal function of treatment
+with linagliptin in individuals at high risk of cardiovascular disease.
+67
+All three completed trials met their predefined criteria for non-inferiority of DPP-4 inhibitors for the composite
+end point of cardiovascular death, myocardial infarction, or ischaemic stroke in patients at high risk for
+cardiovascular events. A limitation of their design was heterogeneity of comparator treatments. There was
+an increase in the rate of hospitalisation for heart failure over two years with saxagliptin compared with
+placebo in SAVOR-TIMI 53 (3.5% v 2.8%; HR 1.27, 95% CI 1.07 to 1.51, p=0.007)
+64 and there was a numerically
+(but not statistically significant) small excess of heart failure over 18 months with alogliptin versus placebo in
+the EXAMINE trial.
+68 In contrast, rates of hospitalisation for heart failure were almost identical with sitagliptin
+versus placebo over three years in the TECOS study (HR 1.00, 95% CI 0.83 to 1.20, p=0.98).66
+R DPP-4 inhibitors should be considered, usually as dual or triple therapy, for lowering HbA1c.
+7 • Dipeptidyl peptidase-4 inhibitors
+1+
+1++
+20 |
+8 Sodium glucose co-transporter 2 inhibitors
+Sodium glucose co-transporter 2 (SGLT2) inhibitors reduce renal glucose re-absorption resulting in increased
+glucose excretion equivalent to a net loss of 200–300 kcal/day. Their glucose-lowering effect is therefore
+independent of pancreatic β-cell function. Three drugs are currently licensed in this class; canagliflozin,
+dapagliflozin and empagliflozin.
+8.1 GLYCAEMIC CONTROL
+8.1.1 MONOTHERAPY
+A technology appraisal of SGLT2 inhibitors as monotherapy identified three RCTs of daily treatment with
+dapagliflozin 10 mg.
+69 Dapagliflozin reduced HbA1c by 0.39% (4.26 mmol/mol), 0.66% (7.21 mmol/mol) and
+0.82% (8.96 mmol/mol) more than placebo from baseline HbA1c of 7.50–8.35% (58.47–67.76 mmol/mol)
+for participants taking placebo and 7.46–8.28% (58.03–66.99 mmol/mol) for those taking dapagliflozin.
+The reduction was greater in individuals with a higher baseline HbA1c. In two placebo-controlled RCTs of
+canagliflozin 100 mg daily, HbA1c was reduced by 0.91% (9.95 mmol/mol) and 1.01% (11.04 mmol/mol), from
+an initial baseline of 8.0% (63.93 mmol/mol). In one RCT treatment with 300 mg canagliflozin reduced HbA1c
+by 1.17% (12.79 mmol/mol) compared with placebo. In two RCTs, compared with placebo, empagliflozin
+10 mg reduced HbA1c by 0.74% (8.09 mmol/mol) while empagliflozin 25 mg reduced it by 0.86% (9.40
+mmol/mol); baseline HbA1c was 7.91% (62.95 mmol/mol) for participants taking placebo and 7.87–7.99%
+(62.51–63.83 mmol/mol) for those taking empagliflozin.
+When combined in network meta-analysis, pooled results for all comparisons with placebo were consistent
+with those from the technology appraisal.
+4
+Based on low-quality evidence, the AHRQ review reported no significant difference in HbA1c reduction
+between metformin and SGLT2 inhibitor monotherapy. There was insufficient evidence available for
+comparisons with all other monotherapy agents.
+3
+One RCT randomised participants to receive empagliflozin 10 mg, empagliflozin 25 mg, placebo, or sitagliptin
+100 mg once daily for 24 weeks. At extended follow up after 76 weeks, adjusted mean changes from baseline
+in HbA1c were -0.78% (-8.52 mmol/mol) (95% CI -0.94 to 0.63 (-10.27 to -6.89 mmol/mol), p <0.001) and
+-0.89% (-9.73 mmol/mol) (95% CI -1.04 to -0.73 (-11.73 to -8.09 mmol/mol), p <0.001) for empagliflozin 10
+mg and 25 mg, respectively, compared with placebo, Compared with sitagliptin, adjusted mean changes
+from baseline in HbA1c at week 76 were greater for empagliflozin 25 mg (differences of adjusted means
+-0.22% (-2.40 mmol/mol), 95% CI -0.38 to -0.07 (-4.15 to 0.77 mmol/mol), p=0.005), but not for empagliflozin
+10 mg (differences of adjusted means 0.12% (-1.31 mmol/mol), 95% CI -0.28 to 0.04 (-3.06 to 0.44 mmol/
+mol), p=0.131).
+70
+Based on a NICE technology appraisal, canagliflozin, dapagliflozin and empagliflozin monotherapies are
+accepted as options for treating type 2 diabetes in adults for whom metformin is contraindicated or not
+tolerated and when diet and exercise alone do not provide adequate glycaemic control, only if:
+y a DPP-4 inhibitor would otherwise be prescribed, and
+y a sulphonylurea or pioglitazone is not appropriate.
+71
+8.1.2 COMBINATION THERAPY
+The combination of metformin with an SGLT2 inhibitor was more effective at lowering HbA1c compared with
+metformin alone (nine trials; pooled between-group difference in HbA1c, -0.61% (-6.67 mmol/mol), (95%
+CI -0.71 to -0.52% (-5.68 to -7.76 mmol/mol)), metformin and sulphonylurea (three trials; pooled betweengroup difference in HbA1c of 0.17% (-1.86 mmol/mol), (95% CI -0.20 to -0.14% (-2.19 to -1.53 mmol/mol)) or
+metformin and DPP-4 inhibitor (four trials; pooled between-group difference in HbA1c, 0.17% (-1.86 mmol/
+mol) (95% CI -0.26 to -0.08% (-2.62 to -0.87 mmol/mol)).
+3
+1++
+4
+1+
+1++
+| 21
+Three RCTs were identified which compared SGLT2 inhibitors with sitagliptin when added to other glucoselowering agents. The first found that a higher proportion of patients treated with canagliflozin than with
+sitagliptin achieved an HbA1c at week 52 of less than 7.0% (47.6% v 35.3%; OR 1.79, 95% CI 1.30 to 2.47) or 8.0%
+(64 mmol/mol) (85.0% v 66.0%; OR 3.31, 95% CI 2.26 to 4.86) when added to metformin and a sulphonylurea.
+A lower proportion also had an HbA1c over 9% (75 mmol/mol) (1.9% v 8.5%; OR 0.18, 95% CI 0.08 to 0.43).
+60
+The second trial demonstrated that, when added to metformin over 52 weeks, canagliflozin 100  mg
+demonstrated non-inferiority and canagliflozin 300 mg demonstrated statistical superiority to sitagliptin in
+lowering HbA1c (mean changes 0%, 95% CI -0.12 to 0.12 (-1.31 to 1.31 mmol/mol) and 0.15% (-1.65 mmol/
+mol), 95% CI -0.27 to -0.03 (-2.95 to -0.33 mmol/mol), respectively).
+72
+The third trial found that when added to sitagliptin, dapagliflozin significantly reduced mean HbA1c levels
+versus placebo after 24 weeks (placebo-corrected change -0.5% (-5.2 mmol/mol), 95% CI 0.6 to -0.3% (-6.8
+to -3.7 mmol/mol)).
+73
+Several RCTs have compared SGLT2 inhibitors with placebo in people receiving background insulin. 74-77 In
+an extension study over two years, the mean HbA1c change from baseline at 104 weeks in participants
+randomised to dapagliflozin added on to insulin was 0.32% (-3.50 mmol/mol) (95% CI 0.48 to -0.16% (-5.25
+to -1.75 mmol/mol)) in the 2.5 mg dapagliflozin group and 0.53% (5.79 mmol/mol) (95% CI -0.70 to -0.37%
+(-7.65 to -4.04 mmol/mol) in the 10 mg dapagliflozin group) compared with placebo added to insulin.
+76
+In an extension study over 52 weeks, more than 50% of patients randomised to either dapagliflozin or placebo
+were on background insulin treatment, on its own or in combination with another oral hypoglycaemic agent.
+The placebo-corrected reduction in HbA1c was significant at week 24 (0.46%, (5.03 mmol/mol), p<0.0001)
+and maintained at week 52 (0.66%, (-7.21 mmol/mol)).
+74 Another RCT over 52 weeks showed reductions in
+HbA1c with canagliflozin 100 and 300 mg compared with placebo of -0.58% (-6.3 mmol/mol) (95% CI -0.68
+to -0.48 (-7.4 to -5.2 mmol/mol)) and 0.73% (-8.0 mmol/mol) (95% CI -0.83 to 0.63 (-9.1 to -6.9 mmol/mol)),
+respectively.
+75
+8.2 HYPOGLYCAEMIA, WEIGHT GAIN AND ADVERSE EFFECTS
+As SGLT2 inhibitors mediate their effects independently of insulin, there is a low risk of hypoglycaemia with
+their use. The incidence of hypoglycaemia associated with SGLT2 inhibitor monotherapy and combination
+therapy has been tested in a series of meta-analyses.
+A meta-analysis of four short-term RCTs (≤24 weeks) reported that there was no statistically significant
+difference in the odds of any hypoglycaemia between metformin and SGLT2 inhibitor monotherapy.
+Confidence intervals were wide for all included results due to the very small number of events reported.
+Similarly, meta-analysis of seven short-term RCTs (≤24 weeks) demonstrated a weighted pooled odds ratio
+for the combination of metformin plus an SGLT2 inhibitor compared with metformin monotherapy of 1.74
+(95% CI 0.83 to 3.66).
+3
+A meta-analysis of three RCTs found a lower rate of mild or total hypoglycaemia with the combination of
+metformin plus an SGLT2 inhibitor rather than metformin plus a sulphonylurea (OR 0.08, 95% CI 0.03 to 0.17).
+3
+A meta-analysis of five RCTs (12 to 78 weeks) showed no difference in the rate of total hypoglycaemia between
+individuals randomised to metformin plus a SGLT2 inhibitor or to metformin plus a DPP-4 inhibitor (OR 0.98,
+95% CI 0.06 to 15.84).
+3
+Two RCTs have reported a greater incidence of hypoglycaemia with canagliflozin than placebo when used
+in combination with insulin. One RCT found that more individuals treated with canagliflozin 100 and 300
+mg than with placebo had one or more documented hypoglycaemic episodes (33.8%, 36.5% and 17.9%,
+respectively) over 52 weeks of treatment.
+78 In a further trial, rates of documented hypoglycaemia were
+numerically, but not statistically, higher in those receiving canagliflozin 300 or 100 mg than placebo (57%,
+59% and 48%, respectively).
+75
+8 • Sodium glucose co-transporter 2 inhibitors
+1++
+1++
+1+
+1++
+1++
+1++
+1++
+1++
+1++
+22 |
+The AHRQ review reported that SGLT2 inhibitors are associated with a greater reduction in weight compared
+with metformin (-1.3 to -1.4 kg; three trials) or DPP-4 inhibitors (-2.5 to 2.7 kg; one trial) when used as
+monotherapy. Compared with metformin monotherapy, the combination of metformin plus an SGLT2
+inhibitor had a greater weight reduction (2.0 kg, 95% CI -1.5 to -2.5 kg; seven trials). Compared with the
+combination of metformin plus a sulphonylurea the combination of metformin plus an SLGT-2 inhibitor
+had a more favourable effect on weight (pooled mean between-group differences in weight 4.7 kg, 95% CI,
+4.4 kg to 5.0 kg; three trials). The combination of an SGLT2 inhibitor with metformin was associated with a
+greater reduction in body weight when compared with metformin plus a DPP-4 inhibitor (range in mean
+between-group differences in weight of 1.8 kg to 3.6 kg).
+3
+Point estimates and credible intervals from a NICE technology appraisal of SGLT2 inhibitors as monotherapy
+compared with placebo (using direct and indirect comparisons) were consistent with these findings.
+69
+A reduction in body weight was also seen in studies comparing SGLT2 inhibitors with placebo in patients on
+insulin therapy. One RCT demonstrated a reduction in body weight of 0.9 to 1.4 kg in patients treated with
+dapagliflozin compared with an increase in weight of 1.8 kg in the placebo group at 104 weeks.
+76 A further
+RCT reported a reduction of -1.9 to 3.5 kg in mean body weight of individuals treated with canagliflozin over
+52 weeks compared with placebo.
+75
+The most commonly reported adverse event with this class of drugs is genital mycotic infections. A metaanalysis of three medium- to high-quality, short duration RCTs compared metformin with SGLT2 inhibitors
+and found more genital infections in those allocated to SGLT2 inhibitors (pooled OR, 4.1, 95% CI, 2.0 to 8.3).
+The same meta-analysis compared outcomes from use of 100 mg sitagliptin daily versus an SGLT2 inhibitor
+in two trials. Both reported higher numerical rates of genital infections among both women and men
+with SGLT2 inhibitors compared with sitagliptin, with some of the comparisons statistically significant. In
+all comparisons involving SGLT2 inhibitors used as combination therapy the comparator showed a lower
+incidence of genital mycotic infections.
+3
+There have been reports of diabetic ketoacidosis (DKA) associated with the use of SGLT2 inhibitors. The
+EMA published a review in February 2016 and recommended that the product information be updated to
+list DKA as a rare adverse reaction (affecting up to 1 in 1,000 patients).
+79 SGLT2 inhibitors should therefore
+be used with caution in patients at risk of DKA, particularly those with low endogenous insulin secretion,
+increased insulin requirement (due to illness, surgery or alcohol misuse) or conditions that result in reduced
+oral intake or severe dehydration. SGLT2 inhibitors should be stopped temporarily if a patient is undergoing
+major surgery or during serious illness.
+An approximately twofold increase in lower limb amputations in canagliflozin-treated participants compared
+with those taking placebo was seen in the CANagliflozin cardioVascular Assessment Study (CANVAS) and
+CANVAS-R trials. The EMA triggered an assessment of the balance of benefits and harms across SGLT2
+inhibitors with respect to possible risk of amputations and, having considered all of the available evidence,
+concluded that the benefit-risk balance of SGLT2 inhibitors remained positive but recommended that the
+product information of all authorised SGLT2 inhibitors should contain information on the risk of lower limb
+amputation.
+80
+Canagliflozin was associated with a higher rate of all fractures compared with placebo in the CANVAS trial
+(15.4 v. 11.9 participants with fracture per 1,000 patient-years; HR 1.26, 95% CI, 1.04 to 1.52).
+81 This association
+was not seen in CANVAS-R. The risk of fractures and effects on bone mineral density are under evaluation and
+the FDA advise consideration of all of the factors associated with fracture risk when prescribing canagliflozin.
+According to current licensing, SGLT2 inhibitors should not be initiated in individuals with an estimated
+glomerular filtration rate (eGFR) < 60 ml/min/1.73 m
+2. At levels below this, dose reductions are advised
+according to individual agents. Further information should be sought from the BNF and SPC.
+1++
+1++
+1++
+1++
+1++
+| 23
+8.3 CARDIOVASCULAR MORBIDITY AND MORTALITY
+Two trials of SGLT2 inhibitors with CV outcomes (EMPA-REG and CANVAS) have published results. Several
+others are ongoing including CREDENCE82 and DECLARE-TIMI 58.83
+There is currently insufficient RCT evidence on the cardiovascular mortality and morbidity of SGLT2 inhibitors
+to combine in meta-analysis.
+3
+The EMPA-REG trial was a double-blind RCT that investigated CV outcomes in patients with type 2 diabetes at
+high risk of CVD treated with empagliflozin (n=7,020). Over 99% of participants had established CV disease,
+with 76% having coronary artery disease. Participants received empagliflozin (10 or 25 mg) or placebo with
+continuation of standard of care management for diabetes and comorbid conditions. The primary outcome,
+a composite of cardiovascular mortality, non-fatal MI and non-fatal stroke occurred at a significantly lower
+rate in participants on empagliflozin than in those taking placebo (10.5 v 12.1%) (HR 0.86, 95% CI 0.74 to
+0.99; p<0.001 for non-inferiority and p=0.04 for superiority). Empagliflozin also resulted in a significantly
+lower risk of death from cardiovascular causes (ARR 2.2%; HR 0.62, 95% CI 0.49 to 0.77), death from any cause
+(ARR 2.6%; HR 0.68, 95% CI 0.57 to 0.82) and hospitalisation for heart failure (ARR 1.4%; HR 0.65, 95% CI 0.50
+to 0.85) compared with placebo.
+84
+In the same trial there was a significant reduction in a composite renal outcome of progression to
+microalbuminuria, doubling of serum creatinine, initiation of renal replacement therapy or death with
+empagliflozin.
+85
+The CANVAS trial examined the effects of canagliflozin in patients with type 2 diabetes and high CV risk. The
+rate of the primary outcome (death from CV causes, non-fatal heart attack and non-fatal stroke) was lower
+with canagliflozin than with placebo (26.9 v 31.5 participants per 1,000 patient-years, HR 0.86 (95% CI 0.75
+to 0.97); p<0.001 for non-inferiority; p=0.02 for superiority).
+81
+There was also a lower rate of progression of albuminuria in patients treated with canagliflozin compared
+with placebo (89.4 v 128.7 participants with an event per 1,000 patient-years, HR 0.73, 95% CI, 0.67 to 0.79)
+as well a reduction in the need for renal replacement therapy or death from renal causes.
+R SGLT2 inhibitors should be considered as an add-on therapy to metformin in people with type 2
+diabetes.
+R In individuals with type 2 diabetes and established cardiovascular disease, SGLT2 inhibitors with
+proven cardiovascular benefit (currently empagliflozin and canagliflozin) should be considered.
+8 • Sodium glucose co-transporter 2 inhibitors
+1++
+1+
+1+
+1++
+24 |
+9 Glucagon-like peptide-1 receptor agonists
+Glucagon-like peptide (GLP)-1 is one of the key ‘incretin’ hormones. These are a group of rapidly metabolised
+peptides, secreted from the gut in response to food, which augment secretion of insulin from pancreatic
+β-cells and inhibit inappropriate glucagon secretion. Glucagon-like peptide-1 has a circulating half-life
+of less than two minutes, due to rapid degradation by the enzyme dipeptidyl peptidase-4. Glucagon-like
+peptide-1 also slows gastric emptying, resulting in slower absorption of glucose following meals, enhances
+satiety and reduces appetite. Glucagon-like peptide-1 receptor agonists mimic endogenous GLP-1 activity
+but are resistant to breakdown by the DPP-4 enzyme, resulting in prolonged action.
+Five GLP-1 receptor agonists are currently available, all in injectable formulations: albiglutide (once-weekly,
+to be discontinued in July 2018), dulaglutide (once weekly), exenatide (twice daily or once weekly), liraglutide
+(once daily) and lixisenatide (once daily).
+9.1 GLYCAEMIC CONTROL
+9.1.1 GLP-1 RECEPTOR AGONIST COMPARED WITH PLACEBO
+Three placebo-controlled RCTs of 26 weeks duration were reported in a meta-analysis which demonstrated
+that in people with type 2 diabetes (disease duration 6–9 years, baseline BMI 30–34 kg/m
+2) exenatide (10
+micrograms twice daily) compared with placebo added to oral glucose-lowering agents (metformin and/or
+sulphonylurea) significantly reduced HbA1c (weighted mean difference (WMD) for change from baseline
+0.95%  (10.38 mmol/mol), 95% CI -1.21 to 0.7% (-13.22 to -7.65 mmol/mol)).
+63 Those participants with a
+baseline HbA1c >9% (75 mmol/mol) had larger reductions in HbA1c.
+Four placebo-controlled RCTs of 26 weeks duration reported in a meta-analysis demonstrated that in people
+with type 2 diabetes (disease duration 5–9 years, baseline BMI 30.0–33.5 kg m2) liraglutide (1.2–1.8 mg once
+daily) added to oral glucose-lowering agents (metformin and/or sulphonyurea or metformin and TZDs)
+significantly reduced HbA1c (WMD for change in HbA1c from baseline -1.0% (-10.93 mmol/mol), 95% CI
+-1.1 to -0.8% (12.02 to -8.74 mmol/mol)).
+86
+9.1.2 GLP-1 RECEPTOR AGONIST COMPARED WITH SULPHONYLUREA OR TZD
+The NICE evidence review of first intensification of treatment found that the combination of a GLP-1 receptor
+agonist (exenatide, liraglutide or lixisenatide) with metformin resulted in a similar HbA1c reduction as a
+sulphonylurea and metformin combination at three months. The combination of exenatide and metformin
+was ranked first among comparators at this time point and had the highest probability of being more effective
+than the combination of metformin and sulphonylurea, but, after six months of treatment, the combination of
+metformin and liraglutide was more likely to be effective. By 12 months there were no significant differences in
+HbA1c reduction between the exenatide and metformin versus sulphonylurea and metformin combination.
+4
+A meta-analysis of two RCTs of 26 and 52 weeks duration, respectively, comparing liraglutide (1.2–1.8 mg once
+daily) with glimepiride (4–8 mg daily) reported no significant difference in HbA1c at the study endpoint.
+86
+When comparing the addition of albiglutide, pioglitazone or placebo for patients already taking dual therapy
+with metformin and a sulphonylurea (glimepiride) over one year, albiglutide reduced HbA1c by 0.87% (9.51
+mmol/mol) (95% CI 0.68% to 1.07% (7.43 to 11.69 mmol/mol)) compared with placebo; however, it did not
+meet prespecified non-inferiority margins for the comparison with pioglitazone (estimated difference 0.25%
+(2.73 mmol/mol), 95% CI 0.10% to 0.40% (1.09 to 4.37 mmol/mol)).
+87
+9.1.3 GLP-1 RECEPTOR AGONIST COMPARED WITH GLP-1 RECEPTOR AGONIST
+In one RCT of 26 weeks duration, liraglutide 1.8 mg once daily added to oral glucose-lowering agents
+(metformin and sulphonylurea) reduced mean HbA1c by 1.12% (12.24 mmol/mol); in comparison exenatide
+10 micrograms twice daily reduced HbA1c by 0.79% (8.63 mmol/mol). The estimated treatment difference
+was -0.33% (-3.61 mmol/mol), (95% CI 0.47 to -0.18% (-5.14 to -1.97 mmol/mol).
+88
+1++
+1++
+4
+1++
+1++
+1+
+| 25
+9.1.4 GLP-1 RECEPTOR AGONIST COMPARED WITH INSULIN
+A meta-analysis reported data from two studies comparing exenatide therapy with insulin therapy. In both
+trials exenatide therapy added to oral glucose-lowering agents was compared with once-or twice-daily
+insulin added to oral glucose-lowering agents. Both exenatide and insulin therapy added to oral glucoselowering agents resulted in a similar reduction in HbA1c, (WMD for change in HbA1c from baseline -0.06%
+(-0.66 mmol/mol), 95% CI -0.22 to 0.1% (-2.4 to 1.09 mmol/mol)).
+63
+A further RCT of dulaglutide compared with insulin glargine U100 (both in combination with prandial insulin)
+showed the GLP-1 receptor agonist to be more effective in reducing HbA1c, albeit with a small effect size
+(mean difference 0.22% (-2.40 mmol/mol), 95% CI -0.38 to 0.07% (4.15 to 0.77 mmol/mol) and an open-label
+design.
+89 Similarly, in those participants already on an optimal basal insulin the addition of once-weekly
+exenatide produced similar levels of HbA1c compared with the addition of prandial insulin lispro.90
+In a further RCT, participants were randomised to receive albiglutide (30 mg once weekly) or insulin glargine
+U100 (10 U once daily) on a background of metformin and other therapy. At 52 weeks, HbA1c reduced by 0.66%
+(7.2 mmol/mol) with albiglutide and 0.81% (8.9 mmol/mol) with insulin glargine. On this basis, albiglutide
+met prespecified non-inferiority criteria (0.3% (3.3 mmol/mol)) for the comparison with insulin glargine.
+91
+The NICE review concluded that a combination of metformin, a sulphonylurea and a GLP-1 receptor agonist
+had similar effects on HbA1c to a combination of metformin and NPH insulin.
+4
+9.1.5 COMBINATION THERAPY WITH GLP-1 RECEPTOR AGONIST AND INSULIN
+One RCT randomised 413 individuals who were already on basal insulin and metformin to either insulin
+degludec or combination liraglutide/insulin degludec (once-daily, single subcutaneous injection). The
+liraglutide/insulin degludec combination produced a greater reduction in HbA1c than insulin alone (1.9%
+(21 mmol/mol) v 0.9% (10 mmol/mol)).
+92,93
+Two RCTs have demonstrated that lixisenatide improves overall and postprandial hyperglycaemia when added
+to insulin glargine U100. In the first RCT, 495 patients with established basal insulin therapy but inadequate
+glycaemic control were randomised to lixisenatide 20 micrograms or placebo for 24 weeks. With lixisenatide,
+the placebo-corrected change of HbA1c from baseline was -0.4% (-4.37 mmol/mol) (95% CI -0.6 to 0.2% (6.56
+to -2.19 mmol/mol)) and more participants attained target HbA1c <7% (28% v 12%, p<0.0001).
+94
+In the second RCT, patients on dual oral glucose-lowering medication involving any combination of
+metformin, sulphonylureas, meglitinides or TZDs entered a 12-week run-in period, during which insulin
+glargine was added and systematically titrated. Eligible patients (fasting glucose ≤7.8 mmol/L and HbA1c
+7–9%) were then randomised to lixisenatide 20 micrograms or placebo for 24 weeks while insulin titration
+continued. A greater reduction in HbA1c was observed with lixisenatide than with placebo (mean difference
+in change from baseline between groups -0.32% (-3.50 mmol/mol), 95% CI 0.46 to 0.17 (5.03 to -1.86 mmol/
+mol)) and a greater proportion of patients achieved target HbA1c <7% with lixisenatide than with placebo
+(56% v 39%, p<0.0001).
+95
+Dulaglutide in combination with prandial insulin was more effective in reducing HbA1c than glargine U100
+added to prandial insulin (see section 9.1.4).
+9.2 HYPOGLYCAEMIA, WEIGHT GAIN AND ADVERSE EFFECTS
+Severe hypoglycaemia was rare in exenatide and liraglutide studies and occurred only when sulphonylureas
+were coprescribed.
+86 Mild to moderate hypoglycaemia was seen in 16% of participants treated with exenatide
+compared with 7% receiving placebo (risk ratio 2.3, 95% CI 1.1 to 4.9).63 In one study, 25.5% of patients treated
+with liraglutide versus 33.6% of patients treated with exenatide reported minor hypoglycaemia, p=0.01.88
+NICE and AHRQ reviews of GLP-1 receptor agonists conclude that hypoglycaemia is less common with GLP-1
+receptor agonists compared with sulphonylureas when used either as monotherapy or in combination with
+basal or premixed insulin.
+3,4
+9 • Glucagon-like peptide-1 receptor agonists
+1++
+1+
+1+
+4
+1++
+1+
+1++
+1++
+1++
+1+
+1++
+4
+26 |
+Gastrointestinal (GI) adverse effects of GLP-1 receptor agonists are directly related to their mechanism
+of action (see above). The AHRQ review identified low-quality evidence that GLP-1 receptor agonists are
+associated with more GI adverse effects than metformin, sulphonylureas, TZDs or DPP-4 inhibitors. There is
+moderate-quality evidence of higher rates of GI adverse effects with GLP-1 receptor agonists in combination
+with metformin than with metformin alone and that the GLP-1 receptor agonist and metformin combination
+causes more GI adverse effects than metformin in combination with sulphonylureas.
+3
+GLP-1 receptor agonist treatment is associated with weight loss, for example 1.6 to 3.1 kg with exenatide
+over 24 to 52 weeks.
+96-100 People with type 2 diabetes treated with exenatide 10 micrograms twice daily
+versus liraglutide 1.8 mg once daily lost similar amounts of weight, 2.87 kg (SE, 0.33) versus -3.24 kg (SE 0.33),
+(estimated treatment difference -0.38 kg, 95% CI -0.99 to 0.23, p=0.22).
+88
+In one RCT, albiglutide added to metformin was associated with greater weight loss than a sulphonylurea,
+but there was no difference for the comparison with sitagliptin. The rate of GI adverse effects was higher in
+the GLP-1 receptor agonist group compared with all other therapies.
+101 In this trial, comparing albiglutide,
+pioglitazone and placebo in individuals on dual therapy with metformin and glimepiride, there was significant
+weight gain in the pioglitazone group over one year, but weight loss was similar with a GLP-1 receptor
+agonist and placebo.
+87
+The fixed-ratio combination of liraglutide and insulin degludec (IDegLira) in patients on established oral
+glucose-lowering medication resulted in a significantly greater reduction in weight from baseline with the
+liraglutide/degludec combination (-2.7 kg) than with insulin degludec alone (0.0 kg), with similar rates of
+hypoglycaemia.
+92
+Two trials in which lixisenatide was added to insulin glargine U100 for patients either established on basal
+insulin or newly titrated on basal insulin reported that reductions in body weight were greater with lixisenatide
+and the main adverse events with lixisenatide were gastrointestinal.
+94,95
+Hence, weight loss is an advantage of GLP-1 receptor agonist therapy compared with insulin therapy and
+some oral glucose-lowering drugs, such as sulphonylureas and TZDs.
+No dose adjustment is required for individuals with mild renal impairment and use of some agents should be
+avoided in people with severe renal impairment. However, the advice for use and dose alteration in people
+with moderate renal impairment varies between individual drugs within the GLP-1 receptor agonist class.
+Further information should be sought from the BNF and SPC.
+9.3 CARDIOVASCULAR MORBIDITY AND MORTALITY
+The Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome Results (LEADER) study
+randomised 9,340 individuals at high cardiovascular risk who were taking one or more oral antidiabetic
+medicines (excluding DPP-4 inhibitors) to 1.8 mg of liraglutide or matching placebo once daily in addition
+to standard of care.
+102 There was a significant reduction in the primary outcome (composite of death from
+cardiovascular causes, non-fatal myocardial infarction, or non-fatal stroke) with liraglutide compared with
+placebo over a median 3.8 years follow up (HR 0.87, 95% CI 0.78 to 0.97 for superiority). Cases of pancreatitis
+were numerically (but not statistically) lower with liraglutide, while cases of pancreatic neoplasm were
+numerically (but not statistically) higher. Additionally, the rate of developing nephropathy was reduced by
+22% with liraglutide (p=0.003).
+A further large cardiovascular outcome trial, Evaluation of Lixisenatide in Acute Coronary Syndrome (ELIXA),
+demonstrated the cardiovascular safety (non-inferiority) of lixisenatide compared with placebo and standard
+of care over 25 months in 6,068 individuals with type 2 diabetes and recently diagnosed acute coronary
+syndrome. There was no increase in pancreatitis or pancreatic neoplasm.
+103
+1++
+1+
+1+
+1++
+1++
+1++
+1++
+1++
+| 27
+One of the largest cardiovascular outcome trials, EXenatide Study of Cardiovascular Event Lowering (EXSCEL),
+met its primary safety objective of non-inferiority of once-weekly exenatide versus placebo for major
+adverse cardiac events. However, the primary efficacy objective of a reduction in cardiovascular events
+did not reach statistical significance. In a prespecified secondary outcome analysis all-cause mortality was
+lower with exenatide than with placebo, but this was not statistically significant due to prespecification of
+a hierarchical testing plan.
+104
+R GLP-1 receptor agonist therapy should be considered in people with a body mass index of ≥30
+kg/m2 (or ethnicity-adjusted equivalent) in combination with oral glucose-lowering drugs or basal
+insulin (or both) as third- or fourth-line treatment, when adequate glycaemic control has not been
+achieved with these drugs.
+R GLP-1 receptor agonist therapy should be considered as an alternative to insulin in people for
+whom treatment with combinations of oral glucose-lowering drugs has been inadequate.
+R For individuals with type 2 diabetes and established cardiovascular disease, GLP-1 receptor agonist
+therapies with proven cardiovascular benefit (currently liraglutide) should be considered.
+9 • Glucagon-like peptide-1 receptor agonists
+1++
+28 |
+10 Insulin
+When oral agents no longer provide effective glucose lowering, injectable therapy is required. In contrast to
+GLP-1 receptor agonists (see section 9), insulin is associated with weight gain and hypoglycaemia.105 However,
+it provides effective glucose lowering for individuals for whom GLP-1 therapy is not indicated (BMI <30 kg/
+m
+2), not tolerated or contraindicated. Further information should be sought from the BNF and SPC.
+10.1 CONTINUING ORAL AGENTS WHEN INITIATING BASAL INSULIN
+A systematic review showed that when starting once-daily insulin therapy, continuing metformin therapy is
+associated with lower HbA1c (by up to 0.6% (6.6 mmol/mol)) and less weight gain (by up to 3.7 kg) without
+an increase in the risk of hypoglycaemia.
+106 Continuing sulphonylurea therapy in this context is associated
+with a greater HbA1c reduction (0.3% (3.3 mmol/mol), 95% CI 0.0 (0.0) to 0.6 (6.6)) than insulin monotherapy
+alone. However, post hoc analysis of the Outcome Reduction with an Initial Glargine Intervention (ORIGIN)
+trial, which compared insulin glargine U100 with standard of care in 12,357 people with prediabetes or type
+2 diabetes over 6.2 years, indicates that continuing sulphonylurea therapy independently predicts both
+severe and non-severe hypoglycaemia.
+107
+R Oral metformin therapy should be continued when insulin therapy is initiated to maintain or
+improve glycaemic control.
+9 Consider stopping or reducing sulphonylurea therapy when insulin therapy is initiated. The benefits
+and risks of continuing other glucose-lowering agents should also be reviewed at this time on an
+individualised basis.
+10.2 CHOOSING BASAL INSULIN
+When starting insulin therapy as a single injection before bedtime, NPH insulin is as effective in reducing
+HbA1c as basal insulin analogue therapy.
+108-112 However, basal insulin analogue therapy is associated with
+fewer episodes of nocturnal and overall hypoglycaemia, 112,113 although no difference was seen in severe
+hypoglycaemia. Collating evidence from six short-term trials, it was necessary to treat eight patients with
+type 2 diabetes (95% CI 6 to 11) with insulin glargine U100 compared with NPH (continuing oral agents) to
+avoid one episode of nocturnal hypoglycaemia.
+114 Weight gain was slightly less with insulin detemir than
+with NPH insulin when added to oral glucose-lowering agents (1 kg, 95% CI -1.69 to -0.23 kg).115
+More recently introduced longer-acting basal insulin analogues include insulin glargine U300 (300 units/
+ml, which is three times more concentrated than insulin glargine U100 (100 units/ml)) and insulin degludec.
+There are no trials directly investigating rates of hypoglycaemia with either of these agents compared with
+NPH insulin. However, there are three moderate-quality RCTs demonstrating lower rates of overall and
+nocturnal hypoglycaemia with insulin glargine U300 compared with insulin glargine U100,
+116-118 and one
+moderate-quality 26-week extension study 119 of a 52-week RCT demonstrating lower rates of overall and
+nocturnal hypoglycaemia with insulin degludec compared with insulin glargine U100 (randomised 3:1).120
+In the DEVOTE trial, prespecified adjudicated severe hypoglycaemia occurred in 187 of 3,818 people with type
+2 diabetes (4.9%) in the degludec group and in 252 of 3,819 people (6.6%) in the glargine U100 group, an
+absolute difference of 1.7% (rate ratio 0.60, p<0.001 for superiority; OR 0.73, p<0.001 for superiority).
+121
+R Once-daily bedtime NPH insulin should be used when adding insulin to metformin. Basal insulin
+analogues should be considered according to hypoglycaemia risk, for example in those who suffer
+from recurrent episodes of hypoglycaemia or require assistance with insulin injections (further
+information can be found in section 12.1).
+9 Careful clinical judgement must be applied to ensure insulin therapy is not delayed inappropriately.
+1+
+1++
+1+
+1++
+1+
+1+
+1++
+| 29
+10.3 INSULIN INITIATION AND INTENSIFICATION
+In the largest (n=708) and longest (three-year) randomised trial of complex insulin regimens to date (4T),
+three insulin initiation regimens (basal, prandial, and biphasic) were compared. The regimen was intensified
+after one year if necessary to achieve a target HbA1c of 6.5% (48 mmol/mol) (if HbA1c was unacceptably
+high this occurred earlier).
+122
+The basal insulin group commenced bedtime insulin detemir (or twice-daily dosing if required) with bolus
+mealtime insulin aspart added at intensification. The prandial group started with mealtime insulin aspart
+three times a day with subsequent intensification by addition of insulin detemir. The biphasic insulin group
+initially received twice daily biphasic insulin aspart, with later intensification by addition of insulin aspart
+at lunchtime. At three years, the basal initiation regimen (moving to additional prandial insulin) resulted in
+the best combination of outcomes. HbA1c reduction was equivalent with either basal or prandial insulin
+(6.9% (52 mmol/mol), 95% CI 6.6 to 7.1 (49 to 54 mmol/mol) v 6.8% (51 mmol/mol), 95% CI 6.6 to 7.0 (49 to
+53 mmol/mol)); however, with the basal regimen there were fewer episodes per patient per year of grade
+2 and 3 hypoglycaemia (median 1.7, 95% CI 1.3 to 2.0 v 5.7, 95% CI 4.3 to 7.0) with less weight gain (basal
+3.6 kg v 6.4 kg, p<0.001). In comparison with biphasic insulin, the basal regimen resulted in lower HbA1c
+(7.1% (54 mmol/mol), 95% CI 6.9 to 7.3 (52 to 56 mmol/mol)), less weight gain (5.7 kg, p=0.005) and less
+hypoglycaemia (3 episodes (2.3 to 4.0) per patient per year) despite higher insulin doses (1.21 u/kg/day, 95%
+CI 1.08 to 1.34 v 0.86 u/kg/day, 95% CI 0.71 to 1.01).
+The AHRQ review identified five further trials which confirmed no difference in HbA1c lowering when biphasic
+insulin compared with basal insulin was added to metformin therapy (0.3% (3.28 mmol/mol), 95% CI -0.3%
+to 0.9% (-3.28 to 9.84 mmol/mol) for three trials) but higher rates of hypoglycaemia.
+3
+R When commencing insulin therapy, bedtime basal insulin should be initiated and the dose titrated
+against morning (fasting) glucose. If the HbA1c level does not reach target then addition of prandial
+insulin should be considered.
+10.3.1 INTENSIFYING WITH PREMIXED PREPARATIONS
+Adding in rapid-acting insulin in a premixed biphasic preparation results in lower HbA1c than with basal
+analogue therapy alone (HbA1c difference -0.39% (-4.26 mmol/mol), 95% CI -0.5 to -0.28% (-5.50 to -3.06
+mmol/mol)).
+123,124 However, the dose-titration algorithms used in nine of the 11 trials in one meta-analysis
+resulted in higher insulin doses being administered to participants receiving premixed biphasic insulin
+preparations compared with basal insulin analogue therapy.
+124 Consequently, there was a greater risk of
+hypoglycaemia (OR 2.02, 95% CI 1.35 to 3.04) and significantly greater weight gain (mean 0.6 to 1.9 kg in
+three studies with premixed insulin analogues compared with basal insulin analogues).
+125
+9 Aim to optimise insulin dose and regimen to achieve target glycaemia while minimising the risk of
+hypoglycaemia and weight gain.
+10.3.2 INTENSIFYING WITH RAPID-ACTING INSULIN ANALOGUES VERSUS HUMAN INSULIN
+No difference in HbA1c reduction has been demonstrated between premixed preparations containing
+rapid-acting analogues compared with those containing regular insulin (HbA1c difference -0.05% (-0.55
+mmol/mol), 95% CI -0.15 to 0.04% (-1.64 to 0.44 mmol/mol)), although there was a borderline increase in
+rates of hypoglycaemia (OR 1.5, 95% CI 1.0 to 2.26) with analogue mixtures.
+124 In four times daily (basalbolus) regimens, regular insulin is as effective as rapid-acting analogue insulin for HbA1c reduction in type
+2 diabetes, with no difference in rates of hypoglycaemia.
+108,126,127
+R Soluble human insulin or rapid-acting insulin analogues can be used when intensifying insulin
+regimens to improve or maintain glycaemic control.
+10 • Insulin
+1+
+1++
+1++
+1+
+1+
+30 |
+11 A lgorithm for glucose lowering
+1st LINE
+In ADDITION to lifestyle measures
+SET GLYCAEMIC TARGET: HbA1c <7% (53 mmol/mol) OR INDIVIDUALISED AS AGREED
+USUAL APPROACH AL TERNATIVE APPROACH: if osmotic symptoms or intolerant of metformin
+METFORMIN*
+EFFICACY MODERATE
+CV BENEFIT YES
+HYPOGLYCAEMIA RISK LOW
+WEIGHT REDUCTION
+MAIN ADVERSE EVENTS GASTROINTESTINAL
+IN CKD STAGE 3A MAXIMUM 2 g DAILY
+2nd LINE
+In ADDITION to lifestyle measures
+IF NOT REACHING TARGET AFTER 3−6 MONTHS 2, REVIEW ADHERENCE: THEN GUIDED BY PATIENT PROFILE
+ADD ONE OF:
+SULPHONYLUREA* OR SGLT2 INHIBITOR* OR DPP-4 INHIBITOR* OR PIOGLITAZONE*
+EFFICACY HIGH MODERATE LOW/MODERATE MODERATE
+CV BENEFIT NO YES (SPECIFIC AGENTS) 3 NO PROBABLE (BUT FLUID RETENTION)
+HYPOGLYCAEMIA RISK HIGH LOW LOW LOW
+WEIGHT GAIN LOSS NEUTRAL GAIN
+MAIN ADVERSE EVENTS HYPOGLYCAEMIA GENITAL MYCOTIC FEW OEDEMA/FRACTURES 6
+IN CKD STAGE 3A CAREFUL MONITORING 1 DO NOT INITIATE 4 REDUCE DOSE 5 DOSE UNCHANGED
+3rd LINE
+In ADDITION to lifestyle measures
+IF NOT REACHING TARGET AFTER 3−6 MONTHS, REVIEW ADHERENCE: THEN GUIDED BY PATIENT PROFILE 7
+ADD EITHER AN ADDITIONAL ORAL AGENT FROM A DIFFERENT CLASS
+SULPHONYLUREA* OR SGLT2 INHIBITOR* OR DPP-4 INHIBITOR* OR PIOGLITAZONE*
+If BMI >30 kg/m2
+OR AN INJECTABLE AGENT
+If BMI <30 kg/m2
+GLP-1 AGONIST* BASAL INSULIN*
+EFFICACY HIGH
+• stop DPP-4 inhibitor
+• consider reducing sulphonylurea
+• continue metformin
+• can continue pioglitazone
+• can continue SGLT2 inhibitor
+HIGH
+• inject before bed
+• use NPH (isophane) insulin - or longer-acting analogues
+according to risk of hypoglycaemia
+10
+• can continue metformin, pioglitazone, DPP-4 inhibitor or
+SGLT2 inhibitor
+• can reduce or stop sulphonylurea
+CV BENEFIT YES (SPECIFIC AGENTS) 3 NO
+HYPOGLYCAEMIA RISK LOW HIGHEST
+WEIGHT LOSS GAIN
+MAIN ADVERSE EVENTS GASTROINTESTINAL HYPOGLYCAEMIA
+IN CKD STAGE 3A DOSE UNCHANGED 8 DOSE UNCHANGED 9
+4th LINE
+In ADDITION to lifestyle measures IF NOT REACHING TARGET AFTER 3−6 MONTHS, REVIEW ADHERENCE: THEN GUIDED BY PATIENT PROFILE ADD ADDITIONAL AGENT(S) FROM 3rd LINE OPTIONS (NEED SPECIALIST INPUT)
+ONCE
+OSMOTIC
+SYMPTOMS
+RESOLVED, ADD
+ADD PRANDIAL INSULIN OR SWITCH TO
+TWICE-DAILY MIXED BIPHASIC INSULIN
+SULPHONYLUREA*
+HIGH
+NO
+HIGH
+GAIN
+HYPOGLYCAEMIA
+CAREFUL MONITORING 1
+The following are also accepted by the SMC for first-line
+use where metformin and sulphonylureas are not tolerated:
+• canagliflozin, dapagliflozin or empagliflozin (SGLT2 inhibitors);
+• linagliptin, sitagliptin or vildagliptin (DPP-4 inhibitors);
+• pioglitazone (thiazolidinedione)
+IF SEVERE OSMOTIC SYMPTOMS WITH
+WEIGHT LOSS OR POSSIBILITY OF
+TYPE 1 DIABETES (URGENT - PHONE
+SECONDARY CARE IMMEDIATELY)
+Algorithm summarises evidence from the guideline in the context of the clinical experience of the Guideline Development Group. It does not apply in severe renal or hepatic insufficiency.
+Prescribers should refer to the British National Formulary (www.medicinescomplete.com), the Scottish Medicines Consortium (www.scottishmedicines.org.uk) and Medicines and Healthcare products Regulatory Agency (MHRA) warnings for updated guidance on licensed
+indications, full contraindications and monitoring requirements.
+*Continue medication at each stage if EITHER individualised target achieved OR HbA1c falls more than 0.5% (5.5 mmol/mol) in 3−6 months. Discontinue if evidence that ineffective.
+NOTES: 1. Consider dose reduction, 2. Do not delay if first line options not tolerated / inappropriate, 3. See guideline pages 23 & 26-27, 4. See BNF: specific agents can be continued at reduced dose, 5. See BNF: no dose reduction required for linagliptin
+6. Pioglitazone is contraindicated in people with (or with a history of) heart failure or bladder cancer, 7. Do not combine dapagliflozin with pioglitazone, 8. Caution with exenatide when eGFR<50 ml/min/1.73 m2, 9. Adjust according to response,
+10. Driving, occupational hazards, risk of falls, previous history.
+ABBREVIATIONS: CKD 3A = chronic kidney disease stage 3A (estimated glomerular filtration rate 45−59 ml/min/1.73 m2) CV = cardiovascular
+IF INSULIN INTENSIFICATION
+REQUIRED (NEED SPECIALIST
+INPUT)
+| 31
+12 Provision of information
+This section reflects the issues likely to be of most concern to people with type 2 diabetes and their carers.
+These points are provided for use by health professionals when discussing glucose lowering with people with
+type 2 diabetes and their carers and in guiding the development of locally-produced information materials.
+12.1 CHECKLIST FOR PROVISION OF INFORMATION
+This section gives examples of the information people with type 2 diabetes or their carers may find helpful
+throughout the patient journey. The checklist was designed by members of the guideline development
+group based on their experience and their understanding of the evidence base. The checklist is neither
+exhaustive nor exclusive. The information contained in this section should be discussed in formats which
+are most helpful for their comprehension and engagement.
+People with diabetes may have to take a range of oral and injectable medications each of which is associated
+with different properties and warnings. Information is presented below on each of the major classes of
+glucose-lowering agents. A number of oral agents are available in combination with each other in fixed-dose
+combination. Using these preparations to decrease ‘tablet burden’ is associated with increased concordance
+with therapy. This can also be achieved by stopping therapies for which risks are likely to be greater than
+benefits.
+12.1.1 PRINCIPLES
+Established relationships between people with diabetes and their healthcare professionals, together with
+agreed individualised targets for care, are critical for realising the potential benefits of clinic consultations
+and resulting prescriptions. Wherever possible, members of the diabetes care team should adopt an open
+attitude. Prescribing should be tailored to needs and circumstances, taking into account personal preferences,
+comorbidities, and risks from polypharmacy. Such an approach is especially important in the context of
+multimorbidity. In order that appropriate guidelines may be followed, people should be advised to inform
+healthcare professionals who are treating comorbid conditions of their diabetes.
+12.1.2 METFORMIN
+Metformin should be taken with or immediately after a meal. It should be introduced in low dose, with
+gradual escalation (eg 500 mg once daily for one week, 500 mg twice daily in week two, 500 mg thrice daily
+in week three, and 1 g twice daily in week four). Some individuals may not tolerate higher doses, in which
+case dose reduction is appropriate. Nausea, diarrhoea, and abdominal pain are the most common adverse
+effects. People should be informed that these side effects often improve after a few days of continued
+therapy, or with a small dose reduction.
+A modified-release preparation (metformin MR) is also available. Some individuals otherwise intolerant of
+metformin may find this more acceptable, It should be started once-daily but may be intensified to split
+daily doses.
+Metformin should be discontinued during a severe illness (eg myocardial infarction, pneumonia, severe
+infection and/or dehydration) as it may aggravate tissue hypoxia and accumulate when renal function is
+impaired (eGFR <45 ml/min/1.73 m
+2). In these circumstances, it may be appropriate to use other glucoselowering therapies, including insulin, in which case admission to hospital may be required.
+As iodine-containing contrast media may cause acute deterioration of renal function, local arrangements
+should be in place for discontinuation of metformin prior to either i) intra-arterial radiological or cardiology
+investigations/interventions when eGFR is lower than 45 ml/min/1.73 m
+2, or ii) intravenous or intra-arterial
+procedures when eGFR is deteriorating due to illness (see www.ranzcr.com/search/ranzcr-iodinated-contrastguidelines).
+12 • Provision of information
+32 |
+Fasting presents little hazard in people who take only metformin to manage glucose levels. For those fasting
+during Ramadan, for example, if a dose is usually taken at lunchtime it can be omitted or taken with the
+sunset meal instead.
+12.1.3 SULPHONYLUREAS
+These agents, most commonly gliclazide and glimepiride, should ideally be taken 30 minutes before food.
+They are particularly useful for rapid control of blood glucose and relief of symptoms including thirst, polyuria
+and weight loss. They are more effective early in the management of type 2 diabetes. Their main side effects
+are hypoglycaemia and weight gain.
+The warning signs of hypoglycaemia, which should be outlined to people taking these agents, include (early
+signs) tremor, sweating, shaking, irritability, and (later signs) lack of concentration and co-ordination. People
+prescribed sulphonylureas should be prescribed adequate supplies of blood glucose test strips as per the
+local formulary. The risk of hypoglycaemia is higher in older age groups, and in those with renal impairment
+and/or liver disease; this risk may be underestimated by RCTs.
+The Driver and Vehicle Licensing Agency (DVLA) requires holders of group 2 licenses (bus and lorry drivers)
+to notify them when using any glucose-lowering medication. Those taking sulphonylureas must be able to
+provide evidence of checking blood glucose at least twice per day and at times relevant to driving. Holders of
+group 1 licenses (car drivers and motorcyclists) need not notify the DVLA provided they have experienced no
+more than one episode of severe hypoglycaemia in the last 12 months and, if needed, check blood glucose
+at times relevant to driving and are under regular review. Detailed guidance can be found at www.gov.uk/
+guidance/diabetes-mellitus-assessing-fitness-to-drive#diabetes-treated-by-medication-other-than-insulin.
+Gliclazide is available in an MR preparation. This permits once-daily dosing even when higher doses are
+required. Prescribers should be aware that gliclazide MR 30 mg is therapeutically equivalent to standard
+gliclazide 80 mg (maximum dose therefore 120 mg once daily rather than 160 mg twice daily). Individuals
+using gliclazide should not be prescribed the antifungal miconazole due to an increase in the hypoglycaemic
+effect.
+Individuals taking a short-acting sulphonylurea, (eg gliclazide) who are fasting, for example during Ramadan,
+may be advised to take the largest dose with their evening meal and, if necessary, to halve their morning dose.
+Longer-acting sulphonylureas, such as glimepiride, are more hazardous and should be avoided while fasting.
+People taking sulphonylureas in the longer term should also be advised of their propensity to cause weight
+gain.
+12.1.4 THIAZOLIDINEDIONES
+People prescribed pioglitazone should be advised that they might experience ankle oedema. Where this
+occurs, discontinuation is usually appropriate. If taking this agent in the longer term, they should be advised
+of the likelihood of weight gain and increased risk of fracture and heart failure. People prescribed pioglitazone
+should be counselled to seek medical advice if they experience haematuria, dysuria or pelvic pain in view
+of the association with bladder cancer. No changes to pioglitazone regimens are required during fasting
+including Ramadan.
+12.1.5 DPP-4 INHIBITORS
+These agents (alogliptin, linagliptin, saxagliptin, sitagliptin and vildagliptin) are generally well tolerated and
+rarely cause hypoglycaemia. They may be useful if ongoing glucose-lowering therapy is required during
+periods of fasting, for example Ramadan.
+Dose reductions are required for individuals with renal impairment (eGFR < 60 ml/min/1.73 m
+2) taking DPP-4
+inhibitors other than linagliptin.
+| 33
+12.1.6 SGLT2 INHIBITORS
+Although DKA is uncommon with SGLT2 inhibitors, those who are prescribed them should be made aware
+of the risk and how to recognise the symptoms, including rapid weight loss, nausea or vomiting, stomach
+pain, excessive thirst, fast and deep breathing, confusion, unusual sleepiness or tiredness, a sweet smell to
+the breath, a sweet or metallic taste in the mouth, or a different odour to urine or sweat. In this situation, the
+SGLT2 inhibitor should be stopped and urgent medical attention sought. Further information on prevention
+and immediate management of this risk is available from the Association of British Clinical Diabetologists
+position statement (see www.diabetologists-abcd.org.uk/Position_Papers/ABCD_DKA_SGLT2.pdf).
+There is a small risk of developing a genital yeast or fungal infection (most commonly thrush in women)
+when taking SGLT2 inhibitors due to more glucose being excreted in the urine. These infections are easily
+treated with over-the-counter treatments. The prescribing doctor should be informed as treatment may
+need to be changed if infections recur. People taking these medications should be advised of the need for
+scrupulous personal hygiene to try to reduce the risk of these infections.
+For those who are fasting, for example, during Ramadan, no change in SGLT2 inhibitor dose is required,
+although individuals should be reminded to stay adequately hydrated (at least two litres of water per day).
+If blood glucose is very high (>20 mmol/L) and rising, or if dehydrated and experiencing symptoms of DKA
+(see above), urgent medical attention should be sought.
+12.1.7 GLP-1 RECEPTOR AGONISTS
+These agents are injected subcutaneously. On initiation, people with diabetes should be informed that their
+injections are not insulin as this can lead to confusion in interactions with other health professionals. In keeping
+with the appetite-suppressant effect of these agents (albiglutide, dulaglutide, exenatide, liraglutide and
+lixisenatide) the most common adverse effects are nausea, vomiting and diarrhoea. Increased contact with
+the diabetes team is required particularly in the first weeks of use, usually with monitoring of the therapeutic
+response - weight and HbA1c. These adverse GI symptoms associated with GLP-1 receptor agonists can be
+minimised with careful dose titration and often abate within weeks.
+Hypoglycaemia is much less frequent than with insulin, but may occur when GLP-1 receptor agonists
+are administered in combination with a sulphonylurea. When a GLP-1 receptor agonist is added to a
+sulphonylurea, a reduction in sulphonylurea dose should be considered.
+GLP-1 receptor agonists may be continued as usual for individuals who are fasting during Ramadan
+with a single injection before the sunset meal. If there is significant nausea the dose can be reduced by
+50%.
+128
+People taking GLP-1 receptor agonists may hold a regular (Group 1) driving licence without restriction, but
+must notify the DVLA if they hold a Group 2 licence.
+12 • Provision of information
+34 |
+12.1.8 INSULIN
+When starting insulin therapy in adults with type 2 diabetes, a structured education programme should be
+used to guide insulin dose titration, including:
+y injection technique (rotating injection sites)
+y self monitoring of blood glucose
+y dose titration to target glucose levels
+y dietary understanding
+y management of acute changes in plasma glucose control
+y management of hypoglycaemia
+y DVLA driving requirements (including adequate awareness of hypoglycaemia, no more than one
+episode of severe hypoglycaemia in the preceding 12 months, evidence of recommended rates of blood
+glucose monitoring) (see www.gov.uk/government/uploads/system/uploads/attachment_data/file/596959/
+assessing-fitness-to-drive-a-guide-for-medical-professionals)
+y continuing support (including by telephone) from appropriately trained and experienced health
+professionals.
+Individuals for whom basal analogues may be more appropriate than NPH basal insulin include:
+y those who suffer from recurrent episodes of hypoglycaemia, particularly at night
+y those for whom hypoglycaemia could cause increased risk to themselves or others, for example
+occupational driving, working with heavy machinery, working at heights (if this cannot be avoided), or
+caring for young or otherwise vulnerable individuals
+y those who need assistance from a carer or healthcare professional to inject insulin and use of a long-acting
+basal insulin analogue would reduce the frequency of injections from twice to once daily
+y those whose lifestyle is restricted by recurrent symptomatic hypoglycaemic episodes
+y those who would otherwise need twice-daily NPH insulin injections.
+When commencing insulin glargine U300, the summary of product characteristics recommends reducing
+the dose by 20% either when switching from twice-daily basal insulin to once-daily insulin glargine U300,
+or if switching back from once-daily insulin glargine U300 to once-daily insulin glargine U100.
+Rapid-acting analogues (whether as bolus insulin or as a component of premixed insulin) may be appropriate
+for:
+y those who prefer to inject insulin immediately before a meal
+y those having problems with hypoglycaemia
+y those in whom blood glucose rises markedly after meals.
+People with diabetes should have a clear plan of how to get help on an urgent or semi-urgent basis. This
+will often involve the local diabetes team in office hours, but outwith these times arrangements vary across
+Scotland. If admitted to hospital they should be aware that the Diabetes Team can be asked to advise on the
+management of their diabetes while they are in hospital, particularly if they have a concern.
+In those who are fasting, for example during Ramadan, due to the increased risks of hypoglycaemia, insulin
+regimens should be individualised according to the diet, baseline glycaemic control, level of physical activity,
+and blood glucose monitoring of the person. In general, sharp reductions in the total daily dose of insulin
+are not required. For those taking twice-daily premixed insulin injections, the morning and evening doses
+may be reversed if the morning dose is usually larger. If the doses are the same, the morning dose may be
+halved and a corresponding larger dose taken before the sunset meal. Alternatively, a basal-bolus regimen
+may be offered, with the basal insulin taken with the larger sunset meal.
+| 35
+12.2 SOURCES OF FURTHER INFORMATION
+Diabetes in Scotland
+www.diabetesinscotland.org.uk
+The Scottish Diabetes Group is a national Steering Group which co-ordinates and evaluates the
+implementation of the Scottish Diabetes Framework and Action Plan. It also oversees the development of
+the national diabetes strategy and provides expert advice to the Scottish Government Health Directorates.
+Its website provides advice leaflets, reports and survey results, in addition to information regarding research
+and education.
+Diabetes UK (Scottish office)
+The Venlaw, 349 Bath Street, Glasgow, G2 4AA
+Tel: 0141 245 6380  Careline: 0845 120 2960
+www.diabetes.org.uk  Email: scotland@diabetes.org.uk
+Diabetes UK provides a range of information on diabetes including leaflets, fact sheets and
+Diabetes UK’s magazine Balance. They provide advice on all aspects of diabetes including
+diabetic care, diet, holidays and insurance.
+Driver and Vehicle Licensing Agency
+www.gov.uk/diabetes-driving
+The Driver and Vehicle Licensing Agency is an executive agency of the Department for Transport and its
+responsibilities include issuing driving licenses, recording driver endorsements and medical conditions and
+issuing vehicle registration certificates.
+Healthtalk
+www.healthtalk.org
+Healthtalk online is the website of the Database of Individual Patients’ Experience of illness (DIPEx) charity.
+It provides access to people’s experiences of living with diabetes.
+My Diabetes My Way
+www.mydiabetesmyway.scot.nhs.uk
+This is an NHSScotland interactive diabetes website to help support people who have diabetes and their family
+and friends. It provides leaflets, videos, educational tools and games containing information about diabetes.
+12 • Provision of information
+36 |
+13 Implementing the guideline
+This section provides advice on the resource implications associated with implementing the key clinical
+recommendations, and advice on audit as a tool to aid implementation.
+13.1 IMPLEMENTATION STRATEGY
+Implementation of national clinical guidelines is the responsibility of each NHS board and is an essential
+part of clinical governance. Mechanisms should be in place to review care provided against the guideline
+recommendations. The reasons for any differences should be assessed and addressed where appropriate.
+Local arrangements should then be made to implement the national guideline in individual hospitals, units
+and practices.
+Implementation of this guideline will be encouraged and supported by SIGN. The implementation strategy
+for this guideline encompasses the following tools and activities.
+13.2 RESOURCE IMPLICATIONS OF KEY RECOMMENDATIONS
+No recommendations are considered likely to reach the £5 million threshold which warrants full resource
+impact analysis.
+13.3 AUDITING CURRENT PRACTICE
+A first step in implementing a clinical practice guideline is to gain an understanding of current clinical
+practice. Audit tools designed around guideline recommendations can assist in this process. Audit tools
+should be comprehensive but not time consuming to use. Successful implementation and audit of guideline
+recommendations requires good communication between staff and multidisciplinary team working.
+The guideline development group has identified the following as key points to audit to assist with the
+implementation of this guideline:
+y the proportion of individuals with type 2 diabetes for whom metformin or sulphonylureas are tolerated
+and not contraindicated that is prescribed either drug as first-line therapy
+y the proportion of individuals with type 2 diabetes for whom metformin is not tolerated or is contraindicated
+that is prescribed a sulphonylurea as first-line therapy
+y the proportion of individuals on long-term pioglitazone that has received fracture risk assessment
+y the proportion of individuals with type 2 diabetes and established cardiovascular disease receiving a
+GLP-1 receptor agonist that is prescribed liraglutide.
+13.4 HEALTH TECHNOLOGY ASSESSMENT ADVICE FOR NHSSCOTLAND
+The Scottish Medicines Consortium has published advice on a range of drugs used for glucose lowering
+in people with type 2 diabetes: (www.scottishmedicines.org.uk/SMC_Advice/Advice_Directory/
+DrugsBySubCategory?term=6.1%20Drugs%20used%20in%20diabetes).
+In May 2016, NICE published a technology appraisal on canagliflozin, dapagliflozin and empagliflozin as
+monotherapies for treating type 2 diabetes.
+71 This superseded SMC advice (for the indication of monotherapy
+only) and was endorsed by Healthcare Improvement Scotland.
+| 37
+14 The evidence base
+14.1 SYSTEMATIC LITERATURE REVIEW
+The evidence base for this guideline was synthesised in accordance with SIGN methodology with adaptations
+to facilitate a rapid review. Secondary evidence was derived from two sources.
+Firstly, a comprehensive series of systematic reviews and meta-analyses, published by the AHRQ, of studies
+that assessed intermediate and clinical outcomes or safety for monotherapy or metformin-based combination
+therapy comparisons.
+3 This identified 216 relevant studies published between 2009 and 2015 which were
+combined, where possible, in meta-analyses. Secondly, the evidence-based guideline developed by NICE on
+type 2 diabetes in adults.
+4 This was an update to the previous NICE guideline and the 2015 version included
+a systematic review of drug treatment to control blood glucose from literature published between 2007 and
+2014. NICE also completed a series of network meta-analyses (NMAs) to simultaneously compare multiple
+treatments in a single meta-analysis while preserving the randomisation of the included trials in the reviews.
+These sources of secondary evidence were supplemented by a systematic review of primary literature carried
+out using an explicit search strategy devised by a SIGN Evidence and Information Scientist. Databases searched
+included Cochrane Central Register of Controlled Trials (CENTRAL), National Institute for Health ResearchHealth Technology Assessment (NIHR-HTA), Medline, Medline In-Process, Embase and the Cochrane Library.
+The year range covered was 2014–2016 (2011–2016 for SGLT2 inhibitors). Internet searches were carried out
+on various websites including the US National Guidelines Clearinghouse.
+The main searches were supplemented by material identified by individual members of the development
+group. In addition, RCTs of antidiabetic drugs with cardiovascular outcomes which were published during
+the development period of the guideline were added, up to a deadline of September 2017.
+The following exclusion criteria were applied to the SIGN literature reviews:
+y RCTs with less than 24 weeks duration
+y RCTs with a patient population not representative (in general) of Scotland
+y RCTs with a small sample size (experimental/control groups n<200)
+y RCTs involving products without a marketing authorisation in Scotland.
+Due to the rapid review methodology adopted, cost effectiveness was not included as an outcome for the
+key questions (see Annex 1). Each of the selected papers was evaluated by two Evidence and Information
+Scientists using standard SIGN methodological checklists before conclusions were considered as evidence
+by the guideline development group.
+14 • The evidence base
+38 |
+14.2 RECOMMENDATIONS FOR RESEARCH
+The guideline development group was not able to identify sufficient evidence to answer all of the key
+questions asked in this guideline (see Annex 1). The following areas for further research have been identified:
+y Of the currently-available glucose-lowering therapies, which should be used first line for optimal longterm microvascular and cardiovascular outcomes?
+y What is the best sequential combination of glucose-lowering therapies for optimal long-term microvascular
+and cardiovascular outcomes?
+y When HbA1c is not to target on basal insulin, is adding GLP-1 receptor agonist therapy or prandial insulin
+more effective for HbA1c, weight, hypoglycaemia, and long-term microvascular and cardiovascular
+outcomes?
+y What causes adverse outcomes in people with type 2 diabetes with long duration of disease when using
+an HbA1c target of 6.0%, and how can such harm be avoided?
+y What is the most appropriate glucose target for people with type 2 diabetes and multimorbidities? What
+is the optimal therapeutic combination to achieve this?
+y Can novel genetic, proteomic, metabolomic or other biomarkers guide prescribing of oral glucoselowering agents in people with type 2 diabetes, ie predict individual patient HbA1c responses?
+| 39
+15 Development of the guideline
+15.1 INTRODUCTION
+SIGN is a collaborative network of clinicians, other healthcare professionals and patient organisations and
+is part of Healthcare Improvement Scotland. SIGN guidelines are developed by multidisciplinary groups
+of practising healthcare professionals using a standard methodology based on a systematic review of the
+evidence. Further details about SIGN and the guideline development methodology are contained in ‘SIGN
+50: A Guideline Developer’s Handbook’ , available at www.sign.ac.uk
+This guideline was developed according to the 2015 edition of SIGN 50 with adaptations.
+15.2 THE GUIDELINE DEVELOPMENT GROUP
+Professor John R Petrie Professor of Diabetic Medicine, Institute of Cardiovascular and
+(Chair) Medical Sciences, University of Glasgow
+Mr Allan Cairns Lay Representative, Giffnock
+Dr Samantha Carmichael Lead Pharmacist Clinical Trials/ Clinical Research and
+Development, West Glasgow Ambulatory Care Hospital
+Dr Gemma Currie Clinical Lecturer, University of Glasgow
+Dr Andrea Llano ST5 in Clinical Pharmacology and Therapeutics, Glasgow Royal Infirmary
+Dr David McGrane Consultant Physician, Queen Elizabeth University Hospital, Glasgow
+Professor Gerard McKay Consultant Physician, Glasgow Royal Infirmary
+Ms May Millward Lay Representative, Philpstoun
+Dr Moray Nairn Programme Manager, SIGN
+Dr Chris Schofield Consultant Physician in Diabetes and Endocrinology, Ninewells Hospital,
+Dundee
+Dr Carolyn Sleith Evidence and Information Scientist, Healthcare Improvement Scotland
+The membership of the guideline development group was confirmed following consultation with the member
+organisations of SIGN. All members of the guideline development group made declarations of interest. A
+register of interests is available in the supporting material section for this guideline at www.sign.ac.uk
+Guideline development and literature review expertise, support and facilitation were provided by SIGN
+Executive and Healthcare Improvement Scotland staff. All members of the SIGN Executive make yearly
+declarations of interest A register of interests is available on the contacts page of the SIGN website
+www.sign.ac.uk
+Euan Bremner Project Officer
+Juliet Brown Evidence and Information Scientist, Healthcare Improvement Scotland
+Karen Graham Patient Involvement Officer
+Jenny Harbour Health Services Researcher, Healthcare Improvement Scotland
+Joanna Kelly Health Services Researcher, Healthcare Improvement Scotland
+Karen King Distribution and Office Co-ordinator
+Stuart Neville Publications Designer
+Gaynor Rattray Guideline Co-ordinator
+15 • Development of the guideline
+40 |
+15.2.1 ACKNOWLEDGEMENTS
+SIGN would like to acknowledge the guideline development group responsible for the development of
+section 6 of SIGN 116: Management of diabetes, on which this guideline is based.
+SIGN is also grateful to the following former member of the guideline development group who contributed
+to the development of the guideline.
+Dr Richard Quigley General Practictioner, Glasgow
+15.3 CONSULTATION AND PEER REVIEW
+15.3.1 SPECIALIST REVIEW
+This guideline was reviewed in draft form by the following independent expert referees, who were asked
+to comment primarily on the comprehensiveness and accuracy of interpretation of the evidence base
+supporting the recommendations in the guideline. The guideline group addresses every comment made
+by an external reviewer, and must justify any disagreement with the reviewers’ comments. A report of the
+peer review comments and responses is available in the supporting material section for this guideline on
+the SIGN website. All expert referees made declarations of interest and further details of these are available
+on request from the SIGN Executive.
+SIGN is very grateful to all of these experts for their contribution to the guideline.
+Professor Steve Bain Professor in Medicine (Diabetes), Swansea University Medical School
+Professor Anthony Barnett Professor of Medicine, University of Birmingham and Honorary Consultant
+Physician and Clinical Director, Diabetes/Endocrinology/Weight
+Management, Heart of England NHS Foundation Trust, Birmingham
+Ms Gillian Booth Clinical Pharmacist – Diabetes and Endocrinology, Forth Valley Royal
+Hospital, Larbert
+Dr Marc Evans Consultant Diabetologist, Llandough Hospital, Cardiff and the University
+Hospital of Wales College of Medicine
+Professor Miles Fisher Consultant Physician, Glasgow Royal Infirmary and Honorary Professor,
+University of Glasgow
+Dr Andrew Gallagher Consultant Physician, The Queen Elizabeth University Hospital, Glasgow
+and Honorary Clinical Associate Professor, University of Glasgow
+Dr Nazim Ghouri Honorary Clinical Senior Lecturer, Institute of Cardiovascular and Medical
+Sciences, University of Glasgow
+Dr Fraser Gibb Consultant Physician, Royal Infirmary of Edinburgh
+Dr Scott Jamieson General Practitioner, Kirriemuir
+Professor Brian Kennon Consultant Physician, Southern General Hospital, Glasgow and Diabetes
+Lead Clinician for NHS Greater Glasgow and Clyde
+Dr Alan MacDonald Chairman, Scottish Medicines Consortium
+Ms Susan MacFarlane Pharmacist Prescriber, Livingston
+Professor Sandra McCrury Consultant Endocrinologist and Diabetologist, Raigmore Hospital, Inverness
+and Professor of Clinical Diabetes, University of the Highlands and Islands
+Ms Joan McDowell Senior Lecturer, Nursing and Health Care School College of Medical,
+Veterinary & Life Sciences University of Glasgow
+Professor John McKnight Consultant Physician, Western General Hospital, Edinburgh and Honorary
+Professor, University of Edinburgh
+Professor Ewan Pearson Honorary Consultant in Diabetes and Endocrinology, Ninewells Hospital,
+Dundee and Professor of Diabetic Medicine, University of Dundee
+| 41
+Association of the British Pharmaceutical Industry Scotland
+NHSScotland Special Interest Group Diabetes: Pharmacy
+Royal College of Pathologists
+Royal College of Physicians of Edinburgh
+15.3.2 PUBLIC CONSULTATION
+The draft guideline was also available on the SIGN website for three weeks to allow all interested parties to
+comment. The draft algorithm for glucose lowering was available separately as public consultation for two
+weeks.
+15.3.3 SIGN EDITORIAL GROUP
+As a final quality control check, the guideline is reviewed by an editorial group comprising the relevant
+specialty representatives on SIGN Council to ensure that the specialist reviewers’ comments have been
+addressed adequately and that any risk of bias in the guideline development process as a whole has been
+minimised. The editorial group for this guideline was as follows. All members of SIGN Council make yearly
+declarations of interest. A register of interests is available on the SIGN Council membership page of the SIGN
+website www.sign.ac.uk
+Dr Roberta James SIGN Programme Lead; Co-Editor
+Professor John Kinsella Chair of SIGN; Co-Editor
+Dr Jenny Bennison Vice-chair of SIGN
+Mr Gary Cook Royal Pharmaceutical Society
+Dr Susan Myles Unit Head, Scottish Health Technologies Group and Lead Health Economist,
+Healthcare Improvement Scotland
+15 • Development of the guideline
+42 |
+Abbreviations
+4T Treating to Target in Type 2 Diabetes trial
+ACCORD Action to Control Cardiovascular Risk in Diabetes trial
+ACE Acarbose Cardiovascular Evaluation trial
+ADOPT A Diabetes Outcome Progression trial
+ADVANCE Action in Diabetes and Vascular Disease: Preterax and Diamicron MR Controlled
+Evaluation trial
+AHRQ Agency for Healthcare Research and Quality
+ARI absolute risk increase
+ARR absolute risk reduction
+BMI body mass index
+BNF British National Formulary
+CANVAS CANagliflozin cardioVascular Assessment Study
+CARMELINA Cardiovascular and Renal Microvascular Outcome Study With Linagliptin in Patients
+With Type 2 Diabetes Mellitus
+CAROLINA CARdiovascular Outcome trial of LINAgliptin Versus Glimepiride in Type 2 Diabetes
+CENTRAL Cochrane Central Register of Controlled Trials
+CHF chronic heart failure
+CHMP Committee for Medicinal Products for Human Use
+CI confidence interval
+CREDENCE Canagliflozin and Renal Events in Diabetes with Established Nephropathy Clinical
+Evaluation trial
+CV cardiovascular
+CVD cardiovascular disease
+DECLARE-TIMI Dapagliflozin Effect on CardiovascuLAR Events - Thrombolysis in Myocardial Infarction
+trial
+DEVOTE Trial Comparing Cardiovascular Safety of Insulin Degludec versus Insulin Glargine
+in Patients with Type 2 Diabetes at High Risk of Cardiovascular Events
+DIPEx Database of Individual Patients’ Experience of illness
+DKA diabetic ketoacidosis
+DPP-4 dipeptidyl peptidase-4
+DVLA Driver and Vehicle Licensing Agency
+eGFR estimated glomerular filtration rate
+ELIXA Evaluation of Lixisenatide in Acute Coronary Syndrome trial
+EMA European Medicines Agency
+EMPA-REG The Empagliflozin Cardiovascular Outcome Event Trial in Type 2 Diabetes Mellitus
+Patients–Removing Excess Glucose
+| 43
+EU European Union
+EXAMINE EXamination of cArdiovascular outcoMes with alogliptIN versus standard of care
+trial
+EXSCEL EXenatide Study of Cardiovascular Event Lowering trial
+FDA Food and Drug Administration
+FPG fasting plasma glucose
+GI gastrointestinal
+GLP-1 glucagon-like peptide-1
+GMC General Medical Council
+HbA1c glycated haemoglobin
+HDL high-density lipoprotein
+HR hazard ratio
+LDL low-density lipoprotein
+LEADER Liraglutide Effect and Action in Diabetes: Evaluation of Cardiovascular Outcome
+Results trial
+MA marketing authorisation
+MI myocardial infarction
+MR modified release
+MTA Multiple Technology Appraisal
+NICE National Institute for Health and Care Excellence
+NIHR-HTA National Institute for Health Research - Health Technology Assessment
+NMA network meta-analysis
+NNT number needed to treat
+NPH neutral protamine Hagedorn
+NYHA New York Heart Association
+OR odds ratio
+ORIGIN Outcome Reduction with an Initial Glargine Intervention trial
+RCT randomised controlled trial
+RR relative risk or rate ratio
+SAVOR-TIMI Saxagliptin Assessment of Vascular Outcomes Recorded in patients with diabetes
+mellitus-Thrombolysis in Myocardial Infarction trial
+SE standard error
+SGL T2 sodium glucose co-transporter 2
+SIGN Scottish Intercollegiate Guidelines Network
+SMC Scottish Medicines Consortium
+SMD standardised mean difference
+SPC summary of product characteristics
+TECOS Trial to Evaluate Cardiovascular Outcomes after treatment with Sitagliptin
+Abbreviations
+44 |
+TZD thiazolidinedione
+UKPDS United Kingdom Prospective Diabetes Study
+VADT Veterans Affairs Diabetes Trial
+WMD weighted mean difference
+| 45
+Annex 1
+Key questions addressed in this update
+This guideline is based on a series of structured key questions that define the target population, the
+intervention, diagnostic test, or exposure under investigation, the comparison(s) used and the outcomes used
+to measure efficacy, effectiveness, or risk. These questions form the basis of the systematic literature search.
+Guideline
+section
+Key
+question
+3 1 In adult patients with type 2 diabetes, what is the evidence that reducing HbA1c to
+specified targets (<7.5%) affects mortality, cardiovascular morbidity and mortality,
+microvascular morbidity, weight, hypoglycaemia and other adverse events?
+(Carried over without update from SIGN 116)
+4, 5 2 In adults with type 2 diabetes what is the evidence that metformin or
+sulphonylureas affect mortality, cardiovascular morbidity and mortality,
+microvascular morbidity, HbA1c, weight, hypoglycaemia and other adverse
+events?
+6 3 In adults with type 2 diabetes what is the evidence that alpha-glucosidase
+inhibitors or thiazolidinediones affects mortality, cardiovascular morbidity and
+mortality, microvascular morbidity, HbA1c, weight, hypoglycaemia and other
+adverse events?
+7, 9 4 In adults with type 2 diabetes what is the evidence that DPP-4 inhibitors or GLP1 receptor agonists affect mortality, cardiovascular morbidity and mortality,
+microvascular morbidity, HbA1c, weight, hypoglycaemia and other adverse
+events?
+8 5 In adults with type 2 diabetes what is the evidence that SGLT2 inhibitors affect
+mortality, cardiovascular morbidity and mortality, microvascular morbidity, HbA1c,
+weight, hypoglycaemia and other adverse events?
+10 6 In adults with type 2 diabetes what is the evidence that insulin affects mortality,
+cardiovascular morbidity and mortality, microvascular morbidity, HbA1c, weight,
+hypoglycaemia and other adverse events?
+Annex
+46 |
+References
+1 U.S. Department of Health and Human Services. Food and
+Drug Administration. Center for Drug Evaluation and Research
+(CDER). Guidance for Industry. Diabetes Mellitus — Evaluating
+cardiovascular risk in new antidiabetic therapies to treat type 2
+diabetes Silver Spring, MD, USA; 2008. [cited 26 Oct 2017]. Available
+from url: https://www.fda.gov/downloads/Drugs/.../Guidances/
+ucm071627.pdf
+2 Scottish Intercollegiate Guidelines Network (SIGN). Management
+of diabetes. Edinburgh: SIGN; 2010. (SIGN publication no. 116).
+[cited 26 Oct 2017]. Available from url: http://www.sign.ac.uk/
+sign-116-management-of-diabetes.html
+3 Bolen S, Tseng E, Hutfless S, Segal JB, Suarez-Cuervo C, Berger Z,
+et al. Diabetes Medications for Adults With Type 2 Diabetes: An
+Update. Comparative Effectiveness Review No. 173. . Rockville, MD:
+Agency for Healthcare Research and Quality; 2016. (Publication
+No. 16-EHC013-EF). [cited 26 Oct 2017]. Available from url: https://
+effectivehealthcare.ahrq.gov/topics/diabetes-update-2015/
+research/
+4 National Institute of Health and Care Excellence. Type 2 diabetes
+in adults: management. London: NICE 2015. (NG28). [cited 26 Oct
+2017]. Available from url: http://www.nice.org.uk/guidance/ng28
+5 Holman RR, Coleman RL, Chan JCN, Chiasson J-L, Feng H, Ge J, et
+al. Effects of acarbose on cardiovascular and diabetes outcomes
+in patients with coronary heart disease and impaired glucose
+tolerance (ACE): a randomised, double-blind, placebo-controlled
+trial. Lancet Diabetes Endocrinol 2017;5(11):877-86.
+6 Information Services Division. Prescription Cost Analysis 20162017. Edinburgh: ISD, NHSScotland; 2017. [cited 10 Nov 2017].
+Available from url: http://www.isdscotland.org/Health-Topics/
+Prescribing-and-Medicines/Community-Dispensing/DispenserRemuneration/
+7 Joint Formulary Committee. Guidance on Prescribing. British
+National Formulary. [cited 26 Oct 2017]. Available from url: https://
+www.medicinescomplete.com/mc/bnf/current/PHP97234guidance-on-prescribing.htm
+8 electronic Medicines Compendium (eMC). [cited 26 Oct 2017].
+Available from url: www.medicines.org.uk
+9 Medicines and Healthcare products Regulatory Agency. Off-label
+or unlicensed use of medicines: prescribers’ responsibilities. Drug
+safety update 2009;2(9):6-7.
+10 UK Prospective Diabetes Study (UKPDS) Group. Intensive bloodglucose control with sulphonylureas or insulin compared with
+conventional treatment and risk of complications in patients with
+type 2 diabetes (UKPDS 33). Lancet 1998;352(9131):837-53.
+11 UK Prospective Diabetes Study (UKPDS) Group. Effect of intensive
+blood-glucose control with metformin on complications in
+overweight patients with type 2 diabetes (UKPDS 34). Lancet
+1998;352(9131):854-65.
+12 ADVANCE Collaborative Group, Patel A, MacMahon S, Chalmers
+J, Neal B, Billot L, et al. Intensive blood glucose control and
+vascular outcomes in patients with type 2 diabetes. N Engl J Med
+2008;358(24):2560-72.
+13 Action to Control Cardiovascular Risk in Diabetes Study G, Gerstein
+HC, Miller ME, Byington RP , Goff DC, Jr., Bigger JT, et al. Effects
+of intensive glucose lowering in type 2 diabetes. N Engl J Med
+2008;358(24):2545-59.
+14 Duckworth W, Abraira C, Moritz T, Reda D, Emanuele N, Reaven PD,
+et al. Glucose control and vascular complications in veterans with
+type 2 diabetes. N Engl J Med 2009;360(2):129-39.
+15 Holman RR, Paul SK, Bethel MA, Matthews DR, Neil HAW. 10-Year
+follow-up of intensive glucose control in type 2 diabetes. N Engl J
+Med 2008;359(15):1577-89.
+16 Kelly TN, Bazzano LA, Fonseca VA, Thethi TK, Reynolds K, He J.
+Systematic review: glucose control and cardiovascular disease in
+type 2 diabetes. Ann Intern Med 2009;151(6):394-403.
+17 Turnbull FM, Abraira C, Anderson RJ, Byington RP , Chalmers JP ,
+Duckworth WC, et al. Intensive glucose control and macrovascular
+outcomes in type 2 diabetes. Diabetologia 2009;52(11):2288-98.
+18 Zoungas S, Arima H, Gerstein HC, Holman RR, Woodward M, Reaven
+P , et al. Effects of intensive glucose control on microvascular
+outcomes in patients with type 2 diabetes: a meta-analysis of
+individual participant data from randomised controlled trials.
+Lancet Diabetes Endocrinol 2017;5(6):431-37.
+19 Saenz A, Fernandez-Esteban I, Mataix A, Ausejo M, Roque M, Moher
+D. Metformin monotherapy for type 2 diabetes mellitus. Cochrane
+Database of Systematic Reviews 2005, Issue 3.
+20 Bolen S, Wilson L, Vassy J, Feldman L, Yeh J, Marinopoulos S, et al.
+Comparative effectiveness and safety of oral diabetes medications
+for adults with type 2 diabetes. Rockville, MD: Agency for
+Healthcare Research and Quality; 2007. (Report No.: 07-EHC010-EF).
+[cited 27 Oct 2017]. Available from url: http://effectivehealthcare.
+ahrq.gov/ehc/products/6/39/OralFullReport.pdf
+21 Rosenstock J, Chuck L, Gonzalez-Ortiz M, Merton K, Craig J,
+Capuano G, et al. Initial combination therapy with canagliflozin
+plus metformin versus each component as monotherapy for drugNaive type 2 diabetes. Diabetes Care 2016;39(3):353-62.
+22 Umpierrez G, Tofé Povedano S, Pérez Manghi F, Shurzinske L,
+Pechtner V. Efficacy and safety of dulaglutide monotherapy versus
+metformin in type 2 diabetes in a randomized controlled trial
+(AWARD-3). Diabetes Care 2014;37(8):2168-76.
+23 Salpeter S, Greyber E, Pasternak G, Salpeter E. Risk of fatal and
+nonfatal lactic acidosis with metformin use in type 2 diabetes
+mellitus. Cochrane Database of Systematic Reviews 2006, Issue 1.
+24 Inzucchi SE. Oral antihyperglycemic therapy for type 2 diabetes:
+scientific review. JAMA 2002;287(3):360-72.
+25 Schernthaner G, Grimaldi A, Di Mario U, Drzewoski J, Kempler P ,
+Kvapil M, et al. GUIDE study: double-blind comparison of oncedaily gliclazide MR and glimepiride in type 2 diabetic patients. Eur
+J Clin Invest 2004;34(8):535-42.
+26 Belsey J, Krishnarajah G. Glycaemic control and adverse events
+in patients with type 2 diabetes treated with metformin
++ sulphonylurea: a meta-analysis. Diabetes Obes Metab
+2008;10(Suppl 1):1-7.
+27 Intensive blood-glucose control with sulphonylureas or insulin
+compared with conventional treatment and risk of complications
+in patients with type 2 diabetes (UKPDS 33). The Lancet
+1998;352(9131):837-53.
+28 Leese GP , Wang J, Broomhall J, Kelly P , Marsden A, Morrison W, et al.
+Frequency of severe hypoglycemia requiring emergency treatment
+in type 1 and type 2 diabetes: a population-based study of health
+service resource use. Diabetes Care 2003;26(4):1176-80.
+| 47
+29 Van Raalte DH, van Genugten RE, Eliasson B, Moller-Goede DL,
+Mari A, Tura A, et al. The effect of alogliptin and pioglitazone
+combination therapy on various aspects of beta-cell function
+in patients with recent-onset type 2 diabetes. Eur J Endocrinol
+2014;170(4):565-74.
+30 Bron M, Wilson C, Fleck P . A Post Hoc Analysis of HbA1c,
+Hypoglycemia, and Weight Change Outcomes with Alogliptin vs
+Glipizide in Older Patients with Type 2 Diabetes. Diabetes Ther
+2014;5(2):521-34.
+31 Leiter LA, Langslet G, Vijapurkar U, Davies MJ, Canovatchel W.
+Simultaneous Reduction in Both HbA1c and Body Weight with
+Canagliflozin Versus Glimepiride in Patients with Type 2 Diabetes
+on Metformin. Diabetes Ther 2016;7(2):269-78.
+32 Goke B, Gallwitz B, Eriksson JG, Hellqvist A, Gause-Nilsson I.
+Saxagliptin vs. glipizide as add-on therapy in patients with
+type 2 diabetes mellitus inadequately controlled on metformin
+alone: long-term (52-week) extension of a 52-week randomised
+controlled trial. Int J Clin Pract 2013;67(4):307-16.
+33 Mintz ML, Minervini G. Saxagliptin versus glipizide as add-on
+therapy to metformin: assessment of hypoglycemia. Curr Med Res
+Opin 2014;30(5):761-70.
+34 Simó R, Guerci B, Schernthaner G, Gallwitz B, Rosas-Guzmàn J, Dotta
+F, et al. Long-term changes in cardiovascular risk markers during
+administration of exenatide twice daily or glimepiride: results from
+the European exenatide study. Cardiovasc Diabetol 2015;14:116.
+35 Marx N, Rosenstock J, Kahn SE, Zinman B, Kastelein JJ, Lachin JM,
+et al. Design and baseline characteristics of the CARdiovascular
+Outcome Trial of LINAgliptin Versus Glimepiride in Type 2 Diabetes
+(CAROLINA®). Diab Vasc Dis Res 2015;12(3):164-74.
+36 Nathan DM, Buse JB, Kahn SE, Krause-Steinrauf H, Larkin ME, Staten
+M, et al. Rationale and design of the glycemia reduction approaches
+in diabetes: a comparative effectiveness study (GRADE). Diabetes
+Care 2013;36(8):2254-61.
+37 Dormandy JA, Charbonnel B, Eckland DJ, Erdmann E, MassiBenedetti M, Moules IK, et al. Secondary prevention of
+macrovascular events in patients with type 2 diabetes in the
+PROactive Study (PROspective pioglitAzone Clinical Trial In
+macroVascular Events): a randomised controlled trial. Lancet
+2005;366(9493):1279-89.
+38 Henry RR, Staels B, Fonseca VA, Chou MZ, Teng R, Golm GT, et
+al. Efficacy and safety of initial combination treatment with
+sitagliptin and pioglitazone--a factorial study. Diabetes Obes
+Metab 2014;16(3):223-30.
+39 Czoski-Murray C, Warren E, Chilcott J, Beverley C, Psyllaki MA, Cowan
+J. Clinical effectiveness and cost-effectiveness of pioglitazone and
+rosiglitazone in the treatment of type 2 diabetes: A systematic
+review and economic evaluation. Health Technol Assess 2004;8(13).
+40 Richter B, Bandeira-Echtler E, Bergerhoff K, Clar C, Ebrahim SH.
+Pioglitazone for type 2 diabetes mellitus. Cochrane Database of
+Systematic Reviews 2006, Issue 4.
+41 Berlie HD, Kalus JS, Jaber LA. Thiazolidinediones and the risk of
+edema: a meta-analysis. Diabetes Res Clin Pract 2007;76(2):279-89.
+42 Bolen S, Feldman L, Vassy J, Wilson L, Yeh H, Marinopoulos S, et
+al. Systematic review: comparative effectiveness and safety of
+oral medications for type 2 diabetes mellitus. Ann Intern Med
+2007;147(6):386-99.
+43 Lago RM, Singh PP , Nesto RW. Congestive heart failure and
+cardiovascular death in patients with prediabetes and type 2
+diabetes given thiazolidinediones: a meta-analysis of randomised
+clinical trials. Lancet. 2007;370(9593):1129-36.
+44 Bennett WL, Maruthur NM, Singh S, Segal JB, Wilson LM, Chatterjee
+R, et al. Comparative effectiveness and safety of medications
+for type 2 diabetes: an update including new drugs and 2-drug
+combinations. Ann Intern Med 2011;154(9):602-13.
+45 Loke YK, Singh S, Furberg CD. Long-term use of thiazolidinediones
+and fractures in type 2 diabetes: a meta-analysis. CMAJ
+2009;180(1):32-9.
+46 Colhoun HM, Livingstone SJ, Looker HC, Morris AD, Wild SH, Lindsay
+RS, et al. Hospitalised hip fracture risk with rosiglitazone and
+pioglitazone use compared with other glucose-lowering drugs.
+Diabetologia 2012;55(11):2929-37.
+47 Dormuth CR, Carney G, Carleton B, Bassett K, Wright JM.
+Thiazolidinediones and fractures in men and women. Arch Intern
+Med 2009;169(15):1395-402.
+48 Li Z, Sun M, Wang F, Shi J, Wang K. Association between pioglitazone
+use and the risk of bladder cancer among subjects with diabetes
+mellitus: a dose-response meta-analysis Int J Clin Pharmacol Ther
+2017;55(3):210-9.
+49 Medicines and Healthcare products Regulatory Agency.
+Pioglitazone: risk of bladder cancer. [cited 13 Nov ]. Available from
+url: https://www.gov.uk/drug-safety-update/pioglitazone-risk-ofbladder-cancer
+50 Erdmann E, Dormandy JA, Charbonnel B, Massi-Benedetti M,
+Moules IK, Skene AM, et al. The effect of pioglitazone on recurrent
+myocardial infarction in 2,445 patients with type 2 diabetes
+and previous myocardial infarction: results from the PROactive
+(PROactive 05) Study. J Am Coll Cardiol 2007;49(17):1772-80.
+51 Wilcox R, Bousser MG, Betteridge DJ, Schernthaner G, Pirags V,
+Kupfer S, et al. Effects of pioglitazone in patients with type 2
+diabetes with or without previous stroke: results from PROactive
+(PROspective pioglitAzone Clinical Trial In macroVascular Events
+04). Stroke 2007;38(3):865-73.
+52 Mannucci E, Monami M, Lamanna C, Gensini GF, Marchionni N.
+Pioglitazone and cardiovascular risk. A comprehensive metaanalysis of randomized clinical trials. Diabetes Obes Metab
+2008;10(12):1221-38.
+53 Lincoff AM, Wolski K, Nicholls SJ, Nissen SE. Pioglitazone and risk
+of cardiovascular events in patients with type 2 diabetes mellitus:
+A meta-analysis of randomized trials. JAMA 2007;298(10):1180-8.
+54 Erdmann E, Charbonnel B, Wilcox RG, Skene AM, Massi-Benedetti M,
+Yates J, et al. Pioglitazone use and heart failure in patients with type
+2 diabetes and preexisting cardiovascular disease: Data from the
+PROactive Study (PROactive 08). Diabetes Care 2007;30(11):2773-8.
+55 Giles TD, Miller AB, Elkayam U, Bhattacharya M, Perez A.
+Pioglitazone and heart failure: results from a controlled study in
+patients with type 2 diabetes mellitus and systolic dysfunction. J
+Card Fail 2008;14(6):445-52.
+56 DeFronzo RA, Hissa MN, Garber AJ, Luiz Gross J, Yuyan Duan
+R, Ravichandran S, et al. The efficacy and safety of saxagliptin
+when added to metformin therapy in patients with inadequately
+controlled type 2 diabetes with metformin alone. Diabetes Care
+2009;32(9):1649-55.
+57 Richter B, Bandeira-Echtler E, Bergerhoff K, Lerch CL. Dipeptidyl
+peptidase-4 (DPP-4) inhibitors for type 2 diabetes mellitus.
+Cochrane Database of Systematic Reviews 2008, Issue 2.
+References
+48 |
+58 Rosenstock J, Aguilar-Salinas C, Klein E, Nepal S, List J, Chen R, et
+al. Effect of saxagliptin monotherapy in treatment-naive patients
+with type 2 diabetes. Curr Med Res Opin 2009;25(10):2401-11.
+59 Hermansen K, Kipnes M, Luo E, Fanurik D, Khatami H, Stein P , et
+al. Efficacy and safety of the dipeptidyl peptidase-4 inhibitor,
+sitagliptin, in patients with type 2 diabetes mellitus inadequately
+controlled on glimepiride alone or on glimepiride and metformin.
+Diabetes Obes Metab 2007;9(5):733-45.
+60 Bailey RA, Damaraju CV, Martin SC, Meininger GE, Rupnow MF,
+Blonde L. Attainment of diabetes-related quality measures with
+canagliflozin versus sitagliptin. Am J Manag Care 2014;20(1
+Suppl):s16-24.
+61 Duran-Garcia S, Lee J, Yki-Jarvinen H, Rosenstock J, Hehnke U,
+Thiemann S, et al. Efficacy and safety of linagliptin as add-on
+therapy to basal insulin and metformin in people with Type 2
+diabetes. Diabet Med 2016;33(7):926-33.
+62 Mathieu C, Shankar RR, Lorber D, Umpierrez G, Wu F, Xu L, et al.
+A Randomized Clinical Trial to Evaluate the Efficacy and Safety of
+Co-Administration of Sitagliptin with Intensively Titrated Insulin
+Glargine. Diabetes Ther 2015;6(2):127-42.
+63 Amori RE, Lau J, Pittas AG. Efficacy and safety of incretin therapy
+in type 2 diabetes: systematic review and meta-analysis. JAMA
+2007;298(2):194-206.
+64 Scirica BM, Bhatt DL, Braunwald E, Steg PG, Davidson J, Hirshberg
+B, et al. Saxagliptin and cardiovascular outcomes in patients with
+type 2 diabetes mellitus. N Engl J Med 2013;369(14):1317-26.
+65 White WB, Cannon CP , Heller SR, Nissen SE, Bergenstal RM, Bakris
+GL, et al. Alogliptin after acute coronary syndrome in patients with
+type 2 diabetes. N Engl J Med 2013;369(14):1327-35.
+66 Green JB, Bethel MA, Armstrong PW, Buse JB, Engel SS, Garg J,
+et al. Effect of Sitagliptin on Cardiovascular Outcomes in Type 2
+Diabetes. N Engl J Med 2015;373(3):232-42.
+67 Cardiovascular and Renal Microvascular Outcome Study With
+Linagliptin in Patients With Type 2 Diabetes Mellitus (CARMELINA).
+Trial record for NCT01897532. [cited 31 Oct 2017]. Available from
+url: http://clinicaltrials.gov/ct2/show/NCT01897532
+68 Zannad F, Cannon CP , Cushman WC, Bakris GL, Menon V, Perez
+AT, et al. Heart failure and mortality outcomes in patients
+with type 2 diabetes taking alogliptin versus placebo in
+EXAMINE: a multicentre, randomised, double-blind trial. Lancet
+2015;385(9982):2067-76.
+69 Johnston R, Uthman O, Cummins E, Clar C, Royle P , Colquitt J, et
+al. Canagliflozin, dapagliflozin and empagliflozin monotherapy
+for treating type 2 diabetes: systematic review and economic
+evaluation. Health Technol Assess 2017;21(2):1-218.
+70 Roden M, Merker L, Christiansen AV, Roux F, Salsali A, Kim G, et
+al. Safety, tolerability and effects on cardiometabolic risk factors
+of empagliflozin monotherapy in drug-naïve patients with type
+2 diabetes: a double-blind extension of a Phase III randomized
+controlled trial. Cardiovasc Diabetol 2015;14:154.
+71 National Institute of Health and Care Excellence. Canagliflozin,
+dapagliflozin and empagliflozin as monotherapies for treating
+type 2 diabetes. London: NICE 2016. (TA390). [cited 02 Nov 2017].
+Available from url: http://www.nice.org.uk/guidance/TA390
+72 Lavalle-González FJ, Januszewicz A, Davidson J, Tong C, Qiu R,
+Canovatchel W, et al. Efficacy and safety of canagliflozin compared
+with placebo and sitagliptin in patients with type 2 diabetes
+on background metformin monotherapy: a randomised trial.
+Diabetologia 2013;56(12):2582-92.
+73 Jabbour SA, Hardy E, Sugg J, Parikh S, Study 10 Group. Dapagliflozin
+is effective as add-on therapy to sitagliptin with or without
+metformin: a 24-week, multicenter, randomized, double-blind,
+placebo-controlled study. Diabetes Care 2014;37(3):740-50.
+74 Cefalu WT, Leiter LA, de Bruin TW, Gause-Nilsson I, Sugg J, Parikh SJ.
+Dapagliflozin’s effects on glycemia and cardiovascular risk factors
+in high-risk patients with type 2 diabetes: A 24-week, multicenter,
+randomized, double-blind, placebo-controlled study with a 28week extension. Diabetes Care 2015;38(7):1218-27.
+75 Neal B, Perkovic V, de Zeeuw D, Mahaffey KW, Fulcher G, Ways
+K, et al. Efficacy and safety of canagliflozin, an inhibitor of
+sodium-glucose cotransporter 2, when used in conjunction with
+insulin therapy in patients with type 2 diabetes. Diabetes Care
+2015;38(3):403-11.
+76 Wilding JP , Woo V, Rohwedder K, Sugg J, Parikh S, Dapagliflozin
+006 Study Group. Dapagliflozin in patients with type 2 diabetes
+receiving high doses of insulin: efficacy and safety over 2 years.
+Diabetes Obes Metab 2014;16(2):124-36.
+77 Wilding JP , Woo V, Soler NG, Pahor A, Sugg J, Rohwedder K, et al.
+Long-term efficacy of dapagliflozin in patients with type 2 diabetes
+mellitus receiving high doses of insulin: a randomized trial. Ann
+Intern Med 2012;156(6):405-15.
+78 Wilding JP , Charpentier G, Hollander P , González-Gálvez G,
+Mathieu C, Vercruysse F, et al. Efficacy and safety of canagliflozin
+in patients with type 2 diabetes mellitus inadequately controlled
+with metformin and sulphonylurea: a randomised trial. Int J Clin
+Prac 2013;67(12):1267-82.
+79 European Medicines Agency, Pharmacovigilance Risk Assessment
+Committee. Assessment report. Procedure under Article 20 of
+Regulation (EC) No 726/2004 resulting from pharmacovigilance
+data - SGLT 2 inhibitors. London: European Medicines Agency;
+2016. (EMA/177932/2016). [cited 02 Nov 2017]. Available from
+url: http://www.ema.europa.eu/docs/en_GB/document_library/
+Referrals_document/SGLT2_inhibitors__20/Opinion_provided_
+by_Committee_for_Medicinal_Products_for_Human_Use/
+WC500203178.pdf
+80 European Medicines Agency, Pharmacovigilance Risk Assessment
+Committee. PRAC Assessment report. Procedure under Article 20
+of Regulation (EC) No 726/2004 resulting from pharmacovigilance
+data - SGLT 2 inhibitors and lower limb amputation (canagliflozin,
+dapagliflozin, empagliflozin-containing medicines) London:
+European Medicines Agency; 2017. (EMA/144426/2017). [cited 02
+Nov 2017]. Available from url: http://www.ema.europa.eu/docs/
+en_GB/document_library/Referrals_document/SGLT2_inhibitors_
+Canagliflozin_20/European_Commission_final_decision/
+WC500227102.pdf
+81 Neal B, Perkovic V, Mahaffey KW, de Zeeuw D, Fulcher G, Erondu
+N, et al. Canagliflozin and cardiovascular and renal events in type
+2 diabetes. N Engl J Med 2017;377(7):644-57.
+82 Evaluation of the effects of canagliflozin on renal and cardiovascular
+outcomes in participants with diabetic nephropathy (CREDENCE).
+Trial record for NCT02065791. [cited 02 Nov 2017]. Available from
+url: http://clinicaltrials.gov/ct2/show/NCT02065791
+83 Multicenter trial to evaluate the effect of dapagliflozin on the
+incidence of cardiovascular events (DECLARE-TIMI58). Trial record
+for NCT01730534. [cited 02 Nov 2017]. Available from url: http://
+clinicaltrials.gov/ct2/show/NCT01730534
+84 Zinman B, Wanner C, Lachin JM, Fitchett D, Bluhmki E, Hantel S, et
+al. Empagliflozin, cardiovascular outcomes, and mortality in type
+2 diabetes. N Engl J Med 2015;373(22):2117-28.
+| 49
+85 Wanner C, Inzucchi SE, Lachin JM, Fitchett D, von Eynatten M,
+Mattheus M, et al. Empagliflozin and progression of kidney disease
+in type 2 diabetes. N Engl J Med 2016;375(4):323-34.
+86 Monami M, Marchionni N, Mannucci E. Glucagon-like peptide-1
+receptor agonists in type 2 diabetes: a meta-analysis of randomized
+clinical trials. Eur J Endocrinol 2009;160(6):909-17.
+87 Home PD, Shamanna P , Stewart M, Yang F, Miller M, Perry C,
+et al. Efficacy and tolerability of albiglutide versus placebo or
+pioglitazone over 1 year in people with type 2 diabetes currently
+taking metformin and glimepiride: HARMONY 5. Diabetes Obes
+Metab 2015;17(2):179-87.
+88 Buse JB, Rosenstock J, Sesti G, Schmidt WE, Montanya E, Brett JH,
+et al. Liraglutide once a day versus exenatide twice a day for type
+2 diabetes: a 26-week randomised, parallel-group, multinational,
+open-label trial (LEAD-6). Lancet 2009;374(9683):39-47.
+89 Blonde L, Jendle J, Gross J, Woo V, Jiang H, Fahrbach JL, et al.
+Once-weekly dulaglutide versus bedtime insulin glargine, both
+in combination with prandial insulin lispro, in patients with type
+2 diabetes (AWARD-4): a randomised, open-label, phase 3, noninferiority study. Lancet 2015;385(9982):2057-66.
+90 Diamant M, Nauck MA, Shaginian R, Malone JK, Cleall S, Reaney
+M, et al. Glucagon-like peptide 1 receptor agonist or bolus insulin
+with optimized basal insulin in type 2 diabetes. Diabetes Care
+2014;37(10):2763-73.
+91 Weissman PN, Carr MC, Ye J, Cirkel DT, Stewart M, Perry C, et al.
+HARMONY 4: randomised clinical trial comparing once-weekly
+albiglutide and insulin glargine in patients with type 2 diabetes
+inadequately controlled with metformin with or without
+sulfonylurea. Diabetologia 2014;57(12):2475-84.
+92 Buse JB, Vilsbøll T, Thurman J, Blevins TC, Langbakke IH, Bøttcher
+SG, et al. Contribution of liraglutide in the fixed-ratio combination
+of insulin degludec and liraglutide (IDegLira). Diabetes Care
+2014;37(11):2926-33.
+93 Rodbard HW, Buse JB, Woo V, Vilsboll T, Langbakke IH, Kvist K, et
+al. Benefits of combination of insulin degludec and liraglutide are
+independent of baseline glycated haemoglobin level and duration
+of type 2 diabetes. Diabetes Obes Metab 2016;18(1):40-8.
+94 Riddle MC, Aronson R, Home P , Marre M, Niemoeller E, Miossec P , et
+al. Adding once-daily lixisenatide for type 2 diabetes inadequately
+controlled by established basal insulin: a 24-week, randomized,
+placebo-controlled comparison (GetGoal-L). Diabetes Care
+2013;36(9):2489-96.
+95 Riddle MC, Forst T, Aronson R, Sauque-Reyna L, Souhami E,
+Silvestre L, et al. Adding once-daily lixisenatide for type 2 diabetes
+inadequately controlled with newly initiated and continuously
+titrated basal insulin glargine: a 24-week, randomized, placebocontrolled study (GetGoal-Duo 1). Diabetes Care 2013;36(9):2497503.
+96 Buse JB, Henry RR, Han J, Kim DD, Fineman MS, Baron AD, et al.
+Effects of exenatide (exendin-4) on glycemic control over 30 weeks
+in sulfonylurea-treated patients with type 2 diabetes. Diabetes Care
+2004;27(11):2628-35.
+97 DeFronzo RA, Ratner RE, Han J, Kim DD, Fineman MS, Baron AD.
+Effects of exenatide (exendin-4) on glycemic control and weight
+over 30 weeks in metformin-treated patients with type 2 diabetes.
+Diabetes Care 2005;28(5):1092-100.
+98 Heine RJ, Van Gaal LF, Johns D, Mihm MJ, Widel MH, Brodows RG, et
+al. Exenatide versus insulin glargine in patients with suboptimally
+controlled type 2 diabetes: a randomized trial. Ann Intern Med
+2005;143(8):559-69.
+99 Moretto TJ, Milton DR, Ridge TD, Macconell LA, Okerson T, Wolka
+AM, et al. Efficacy and tolerability of exenatide monotherapy over
+24 weeks in antidiabetic drug-naive patients with type 2 diabetes:
+a randomized, double-blind, placebo-controlled, parallel-group
+study. Clin Ther 2008;30(8):1448-60.
+100 Nauck MA, Duran S, Kim D, Johns D, Northrup J, Festa A, et al.
+A comparison of twice-daily exenatide and biphasic insulin
+aspart in patients with type 2 diabetes who were suboptimally
+controlled with sulfonylurea and metformin: a non-inferiority
+study. Diabetologia 2007;50(2):259-67.
+101 Ahrén B, Johnson SL, Stewart M, Cirkel DT, Yang F, Perry C, et
+al. HARMONY 3: 104-week randomized, double-blind, placeboand active-controlled trial assessing the efficacy and safety of
+albiglutide compared with placebo, sitagliptin, and glimepiride
+in patients with type 2 diabetes taking metformin. Diabetes Care
+2014;37(8):2141-8.
+102 Marso SP , Daniels GH, Brown-Frandsen K, Kristensen P , Mann JF,
+Nauck MA, et al. Liraglutide and Cardiovascular Outcomes in Type
+2 Diabetes. N Engl J Med 2016;375(4):311-22.
+103 Pfeffer MA, Claggett B, Diaz R, Dickstein K, Gerstein HC, Køber LV, et
+al. Lixisenatide in Patients with Type 2 Diabetes and Acute Coronary
+Syndrome. N Engl J Med 2015;373(23):2247-57.
+104 Holman RR, Bethel MA, Mentz RJ, Thompson VP , Lokhnygina Y,
+Buse JB, et al. Effects of once-weekly exenatide on cardiovascular
+outcomes in type 2 diabetes. N Engl J Med 2017;377(13):1228-39.
+105 D’Alessio D, Häring HU, Charbonnel B, de Pablos-Velasco P , Candelas
+C, Dain MP , et al. Comparison of insulin glargine and liraglutide
+added to oral agents in patients with poorly controlled type 2
+diabetes. Diabetes Obes Metab 2015;17(2):170-8.
+106 Goudswaard AN, Furlong NJ, Rutten GEHM, Stolk RP , Valk GD.
+Insulin monotherapy versus combinations of insulin with oral
+hypoglycaemic agents in patients with type 2 diabetes mellitus.
+Cochrane Database of Systematic Reviews 2004, Issue 4.
+107 ORIGIN Trial Investigators. Predictors of nonsevere and severe
+hypoglycemia during glucose-lowering treatment with insulin
+glargine or standard drugs in the ORIGIN trial. Diabetes Care
+2015;38(1):22-8.
+108 Singh SR, Ahmad F, Lal A, Yu C, Bai Z, Bennett H. Efficacy and safety
+of insulin analogues for the management of diabetes mellitus: a
+meta-analysis. CMAJ 2009;180(4):385-97.
+109 Bazzano LA, Lee LJ, Shi L, Reynolds K, Jackson JA, Fonseca V.
+Safety and efficacy of glargine compared with NPH insulin for
+the treatment of type 2 diabetes: A meta-analysis of randomized
+controlled trials. Diabet Med 2008;25(8):924-32.
+110 Horvath K, Jeitler K, Berghold A, Ebrahim SH, Gratzer TW, Plank J,
+et al. Long-acting insulin analogues versus NPH insulin (human
+isophane insulin) for type 2 diabetes mellitus. Cochrane Database
+of Systematic Reviews 2007, Issue 2.
+111 Monami M, Lamanna C, Marchionni N, Mannucci E. Comparison
+of different drugs as add-on treatments to metformin in type 2
+diabetes: a meta-analysis. Diabetes Res Clin Pract 2008;79(2):196203.
+112 Waugh N, Cummins E, Royle P , Clar C, Marien M, Richter B, et
+al. Newer agents for blood glucose control in type 2 diabetes:
+systematic review and economic evaluation. Health Technol Assess
+2010;14(36):1-248.
+References
+50 |
+113 Home PD, Bolli GB, Mathieu C, Deerochanawong C, Landgraf W,
+Candelas C, et al. Modulation of insulin dose titration using a
+hypoglycaemia-sensitive algorithm: insulin glargine versus neutral
+protamine Hagedorn insulin in insulin-naïve people with type 2
+diabetes. Diabetes Obes Metab 2015;17(1):15-22.
+114 Tran K, Banerjee S, Li H, Cimon K, Daneman D, Simpson R, et al.
+Long-Acting Insulin Analogues for Diabetes Mellitus: Meta-analysis
+of Clinical Outcomes and Assessment of Cost-Effectiveness
+[Technology Report number 92]. Ottawa: Canadian Agency for
+Drugs and Technologies in Health 2007. [cited 02 Nov 2017].
+Available from url: https://www.cadth.ca/sites/default/files/
+pdf/341b_Long-acting-insulin_tr_e.pdf
+115 Canadian Agency for Drugs and Technology in Health (CADTH).
+Long-acting insulin analogues for the treatment of diabetes
+dellitus: meta-analyses of clinical outcomes. Ottawa: CADTH;
+2008. [cited 02 Nov 2017]. Available from url: https://www.cadth.
+ca/sites/default/files/pdf/compus_Long-Acting-Insulin-AnalogsReport_Clinical-Outcomes.pdf
+116 Riddle MC, Yki-Järvinen H, Bolli GB, Ziemen M, Muehlen-Bartmer
+I, Cissokho S, et al. One-year sustained glycaemic control and less
+hypoglycaemia with new insulin glargine 300 U/ml compared with
+100 U/ml in people with type 2 diabetes using basal plus mealtime insulin: the EDITION 1 12-month randomized trial, including
+6-month extension. Diabetes Obes Metab 2015;17(9):835-42.
+117 Yki-Jarvinen H, Bergenstal R, Ziemen M, Wardecki M, MuehlenBartmer I, Boelle E, et al. New insulin glargine 300 units/mL versus
+glargine 100 units/mL in people with type 2 diabetes using oral
+agents and basal insulin: glucose control and hypoglycemia in a
+6-month randomized controlled trial (EDITION 2). Diabetes Care
+2014;37(12):3235-43.
+118 Bolli GB, Riddle MC, Bergenstal RM, Ziemen M, Sestakauskas K,
+Goyeau H, et al. New insulin glargine 300 U/ml compared with
+glargine 100 U/ml in insulin-naive people with type 2 diabetes
+on oral glucose-lowering drugs: a randomized controlled trial
+(EDITION 3). Diabetes Obes Metab 2015;17(4):386-94.
+119 Hollander P , King AB, Del Prato S, Sreenan S, Balci MK, Muñoz-Torres
+M, et al. Insulin degludec improves long-term glycaemic control
+similarly to insulin glargine but with fewer hypoglycaemic episodes
+in patients with advanced type 2 diabetes on basal-bolus insulin
+therapy. Diabetes Obes Metab 2015;17(2):202-6.
+120 Garber AJ, King AB, Del Prato S, Sreenan S, Balci MK, Munoz-Torres
+M, et al. Insulin degludec, an ultra-longacting basal insulin, versus
+insulin glargine in basal-bolus treatment with mealtime insulin
+aspart in type 2 diabetes (BEGIN Basal-Bolus Type 2): a phase 3,
+randomised, open-label, treat-to-target non-inferiority trial. Lancet
+2012;379(9825):1498-507.
+121 Marso SP , McGuire DK, Zinman B, Poulter NR, Emerson SS, Pieber
+TR, et al. Efficacy and Safety of Degludec versus Glargine in Type
+2 Diabetes. N Engl J Med 2017;377(8):723-32.
+122 Holman RR, Farmer AJ, Davies MJ, Levy JC, Darbyshire JL, Keenan
+JF, et al. Three-year efficacy of complex insulin regimens in type 2
+diabetes. N Engl J Med 2009;361(18):1736-47.
+123 Holman RR, Thorne KI, Farmer AJ, Davies MJ, Keenan JF, Paul S, et
+al. Addition of biphasic, prandial, or basal insulin to oral therapy
+in type 2 diabetes. N Engl J Med 2007;357(17):1716-30.
+124 Qayyum R, Bolen S, Maruthur N, Feldman L, Wilson LM, Marinopoulos
+SS, et al. Systematic review: comparative effectiveness and safety
+of premixed insulin analogues in type 2 diabetes. Ann Intern Med
+2008;149(8):549-59.
+125 Ilag LL, Kerr L, Malone JK, Tan MH. Prandial Premixed Insulin
+Analogue Regimens Versus Basal Insulin Analogue Regimens in the
+Management of Type 2 Diabetes: An Evidence-Based Comparison.
+Clin Ther 2007;29(6 Pt 1):1254-70.
+126 Banerjee S, Tran K, Li H, Cimon K, Daneman D, Simpson S, et al.
+Short-acting Insulin Analogues for Diabetes Mellitus: Meta-analysis
+of Clinical Outcomes and Assessment of Cost-effectiveness.
+Ottawa: Canadian Agency for Drugs and Technologies in Health;
+2007. (Technology Report no. 87). [cited 03 Nov 2017]. Available
+from url: http://www.cadth.ca/media/pdf/341A_Insulin_tr_e.pdf
+127 Siebenhofer A, Plank J, Berghold A, Jeitler K, Horvath K, Narath M,
+et al. Short acting insulin analogues versus regular human insulin in
+patients with diabetes mellitus. Cochrane Database of Systematic
+Reviews 2006, Issue 2.
+128 Ali S, Davies MJ, Brady EM, Gray LJ, Khunti K, Beshyah SA, et al.
+Guidelines for managing diabetes in Ramadan. Diabet Med
+2016;33(10):1315-29.
+ISBN 978 1 909103 61 0
+www.sign.ac.uk
+www.healthcareimprovementscotland.org
+Edinburgh Office | Gyle Square |1 South Gyle Crescent | Edinburgh | EH12 9EB
+Telephone 0131 623 4300 Fax 0131 623 4299
+Glasgow Office | Delta House | 50 West Nile Street | Glasgow | G1 2NP
+Telephone 0141 225 6999 Fax 0141 248 3776
+The Healthcare Environment Inspectorate, the Scottish Health Council, the Scottish Health Technologies Group, the Scottish
+Intercollegiate Guidelines Network (SIGN) and the Scottish Medicines Consortium are key components of our organisation.

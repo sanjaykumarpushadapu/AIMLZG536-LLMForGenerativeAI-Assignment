@@ -1,0 +1,60 @@
+# ---------------------------------------------------------------------------
+# Assignment 1A - .gitignore
+#
+# Rule of thumb: commit what is graded or hand-written; ignore what is large,
+# downloaded, or regenerable by re-running the notebook.
+#
+# Note: .gitignore has NO inline comments - '#' only starts a comment at the
+# start of a line - so every note below sits on its own line. A trailing
+# comment would silently become part of the pattern and match nothing.
+# ---------------------------------------------------------------------------
+
+# --- PDFs ------------------------------------------------------------------
+# PDFs are ignored by default, with ONE exception: raw_pdfs/ is committed on
+# purpose. Those 8 files are the exact input Step 1 was run against, so keeping
+# them in the repo means the notebook stays reproducible even if a source URL
+# rots - and assignments 1B/2A/2B/2C reuse this same corpus. ~28 MB total,
+# largest single file ~10 MB, comfortably inside GitHub's limits.
+#
+# The '!' rule must come AFTER '*.pdf' - the last matching rule wins. Note also
+# that raw_pdfs/ is NOT listed as an ignored directory: git never descends into
+# an ignored directory, so a negation inside one would have no effect.
+*.pdf
+!raw_pdfs/*.pdf
+
+# The assignment briefs stay out - they're re-downloadable from Canvas.
+briefs/
+
+# --- Model artifacts: hundreds of MB to several GB, never belong in git -----
+cpt_ckpt/
+adapter/
+*.safetensors
+*.bin
+*.pt
+
+# --- Regenerable intermediates ---------------------------------------------
+# Step 2 packed dataset - rebuild it from domain_corpus/
+*.parquet
+# Stats and plots - the notebook already prints all of this inline
+outputs/
+
+# --- Python / Jupyter ------------------------------------------------------
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# --- OS --------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------------------------------------------
+# Deliberately NOT ignored - the graded deliverables plus the source corpus:
+#   Assignment1A.ipynb         notebook WITH outputs
+#   Assignment1A.html          exported HTML
+#   domain_corpus/*.txt        cleaned corpus (1.4 MB, safe for git)
+#   instruction_dataset.jsonl  B1 output
+#   raw_pdfs/*.pdf             source PDFs, kept for reproducibility
+# ---------------------------------------------------------------------------

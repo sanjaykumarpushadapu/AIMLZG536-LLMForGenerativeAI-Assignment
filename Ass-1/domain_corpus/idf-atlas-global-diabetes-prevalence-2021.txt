@@ -1,0 +1,661 @@
+IDF Diabetes Atlas: Global, regional and country-level diabetes
+prevalence estimates for 2021 and projections for 2045
+Hong Suna,1, Pouya Saeedia,1, Suvi Karurangaa, Moritz Pinkepanka, Katherine Ogurtsovab,
+Bruce B. Duncanc, Caroline Steinc, Abdul Basitd, Juliana C.N. Chane, Jean Claude Mbanyaf,
+Meda E. Pavkovg, Ambady Ramachandaranh, Sarah H. Wildi, Steven Jamesj, William H.
+Hermank,l, Ping Zhangg, Christian Bommerm,n, Shihchen Kuok, Edward J. Boykoo,1, Dianna
+J. Maglianop,q,1,*
+aInternational Diabetes Federation, Brussels, Belgium
+bInstitute for Health Services Research and Health Economics, German Diabetes Center, Leibniz
+Center for Diabetes Research at the Heinrich-Heine-University Düsseldorf, Düsseldorf, Germany
+cPostgraduate Program in Epidemiology, Universidade Federal do Rio Grande do Sul, Porto
+Alegre, Brazil
+dBaqai Institute of Diabetology and Endocrinology, Baqai Medical University, Karachi, Pakistan
+eDepartment of Medicine and Therapeutics, Li Ka Shing Institute of Health Sciences and Hong
+Kong Institute of Diabetes and Obesity, The Chinese University of Hong Kong, Prince of Wales
+Hospital, Hong Kong Special Administrative Region, China
+fDepartment of Internal Medicine and Specialties, Faculty of Medicine and Biomedical Sciences
+and Biotechnology Center, The University of Y aounde I, Y aounde, Cameroon
+gDivision of Diabetes Translation, Centers for Diseases Control and Prevention, Atlanta, GA,
+United States
+hIndia Diabetes Research Foundation & Dr.A.Ramachandran’s Diabetes Hospital, Chennai, India
+iUsher Institute, University of Edinburgh, Teviot Place, EH8 9AG, Scotland
+jSchool of Nursing, Midwifery and Paramedicine, University of the Sunshine Coast, Petrie
+Queensland, Australia
+kDivision of Metabolism, Endocrinology, and Diabetes, Department of Internal Medicine,
+University of Michigan, Ann Arbor, MI, United States
+lDepartment of Epidemiology, School of Public Health, University of Michigan, Ann Arbor, MI,
+United States
+mCentre for Modern Indian Studies, University of Goettingen, Goettingen, Germany
+*Corresponding author at: Baker Heart and Diabetes Institute, 75 Commercial Road, Melbourne 3004, Australia.
+Dianna.magliano@baker.edu.au (D.J. Magliano).1Denotes equal recognition for the first and last authorship positions.
+Declaration of Competing Interest
+The authors declare that they have no known competing financial interests or personal relationships that could have appeared to
+influence the work reported in this paper.
+HHS Public Access
+Author manuscript
+Published in final edited form as:
+Diabetes Res Clin Pract. 2022 January ; 183: 109119. doi:10.1016/j.diabres.2021.109119.
+nHeidelberg Institute of Global Health, University of Heidelberg, Heidelberg, Germany
+oSeattle Epidemiologic Research and Information Center, VA Puget Sound Health Care System,
+Seattle, United States
+pDepartment of Diabetes and Population Health, Baker Heart and Diabetes Institute, Melbourne,
+Australia
+qSchool of Public Health and Preventive Medicine, Monash University, Melbourne, Australia
+Abstract
+Aims: To provide global, regional, and country-level estimates of diabetes prevalence and health
+expenditures for 2021 and projections for 2045.
+Methods: A total of 219 data sources meeting pre-established quality criteria reporting
+research conducted between 2005 and 2020 and representing 215 countries and territories were
+identified. For countries without data meeting quality criteria, estimates were extrapolated from
+countries with similar economies, ethnicity, geography and language. Logistic regression was
+used to generate smoothed age-specific diabetes prevalence estimates. Diabetes-related health
+expenditures were estimated using an attributable fraction method. The 2021 diabetes prevalence
+estimates were applied to population estimates for 2045 to project future prevalence.
+Results: The global diabetes prevalence in 20–79 year olds in 2021 was estimated to be 10.5%
+(536.6 million people), rising to 12.2% (783.2 million) in 2045. Diabetes prevalence was similar in
+men and women and was highest in those aged 75–79 years. Prevalence (in 2021) was estimated
+to be higher in urban (12.1%) than rural (8.3%) areas, and in high-income (11.1%) compared to
+low-income countries (5.5%). The greatest relative increase in the prevalence of diabetes between
+2021 and 2045 is expected to occur in middle-income countries (21.1%) compared to high-
+(12.2%) and low-income (11.9%) countries. Global diabetes-related health expenditures were
+estimated at 966 billion USD in 2021, and are projected to reach 1,054 billion USD by 2045.
+Conclusions: Just over half a billion people are living with diabetes worldwide which means
+that over 10.5% of the world’s adult population now have this condition.
+Keywords
+Diabetes; Prevalence; Projections; Health economics; Epidemiology; International Diabetes
+Federation
+1. Introduction
+Diabetes has emerged as one of the most serious and common chronic diseases of our times,
+causing life threatening, disabling and costly complications, and reducing life expectancy.
+[1] The global prevalence of diabetes had reached pandemic proportions with the 9th edition
+of the IDF reporting a prevalence of 9% (463 million adults) in 2019. The rising prevalence
+of diabetes has been attributed principally to the ageing of populations. However, decreasing
+mortality among those with diabetes due to improving medical care as well as increases in
+diabetes incidence in some countries resulting from increasing prevalence of diabetes risk
+factors, especially obesity, are also important drivers of higher prevalence. [2–3]
+The aim of the 10th edition of the IDF Diabetes Atlas is to provide updated estimates and
+projections of diabetes prevalence as well as health expenditure due to diabetes at national,
+regional, and global levels.
+2. Methods
+The IDF Diabetes Atlas methods have been previously described in detail. [4] This study
+complies with the Guidelines for Accurate and Transparent Health Estimates Reporting
+(GATHER) recommendations (see Supplementary material for checklist). [5] The following
+sections provide a brief summary, and includes any changes introduced by the 10th edition.
+For the 10th edition of the IDF Diabetes Atlas, the list of countries and territories was
+re-evaluated based on the UN list of countries [6] (United Nation, Department of Economic
+and Social Affairs Population Dynamics), with a total of 215 countries and territories being
+included in the 10th edition of the IDF Diabetes Atlas.
+2.1. Literature review
+For the 10th edition of the IDF Diabetes Atlas, a literature search of resources providing
+diabetes estimates in adults older than 20 years was carried out in Medline via Pubmed
+from 1st January 2019 until 31st December 2020. The search was limited to 2019–2020
+publications. Any new data retrieved were included along with data from the previous IDF
+Diabetes Atlas editions. The search terms used were (((MH “Diabetes Mellitus, Type 2+”)
+OR (MH “Diabetes Mellitus+”) OR (MH “Noncommunicable Diseases”) OR AB diabet*
+OR TI diabet* OR AB type 2 diabetes OR TI type 2 diabetes OR AB type 2 diabetes
+mellitus OR TI type 2 diabetes mellitus OR AB type 2 dm OR TI type 2 dm OR AB t2dm
+OR TI t2dm OR AB type ii diabet* OR TI type ii diabet* OR AB type-ii diabet* OR
+TI type-ii diabet*) AND ((MH “Prevalence”) OR (MH “Cross-Sectional Studies”) OR AB
+prevalence OR TI prevalence OR AB prevalen* OR TI prevalen* OR AB epidemiology OR
+TI epidemiology OR AB statistics OR TI statistics OR AB screen* OR TI screen* OR AB
+cross-sectional OR TI cross-sectional OR AB cross sectional OR TI cross sectional)) NOT
+(AB animal OR TI animal OR AB rat OR TI rat OR AB rats OR TI rats OR AB mice OR
+TI mice OR AB mouse OR TI mouse OR AB trial OR TI trial OR AB case-control OR TI
+case-control OR AB case control OR TI case control OR AB case series OR TI case series
+OR TI case report OR AB genetic OR TI genetic OR AB editorial OR TI editorial OR AB
+covid-19 OR TI covid-19 OR AB coronavirus OR TI coronavirus OR TI hospital).
+A grey literature search was also conducted focusing on identifying data from national
+diabetes registries, national health surveys and population-based administrative datasets
+which capture diabetes prevalence. The available national World Health Organization
+(WHO) STEPwise approach to Surveillance (STEPS) studies were reviewed and the IDF
+Regional offices in Africa (AFR), Europe (EUR), Middle East and North Africa (MENA),
+North America and Caribbean (NAC), South and Central America (SACA), South-East Asia
+(SEA), and the Western Pacific (WP) were also contacted regarding the availability of new
+sources of diabetes prevalence data.
+2.2. Data source review and data extraction
+Medline searches were screened in Covidence. [7] The title and abstract of each data source
+was initially reviewed by two independent reviewers for relevance, and then the full text
+was reviewed. Conflicts were resolved by discussion with a third reviewer. The decision for
+including or excluding the data sources for use in the estimation was based on predefined
+criteria, listed in Table 1.
+The complete set of data sources for the estimation of diabetes prevalence included new
+studies retrieved from the 2020 literature search or the grey literature, as well as eligible
+data sources from the previous IDF Diabetes Atlas editions. To ensure that our modelling
+of diabetes prevalence estimates reflects the most recent data sources, studies conducted
+prior to 2005 were excluded except in circumstances were there was no other credible
+in-country data and extrapolation from nearby countries provided implausible results. WHO
+STEPS studies based on capillary blood glucose where the glucose threshold applied was
+not specified or was incorrect according to Lin et al. were also excluded. [8]
+2.3. Data source characteristics and selection
+To evaluate the quality of the individual datasets, each source was scored, as previously
+described, by the Analytical Hierarchy Process (AHP), an approach commonly used in
+operations research. [4,9] This quantifies the relative quality of a variety of different aspects
+of study methods. [4,10] Briefly, to create the scoring algorithm, expert members of the
+IDF Diabetes Atlas Committee completed preference charts on the relative importance of
+five study characteristics – diagnostic criteria, sample size, sample representation, date of
+data collection, and type of publication (peer-reviewed publication, national health survey,
+national registry reports, other official report or publication by a health regulatory body,
+WHO STEPS study report, or a unpublished study). The relative value of the different
+categories was ranked by the committee. Using these values, each data source was assigned
+a score, with higher scores indicating better quality. The 10th edition of the IDF Diabetes
+Atlas used the same weights as developed and used in the 9th edition. As such a minimum
+score of 0.29 was required for the data source to be included in the model. For countries
+with more than one available study, the highest scoring study was selected together with
+other studies within an increment of 0.1 of the highest score.
+2.4. Estimation of diabetes prevalence
+Prevalence data were extracted in age, sex and urbanization strata from the selected studies.
+For each country, logistic regression was used to generate smoothed age- and sex-specific
+prevalence estimates for 5-year age groups for adults aged 20–79 years. The regression
+included age (as midpoint of each age-group) and the quadratic transformation of age in
+the model. This was performed in separate analyses for each sub-group (sex and urban/rural
+area).
+When more than one study had been selected, prevalence was calculated as the weighted
+average of the different studies, the weights being those used in the AHP scoring process.
+In the case where there were several serial cross-sectional surveys conducted in the same
+manner (e.g., replicated at a regular time interval), only data from the most recent survey
+were used even if all studies met the required AHP threshold. Urban to rural diabetes
+prevalence ratios were similarly averaged when more than one study was available for use.
+Where primary data were not stratified by urban and rural status, an urban/rural ratio was
+applied. The ratio was derived from aggregated available data on urbanisation from countries
+within the same IDF Region based on the UN Population Division Urbanisation Prospects.
+[11] For high-income countries, the urban to rural diabetes prevalence ratio was assumed to
+be 1.0.
+When reported prevalence was based only on self-report, this value was adjusted by the
+proportion of undiagnosed diabetes in that country to represent total prevalence of diabetes
+using the following formulae [12]
+P revalence of total diabetes
+= P revalence of self report diabetes / 100 − tℎe proportion of undiagnosed diabetes
+100 × 100
+The prevalence of undiagnosed diabetes was estimated using the methodology of previous
+editions [4,9] based on studies which presented both self-report and laboratory data and
+which met the pre-specified quality criteria.
+The strata-specific prevalence estimates were then applied to the age, sex and urbanisation
+strata of each national population, as obtained from the UN, to produce the number
+of people with diabetes and overall prevalence for 2021 for each country. In the 10th
+edition of the IDF Diabetes Atlas, as in the previous editions, two different prevalence
+estimates were produced for each country and region: one age-standardised to the country’s
+2021 population and another agestandardised to the UN world population referred to as
+“comparative diabetes prevalence”. [11] As the UN does not provide age- and sex-stratified
+population data for countries and territories with populations smaller than 90,000, for these
+areas, regional level ageand sex-specific population data were used.
+2.5. Extrapolation of diabetes estimates for countries without data or with only lowquality in-country data
+For countries without data from studies conducted in 2005 or later, or with only low-quality
+in-country data, prevalence was estimated by extrapolation from studies in countries of
+similar geographical location, IDF Region, World Bank income classification (low-, middle-,
+and high-income) [13], ethnicity and language. [14–15]
+2.6. Estimation of global and regional diabetes prevalence for 2021
+The number of people with diabetes in each of the seven IDF Regions and each World Bank
+income classification was then calculated by aggregating the number of people with diabetes
+from each country within the respective IDF Region and World Bank income classification,
+separately for diabetes prevalence and for comparative diabetes prevalence and dividing
+by the region/group total population 20–79 years of age. Global estimates were similarly
+calculated by summing the total number of people with diabetes from each country and
+dividing by the total estimated UN world population 20–79 years of age for 2021.
+2.7. Estimation of future diabetes prevalence
+Each age/sex/urbanization specific stratum prevalence was applied to the UN 2045
+estimated population to produce national estimates of the prevalence and number of
+people with diabetes in 2045. [11] Initially, this was done using population estimates for
+each individual country as the standard population, and then, to obtain the “comparative
+diabetes prevalence” using the 2045 world population as the standard population. The latter
+standardisation of estimates only accounted for age.
+All modelling was conducted with the statistical package R version 3.6.2 [16] and Microsoft
+Excel.
+2.8. Estimation of uncertainty intervals
+There were minor modifications in the method of estimating the confidence intervals [4] for
+the prevalence estimates in the 10th edition of the IDF Diabetes Atlas as described below. It
+should be noted that confidence intervals in the traditional sense cannot be calculated in the
+IDF model. Instead, we estimated uncertainty intervals.
+2.8.1. Simulation to estimate uncertainty in raw data— For each underlying
+study, five hundred estimates of prevalence were randomly sampled from within a normal
+distribution constructed from within the lower and upper bounds of the corresponding
+confidence intervals of every prevalence estimate presented in the study. These samples were
+then used in the IDF estimation procedure as conducted for the original raw data. [4] From
+these modelled estimates, the minimum and the maximum were calculated, representing the
+uncertainty intervals in the raw age-specific data from each study.
+2.8.2. Uncertainty due to study selection— We employed a jack-knife procedure to
+understand the sensitivity of the global diabetes prevalence estimates to the study selection
+process. [17] To do this, one study was randomly removed from the overall global list each
+time and the global prevalence was calculated from the remaining studies. This procedure
+was repeated as many times as there were studies in the analysis. We then used the
+maximum and minimum values obtained as the bounds of the uncertainty interval.
+Finally, the confidence intervals from the uncertainty due to study selection and uncertainty
+in raw data were combined to create the widest possible overall uncertainty interval by
+defining its lower and upper bounds as the minimum and maximum values of the study
+selection and raw data intervals. For example, if the interval from uncertainty due to study
+selection was (a, b) and from uncertainty in raw data was (c, d), where a < c and d > b,
+the widest possible intervals when combining the two intervals would be (a, d) and this was
+considered as the overall uncertainty interval. A detailed description of these methods has
+been published previously. [4]
+2.9. Estimation of health expenditure
+Direct cost estimates were calculated using an attributable fraction method, which relies on
+ratios of health expenditures for people with diabetes compared to those without diabetes,
+stratified by age, sex, rural versus urban area, diagnosed and undiagnosed diabetes and
+income per Region. These attributable fractions were then combined with UN population
+estimates for 2021 and population projections for 2045, [11] and WHO global health
+expenditures per capita (for 2018); with the distribution by age and sex being imputed
+based on mortality rates. [18] The WHO definition of health expenditure includes health
+expenditures from both public and private sources. [18]
+3. Results
+3.1. Study sources
+The 2019–2020 literature review identified 13,570 articles of which 153 met the pre-defined
+inclusion criteria (Fig. 1) and proceeded to data extraction. After contacting authors or
+organisations from 94 studies to obtain detailed age- and sex-stratified data and further
+details about methods, a total of 106 new studies met our inclusion criteria and were
+added into the IDF Diabetes Atlas database. The grey literature search (including data
+from the IDF Regional offices and WHO STEPwise approach to Surveillance (STEPS)
+studies led to the identification of an additional 53 new eligible data sources. The analytic
+hierarchy process was then applied to the data sources retrieved from literature search, grey
+literature, WHO STEPS studies and existing studies in the databases. From this process,
+a total of 219 data sources from 144 countries were selected for inclusion. Among these,
+81 represented new sources identified from 67 countries. The data sources used in the 10th
+edition of the Atlas comprise a total of 41 WHO STEP studies, 16 diabetes registries, 109
+peer-reviewed studies, 51 national health surveys (35 of which had been published) and
+2 non-peer reviewed government reports. The majority 205 (93.6 %) of the data sources
+were nationally representative. Among the data sources used, 49 (22.4%), 91 (41.6%),
+12(5.5%), 2(0.9%) and 1 (0.5%) used oral glucose tolerance test (OGTT), fasting blood/
+plasma glucose, HbA1c, random blood glucose and glycosuria to diagnose diabetes. An
+exception was made for one study which used glycosuria only in a country with no other
+data source. A further 16 (7%) were diagnosed by a physician or a clinical diagnosis. A total
+of 48 (21.9%) sources captured diabetes using self-report only. The list of sources used can
+be found at www.diabetesatlas.org.
+The number of original data sources from each IDF Region varied. The SEA Region had
+the most countries (85.7%, 18 out of 21 countries) with at least one in-country data source
+while the AFR Region the least (41.7%, 20 out of 48 countries). Data sources were available
+in-country from 73.7% (28 out of 38 countries), 84.2% (16 out of 19 countries), 66.1%
+(39 out of 59 countries), 73.9% (17 out of 23 countries) of countries from the WP, SACA,
+EUR and NAC Regions, respectively. Since studies that were conducted prior to 2005 were
+excluded in this analysis, the 10th Edition used a smaller number of data sources compared
+to the previous edition.
+3.2. Estimates of numbers of people with diabetes and diabetes prevalence
+In 2021, we estimate that there were 536.6 million people with diabetes (uncertainty
+interval: 424.2–612.3 million) among adults ages 20–79 in in 215 countries and territories.
+For 2045, we project that 783.2 million (uncertainty interval: 605.2–898.6 million) people
+will have diabetes (Table 2). Detailed estimates for each country are available online at
+www.diabetesatlas.org, and in Supplementary Table 1.
+The global diabetes prevalence in adults aged 20–79 years standardised to the 2021 UN
+world population was estimated at 10.5% (uncertainty interval: 8.3%–12.0%), 10.8% in men
+and 10.2% in women (Fig. 2). Prevalence increases with age with the highest prevalence of
+diabetes (24.0%) observed in those aged 75–79 years of age (Fig. 2). Prevalence was greater
+in men than in women in those aged 25 to 69 years of age. Table 2 shows the prevalence
+of diabetes in low-, middle- and high-income countries when standardised to the national
+population of each country, and to the world population in 2021 and 2045. In both years,
+comparative prevalence was highest in the middle-income countries and the lowest in the
+low-income countries. A high proportion of people with diabetes (80.6%, 432.7 million)
+live in low- and middle-income countries. The greatest relative increase in prevalence from
+2021 to 2045 is expected to take place in middle-income countries, followed by high- and
+low-income countries (21.1% vs 12.2% vs 11.9%), respectively. The increase in the number
+of adults with diabetes in middle-income countries from 2021 until 2045 will exceed 200
+million. The AFR region will see the greatest relative increase in numbers of people with
+diabetes (Table 3).
+In 2021, the estimated numbers of people with diabetes living in urban and rural areas were
+360.0 million and 176.6 million, with prevalence estimated at 12.1% and 8.3%, respectively.
+The number of people with diabetes living in urban areas is expected to increase to 596.5
+million in 2045 (Fig. 3), as a result of global urbanisation, with predicted urban prevalence
+of diabetes increasing to 13.9%, due to population ageing.
+The highest comparative prevalence of diabetes was in the MENA Region (18.1%) while the
+lowest world comparative prevalence was in the AFR Region (5.3%). The largest number
+of people with diabetes (206 million) was found in the WP Region. The regions which are
+forecasted to experience the largest relative growth in the number of people with diabetes are
+AFR and MENA and the regions with the smallest relative growth in the number of people
+with diabetes are the EUR, NAC, and WP Regions (Table 3).
+Table 4 shows the ten countries with the highest estimated comparative prevalence for the
+years 2021 and 2045. The country with the highest prevalence at 31% is Pakistan which is
+projected to have a prevalence of over 34% in 2045, remaining in top position in 2045. All
+of the top ten countries have prevalence estimates exceeding 20%.
+The top 10 countries in terms of number of people who have diabetes in the years 2021 and
+2045 are shown in Table 5. China has the most people with diabetes with estimates of over
+140 million in 2021, reaching over 174 million by 2045. China and India, the two countries
+with the greatest numbers of people with diabetes also have the largest populations.
+3.3. Health expenditure
+In 2021, the total estimated global healthcare expenditure for people aged 20–79 years was
+966 billion USD, with the NAC Region accounting for 42.9% of the total amount spent
+worldwide on diabetes (415 billion USD) and the SEA Region just 1.0%, despite it having
+almost double the number of individuals living with diabetes of NAC. WP and EUR were
+estimated to currently spend 241 and 189 billion USD annually accounting for 25.0% and
+19.6% of the total expenditures, respectively. Collectively, the remaining IDF Regions were
+responsible for 12.5% of the total global healthcare expenditure for diabetes (Fig. 4). Global
+spending was greatest for men 60–69 years (132.5 billion USD), being 27.5% higher than
+for women of the same age. Expenditure was also 19% higher for middle-aged men (50–59
+years) compared to women of the same age. Healthcare expenditure per person was highest
+in the NAC Region (8,209 USD), and lowest in the SEA Region (112 USD) (Fig. 5).
+Predicted expenditure for adults for 2045 was USD 1,054 billion, representing an increase of
+9.1% compared to that in 2021 (Supplementary Table 2).
+4. Discussion
+The 10th edition IDF Diabetes Atlas estimates that in 2021 there are 537 million people
+living with diabetes worldwide. Overall, the global prevalence of diabetes is now estimated
+to be over 10%. Among income groups, the highest prevalence was observed in middleincome countries. Compared to the previous 9th IDF Diabetes Atlas edition, we report an
+overall 12.9% increase in diabetes prevalence, with prevalence increasing in many world
+regions
+Future projections suggest that by 2045 the absolute number of people with diabetes
+will have increased by 46%, with the greatest absolute growth in terms of number of
+persons with diabetes between 2021 and 2045 occurring in middle-income countries. This
+is consistent with the fact that this group, which includes both India and China as well as
+most countries of the world with greater than 100 million population, has the largest fraction
+of the worldś population, with growth in number of cases of diabetes between 2021 and
+2045 driven by greater median age and increasing urbanisation. Among the IDF Regions,
+the AFR and MENA Regions are projected to experience the largest relative increases in
+the number of people with diabetes, while the EUR, SACA and NAC Regions will see the
+greatest relative increases in comparative prevalence from 2021 to 2045.
+The IDF Diabetes Atlas presents estimates of both prevalence and number of people with
+diabetes. Unsurprisingly, countries with large populations such as China, India, Pakistan,
+and the USA contribute the most to the total number of people with diabetes. However,
+despite the WP having a larger total population, the greatest absolute growth in the number
+of people with diabetes over time is expected to take place in the SEA and MENA Regions.
+This reflects the variation in forecasted population changes in these regions in terms of
+greater mean age, overall population size and increasing proportions of people living in
+cities. [19]
+The increasing burden of diabetes worldwide is, not surprisingly, accompanied by greater
+health expenditures for the care of this disease, which we estimate will exceed one trillion
+USD by 2045. The NAC Region accounts for the highest proportion of health expenditures
+for diabetes, while the smallest proportion of expenditures occurs in the SEA Region. Global
+diabetes-related health expenditures in several age categories for men exceed those for
+women. How much of this difference represents a greater need for health care in men or a
+healthcare disparity is not known but represents an area where additional research would be
+informative. The discordance between the large projected increase in diabetes cases and the
+only slight increase in projected diabetes-related health expenditures occurs because most of
+the increase in diabetes cases is in low- and middle-income countries in which expenditures
+related to diabetes are much lower.
+4.1. Limitations
+The IDF estimates of diabetes prevalence are not without limitations. With each new
+IDF Diabetes Atlas edition, our methods are reviewed and improvements are made
+where possible. For our projections, we only consider demographic changes in age, sex
+and urbanisation, ignoring potential effects on diabetes incidence due to changes in the
+prevalence of risk factors such as obesity as well as the potential for greater longevity of
+those with diabetes over time. It is important to point out, however, that our analyses do
+capture part of these changes, to the extent that they result from urbanization, which we do
+consider in our analyses. [20] However, if changes in incidence or survival go beyond those
+predicted by urbanisation, our projections may underestimate future diabetes prevalence and
+number of people affected. Incidentally, recent evidence suggests that diabetes incidence is
+levelling off or decreasing in several high-income countries. [21]
+The ascertainment of diabetes in many of the studies used in the IDF Diabetes Atlas is based
+on an epidemiological definition. When based on glucose testing, this definition requires
+abnormal glycemia by only one test at one moment, compared to a clinical diagnosis
+of diabetes, which requires confirmation by a repeat test in the absence of symptoms of
+hyperglycaemia. While several studies did include more than one test for diabetes, their
+criteria for ascertainment rarely required two abnormal results. Thus, to the extent that
+our findings are based on laboratory determinations, the prevalence reported will likely
+overestimate the prevalence of clinically-defined diabetes. [22]
+Vast amounts of diabetes-specific data in the form of large administrative ‘whole of
+population’ datasets and clinical data, such as medication reimbursement data and national
+health insurance data, are currently available worldwide. In this 10th IDF Diabetes Atlas
+edition, we included contemporary data from many such sources. Key advantages of such
+data are that the ‘whole population’ nature of the sample likely reduces selection bias
+and ascertainment based on a clinical definition. One key limitation of registries and
+administrative data however is that only diagnosed diabetes is captured. Thus, estimates
+from these sources are adjusted by the estimated proportion of undiagnosed diabetes in that
+country to predict the total prevalence of diabetes, introducing another source of uncertainty.
+Further, achieving good capture rates in diabetes registries or administrative data can take
+several years due to delays in the recording of diabetes due to less than annual medical visits
+or delay in the recognition and recording of the presence of diabetes.
+The raw data used in our analyses are subject to considerable heterogeneity in terms of
+calendar year, diagnostic methods, precision and design of the underlying studies. We have
+attempted to address this by using strict selection criteria and the analytic hierarchy process
+to choose for inclusion only higher quality research. Further, the data from each study were
+smoothed using regression modelling in order to generate the most plausible age-specific
+estimates. These methods, however, do not eliminate all potential biases. Therefore, it
+is important to consider such differences in underlying study methodology when making
+comparisons between countries. An important change in the methods since the last edition
+is the exclusion of all studies published before 2005. Since older studies generally tend to
+report lower prevalence, the exclusion of these studies may have contributed to the 12.9%
+rise in global prevalence when compared to the prevalence estimate from the 9th edition of
+Atlas.
+As with earlier IDF Diabetes Atlas editions, our aim was to produce what we believe is
+the best estimate of diabetes prevalence for all countries and territories with a population
+of at least 50,000 persons. Therefore, when a country lacked internal data on diabetes
+prevalence, this was estimated by extrapolation of the prevalence from a country with similar
+economy, language and demographic features. We acknowledge that these extrapolations
+may represent sources of error.
+An additional limitation is that our estimates are not separated by diabetes type. However,
+the overwhelming majority of people with diabetes in 2021 have type 2 diabetes and the
+increases to 2045 are projected to be similarly predominantly of type 2 diabetes. This
+mainly reflects differences in the pathophysiology of type 1 and 2 diabetes, with the former
+occurring due to an incompletely understood combination of genetic and environmental
+factors leading to an autoimmune process which is less sensitive to environmental change,
+whereas type 2 diabetes is due to the combined effects of excess body weight, sedentary
+behaviour, dietary changes, and other factors that have become more prevalent worldwide as
+the environment has changed. The incidence of type 1 diabetes peaks in childhood, while the
+incidence of type 2 diabetes in adults is an order of magnitude higher and peaks in middle
+and older ages. [23] Therefore, in this report that focuses on adults, the prevalence trends
+mainly reflect type 2 diabetes.
+Finally, health expenditure projections in our analyses are conservative because we assumed
+that age-specific risk factors did not change, and that per-patient treatment costs remained
+constant despite increasing wealth and development in low- and middle-income countries,
+where an increasing proportion of those with diabetes will reside in the future. Future
+research is warranted to examine results through varying analytic assumptions for projecting
+health expenditures.
+5. Conclusion
+The 10th edition of the IDF Diabetes Atlas suggests that in 2021 more than 1 in 10 adults
+now have diabetes globally and that the number of people with diabetes will continue to
+expand rapidly in the future. As our projections only consider demographic changes in
+populations relating to ageing and urbanisation, and not changes in risk factor prevalence
+or in survival, it is likely that our projected increases over time are conservative. Prevalence
+is predicted to increase the most among middle-income countries where populations will
+grow and age considerably and major urbanisation will continue to occur. While our ability
+to generate health data which can be used for disease monitoring has increased, there
+still remain considerable knowledge gaps from many countries worldwide due to absent
+or poor-quality data. Nonetheless, our sobering estimations herald a continually expanding
+diabetes epidemic that will increasingly impact the health of all populations across the
+globe. With ageing and urbanisation being inevitable drivers of the epidemic, and better
+diabetes treatment paradoxically increasing prevalence through decreased mortality, a strong
+need exists for the implementation of effective intervention strategies and policies that aim
+to stall the increase in the number of people developing diabetes and its complications.
+Supplementary Material
+Refer to Web version on PubMed Central for supplementary material.
+Acknowledgements
+We would like to thank all those who have supported the production of the IDF Diabetes Atlas, 10th edition,
+by providing additional diabetes data, where needed. We would like to thank Prof Agus Salim, Baker Heart and
+Diabetes Institute Australia for reviewing the statistical methodology employed in this edition.
+Funding
+The 10th edition of the IDF Diabetes Atlas was supported by an educational grant from the Pfizer-MSD Alliance,
+with the additional support of Sanofi and Novo Nordisk.
+REFERENCES
+[1]. Heald AH, Stedman M, Davies M, Livingston M, Alshames R, Lunt M, et al. Estimating life
+years lost to diabetes: outcomes from analysis of National Diabetes Audit and Office of National
+Statistics data. Cardiovasc Endocrinol Metab. 2020;9:183–5. [PubMed: 33225235]
+[2]. Chan JCN, Lim L-L, Wareham NJ, Shaw JE, Orchard TJ, Zhang P, et al. The Lancet
+Commission on diabetes: using data to transform diabetes care and patient lives. Lancet 2020;396
+(10267):2019–82. [PubMed: 33189186]
+[3]. Magliano DJ, Islam RM, Barr ELM, Gregg EW, Pavkov ME, Harding JL, et al. Trends
+in incidence of total or type 2 diabetes: systematic review. BMJ 2019;366:l5003. [PubMed:
+31511236]
+[4]. Guariguata L, Whiting D, Weil C, Unwin N. The International Diabetes Federation diabetes atlas
+methodology for estimating global and national prevalence of diabetes in adults. Diabetes Res
+Clin Pract. 2011;94:322–32. [PubMed: 22100977]
+[5]. Stevens GA, Alkema L, Black RE, Boerma JT, Collins GS, Ezzati M, et al. Guidelines for
+Accurate and Transparent Health Estimates Reporting: the GATHER statement. Lancet 2016;388
+(10062):e19–23. [PubMed: 27371184]
+[6]. United Nations. Department of Economic and Social Affairs, Population Division (2019). World
+Population Prospects 2019, Online Edition. Rev. 1.
+[7]. Veritas Health Innovation. Covidence systematic review software. Melbourne, Australia: Veritas
+Health Innovation; 2020.
+[8]. Lin S, Rocha VM, Taylor R. Artefactual inflation of type 2 diabetes prevalence in WHO STEP
+surveys. Trop Med Int Health. 2019;24:477–83. [PubMed: 30706604]
+[9]. Cho NH, Shaw JE, Karuranga S, Huang Y , da Rocha Fernandes JD, Ohlrogge AW, et al. IDF
+Diabetes Atlas: Global estimates of diabetes prevalence for 2017 and projections for 2045.
+Diabetes Res Clin Pract. 2018;138:271–81. [PubMed: 29496507]
+[10]. Saaty TL. Decision making with the analytic hierarchy process. Int J Serv Sci 2008;1(1):83.
+10.1504/IJSSCI.2008.017590.
+[11]. United Nations. Department of Economic and Social Affairs, Population Division (2018). World
+Urbanization Prospects: The 2018 Revision, Online Edition.
+[12]. Saeedi P, Petersohn I, Salpea P, Malanda B, Karuranga S, Unwin N, et al. Global and regional
+diabetes prevalence estimates for 2019 and projections for 2030 and 2045: Results from the
+International Diabetes Federation Diabetes Atlas, 9 (th) edition. Diabetes Res Clin Pract.
+2019;157:107843. 10.1016/j.diabres.2019.107843. [PubMed: 31518657]
+[13]. The World Bank. World Bank Country and Lending Groups. 2020.
+[14]. Central Intelligence Agency. The World Factbook, Ethnic groups. 2015. Washington, DC: Central
+Intelligence Agency; 2015.
+[15]. Central Intelligence Agency. The World Factbook: Languages. 2015. Washington, DC: Central
+Intelligence Agency; 2015.
+[16]. R Core Team. R: A language and environment for statistical computing. R Foundation for
+Statistical Computing. Vienna, Austria. 2013. URL https://www.R-project.org/.
+[17]. Ogurtsova K, Guariguata L, Whiting D, Unwin N, Weil C, Fernandes J, et al. Incorporating
+uncertainty measurement in the International Diabetes Federation Diabetes Atlas methodology
+for estimating global and national prevalence of diabetes in adults. Archives of Public Health.
+2015;73(Suppl 1):P31.
+[18]. World Health Organisation. Global health expenditure database. Geneva: World Health
+Organisation; 2018.
+[19]. Sudharsanan NBD. The Demography of Aging in Low- and Middle-Income Countries:
+Chronological versus Functional Perspectives. In: Majmundar M, Hayward M, editors. Future
+Directions for the Demography of Aging: Proceedings of a Workshop Washington DC: National
+Academies of Sciences, Engineering, and Medicine; Division of Behavioral and Social Sciences
+and Education, National Academies Press 2018.
+[20]. Gassasse Z, Smith D, Finer S, Gallo V . Association between urbanisation and type 2 diabetes: an
+ecological study. BMJ Glob Health. 2017;2 e000473.
+[21]. Magliano DJ, Chen L, Islam RM, Carstensen B, Gregg EW, Pavkov ME, et al. Trends in the
+incidence of diagnosed diabetes: a multicountry analysis of aggregate data from 22 million
+diagnoses in high-income and middle-income settings. Lancet Diabetes Endocrinol. 2021;9:203–
+11. [PubMed: 33636102]
+[22]. Selvin E, Crainiceanu CM, Brancati FL, Coresh J. Short-term variability in measures of
+glycemia and implications for the classification of diabetes. Arch Intern Med. 2007;167:1545–51.
+[PubMed: 17646610]
+[23]. Carstensen B, Rønn PF, Prevalence JME. incidence and mortality of type 1 and type 2 diabetes in
+Denmark 1996–2016. BMJ Open Diabetes Res Care. 2020;8.
+Fig. 1 –.
+Results of 2019–2020 literature search for articles describing diabetes prevalence in adults.
+Fig. 2 –.
+Diabetes prevalence by age and sex in 2021: IDF Diabetes Atlas.
+Fig. 3 –.
+Number of people with diabetes in adults (20–79 years) living in urban and rural areas in
+2021 and 2045.
+Fig. 4 –.
+Total diabetes-related health expenditures (billion USD) in adults with diabetes (20–79
+years) in 2021 by IDF Region IDF: International Diabetes Federation; AFR: Africa; EUR:
+Europe; MENA: Middle East and North Africa; NAC: North America and Caribbean;
+SACA: South and Central America; SEA: South-East Asia; WP: Western Pacific.
+Fig. 5 –.
+Diabetes-related health expenditures (USD) per person with diabetes (20–79 years) in 2021
+by IDF Region IDF: International Diabetes Federation; AFR: Africa; EUR: Europe; MENA:
+Middle East and North Africa; NAC: North America and Caribbean; SACA: South and
+Central America; SEA: South-East Asia; WP: Western Pacific.
+Table 1 –
+Inclusion and exclusion criteria for IDF Diabetes Atlas data sources.
+Inclusion criteria Exclusion criteria
+1. Data on diabetes prevalence and/or number of people with diabetes
+*
+2. Population-based (national or regional)
+3. Adults (20–79 years)
+4. Surveys, registries and ‘whole of population’ insurance-based data
+1. Diabetes in specific populations (e.g., nurses, taxi drivers)
+2. Diabetes in specific diseases (e.g., in people with cardiovascular disease, kidney disease)
+3. Diabetes in specific age groups (e.g. 65 + years)
+4. Hospital- or clinic- or general practice-based studies
+5. Studies reporting only in children and adolescents
+6. Studies reporting only Type 1 diabetes
+7. Family studies, birth cohorts
+8. Studies where the sample size was < 200
+*Studies were required to have diabetes data available for at least three age groups. If age-stratified data were not reported, authors were contacted to provide data, otherwise the study was excluded.
+Table 2 –
+Estimates of number of adults (20–79 years) with diabetes and diabetes prevalence for the world and by per
+World Bank income classification for 2021 and 2045 together with uncertainty intervals, expressed in
+parentheses.
+World Bank
+income
+classification
+2021 2045
+Number of
+people with
+diabetes
+(millions)
+Diabetes
+prevalencei (%)
+Comparative
+diabetes
+prevalenceii (%)
+Number of
+people with
+diabetes
+(millions)
+Diabetes
+prevalencei (%)
+Comparative
+diabetes
+prevalenceii (%)
+World 536.6 (424.2–
+612.3)
+10.5 (8.3–12.0) 9.8 (7.7–11.2) 783.2 (605.2–
+898.6)
+12.2 (9.5–14.0) 11.2 (8.6–12.9)
+High-income
+countries
+103.9 (87.6–
+116.9)
+11.1 (9.3–12.5) 8.4 (7.1–9.6) 117.7 (98.4–
+132.4)
+12.4 (10.4–14.0) 10.3 (8.8–11.7)
+Middle-income
+countries
+414.0 (321.6–
+470.8)
+10.8 (8.4–12.3) 10.5 (8.0–11.9) 623.3 (473.0–
+709.3)
+13.1 (9.9–14.9) 12.0 (9.0–13.6)
+Low-income
+countries
+18.7 (15.0–
+24.6)
+5.5 (4.4–7.2) 6.7 (5.5–9.0) 42.2 (33.8–
+56.9)
+6.1 (4.9–8.3) 7.0 (5.8–9.7)
+iPrevalence standardised to national populations for the respective year, aged 20–79 years.
+iiPrevalence standardised to the world population for the respective year, aged 20–79 years.
+Table 3 –
+Estimated number of people with diabetes and prevalence of diabetes in adults (20–79 years) in IDF Regions in 2021 and 2045, ranked by 2021
+comparative diabetes prevalence together with uncertainty intervals, expressed in parentheses.
+Rank IDF Region
+2021 2045
+Number of people with
+diabetes (millions) Diabetes prevalencei
+(%)
+Comparative diabetes
+prevalenceii (%)
+Number of people with
+diabetes (millions) Diabetes prevalencei
+(%)
+Comparative diabetes
+prevalenceii (%)
+World 536.6 (424.2–612.3) 10.5 (8.3–12.0) 9.8 (7.7–11.2) 783.2 (605.2–898.6) 12.2 (9.5–14.0) 11.2 (8.6–12.9)
+1 MENA 72.7 (38.2–81.8) 16.2 (8.5–18.3) 18.1 (9.5–20.3) 135.7 (71.2–153.5) 19.3 (10.1–21.9) 20.4 (10.7–23.1)
+2 NAC 50.5 (44.5–57.1) 14.0 (12.3–15.8) 11.9 (10.0–13.6) 62.8 (55.5–71.4) 15.2 (13.4–17.3) 14.2 (12.1–16.2)
+3 SEA 90.2 (76.8–99.9) 8.7 (7.4–9.7) 10.0 (8.6–11.1) 151.5 (130.9–167.1) 11.3 (9.8–12.5) 11.3 (9.7–12.4)
+4 WP 205.6 (174.7–233.2) 11.9 (10.1–13.5) 9.9 (8.4–11.3) 260.2 (220.0–297.3) 14.4 (12.1–16.4) 11.5 (9.8–13.1)
+5 SACA 32.5 (27.5–40.4) 9.5 (8.1–11.9) 8.2 (6.9–10.2) 48.9 (41.1–61.3) 11.9 (10.0–14.9) 9.8 (8.3–12.3)
+6 EUR 61.4 (47.5–69.9) 9.2 (7.1–10.4) 7.0 (5.5–8.1) 69.2 (51.8–78.3) 10.4 (7.7–11.7) 8.7 (6.6–9.9)
+7 AFR 23.6 (15.0–29.8) 4.5 (2.8–5.7) 5.3 (3.6–6.7) 54.9 (34.8–69.7) 5.2 (3.3–6.6) 5.6 (3.8–7.2)
+Abbreviations: IDF: International Diabetes Federation; AFR: Africa; EUR: Europe; MENA: Middle East and North Africa; NAC: North America and Caribbean; SACA: South and Central America; SEA:
+South-East Asia; WP: Western Pacific.*Based on 2021 comparative diabetes prevalenceiPrevalence was standardised to national populations for the respective year, aged 20–79 yearsiiPrevalence was standardised to world population, for the respective year, aged 20–79 years
+Table 4 –
+Top 10 countries or territories when ranked by age-adjusted comparative diabetes prevalence in adults (20–79 years) in 2021 and 2045.
+2021 2045
+Rank Country Comparative diabetes prevalencei (%) Rank Country Comparative diabetes prevalencei (%)
+1 Pakistan 30.8 1 Pakistan 33.6
+2 French Polynesia 25.2 2 Kuwait 29.8
+3 Kuwait 24.9 3 French Polynesia 28.2
+4 New Caledonia
+ii 23.4 4 Mauritius 26.6
+5 Northern Mariana Islands
+i 23.4 5 New Caledonia
+ii 26.2
+6 Nauru
+ii 23.4 6 Northern Mariana Islands
+ii 26.2
+7 Marshall Islands 23.0 7 Nauru
+ii 26.2
+8 Mauritius 22.6 8 Marshall Islands 26.0
+9 Kiribati 22.1 9 Kiribati 24.1
+10 Egypt 20.9 10 Egypt 23.4
+iPrevalence is standardised to world population (aged 20–79) for the respective year.iiCountries without in-country data sources. Estimates are extrapolated.
+Table 5 –
+Top 10 countries or territories when ranked by the number of adults (20–79 years) with diabetes in 2021 and 2045.
+2021 2045
+Rank Country Number of people with diabetes (millions) Rank Country Number of people with diabetes (millions)
+1 China 140.9 1 China 174.4
+2 India 74.2 2 India 124.9
+3 Pakistan 33.0 3 Pakistan 62.2
+4 USA 32.2 4 USA 36.3
+5 Indonesia 19.5 5 Indonesia 28.6
+6 Brazil 15.7 6 Brazil 23.2
+7 Mexico 14.1 7 Bangladesh 22.3
+8 Bangladesh 13.1 8 Mexico 21.2
+9 Japan 11.0 9 Egypt 20.0
+10 Egypt 10.9 10 Turkey 13.4

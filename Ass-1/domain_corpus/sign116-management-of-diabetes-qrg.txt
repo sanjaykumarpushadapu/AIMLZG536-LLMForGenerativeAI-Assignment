@@ -1,0 +1,1104 @@
+Management of diabetes
+Quick Reference Guide
+March 2010
+Updated November 2017
+ISBN 978 1 905813 59 9
+Scottish Intercollegiate Guidelines Network
+Gyle Square, 1 South Gyle Crescent
+Edinburgh EH12 9EB
+www.sign.ac.uk
+Management of diabetes quick reference guide • 1
+ISBN 978 1 905813 59 9
+First published March 2010
+Reprinted October 2012
+Updated November 2017
+Scottish Intercollegiate Guidelines Network
+Gyle Square, 1 South Gyle Crescent
+Edinburgh EH12 9EB
+www.sign.ac.uk
+INTRODUCTION
+Diabetes mellitus is a major cause of morbidity and mortality in Scotland and
+worldwide, with an increasing prevalence.
+In 2009 there were around 228,000 people with diabetes in Scotland, an increase of 3.6%
+from the preceding year.
+This increase relates, in part, to the increasing age of the population, an increase in
+obesity and also perhaps increased survival of those with diabetes.
+This Quick Reference Guide provides a summary of the main recommendations in SIGN
+guideline 116; Management of diabetes and SIGN guideline 154: Pharmacological
+management of glycaemic control in people with type 2 diabetes . Recommendations are
+arranged in the following sections:
+Diagnosis and screening 2
+Lifestyle management 3
+Management of diabetes in pregnancy 6
+Management of diabetic cardiovascular disease 8
+Pharmacological management of glycaemic control in people with type 2 diabetes 10
+Management of type 1 diabetes 12
+Management of kidney disease in diabetes 13
+Prevention of visual impairment 14
+Management of diabetic foot disease 15
+Sources of further information 17
+Conversion table for HbA1c formats 18
+Recommendations are graded A B C D to indicate the strength of the supporting evidence.
+Good practice points  are provided where the guideline development group wishes to
+highlight specific aspects of accepted clinical practice.
+Details of the evidence supporting these recommendations can be found in the full
+guideline, available on the SIGN website: www.sign.ac.uk
+Available from
+Android Market
+WHO criteria for diagnosis of diabetes:
+The presence of diabetic symptoms (polyuria, polydipsia, and unexplained weight loss) plus
+ fasting plasma glucose (FPG) ≥7.0 mmol/l or
+ plasma glucose ≥11.1 mmol/l at two hours after a 75g oral glucose load (OGTT).
+DIAGNOSIS AND SCREENING
+Screening recommendations
+PSYCHOSOCIAL B
+Regular assessment of a broad range of psychological and behavioural
+problems in children and adults with type 1 diabetes is recommended.
+ In children this should include eating disorders, behavioural, emotional
+and family functioning problems.
+ In adults this should include anxiety, depression and eating disorders.
+TYPE 1 DIABETES B Screening for pre-type 1 diabetes is not recommended in either the
+general population or in high risk children and young people.
+ASSOCIATED
+CONDITIONS
+C
+Patients with cystic fibrosis should be screened annually for diabetes from
+10 years of age.
+C Young people with diabetes should be screened for thyroid and coeliac
+disease at onset of diabetes and at intervals throughout their lives.
+GESTATIONAL
+DIABETES 
+ At booking all women should be assessed for the presence of risk factors
+for gestational diabetes.
+ All women with risk factors should have HbA1c or fasting glucose
+measured.
+ All women with risk factors should have a 75 g OGTT at 24-28 weeks.
+ A fasting plasma glucose at 24-28 weeks is recommended in low-risk
+women.
+KIDNEY DISEASE
+B ACR should be used to screen for diabetic kidney disease.
+C Young people with diabetes should have ACR tested annually from the age
+of 12 years.
+VISUAL
+IMPAIRMENT
+B
+Systematic screening for diabetic retinal disease should be provided for all
+people with diabetes.
+C People with type 1 diabetes should be screened from age 12 years.
+A People with type 2 diabetes should be screened from diagnosis.
+B People with diabetes with no diabetic retinopathy could be screened
+every two years. All others should be screened at least annually.
+FOOT DISEASE B All patients with diabetes should be screened to assess their risk of
+developing a foot ulcer.
+LIFESTYLE MANAGEMENT
+Delivery of lifestyle interventions
+Modification of adverse lifestyle factors is an important aspect of the management of all types
+of diabetes. In particular, appropriate management of cardiovascular risk factors such as
+smoking, physical inactivity and poor diet is important for the prevention of microvascular and
+macrovascular complications.
+Different lifestyle interventions have been
+shown to improve self-management,
+metabolic and psychological outcomes.
+These include:
+ intensive interventions which include
+frequent contact with health professionals,
+telephone contact, multiple injections and
+self monitoring of blood glucose
+ computer-assisted programmes which
+provide education and trigger selfmanagement
+ psychological interventions which are
+varied and include behaviour modification,
+motivational interviewing, patient
+empowerment and activation.
+People with diabetes should be offered
+lifestyle interventions based on a valid
+theoretical framework.
+A
+Computer-assisted education packages
+and telephone prompting should be
+considered as part of a multidisciplinary
+lifestyle intervention programme.
+B
+Healthcare professionals should receive
+training in patient-centred interventions
+in diabetes.
+B
+Structured education
+Educational interventions for diabetes
+are complex and varied. Any programme
+should:
+ have an underpinning philosophy, be
+evidence based, suit the needs of the
+individual, have specific aims and learning
+objectives, and support the development
+of self-management attitudes, beliefs,
+knowledge and skills for the learner, their
+family and carers
+ have a written, structured curriculum
+which is theory driven, evidence based and
+resource effective, with supporting materials
+ be delivered by trained educators who have
+an understanding of the educational theory
+appropriate to the age and needs of the
+programme learners
+ be quality assured, reviewed by trained,
+competent, independent assessors and
+assessed against key criteria to ensure
+sustained consistency
+ have regular audit of programme
+outcomes.
+Adults with type 1 diabetes experiencing
+problems with hypoglycaemia or who
+fail to achieve glycaemic targets should
+have access to structured education
+programmes based upon adult learning
+theories.
+A
+Children and adolescents should have
+access to programmes of structured
+education which have a basis in
+enhancing problem solving skills.
+B
+Adults with type 2 diabetes should
+have access to structured education
+programmes based upon adult learning
+theories.
+A
+Structured education programmes should
+adhere to the principles laid out by the
+Patient Education Working Group.
+
+Psychosocial factors
+ Depression is more common in people with diabetes than in the general population.
+ The presence of micro and macrovascular complications is associated with a higher
+prevalence of depression and lower quality of life.
+ Remission of depression is often associated with an improvement in glycaemic control.
+ Pharmacological (eg antidepressant therapy with a SSRI) and non-pharmacological treatments
+(eg cognitive behavioural therapy, psychotherapy programmes and coping skills training)
+have been shown to be effective in diabetic patients with depression and may also improve
+glycaemic control.
+Regular assessment of a broad range of psychological and behavioural problems in children
+and adults with type 1 diabetes is recommended.
+ In children this should include eating disorders, behavioural, emotional and family
+functioning problems.
+ In adults this should include anxiety, depression and eating disorders.
+B
+Healthcare professionals working with adults and children with diabetes should refer those
+with significant psychological problems to services or colleagues with expertise in this area.
+
+Children and adults with type 1 and type 2 diabetes should be offered psychological
+interventions (including motivational interviewing, goal setting skills and CBT) to improve
+glycaemic control in the short and medium term.
+A
+ Advise all people who smoke to stop and offer support to help facilitate this to
+minimise cardiovascular and general health risks.
+ Offer intensive management plus pharmacological therapies to people with diabetes
+who wish to stop smoking.
+ Healthcare professionals should continue to monitor smoking status in all patient groups.
+B
+Self monitoring of glycaemia
+Smoking cessation
+Weight management in type 2 diabetes
+Type 2 diabetes is associated with obesity (defined as body mass index >30 kg/m 2). Obesity is
+associated with a significant negative impact on morbidity and mortality. Weight loss in obese
+individuals has been associated with reductions in mortality, blood pressure, lipid profiles,
+arthritis-related disability and other outcomes. The SIGN guideline on the management of
+obesity (SIGN 115) provides detailed recommendations on the prevention and treatment of
+obesity within the clinical setting, in children, young people and adults.
+Offer obese adults with type 2 diabetes individualised interventions to encourage weight loss
+(including lifestyle, pharmacological or surgical interventions) to improve metabolic control.
+A
+Exercise and physical activity
+Healthy eating
+People with type 2 diabetes can be given dietary choices for achieving weight loss that
+may also improve glycaemic control. Options include simple caloric restriction, reducing
+fat intake, consumption of carbohydrates with low rather than high glycaemic index, and
+restricting the total amount of dietary carbohydrate (a minimum of 50 g per day appears
+safe for up to six months).
+B
+ Regular physical activity is associated with a reduced risk of development of type 2 diabetes.
+ A rate of perceived exertion scale is useful for estimating exercise intensity.
+ Adults (aged 18–64 years) should build up to achieve a minimum of 2.5 hours each week of
+moderate-intensity, or 75 minutes each week of vigorous-intensity aerobic physical activity,
+or an equivalent combination of both. Aim for 30 minutes of aerobic activity on at least five
+days of the week.
+ Older adults (aged 65 years and older) should follow the adult guidelines. If this is not
+possible due to limiting chronic conditions, they should be as physically active as their
+abilities allow.
+ In people with type 2 diabetes physical activity or exercise should be performed every
+second or third day to maintain improvements in glycaemic control. In view of insulin
+adjustments, it may be easier for people with type 1 diabetes to perform physical activity or
+exercise every day.
+All people should be advised to increase their level of physical activity to achieve current
+physical activity recommendations and supported to maintain this level across the lifespan.
+B
+Exercise and physical activity (involving aerobic and/or resistance exercise) should be
+performed on a regular basis.
+D
+Advice about exercise and physical activity should be individually tailored and diabetes
+specific and should include implications for glucose management and foot care.
+D
+Individualised advice on avoiding hypoglycaemia when exercising by adjustment of
+carbohydrate intake, reduction of insulin dose, and choice of injection site, should be given
+to patients taking insulin.
+C
+People with existing complications of diabetes should seek medical review before
+embarking on exercise programmes.
+D
+A gradual introduction and initial low intensity of physical activity with slow progressions
+in volume and intensity should be recommended for sedentary people with diabetes.
+D
+Overweight individuals and those at high risk of developing diabetes should be encouraged
+to reduce this risk by lifestyle changes including weight management and physical activity.
+B
+Clinical interventions aimed at dietary change are more likely to be successful if a
+psychological approach based on a theoretical framework is included.
+B
+Alcohol
+People with diabetes can take alcohol in moderation as part of a healthy lifestyle but
+should aim to keep within the target consumption recommended for people without
+diabetes.
+B
+Routine self-monitoring of blood glucose
+in people with type 2 diabetes is not
+recommended.
+B
+Routine self-monitoring of urine glucose
+in people with type 2 diabetes is not
+recommended.
+B
+Self-monitoring of blood glucose is
+recommended for patients with type 1
+or type 2 diabetes who are using insulin
+where patients have been educated in
+appropriate alterations in insulin dose.
+B SMBG may be considered in the following
+groups of people with type 2 diabetes who
+are not using insulin:
+ those at increased risk of
+hypoglycaemia
+ those experiencing acute illness
+ those undergoing significant changes
+in pharmacotherapy or fasting, for
+example, during Ramadan
+ those with unstable or poor glycaemic
+control (HbA1c>8.0% (64 mmol/mol))
+ those who are pregnant or planning
+pregnancy.
+
+MANAGEMENT OF DIABETES IN PREGNANCY
+All women with diabetes should be
+prescribed high dose pre-pregnancy
+folate supplementation, continuing up to
+12 weeks gestation.
+B
+Pre-pregnancy care should include:
+ review of medical, obstetric and
+gynaecological history
+ advice on glycaemic control to optimise
+HbA1c
+ screening for complications of diabetes
+and counselling for maternal and fetal
+complications.
+Pre-pregnancy care Nutrition
+Dietetic advice should be available in all
+diabetic antenatal clinics.
+D
+Pre-pregnancy care should be provided
+by a multidisciplinary team.
+C
+Pregnancy should be planned and good
+contraceptive advice and pre-pregnancy
+counselling are essential.
+
+Complications during pregnancy
+Obstetric complications:
+manage as for all pregnant women
+Metabolic complications:
+make emergency contact arrangements
+explicit
+Microvascular complications:
+ Examine the retina prior to
+conception and during each
+trimester.
+ Early referral of women with
+referable retinopathy to an
+ophthalmologist.
+C
+Pregnant women with diabetic
+nephropathy should be managed
+according to the advice in the kidney
+disease section, but avoid ACE inhibitors
+and ARBs. Suitable antihypertensive
+agents, include methyl dopa, labetalol
+and nifedipine.
+
+Glycaemic control
+Pre-pregnancy glycaemic control should
+be maintained as close to the nondiabetic range as possible, taking into
+account risk of maternal hypoglycaemia.
+C
+Statins, ACE inhibitors and angiotensin
+receptor blocking medications should be
+reviewed pre-pregnancy and their use
+avoided during pregnancy.
+
+Continuous glucose monitoring may be considered in women with type 1 or type 2
+diabetes.
+B
+Postprandial glucose monitoring should be carried out in pregnant women with gestational
+diabetes and may be considered in pregnant women with type 1 or type 2 diabetes.
+C
+Rapid-acting insulin analogues (lispro and aspart) appear safe in pregnancy and may be
+considered in individual patients where hypoglycaemia is problematic.
+B
+Type 1 diabetes is a high risk state for the woman and her fetus due to increased risks of:
+complications of diabetes:
+ ketoacidosis
+ severe hypoglycaemia
+ progression of microvascular
+complications.
+obstetric complications:
+ miscarriage
+ maternal infection
+ pre-eclampsia
+ premature labour.
+fetal and neonatal complications:
+ congenital malformation
+ late intrauterine death
+ fetal distress.
+ hypoglycaemia.
+Gestational diabetes
+Delivery
+ Delivery in a consultant led maternity
+unit under the combined care of a
+physician with an interest in diabetes,
+an obstetrician and a neonatologist.
+ Women should have a mutually agreed
+written plan for insulin management at
+delivery and immediately after.
+ Monitor progress of labour as for other
+high-risk women, including continuous
+electronic fetal monitoring.
+ IV insulin and dextrose should be
+administered as necessary to maintain
+blood glucose levels between 4 and 7
+mmol/l.
+
+Infants with mothers with diabetes
+GDM is defined as carbohydrate intolerance
+of variable severity with onset or first
+recognition during pregnancy.
+Metformin or glibenclamide may be
+considered as initial pharmacological
+glucose lowering treatment in women
+with gestational diabetes.
+B
+Pregnant women with GDM should be
+offered dietary advice and blood glucose
+monitoring and be treated with glucose
+lowering therapy depending on fasting
+and postprandial targets.
+A
+Women who have developed GDM
+should be reminded of the need for preconception counselling and appropriate
+testing to detect progression to type 2
+diabetes.
+C
+Women who have developed GDM
+should be given diet, weight control and
+exercise advice.
+C
+A suitable programme to detect and treat
+gestational diabetes should be offered to
+all women in pregnancy.
+B
+Early feeding is advised to avoid neonatal
+hypoglycaemia and to stimulate lactation.
+
+Breast feeding is recommended, but
+mothers should be supported in the
+feeding method of their choice.
+B
+Fetal assessment
+Screening for GDM
+Diagnosis of GDM
+The adoption of internationally agreed
+criteria for gestational diabetes using
+75 g OGTT is recommended:
+ fasting venous plasma glucose ≥5.1
+mmol/l, or
+ one hour value ≥10 mmol/l, or
+ two hours after OGTT ≥8.5 mmol/l.
+
+Management of GDM
+Follow up of women with GDM
+There is evidence of an increased incidence
+of congenital malformation in the infants of
+women with pre-existing diabetes.
+All women should be offered scanning to
+include:
+Where intrauterine growth restriction is
+suspected, regular monitoring including
+growth scans and umbilical artery
+Doppler should be carried out.
+C
+ a detailed anomaly scan including
+four chamber cardiac view and
+outflow tracts between 20 and 22
+weeks.
+B
+ an early viability scan
+ a gestational scan between 11 and 13
+weeks (+6 days) in association with
+biochemical screening and nuchal
+translucency measurement to risk
+assess for trisomies.
+
+RISK FACTORS
+ BMI >30 kg/m2
+ previous macrosomic baby weighing
+4.5 kg or more
+ previous GDM
+ family history of diabetes (first degree
+relative)
+ family origin with high prevalence of
+diabetes (South Asian, black Carribean,
+Middle Eastern).
+MANAGEMENT OF DIABETIC CARDIOVASCULAR DISEASE
+RISK FACTORS
+ smoking
+ dyslipidaemia
+ hypertension
+ hyperglycaemia
+Morbidity and mortality from cardiovascular disease (CVD) are two to five
+times higher in people with diabetes compared to non-diabetics.
+This excess mortality is evident in all age groups, most pronounced in
+young people with type 1 diabetes, and exacerbated by socioeconomic
+deprivation.
+There is an increased prevalence of cardiovascular disease in South Asian
+individuals with diabetes.
+SMOKING Follow lifestyle modification recommendations.
+GLYCAEMIC
+CONTROL Follow recommendations for glycaemic control in type 1 and type 2 diabetes.
+BP LOWERING
+A Hypertension in people with diabetes should be treated aggressively with
+lifestyle modification and drug therapy.
+A Target diastolic blood pressure in people with diabetes is ≤80 mm Hg.
+D Target systolic blood pressure in people with diabetes is <130 mm Hg.
+A
+Patients with diabetes requiring antihypertensive treatment should be
+commenced on:
+ an ACE inhibitor (ARB if ACE inhibitor intolerant), or
+ a calcium channel blocker, or
+ a thiazide diuretic.
+A Beta blockers and alpha blockers should not normally be used in the
+initial management of blood pressure in patients with diabetes.
+B Low-dose aspirin is not recommended for primary prevention of vascular
+disease in patients with diabetes.
+LIPID LOWERING
+A
+Lipid-lowering drug therapy with simvastatin 40 mg or atorvastatin
+10 mg is recommended for primary prevention in patients with type 2
+diabetes aged >40 years regardless of baseline cholesterol.
+B
+Lipid-lowering drug therapy with simvastatin 40 mg should be
+considered for primary prevention in patients with type 1 diabetes aged
+>40 years.
+Primary prevention
+MANAGEMENT OF DIABETIC CARDIOVASCULAR DISEASE
+Intensive insulin treatment to be continued for at least 24 hours in patients with MI.B
+Treat patients with an ST elevation immediately with primary percutaneous coronary
+intervention.
+A
+Acute coronary syndromes
+When primary percutaneous coronary intervention cannot be provided within 90 minutes
+of diagnosis, patients with an ST elevation acute coronary syndrome should receive
+immediate thrombolytic therapy.
+D
+Long term aspirin (75 mg per day) should be given routinely.A
+In addition to long term aspirin, clopidogrel therapy should be continued for:
+ three months in patients with non-ST elevation
+ up to four weeks in patients with ST elevation.
+B
+A
+Patients with clinical MI should be maintained on long term beta blocker therapy.A
+Patients with clinical MI should be commenced on long term ACE inhibitor therapy within
+the first 36 hours.
+A
+Consider intensive lipid-lowering therapy with atorvastatin 80 mg for patients with
+diabetes and acute coronary syndromes, objective evidence of coronary heart disease on
+angiography or following coronary revascularisation procedures.
+A
+Consider fibrate treatment in patients who are intolerant of statins.B
+Stable angina
+All patients with stable angina due to atherosclerotic disease should receive long term
+standard aspirin and statin therapy.
+A
+For patients with diabetes and multivessel disease, CABG with use of the internal
+mammary arteries is preferred over PTCA.
+B
+Consider treatment with ACE inhibitors.A
+Patients undergoing angioplasty should be treated with stents where feasible, and receive
+adjunctive therapy with a platelet glycoprotein IIb/IIIa receptor antagonist.
+A
+Drug-eluting stents are recommended as opposed to bare metal stents in stable coronary
+heart disease or non-ST elevation myocardial infarction.
+A
+Management of established CVD
+Heart failure
+ACE inhibitors should be considered in patients with all NYHA functional classes of heart
+failure due to left ventricular systolic dysfunction.
+A
+All patients with heart failure due to left ventricular systolic dysfunction of all NYHA
+functional classes should be started on beta blocker therapy as soon as their condition
+is stable (unless contraindicated by a history of asthma, heart block or symptomatic
+hypotension).
+A
+1st LINE
+In ADDITION to lifestyle measures
+SET GLYCAEMIC TARGET: HbA1c <7% (53 mmol/mol) OR INDIVIDUALISED AS AGREED
+USUAL APPROACH AL TERNATIVE APPROACH: if osmotic symptoms or intolerant of metformin
+METFORMIN*
+EFFICACY MODERATE
+CV BENEFIT YES
+HYPOGLYCAEMIA RISK LOW
+WEIGHT REDUCTION
+MAIN ADVERSE EVENTS GASTROINTESTINAL
+IN CKD STAGE 3A MAXIMUM 2 g DAILY
+2nd LINE
+In ADDITION to lifestyle measures
+IF NOT REACHING TARGET AFTER 3−6 MONTHS 2, REVIEW ADHERENCE: THEN GUIDED BY PATIENT PROFILE
+ADD ONE OF:
+SULPHONYLUREA* OR SGLT2 INHIBITOR* OR DPP-4 INHIBITOR* OR PIOGLITAZONE*
+EFFICACY HIGH MODERATE LOW/MODERATE MODERATE
+CV BENEFIT NO YES (SPECIFIC AGENTS) 3 NO PROBABLE (BUT FLUID RETENTION)
+HYPOGLYCAEMIA RISK HIGH LOW LOW LOW
+WEIGHT GAIN LOSS NEUTRAL GAIN
+MAIN ADVERSE EVENTS HYPOGLYCAEMIA GENITAL MYCOTIC FEW OEDEMA/FRACTURES 6
+IN CKD STAGE 3A CAREFUL MONITORING 1 DO NOT INITIATE 4 REDUCE DOSE 5 DOSE UNCHANGED
+3rd LINE
+In ADDITION to lifestyle measures
+IF NOT REACHING TARGET AFTER 3−6 MONTHS, REVIEW ADHERENCE: THEN GUIDED BY PATIENT PROFILE 7
+ADD EITHER AN ADDITIONAL ORAL AGENT FROM A DIFFERENT CLASS
+SULPHONYLUREA* OR SGLT2 INHIBITOR* OR DPP-4 INHIBITOR* OR PIOGLITAZONE*
+If BMI >30 kg/m2
+OR AN INJECTABLE AGENT
+If BMI <30 kg/m2
+GLP-1 AGONIST* BASAL INSULIN*
+EFFICACY HIGH
+• stop DPP-4 inhibitor
+• consider reducing sulphonylurea
+• continue metformin
+• can continue pioglitazone
+• can continue SGLT2 inhibitor
+HIGH
+• inject before bed
+• use NPH (isophane) insulin - or longer-acting analogues
+according to risk of hypoglycaemia10
+• can continue metformin, pioglitazone, DPP-4 inhibitor or
+SGLT2 inhibitor
+• can reduce or stop sulphonylurea
+CV BENEFIT YES (SPECIFIC AGENTS) 3 NO
+HYPOGLYCAEMIA RISK LOW HIGHEST
+WEIGHT LOSS GAIN
+MAIN ADVERSE EVENTS GASTROINTESTINAL HYPOGLYCAEMIA
+IN CKD STAGE 3A DOSE UNCHANGED 8 DOSE UNCHANGED 9
+4th LINE
+In ADDITION to lifestyle measures IF NOT REACHING TARGET AFTER 3−6 MONTHS, REVIEW ADHERENCE: THEN GUIDED BY PATIENT PROFILE ADD ADDITIONAL AGENT(S) FROM 3rd LINE OPTIONS (NEED SPECIALIST INPUT)
+ONCE
+OSMOTIC
+SYMPTOMS
+RESOLVED, ADD
+ADD PRANDIAL INSULIN OR SWITCH TO
+TWICE-DAILY MIXED BIPHASIC INSULIN
+SULPHONYLUREA*
+HIGH
+NO
+HIGH
+GAIN
+HYPOGLYCAEMIA
+CAREFUL MONITORING 1
+The following are also accepted by the SMC for first-line
+use where metformin and sulphonylureas are not tolerated:
+• canagliflozin, dapagliflozin or empagliflozin (SGLT2 inhibitors);
+• linagliptin, sitagliptin or vildagliptin (DPP-4 inhibitors);
+• pioglitazone (thiazolidinedione)
+IF SEVERE OSMOTIC SYMPTOMS WITH
+WEIGHT LOSS OR POSSIBILITY OF
+TYPE 1 DIABETES (URGENT - PHONE
+SECONDARY CARE IMMEDIATELY)
+Algorithm summarises evidence from the guideline in the context of the clinical experience of the Guideline Development Group. It does not apply in severe renal or hepatic insufficiency.
+Prescribers should refer to the British National Formulary (www.medicinescomplete.com), the Scottish Medicines Consortium (www.scottishmedicines.org.uk) and Medicines and Healthcare products Regulatory Agency (MHRA) warnings for updated guidance on licensed
+indications, full contraindications and monitoring requirements.
+*Continue medication at each stage if EITHER individualised target achieved OR HbA1c falls more than 0.5% (5.5 mmol/mol) in 3−6 months. Discontinue if evidence that ineffective.
+NOTES: 1. Consider dose reduction, 2. Do not delay if first line options not tolerated / inappropriate, 3. See guideline pages 23 & 26-27, 4. See BNF: specific agents can be continued at reduced dose, 5. See BNF: no dose reduction required for linagliptin
+6. Pioglitazone is contraindicated in people with (or with a history of) heart failure or bladder cancer, 7. Do not combine dapagliflozin with pioglitazone, 8. Caution with exenatide when eGFR<50 ml/min/1.73 m2, 9. Adjust according to response,
+10. Driving, occupational hazards, risk of falls, previous history.
+ABBREVIATIONS: CKD 3A = chronic kidney disease stage 3A (estimated glomerular filtration rate 45−59 ml/min/1.73 m2) CV = cardiovascular
+IF INSULIN INTENSIFICATION
+REQUIRED (NEED SPECIALIST
+INPUT)
+MANAGEMENT OF KIDNEY DISEASE IN DIABETES
+RISK FACTORS
+ hyperglycaemia
+ raised blood pressure
+ baseline urinary albumin excretion
+ increasing age
+ duration of diabetes
+ smoking
+ genetic predisposition
+ raised cholesterol and triglyceride levels
+ male sex
+Screening
+Prevention and treatment
+Individuals with diabetes and mild to
+moderate CKD should be managed in
+a setting that can provide appropriate
+investigation, monitoring and intensive
+clinical management.
+D
+ACR should be used to screen for diabetic
+kidney disease.
+B
+Managing anaemia
+Young people with diabetes should have
+ACR tested annually from the age of 12
+years.
+B
+Definitions
+Microalbuminuria - a rise in urinary
+albumin loss to between 30 and 300 mg
+day. Alternatively, to avoid a timed urine
+collection, a urinary albumin:creatinine
+ratio (ACR) > 2.5 mg/mmol in men and
+>3.5 mg/mmol in women or a urinary
+albumin concentration >20 mg/l defines
+microalbuminuria.
+It is the earliest sign of diabetic nephropathy
+and predicts increased total mortality,
+cardiovascular mortality and morbidity, and
+end-stage renal failure.
+Diabetic nephropathy - the presence of a
+raised urinary albumin excretion rate
+(>300 mg/day) with or without a raised
+serum creatinine level.
+This represents a more severe and established
+form of renal disease and is more strongly
+predictive of total mortality, cardiovascular
+mortality and morbidity, and end-stage renal
+failure than microalbuminuria.
+Maintain intensive glycaemic control
+in people with type 1 and 2 diabetes to
+reduce the risk of developing diabetic
+kidney disease.
+A
+Reduce proteinuria regardless of baseline
+urinary protein excretion.
+A
+Reduce blood pressure to the lowest
+achievable level to slow the rate of
+decline of glomerular filtration rate and
+reduce proteinuria.
+A
+Treat people with type 1 diabetes and
+microalbuminuria with an ACE inhibitor
+irrespective of blood pressure. An ARB
+may be used if an individual is intolerant
+of an ACE inhibitor.
+A
+Treat people with type 2 diabetes and
+microalbuminuria with an ACE inhibitor
+or an ARB irrespective of blood pressure.
+A
+ACE inhibitors and/or ARBs should be
+used as agents of choice in patients with
+chronic kidney disease and proteinuria
+(≥0.5 g/day, approximately equivalent to
+a protein/creatinine ratio of 50 mg/mmol)
+to reduce the rate of progression of
+chronic kidney disease.
+A
+Dietary protein restrictions (<0.8 g/kg/
+day) are not recommended in patients
+with early stages of chronic kidney
+disease (stages 1-3).
+A
+Patients with diabetes and CKD stage 3-5
+should have their haemoglobin checked
+at least annually.
+D
+Consider erythropoiesis stimulating
+agents in all patients with anaemia of
+chronic kidney disease, including those
+with diabetic kidney disease.
+D
+MANAGEMENT OF TYPE 1 DIABETES
+Type 1 diabetes accounts for >90% of diabetes in young people <25 years.
+ 12-15% of young people <15 years with diabetes have an affected first degree relative.
+ Children are three times more likely to develop diabetes if their father has diabetes than if
+their mother has diabetes.
+ 20% of patients with cystic fibrosis (CF) will develop secondary diabetes by the age of 20,
+with the incidence increasing to 80% by age 35 years.
+Diagnosis and screening
+Patients with CF should be screened
+annually for diabetes from 10 years of
+age.
+CScreening for pre-type 1 diabetes is not
+recommended in either the general
+population or in high risk children and
+young people.
+B
+There is no evidence that routine screening
+for autonomic neuropathy or hyperlipidaemia
+are of benefit in children and adolescents
+with type 1 diabetes.
+Young people with diabetes should be
+screened for thyroid and coeliac disease
+at onset of diabetes and at intervals
+throughout their lives.
+C
+Initiating therapy at diagnosis Long term complications
+To reduce the risk of long term
+microvascular complications, the target
+for all young people with diabetes is the
+optimising of glycaemic control towards
+a normal level.
+AA home-based programme for initial
+management and education of children
+with diabetes and their families is an
+appropriate alternative to a hospitalbased programme.
+C
+Continuing management
+Insulin therapy Continuous subcutaneous insulin infusion
+CSII therapy is associated with modest
+improvements in glycaemic control and
+should be considered for patients unable
+to achieve their glycaemic targets.
+AIntensive insulin therapy should be
+delivered as part of a comprehensive
+support package.
+B
+An intensified treatment regimen for
+adults with type 1 diabetes should
+include either regular human or rapidacting insulin analogues.
+B
+Basal insulin analogues are recommended
+in adults with type 1 diabetes who
+are experiencing severe or nocturnal
+hypoglycaemia and who are using an
+intensified insulin regimen.
+B
+Children and adolescents may use
+either insulin analogues (rapid-acting
+and basal), regular human insulin and
+NPH preparations or an appropriate
+combination of these.
+B
+The insulin regimen should be tailored
+to the individual child to achieve the
+best possible glycaemic control without
+disabling hypoglycaemia.
+C
+CSII therapy should be considered
+in patients that experience recurring
+episodes of severe hypoglycaemia.
+B
+Dietary management
+Dietary advice as part of a comprehensive
+management plan is recommended to
+improve glycaemic control.
+B
+Management of diabetes at school
+ Educational and health services should
+work together to ensure that children
+with diabetes have the same quality of
+care within the school day as outside
+of it.
+ Children at school should be supported
+with all necessary aspect of diabetes
+care, such as glucose monitoring, insulin
+injection and treatment of hypoglycaemia.
+
+PREVENTION OF VISUAL IMPAIRMENT
+Retinal screening
+Treatment
+Up to 39% of people with type 2 diabetes have retinopathy at diagnosis, 4-8% being sightthreatening.
+Patients with multiple risk factors should
+be considered at high risk of developing
+diabetic retinal disease.
+B
+Good glycaemic control (HbA1c ideally
+around 7% or 53 mmol/mol) and blood
+pressure control (<130/80 mm Hg)
+should be maintained to prevent onset
+and progression of diabetic eye disease.
+B
+Rapid improvement in glycaemic control can
+lead to short term worsening of diabetic eye
+disease.
+RISK FACTORS
+ poor glycaemic control
+ raised blood pressure
+ longer duration of diabetes
+ microalbuminuria and proteinuria
+ raised triglycerides and lowered
+haematocrit
+ pregnancy
+ serum cholesterol for macular exudates
+and oedema
+Systematic screening for diabetic retinal disease should be provided for all people with
+diabetes.
+B
+Patients with diabetes with no diabetic retinopathy could be screened every two years. All
+others should be screened at least annually.
+B
+Type 1 diabetes C Screen from age 12.
+Type 2 diabetes A Screen from diagnosis.
+Systematic screening C Use retinal photography or slit lamp biomicroscopy.
+Grading C Retinal photographs should be graded using digital images by an
+appropriately trained grader.
+LASER PHOTOCOAGULATION
+A
+All people with:
+ type 1 or type 2 diabetes with new vessels at the disc or iris
+ new vessels elsewhere with vitreous haemorrhage
+ type 2 diabetes and new vessels elsewhere
+D  type 1 diabetes with new vessels elsewhere
+A Patients with severe or very severe non-proliferative diabetic retinopathy
+should receive close follow up or laser photocoagulation.
+VITRECTOMY B
+Patients with:
+ type 1 diabetes and persistent vitreous haemorrhage
+ tractional retinal detachment threatening the macula
+B Vitrectomy should be considered for severe fibrovascular proliferation.
+CATARACT
+EXTRACTIONS
+B Cataract extraction should not be delayed.
+C Cataract extraction is advised when sight-threatening retinopathy cannot
+be excluded.
+Rehablitation
+Community support, maximising disability benefits, low vision aids and training in their use
+should be provided to people with diabetes and visual impairment.
+D
+MANAGEMENT OF DIABETIC FOOT DISEASE
+Prevention
+Management of active foot disease
+Diabetic foot problems are a common complication of diabetes. The absence of reliable
+symptoms and high prevalence of asymptomatic disease make foot screening essential.
+All patients with diabetes should be screened to assess their risk of developing a foot ulcer.B
+The result of a foot screening examination should be entered onto an online screening tool,
+such as SCI-DC, to provide automatic risk stratification and a recommended management plan,
+including patient information (see diabetic foot risk stratification and triage figure).
+
+Foot care education is recommended as part of a multidisciplinary approach in all patients
+with diabetes.
+B
+Antibiotic therapy
+Treatment of a patient with an infected diabetic foot ulcer and/or osteomyelitis should be
+commenced immediately with an antibiotic in accordance with local or national protocols.
+Subsequent antibiotic regimens may be modified with reference to bacteriology and clinical
+response.
+
+Charcot’s foot
+Charcot’s foot is a neuroarthropathic process
+with osteoporosis, fracture, acute inflammation
+and disorganisation of foot architecture.
+Suspected Charcot neuroarthropathy
+of the foot is an emergency and
+should be referred immediately to the
+multidisciplinary foot team.
+
+A multidisciplinary foot team
+should include:
+ podiatrist
+ diabetes physician
+ orthotist
+ diabetes nurse specialist
+ vascular surgeon
+ orthopaedic surgeon
+ radiologist.
+Multidisciplinary foot care
+Multidisciplinary foot care teams allow
+intensive treatment and rapid access to
+orthopaedic and vascular surgery. In their
+absence, foot lesions are more likely to lead to
+amputation.
+Patients with active diabetic foot disease
+should be referred to a multidisciplinary
+diabetic foot care service.
+C
+Painful diabetic peripheral neuropathy
+The initial treatment of DPN is dependent on individual patient choice, dosing regimens, cost
+and side effect profile.
+
+Risk factors for peripheral arterial disease
+include:
+ smoking
+ hypertension, and
+ hypercholesterolaemia.
+Risk factors for foot ulceration include:
+ peripheral arterial disease and peripheral
+neuropathy
+ previous amputation
+ previous ulceration
+ the presence of callus
+ joint deformity
+ visual/mobility problems, and
+ male sex.
+Consider antidepressants or anticonvulsants for treatment of painful DPN.A
+SOURCES OF FURTHER INFORMATION
+NATIONAL ORGANISATIONS
+Diabetes Information Plus
+www.diabetesinfoplus.scot.nhs.uk
+Provides access to diabetes information leaflets, and information on diabetes support groups, social
+security benefits, medicines and treatments and the evidence on which treatments are based.
+Diabetes in Scotland
+www.diabetesinscotland.org.uk
+The website of the Scottish Diabetes Group, the steering group responsible for supporting the
+implementation of the National Action Plan. It contains links to national publications on diabetes,
+details of events and links to the topic specific subgroups working in key areas of diabetes.
+Diabetes UK (Scottish office)
+The Venlaw, 349 Bath Street, Glasgow, G2 4AA
+Tel: 0141 245 6380 • Careline 0845 120 2960
+www.diabetes.org.uk • Email: Scotland@diabetes.org.uk
+Diabetes UK provides a range of information on diabetes including leaflets, fact sheets and Diabetes
+UK’s magazine Balance. They provide advice on all aspects of diabetes including diabetic care, diet,
+holidays and insurance.
+Driver and Vehicle Licensing Agency
+www.dft.gov.uk/dvla/medical.aspx
+Healthtalkonline
+www.healthtalkonline.org
+Healthtalk online is the website of the DIPEx charity. It provides access to people’s experiences of
+living with diabetes.
+Juvenile Diabetes Research Foundation
+Suite 5, 2nd Floor, Salvesen Tower, Blaikies Quay, Aberdeen, AB11 5PW
+Tel: 01224 582777
+www.jdrf.org.uk • Email: info@jdrf.org.uk
+Provides a range of information and support to families and individuals affected by type 1 diabetes.
+They produce a magazine produced specifically for children and young people.
+My Diabetes My Way
+www.mydiabetesmyway.scot.nhs.uk
+NHSScotland interactive diabetes website to help support people who have diabetes and their family
+and friends. It provides leaflets, videos, educational tools and games containing information about
+diabetes.
+DEFINITION
+DEFINITION
+DEFINITION
+DEFINITION
+DEFINITION
+DEFINITION
+ACTION
+ACTION
+ACTION
+ACTION
+ACTION
+ACTION
+Previous ulceration or amputation
+or more than one risk factor present
+e.g. loss of sensation or signs of
+peripheral vascular disease with
+callus or deformity.
+Annual assessment by a specialist podiatrist.
+Agreed and tailored management/treatment
+plan by specialist podiatrist according to
+patient needs. Provide written and verbal
+education with emergency contact
+numbers. Referral for specialist intervention
+if/when required.
+One risk factor present e.g. loss
+of sensation or signs of peripheral
+vascular disease without callus
+or deformity.
+Annual assessment by a podiatrist.
+Agreed and tailored management/treatment
+plan by podiatrist according to patient needs.
+Provide written and verbal education with
+emergency contact numbers.
+No risk factors present e.g. no loss
+of sensation, no signs of peripheral
+vascular disease and no other
+risk factors.
+Annual screening by a suitably trained
+Health Care Professional. Agreed self
+management plan. Provide written and
+verbal education with emergency contact
+numbers. Appropriate access to podiatrist
+if/when required.
+MODERATE
+MODERATE
+LOW
+LOW
+HIGH
+HIGH
+ACTIVE
+DIABETIC FOOT RISK STRATIFICATION AND TRIAGE
+DEFINITION
+ACTION
+Presence of active ulceration,
+spreading infection, critical ischaemia,
+gangrene or unexplained hot, red,
+swollen foot with or without the
+presence of pain.
+Rapid referral to and management by a
+member of a Multidisciplinary Foot Team.
+Agreed and tailored management/treatment
+plan according to patient needs. Provide
+written and verbal education with emergency
+contact numbers. Referral for specialist
+intervention when required.
+These risk categories relate to the use of the SCI-DC foot risk stratiﬁ cation toolProduced by the Scottish Diabetes Group - Foot Action Group
+18 • Management of diabetes quick reference guide
+CONVERSION TABLE FOR HbA1c FORMATS
+From June 2009 to June 2011 HbA1c will be dual reported in DCCT-aligned format (%) and IFCCaligned format (in mmol/mol). The conversion formulae for these formats are as follows:
+DCCT-aligned HbA1c value = (0.0915 x IFCC-aligned value) + 2.15 %
+IFCC-aligned HbA1c value = (10.93 x DCCT-aligned value) – 23.5 mmol/mol
+DCCT-aligned
+HbA1c (%)
+IFCC-aligned
+HbA1c (mmol/mol)
+DCCT-aligned
+HbA1c (%)
+IFCC-aligned
+HbA1c (mmol/mol)
+4.0 20 8.0 64
+4.1 21 8.1 65
+4.2 22 8.2 66
+4.3 23 8.3 67
+4.4 25 8.4 68
+4.5 26 8.5 69
+4.6 27 8.6 70
+4.7 28 8.7 72
+4.8 29 8.8 73
+4.9 30 8.9 74
+5.0 31 9.0 75
+5.1 32 9.1 76
+5.2 33 9.2 77
+5.3 34 9.3 78
+5.4 36 9.4 79
+5.5 37 9.5 80
+5.6 38 9.6 81
+5.7 39 9.7 83
+5.8 40 9.8 84
+5.9 41 9.9 85
+6.0 42 10.0 86
+6.1 43 10.1 87
+6.2 44 10.2 88
+6.3 45 10.3 89
+6.4 46 10.4 90
+6.5 48 10.5 91
+6.6 49 10.6 92
+6.7 50 10.7 93
+6.8 51 10.8 95
+6.9 52 10.9 96
+7.0 53 11.0 97
+7.1 54 11.1 98
+7.2 55 11.2 99
+7.3 56 11.3 100
+7.4 57 11.4 101
+7.5 58 11.5 102
+7.6 60 11.6 103
+7.7 61 11.7 104
+7.8 62 11.8 105
+7.9 63 11.9 107
+12.0 108
