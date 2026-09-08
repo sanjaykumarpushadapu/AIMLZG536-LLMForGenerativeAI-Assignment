@@ -22,8 +22,7 @@
 
 !raw_pdfs/*.pdf
 
-# The assignment briefs stay out - they're re-downloadable from Canvas.
-briefs/
+
 
 # --- Model artifacts: hundreds of MB to several GB, never belong in git -----
 cpt_ckpt/
