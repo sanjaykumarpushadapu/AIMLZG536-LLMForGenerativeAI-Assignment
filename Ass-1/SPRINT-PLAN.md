@@ -171,7 +171,7 @@ report, and how to know you're done.
 - [ ] Language filter — keep English only (`langdetect`); record the count after
 - [ ] Add one more cleaning step of your own (the brief invites this: "not confined to the
   following") — e.g. strip repeated headers/footers — and justify it; that justification is the
-  "inference" the rubric rewards. `scripts/step1_extract_clean.py` already implements this as its
+  "inference" the rubric rewards. The notebook's `Pipeline` class (Step 1 setup cells) already implements this as its
   own tracked stage, measured in characters removed since it doesn't drop whole documents.
 - [ ] Write `cleaning_stats.json` with every stage's count
 
@@ -185,7 +185,7 @@ filter dominated and why that fits the domain.
 ---
 
 ### Step 2 — Tokenization & Packed Dataset
-**2 marks · Owner: P2**
+**2 marks · Owner: P1**
 
 - **Needs:** Step 1's `.txt` files
 - **Produces:** `packed_train.parquet`, `packed_eval.parquet`, `pack_stats.json`
@@ -208,7 +208,7 @@ filter dominated and why that fits the domain.
 ---
 
 ### Step 3 — Model Loading & Architecture Inspection
-**2 marks · Owner: P3**
+**2 marks · Owner: P1**
 
 - **Needs:** the locked model id
 - **Produces:** `baseline_generations.json`
@@ -258,7 +258,7 @@ numbers are printed.
 ---
 
 ### Step 5 — Evaluation: Perplexity & Catastrophic Forgetting
-**2 marks · Owner: P3**
+**2 marks · Owner: P2**
 
 - **Needs:** `packed_eval.parquet` + `cpt_ckpt/`
 - **Produces:** `ppl_results.json`, `forgetting_table.md`
@@ -293,7 +293,7 @@ on whether the trade-off was worth it all exist.
 ---
 
 ### B1 — Instruction Dataset Creation
-**2 marks · Owner: P1**
+**2 marks · Owner: P3**
 
 - **Needs:** Step 1's `.txt` files
 - **Produces:** `instruction_dataset.jsonl`, `instruction_train.jsonl`, `instruction_eval.jsonl`
@@ -318,7 +318,7 @@ on whether the trade-off was worth it all exist.
 ---
 
 ### B2 — QLoRA Fine-Tuning
-**2 marks · Owner: P4**
+**2 marks · Owner: P3**
 
 - **Needs:** `cpt_ckpt/` + B1's training split
 - **Produces:** `adapter/`
