@@ -6,25 +6,54 @@
 - **Team:** 4 people (our own split — the brief doesn't require this size)
 - **Deadline:** not stated in either brief — confirm on Canvas / Ops mail before locking the schedule
 - **Effort:** ~2.5–3 working days
+- **Ownership model:** contiguous work areas rather than scattered task assignments. P1 owns
+  Steps 1–3, P2 owns Steps 4–5, P3 owns B1–B2, and P4 owns B3 plus final integration/QA.
+  P4's release work is counted as a real deliverable.
 - Checkboxes throughout are for tracking — tick them as your group finishes each item.
-- **Locked:** Medical & Clinical Literature (Variant 1, default) · `microsoft/biogpt-large`
+- **Chosen:** Variant 1, Medical & Clinical Literature (Type 2 Diabetes) · `microsoft/biogpt-large`
+  Variant 1 permits any domain from the model-selection table, so this is a valid team choice,
+  not a requirement imposed by the Enterprise Variants guide.
+- **Current notebook status:** Steps 1–3 are represented; Step 4 through B3 are still pending
+  and must be completed before submission.
 
 ## One-Page Overview
 
 | Step | What happens | Marks | Owner | Output file |
 |---|---|---|---|---|
 | 1 | Extract + clean domain PDFs | 2 | P1 | `domain_corpus/*.txt` |
-| 2 | Tokenize + pack into training data | 2 | P2 | `packed_train.parquet`, `packed_eval.parquet` |
-| 3 | Load model + inspect architecture | 2 | P3 | `baseline_generations.json` |
+| 2 | Tokenize + pack into training data | 2 | P1 | `packed_train.parquet`, `packed_eval.parquet` |
+| 3 | Load model + inspect architecture | 2 | P1 | `baseline_generations.json` |
 | 4 | Run CPT training | 2 | P2 | `cpt_ckpt/` |
-| 5 | Evaluate perplexity + forgetting | 2 | P3 | `ppl_results.json` |
-| B1 | Build instruction dataset | 2 | P1 | `instruction_dataset.jsonl` |
-| B2 | QLoRA fine-tune one adapter | 2 | P4 | `adapter/` |
+| 5 | Evaluate perplexity + forgetting | 2 | P2 | `ppl_results.json` |
+| B1 | Build instruction dataset | 2 | P3 | `instruction_dataset.jsonl` |
+| B2 | QLoRA fine-tune one adapter | 2 | P3 | `adapter/` |
 | B3 | Final 3-way comparison | 1 | P4 | write-up in notebook |
 
 Flow: Steps 1→2→3→4→5 build and evaluate the base CPT model (Part A). B1→B2→B3 then turn that
 CPT model into an instruction-following one (Part B). Step 4's checkpoint is the hinge — nothing
 in Step 5 or Part B can start before it's saved.
+
+## Ordered Execution Sequence
+
+The team follows one dependency-ordered pipeline. A person prepares their next package only
+while waiting for the required handoff; no downstream package is treated as complete before its
+input gate is signed off.
+
+| Order | Work package | Owner | Required handoff / gate |
+|---:|---|---|---|
+| 1 | Step 1 — Extract and clean the domain PDFs | **P1** | P1 signs off `domain_corpus/*.txt` and `cleaning_stats.json` before continuing |
+| 2 | Step 2 — Tokenize and pack the corpus | **P1** | P1 signs off both Parquet splits and `pack_stats.json` before continuing |
+| 3 | Step 3 — Load, audit, and baseline the model | **P1** | P1 signs off architecture values and six baseline generations; then P2 may start |
+| 4 | Step 4 — Run CPT and save the checkpoint | **P2** | P2 signs off loss evidence and persistent `cpt_ckpt/` before continuing |
+| 5 | Step 5 — Evaluate PPL and catastrophic forgetting | **P2** | P2 signs off `ppl_results.json`, forgetting table, and written inference; then P3 may start B2 |
+| 6 | B1 — Build and validate the instruction dataset | **P3** | P3 signs off `instruction_dataset.jsonl`, train/eval splits, and validation |
+| 7 | B2 — Train one QLoRA adapter from `cpt_ckpt/` | **P3** | P3 signs off the adapter configuration, training loss, and load/generate smoke test |
+| 8 | B3 — Compare base, CPT, and CPT+adapter | **P4** | P4 signs off the three-way table and behavioral analysis |
+| 9 | Release integration and final QA | **P4**, with all owners | Each owner signs their section; P4 runs the notebook top-to-bottom and exports HTML |
+
+**Dependency rule:** the main handoff chain is P1 Steps 1–3 → P2 Steps 4–5 → P3 B1–B2 →
+P4 B3/QA. P3 may prepare B1 after P1 has produced cleaned text, but B2 cannot start until
+both `cpt_ckpt/` and the validated B1 training split exist.
 
 ---
 
@@ -36,15 +65,24 @@ in Step 5 or Part B can start before it's saved.
 - [ ] 🕒 Accept licenses for any gated model you might use — start now
   - Gated: `mistralai/Mistral-7B-v0.1`, `meta-llama/Meta-Llama-3-8B`, `google/gemma-7b`
   - Ungated (no waiting): `Qwen/Qwen2.5-*`, `HuggingFaceTB/SmolLM2-*`, `TinyLlama/TinyLlama-1.1B-*`, `openai-community/gpt2-*`, `microsoft/biogpt-large`, `stanford-crfm/BioMedLM`
-- [ ] Compute confirmed: T4 (16 GB, free Colab) or A100/L40S (BITS remote lab)
-- [ ] Persistent storage set up — a Colab session disk does not survive a disconnect, and Step 4's checkpoint must survive
+- [x] **Compute target confirmed:** T4 GPU (Google Colab; the selected runtime reports about
+  14.6 GB usable VRAM)
+  - Enable gradient checkpointing and use small per-device batches with gradient accumulation.
+  - Verify `torch.cuda.is_bf16_supported()` in the runtime before loading/training. The brief
+    specifies BF16 for T4; if the selected runtime cannot execute it reliably, stop and agree
+    an FP16 fallback before producing graded results.
+- [ ] **Persistent storage for final run:** optional during development, but required before
+  the final CPT/QLoRA run because a Colab session disk does not survive disconnects. Set
+  `USE_GOOGLE_DRIVE = True` in the notebook when persistent Drive storage is needed.
 - [ ] External LLM access arranged, only if B1 will use synthetic generation
 - [ ] Libraries installed **and imports verified**: `transformers`, `peft`, `bitsandbytes`, `trl`, `torch`, a PDF extractor (`pypdf`/`PyMuPDF`/`pdfplumber`), `pyarrow`/`pandas`, `matplotlib`, `langdetect`
   - ⚠️ `bitsandbytes` fails at *import*, not install — check this before Step 1 starts, not during Step 4
 
 ### Decisions to lock (45 min, whole team — changing these later costs a re-run)
 
-- [x] **Variant + domain** — **V1 (Default), Medical & Clinical Literature.** Open choice of medical/clinical PDFs; no fixed sources, no disclaimer requirement (that's V4 only).
+- [x] **Variant + domain** — **V1 (Default), Medical & Clinical Literature: Type 2 Diabetes.**
+  V1 is open choice within the model-selection table; use authoritative diabetes guidance and
+  record the source and license for every PDF. No V4 clinical-protocol disclaimer is required.
 - [x] **Model** — **`microsoft/biogpt-large`** (347M, ungated). Confirmed from its HF config:
 
   | Field | Value |
@@ -67,23 +105,44 @@ in Step 5 or Part B can start before it's saved.
 
 ---
 
+### Brief alignment checks
+
+- **Assignment 1A:** Part A is 10 marks, Part B is 5 marks, for 15 marks total. Detailed
+  inferences are mandatory, and the submission must include the notebook with output, exported
+  HTML, `instruction_dataset.jsonl`, and cleaned `domain_corpus/*.txt`.
+- **Enterprise Variants guide:** the pipeline and rubric remain fixed across variants. The
+  cleaned `.txt` corpus and `instruction_dataset.jsonl` are explicitly reusable by 2A, 2B,
+  and 2C, so they should be treated as shared project assets.
+- **Model consistency:** use the same `microsoft/biogpt-large` tokenizer throughout. BioGPT has
+  no built-in chat template, so the manually defined template must be documented in B2.
+
 ## Who Owns What
 
-| Person | Focus | Steps | Marks |
-|---|---|---|---|
-| **P1** | Corpus & instruction data | Step 1, B1 | 4 |
-| **P2** | Packing & CPT training | Step 2, Step 4 | 4 |
-| **P3** | Model audit & evaluation | Step 3, Step 5 | 4 |
-| **P4** | QLoRA & submission | B2, B3, notebook assembly | 3 + integration |
+The team uses contiguous ownership blocks so each person can follow one coherent area instead
+of switching between unrelated steps. The marks do not divide evenly under this requested
+grouping: P1 owns Steps 1–3 (6 marks), P2 owns Steps 4–5 (4 marks), P3 owns B1–B2 (4 marks),
+and P4 owns B3 plus the integration/QA deliverable. Every person documents inferences,
+validates outputs, and signs off their handoff.
+
+| Person | Lead work packages | Effort points | Handoff / peer-review duty |
+|---|---|---:|---|
+| **P1** | Step 1 → Step 2 → Step 3: data, packing, model audit, baseline | 6 | Hand off the complete Part A input/baseline package to P2; review P2's CPT evidence |
+| **P2** | Step 4 → Step 5: CPT training, PPL, forgetting | 4 | Receive P1's package, hand off `cpt_ckpt/` and evaluation tables to P3/P4; review P3's dataset evidence |
+| **P3** | B1 → B2: instruction data, QLoRA adapter | 4 | Receive P2's checkpoint, hand off validated dataset and adapter to P4; review P1's baseline evidence |
+| **P4** | B3 → QA: three-way analysis, notebook assembly, HTML export | 1 + integration | Receive P3's adapter, complete release checks, and collect all owner sign-offs |
+
+**Fairness rule:** P4 owns the mechanical merge, restart-and-run-all check, and HTML export,
+but every person owns the correctness and written inference of their own sections. No one can
+claim the final integration point without collecting all four peer-review sign-offs.
 
 ## Schedule
 
 | Block | Effort | P1 | P2 | P3 | P4 |
 |---|---|---|---|---|---|
-| **1 — Setup** | 3–4 h | Step 1, first 5 files | write Step 2 script | Step 3 complete | verify imports, notebook skeleton |
-| **2 — Train** | 1 day | Step 1 done, hand off | Step 2, then Step 4 | Step 5A base PPL, Step 5 done | assemble Steps 1–3 |
-| **3 — Tune** | 1 day | B1 done | — | write Step 5 inferences | B2, then B3 |
-| **4 — Ship** | ½ day | inferences | inferences | inferences | run notebook top-to-bottom, export HTML |
+| **1 — P1 Part A preparation** | 1 day | Complete Steps 1–3 and hand off the full baseline package | Prepare CPT configuration | Prepare B1/B2 environment | Verify T4 environment and notebook skeleton |
+| **2 — P2 CPT and evaluation** | 1 day | Answer data handoff questions | Complete Steps 4–5 and hand off checkpoint/evaluation | Prepare instruction-data inputs | Prepare B3 comparison structure |
+| **3 — P3 Part B** | 1 day | Review P2's evaluation evidence | Review P3's training inputs | Complete B1–B2 and hand off adapter | Prepare final notebook assembly |
+| **4 — P4 release** | ½ day + QA | Sign off Part A | Sign off CPT/evaluation | Sign off dataset/adapter | Complete B3, run top-to-bottom, collect sign-offs, export HTML |
 
 - **Block 1 gate:** run a 20-step CPT test on 5 documents before closing Block 1. The output is
   throwaway — the point is catching environment bugs while there's still time to fix them.
@@ -354,7 +413,6 @@ on whether the trade-off was worth it all exist.
 ## Downstream Note
 
 The Enterprise Variants guide confirms **2A, 2B, and 2C** reuse the `.txt` corpus and
-`instruction_dataset.jsonl` built here. It doesn't name **1B** directly, but 1B is grouped with
-1A in the same guide, so it most likely reuses this corpus too — **confirm with the instructor**
-rather than assuming. Either way, clean this corpus properly once: at least three later
-assignments depend on it.
+`instruction_dataset.jsonl` built here. The guide does not explicitly define a reuse rule for
+1B, so do not assume one without checking the 1B brief. Either way, clean this corpus properly
+once: at least three later assignments depend on it.

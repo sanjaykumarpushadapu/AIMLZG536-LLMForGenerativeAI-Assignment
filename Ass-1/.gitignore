@@ -19,7 +19,7 @@
 # The '!' rule must come AFTER '*.pdf' - the last matching rule wins. Note also
 # that raw_pdfs/ is NOT listed as an ignored directory: git never descends into
 # an ignored directory, so a negation inside one would have no effect.
-*.pdf
+
 !raw_pdfs/*.pdf
 
 # The assignment briefs stay out - they're re-downloadable from Canvas.
