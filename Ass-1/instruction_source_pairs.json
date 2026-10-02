@@ -1,0 +1,2352 @@
+[
+ {
+  "passage_id": 1,
+  "source": "hse-ireland-nutrition-dietetic-type2-diabetes-2020.txt",
+  "passage": "AIMS & OBJECTIVES AIMS OF DIETETIC CARE: 1. To devise and deliver nutrition and dietetic care, based on current evidence and best practice, which helps the individual and their families/carers to make and maintain lifestyle changes (i.e. behaviour changes) that are best suited to their particular needs, expectations, capabilities, preferences and value s, as recommended in the HSE Model of Integrated care for patients with Type 2 Diabetes. 2. To offer all people with type 2 diabetes access to a structured education package where they will receive appropriate dietary and clinical care advice. People not suitable for group education should be offered one to one education with a Dietitian.",
+  "pairs": [
+   {
+    "instruction": "What are the aims of dietetic care for people with type 2 diabetes in the HSE guidance?",
+    "response": "To devise and deliver nutrition and dietetic care, based on current evidence and best practice, which helps the individual and their families/carers to make and maintain lifestyle changes (i.e. behaviour changes) that are best suited to their particular needs, expectations, capabilities, preferences and values."
+   },
+   {
+    "instruction": "What kind of lifestyle changes should dietetic care support?",
+    "response": "Behaviour changes that are best suited to the person's particular needs, expectations, capabilities, preferences and values."
+   },
+   {
+    "instruction": "Which model of care does the HSE guidance refer to?",
+    "response": "The HSE Model of Integrated care for patients with Type 2 Diabetes."
+   },
+   {
+    "instruction": "What access should all people with type 2 diabetes be offered?",
+    "response": "All people with type 2 diabetes should be offered access to a structured education package where they will receive appropriate dietary and clinical care advice."
+   },
+   {
+    "instruction": "What should be offered to people who are not suitable for group education?",
+    "response": "People not suitable for group education should be offered one to one education with a Dietitian."
+   },
+   {
+    "instruction": "Who benefits from nutrition and dietetic care according to this text?",
+    "response": "The individual and their families/carers, who are helped to make and maintain lifestyle changes."
+   },
+   {
+    "instruction": "What should dietetic care be based on?",
+    "response": "It should be based on current evidence and best practice."
+   },
+   {
+    "instruction": "Explain what a structured education package provides.",
+    "response": "It provides people with type 2 diabetes with appropriate dietary and clinical care advice."
+   },
+   {
+    "instruction": "Why might one to one education be needed?",
+    "response": "Because some people are not suitable for group education, so they should be offered one to one education with a Dietitian."
+   },
+   {
+    "instruction": "Summarise the two aims of dietetic care listed in the guidance.",
+    "response": "The first aim is to devise and deliver evidence-based nutrition and dietetic care that helps people and their families/carers make and maintain suitable lifestyle changes. The second is to offer all people with type 2 diabetes access to a structured education package, with one to one education for those not suited to group education."
+   }
+  ]
+ },
+ {
+  "passage_id": 2,
+  "source": "hse-ireland-nutrition-dietetic-type2-diabetes-2020.txt",
+  "passage": "2018). A reduction in alcohol intake in hypertensive individuals has been shown to reduce blood pressure especially if more than 28g alcohol is consumed daily (Dyson et al., 2018).  If on insulin/ sulphonylureas - consume alcohol with meal containing carbohydrate to prevent hypoglycaemia and note there is increased risk of hypoglycaemia with quantity of alcohol consumed. There is risk of delayed nocturnal or fasting hypoglycaemia after evening alcohol consumption. Educating people with diabetes abou t the signs, symptoms, and self – management of delayed hypoglycaemia after drinking alcohol, especially when using insulin or sulphonylureas is recommended. The importance of glucose monitoring after drinking alcohol bever ages to reduce hypoglycaemia risk should be emphasised (ADA , 2019).",
+  "pairs": [
+   {
+    "instruction": "What effect can reducing alcohol intake have in people with hypertension?",
+    "response": "A reduction in alcohol intake in hypertensive individuals has been shown to reduce blood pressure, especially if more than 28g alcohol is consumed daily."
+   },
+   {
+    "instruction": "How should people on insulin or sulphonylureas consume alcohol?",
+    "response": "If on insulin or sulphonylureas, alcohol should be consumed with a meal containing carbohydrate to prevent hypoglycaemia."
+   },
+   {
+    "instruction": "What happens to hypoglycaemia risk as the quantity of alcohol increases?",
+    "response": "There is an increased risk of hypoglycaemia with the quantity of alcohol consumed."
+   },
+   {
+    "instruction": "What delayed risk follows evening alcohol consumption?",
+    "response": "There is a risk of delayed nocturnal or fasting hypoglycaemia after evening alcohol consumption."
+   },
+   {
+    "instruction": "What should people with diabetes be educated about regarding alcohol?",
+    "response": "They should be educated about the signs, symptoms, and self-management of delayed hypoglycaemia after drinking alcohol, especially when using insulin or sulphonylureas."
+   },
+   {
+    "instruction": "Why should glucose monitoring be emphasised after drinking alcohol?",
+    "response": "The importance of glucose monitoring after drinking alcoholic beverages should be emphasised to reduce hypoglycaemia risk."
+   },
+   {
+    "instruction": "Which diabetes medicines make alcohol a particular hypoglycaemia concern?",
+    "response": "Insulin and sulphonylureas."
+   },
+   {
+    "instruction": "How much daily alcohol is linked with a blood pressure benefit when reduced?",
+    "response": "The reduction is especially helpful if more than 28g of alcohol is consumed daily."
+   },
+   {
+    "instruction": "When can hypoglycaemia occur after drinking alcohol in the evening?",
+    "response": "It can occur later, as delayed nocturnal or fasting hypoglycaemia."
+   },
+   {
+    "instruction": "Give practical advice for a person taking insulin who plans to drink alcohol.",
+    "response": "Consume the alcohol with a meal containing carbohydrate, be aware that more alcohol means more hypoglycaemia risk, know the signs of delayed hypoglycaemia, and monitor glucose after drinking."
+   }
+  ]
+ },
+ {
+  "passage_id": 3,
+  "source": "hse-ireland-nutrition-dietetic-type2-diabetes-2020.txt",
+  "passage": "An integrated approach to changing behaviour in dietetic practice has been presented, outlining the theories, guiding principles, communication skills and practitioner development (Pearson, 2014). These are summarised below: Theory addresses: 1. Models used to understand and influence behaviour, including Egan’s Helping Model and the Stages of Change Model by Prochaska and DiClemente. As the complexity of human behaviour can never fully be understood, no model or approach can be complete, though they help. Michie et al. (2014) present 83 theories in the ABC of Behaviour Change Theories that guide our understanding and care delivery . 2. Psychological approaches, such as motivationa l interviewing, behaviour therap y and cognitive behaviour therapy.",
+  "pairs": [
+   {
+    "instruction": "What has been presented as an integrated approach in dietetic practice?",
+    "response": "An integrated approach to changing behaviour in dietetic practice has been presented, outlining the theories, guiding principles, communication skills and practitioner development."
+   },
+   {
+    "instruction": "Which models are used to understand and influence behaviour?",
+    "response": "Egan's Helping Model and the Stages of Change Model by Prochaska and DiClemente."
+   },
+   {
+    "instruction": "Can any single behaviour model be complete?",
+    "response": "No. As the complexity of human behaviour can never fully be understood, no model or approach can be complete, though they help."
+   },
+   {
+    "instruction": "How many theories does the ABC of Behaviour Change Theories present?",
+    "response": "Michie et al. (2014) present 83 theories in the ABC of Behaviour Change Theories."
+   },
+   {
+    "instruction": "Name psychological approaches mentioned for behaviour change.",
+    "response": "Psychological approaches such as motivational interviewing, behaviour therapy and cognitive behaviour therapy."
+   },
+   {
+    "instruction": "What four elements does the integrated approach outline?",
+    "response": "The theories, guiding principles, communication skills and practitioner development."
+   },
+   {
+    "instruction": "Who is the integrated approach to behaviour change in dietetic practice attributed to?",
+    "response": "It is attributed to Pearson (2014)."
+   },
+   {
+    "instruction": "What does theory address in this approach?",
+    "response": "Models used to understand and influence behaviour, and psychological approaches such as motivational interviewing, behaviour therapy and cognitive behaviour therapy."
+   },
+   {
+    "instruction": "Why are behaviour change models still useful if none is complete?",
+    "response": "Because even though no model can be complete, they help guide understanding and care delivery."
+   },
+   {
+    "instruction": "What is the Stages of Change Model?",
+    "response": "It is a model used to understand and influence behaviour, developed by Prochaska and DiClemente."
+   }
+  ]
+ },
+ {
+  "passage_id": 4,
+  "source": "hse-ireland-nutrition-dietetic-type2-diabetes-2020.txt",
+  "passage": "HSE Smoking Cessation Support Services - Treatment and support HSE Smoking Cessation Services provide specialist support to help you quit in community or health service settings. One-to-one support Health care profession als can refer a person with diabetes directly to their local smoking cessation officer. Contact services locally for referral form. This form of intensive support combined with drug treatments has the highest success rates. This service is usually free of charge and is run by health services. Smoking cessation advisors are specially trained to support you through the quitting process. You can attend smoking cessation clinics for one -to-one sessions that are tailored to meet your needs. They usually take place for 1-4 weeks before your quit date and continue for up to one year after you quit.",
+  "pairs": [
+   {
+    "instruction": "What do HSE Smoking Cessation Services provide?",
+    "response": "They provide specialist support to help people quit smoking in community or health service settings."
+   },
+   {
+    "instruction": "How can a person with diabetes be referred for smoking cessation support?",
+    "response": "Health care professionals can refer a person with diabetes directly to their local smoking cessation officer."
+   },
+   {
+    "instruction": "Which form of smoking cessation support has the highest success rates?",
+    "response": "One-to-one intensive support combined with drug treatments has the highest success rates."
+   },
+   {
+    "instruction": "Is the HSE smoking cessation service usually free?",
+    "response": "Yes. The service is usually free of charge and is run by health services."
+   },
+   {
+    "instruction": "Who supports people through the quitting process?",
+    "response": "Smoking cessation advisors, who are specially trained to support people through the quitting process."
+   },
+   {
+    "instruction": "What can people attend for one-to-one sessions?",
+    "response": "They can attend smoking cessation clinics for one-to-one sessions tailored to meet their needs."
+   },
+   {
+    "instruction": "When do smoking cessation sessions usually take place?",
+    "response": "They usually take place for 1-4 weeks before the quit date and continue for up to one year after quitting."
+   },
+   {
+    "instruction": "Where can referral forms for smoking cessation be obtained?",
+    "response": "Services should be contacted locally for a referral form."
+   },
+   {
+    "instruction": "Why combine intensive support with drug treatments?",
+    "response": "This form of intensive support combined with drug treatments has the highest success rates."
+   },
+   {
+    "instruction": "Describe the one-to-one smoking cessation support available through the HSE.",
+    "response": "Healthcare professionals can refer a person directly to a local smoking cessation officer; trained advisors run clinics with tailored one-to-one sessions that start 1-4 weeks before the quit date and continue for up to a year after, usually free of charge."
+   }
+  ]
+ },
+ {
+  "passage_id": 5,
+  "source": "icmr-type2-diabetes-guidelines-2018.txt",
+  "passage": "1.7.2 Primary prevention targets people who are in the stage of prediabetes to prevent the onset of diabetes. All people with prediabetes should be regularly screened and encouraged at each health care visit to pursue a healthy life-style, including a healthy diet, adequate exercise and weight control in order to prevent diabetes. Several studies including from India have shown that diabetes can be prevented in up to a third of people with prediabetes. When lifestyle alone is not sufficient and especially in those with combined IFG and IGT where progression to type 2 diabetes appear imminent, use of metformin in addition to lifestyle measures may be considered especially in Indians who progress rapidly to diabetes from the prediabetes stage.",
+  "pairs": [
+   {
+    "instruction": "What does primary prevention of diabetes target?",
+    "response": "Primary prevention targets people who are in the stage of prediabetes, to prevent the onset of diabetes."
+   },
+   {
+    "instruction": "What should be done for all people with prediabetes?",
+    "response": "They should be regularly screened and encouraged at each health care visit to pursue a healthy life-style, including a healthy diet, adequate exercise and weight control."
+   },
+   {
+    "instruction": "How much can diabetes be prevented in people with prediabetes according to studies?",
+    "response": "Several studies, including from India, have shown that diabetes can be prevented in up to a third of people with prediabetes."
+   },
+   {
+    "instruction": "When may metformin be considered in prediabetes?",
+    "response": "When lifestyle alone is not sufficient, especially in those with combined IFG and IGT where progression to type 2 diabetes appears imminent, metformin may be considered in addition to lifestyle measures."
+   },
+   {
+    "instruction": "Which group is mentioned as progressing rapidly from prediabetes to diabetes?",
+    "response": "Indians who progress rapidly to diabetes from the prediabetes stage."
+   },
+   {
+    "instruction": "What lifestyle measures are recommended to prevent diabetes?",
+    "response": "A healthy diet, adequate exercise and weight control."
+   },
+   {
+    "instruction": "What is meant by combined IFG and IGT in this context?",
+    "response": "It refers to people with both impaired fasting glucose and impaired glucose tolerance, in whom progression to type 2 diabetes appears imminent."
+   },
+   {
+    "instruction": "Is metformin recommended instead of lifestyle measures for prediabetes?",
+    "response": "No. Metformin may be considered in addition to lifestyle measures when lifestyle alone is not sufficient."
+   },
+   {
+    "instruction": "How often should people with prediabetes be encouraged to adopt a healthy lifestyle?",
+    "response": "At each health care visit."
+   },
+   {
+    "instruction": "Summarise the ICMR approach to primary prevention.",
+    "response": "Screen people with prediabetes regularly, encourage a healthy diet, exercise and weight control at each visit, and consider adding metformin to lifestyle measures where lifestyle alone is not enough, especially with combined IFG and IGT."
+   }
+  ]
+ },
+ {
+  "passage_id": 6,
+  "source": "icmr-type2-diabetes-guidelines-2018.txt",
+  "passage": "Advanced monitoring can be done if required in case of recurrent hypoglycaemia, severe fluctuations in blood glucose, disparity in measured glucose values and HbA1c, severe anaemia, haemoglobinopathy, hypoglycaemia unawareness etc. Here Continuous Glucose Monitoring (CGM) for 5-7 days or iSCGM (intermittently scanned CGM) for 14 days may be used. SECTION 6 NON-PHARMACOLOGICAL MANAGEMENT OF DIABETES 6.1. Lifestyle Goals in Diabetes z To improve health through optimum nutrition z To provide energy for reasonable body weight , normal growth and development z To maintain glycemic control z To achieve optimum blood lipid levels z To individualise the diet according to complications and co-morbidities z Achieve optimal physical activity z Advise other behavioural changes for: smoking, other tobacco products and alcohol z Advocate stress management 6.2 Medical Nutrition Therapy (MNT) for diabetes mellitus requires application of nutritional and behavioral sciences along with physical activity.",
+  "pairs": [
+   {
+    "instruction": "When can advanced glucose monitoring be used?",
+    "response": "Advanced monitoring can be done if required in case of recurrent hypoglycaemia, severe fluctuations in blood glucose, disparity in measured glucose values and HbA1c, severe anaemia, haemoglobinopathy, hypoglycaemia unawareness etc."
+   },
+   {
+    "instruction": "How long may Continuous Glucose Monitoring be used for?",
+    "response": "Continuous Glucose Monitoring (CGM) may be used for 5-7 days."
+   },
+   {
+    "instruction": "How long may intermittently scanned CGM be used?",
+    "response": "iSCGM (intermittently scanned CGM) may be used for 14 days."
+   },
+   {
+    "instruction": "What are the lifestyle goals in diabetes regarding nutrition?",
+    "response": "To improve health through optimum nutrition, and to provide energy for reasonable body weight, normal growth and development."
+   },
+   {
+    "instruction": "Name the lifestyle goals listed for diabetes management.",
+    "response": "Optimum nutrition, reasonable body weight and normal growth, glycaemic control, optimum blood lipid levels, individualising the diet according to complications and co-morbidities, optimal physical activity, behavioural changes for smoking, tobacco and alcohol, and stress management."
+   },
+   {
+    "instruction": "What does Medical Nutrition Therapy require?",
+    "response": "Medical Nutrition Therapy for diabetes mellitus requires application of nutritional and behavioral sciences along with physical activity."
+   },
+   {
+    "instruction": "Why might the diet need to be individualised?",
+    "response": "The diet should be individualised according to complications and co-morbidities."
+   },
+   {
+    "instruction": "Which behaviours should people be advised to change?",
+    "response": "Smoking, other tobacco products and alcohol."
+   },
+   {
+    "instruction": "What does MNT stand for?",
+    "response": "MNT stands for Medical Nutrition Therapy."
+   },
+   {
+    "instruction": "Under what situations is advanced glucose monitoring appropriate?",
+    "response": "In recurrent hypoglycaemia, severe fluctuations in blood glucose, disparity between measured glucose and HbA1c, severe anaemia, haemoglobinopathy and hypoglycaemia unawareness."
+   }
+  ]
+ },
+ {
+  "passage_id": 7,
+  "source": "icmr-type2-diabetes-guidelines-2018.txt",
+  "passage": "(b) Dyslipidaemia : Saturated and trans fats food sources like vanaspati, butter, ghee, margarine, coconut oil, red meats like sausages, ham, bacon, egg yellow, whole milk and its products should be restricted. Use of healthy oils and fibre rich foods is recommended. Vegetarians can take flax seeds (10 g / day) in their diet as both fish and flax seeds are rich in omega-3 fatty acids which is protective for heart disease. Alcohol restriction will bring down the triglycerides. Dietary management should be accompanied with regular physical activity and exercise regimen. 6.2.3 Special situations requiring dietary modification: (i) Sick Days In the event of fever or other illness, the diabetic diet should be modified by changing the consistency and texture of foods to maintain adequate calorie intake.",
+  "pairs": [
+   {
+    "instruction": "Which foods should be restricted in dyslipidaemia?",
+    "response": "Saturated and trans fat food sources like vanaspati, butter, ghee, margarine, coconut oil, red meats like sausages, ham, bacon, egg yellow, whole milk and its products should be restricted."
+   },
+   {
+    "instruction": "What is recommended instead in dyslipidaemia?",
+    "response": "Use of healthy oils and fibre rich foods is recommended."
+   },
+   {
+    "instruction": "What can vegetarians take for omega-3 fatty acids?",
+    "response": "Vegetarians can take flax seeds (10 g / day) in their diet."
+   },
+   {
+    "instruction": "Why are omega-3 fatty acids useful?",
+    "response": "Both fish and flax seeds are rich in omega-3 fatty acids, which is protective for heart disease."
+   },
+   {
+    "instruction": "How does alcohol restriction help?",
+    "response": "Alcohol restriction will bring down the triglycerides."
+   },
+   {
+    "instruction": "What should accompany dietary management?",
+    "response": "Dietary management should be accompanied with regular physical activity and exercise regimen."
+   },
+   {
+    "instruction": "How should the diabetic diet be changed during sick days?",
+    "response": "In the event of fever or other illness, the diabetic diet should be modified by changing the consistency and texture of foods to maintain adequate calorie intake."
+   },
+   {
+    "instruction": "What is the aim of modifying food consistency on sick days?",
+    "response": "To maintain adequate calorie intake during fever or other illness."
+   },
+   {
+    "instruction": "Is egg yolk recommended in dyslipidaemia?",
+    "response": "No. Egg yellow is among the saturated fat sources that should be restricted."
+   },
+   {
+    "instruction": "Give dietary advice for a person with diabetes and dyslipidaemia.",
+    "response": "Restrict saturated and trans fats such as ghee, butter, vanaspati, margarine, coconut oil, red meat and whole milk products; use healthy oils and fibre-rich foods; limit alcohol to lower triglycerides; and combine this with regular physical activity."
+   }
+  ]
+ },
+ {
+  "passage_id": 8,
+  "source": "icmr-type2-diabetes-guidelines-2018.txt",
+  "passage": "Semi solid foods and fluids or items like thin soups, milk, buttermilk, or fresh lime juice should be encouraged. 6.2.4 Lifestyle Management: (i) Tobacco: Smoking and tobacco chewing is totally prohibited. (ii) Stress: Stress management is essential which could take the form of meditation, yoga, a long outdoor walk, exercise and trying out hobbies like reading, gardening, painting etc. Practice of yoga is our traditional Indian system, which has therapeutic value in controlling our physical and mental health. It should be done under the guidance of an expert. 6.3 Physical Activity and Exercise Regular physical activity along with regulated exercise is an essential component of management of type 2 diabetes. Complete evaluation of patients with diabetes should be performed before recommending an exercise program. The exercise programme has to be individualized according to one’s ability and individual capacity.",
+  "pairs": [
+   {
+    "instruction": "What foods should be encouraged on sick days?",
+    "response": "Semi solid foods and fluids or items like thin soups, milk, buttermilk, or fresh lime juice should be encouraged."
+   },
+   {
+    "instruction": "What is the advice about tobacco in lifestyle management?",
+    "response": "Smoking and tobacco chewing is totally prohibited."
+   },
+   {
+    "instruction": "What forms can stress management take?",
+    "response": "Stress management could take the form of meditation, yoga, a long outdoor walk, exercise and trying out hobbies like reading, gardening, painting etc."
+   },
+   {
+    "instruction": "What value does yoga have according to the guideline?",
+    "response": "Practice of yoga is part of the traditional Indian system and has therapeutic value in controlling physical and mental health."
+   },
+   {
+    "instruction": "Under whose guidance should yoga be done?",
+    "response": "It should be done under the guidance of an expert."
+   },
+   {
+    "instruction": "Why is physical activity important in type 2 diabetes?",
+    "response": "Regular physical activity along with regulated exercise is an essential component of management of type 2 diabetes."
+   },
+   {
+    "instruction": "What should be done before recommending an exercise programme?",
+    "response": "Complete evaluation of patients with diabetes should be performed before recommending an exercise program."
+   },
+   {
+    "instruction": "How should the exercise programme be tailored?",
+    "response": "The exercise programme has to be individualized according to one's ability and individual capacity."
+   },
+   {
+    "instruction": "Is stress management important for people with diabetes?",
+    "response": "Yes. Stress management is essential in lifestyle management."
+   },
+   {
+    "instruction": "List the lifestyle management measures covered under 6.2.4.",
+    "response": "Avoiding tobacco, which is totally prohibited, and stress management through meditation, yoga, outdoor walks, exercise and hobbies."
+   }
+  ]
+ },
+ {
+  "passage_id": 9,
+  "source": "idf-atlas-global-diabetes-prevalence-2021.txt",
+  "passage": "Methods: A total of 219 data sources meeting pre-established quality criteria reporting research conducted between 2005 and 2020 and representing 215 countries and territories were identified. For countries without data meeting quality criteria, estimates were extrapolated from countries with similar economies, ethnicity, geography and language. Logistic regression was used to generate smoothed age-specific diabetes prevalence estimates. Diabetes-related health expenditures were estimated using an attributable fraction method. The 2021 diabetes prevalence estimates were applied to population estimates for 2045 to project future prevalence.",
+  "pairs": [
+   {
+    "instruction": "How many data sources were used in the IDF Atlas methods?",
+    "response": "A total of 219 data sources meeting pre-established quality criteria were identified."
+   },
+   {
+    "instruction": "Which years did the research in the data sources cover?",
+    "response": "Research conducted between 2005 and 2020."
+   },
+   {
+    "instruction": "How many countries and territories were represented?",
+    "response": "215 countries and territories were represented."
+   },
+   {
+    "instruction": "How were estimates produced for countries without qualifying data?",
+    "response": "Estimates were extrapolated from countries with similar economies, ethnicity, geography and language."
+   },
+   {
+    "instruction": "Which statistical method generated age-specific prevalence estimates?",
+    "response": "Logistic regression was used to generate smoothed age-specific diabetes prevalence estimates."
+   },
+   {
+    "instruction": "How were diabetes-related health expenditures estimated?",
+    "response": "They were estimated using an attributable fraction method."
+   },
+   {
+    "instruction": "How was future prevalence for 2045 projected?",
+    "response": "The 2021 diabetes prevalence estimates were applied to population estimates for 2045."
+   },
+   {
+    "instruction": "What quality rule applied to data sources in the IDF Atlas?",
+    "response": "Data sources had to meet pre-established quality criteria."
+   },
+   {
+    "instruction": "Why are estimates extrapolated for some countries?",
+    "response": "Because those countries lacked data meeting the quality criteria."
+   },
+   {
+    "instruction": "Summarise the methods used for the IDF Diabetes Atlas estimates.",
+    "response": "219 quality-checked data sources from 2005 to 2020 covering 215 countries and territories were used; missing countries were extrapolated from similar ones, smoothed age-specific prevalence came from logistic regression, health expenditure from an attributable fraction method, and 2045 projections applied 2021 prevalence to future population estimates."
+   }
+  ]
+ },
+ {
+  "passage_id": 10,
+  "source": "idf-atlas-global-diabetes-prevalence-2021.txt",
+  "passage": "2.8. Estimation of uncertainty intervals There were minor modifications in the method of estimating the confidence intervals [4] for the prevalence estimates in the 10th edition of the IDF Diabetes Atlas as described below. It should be noted that confidence intervals in the traditional sense cannot be calculated in the IDF model. Instead, we estimated uncertainty intervals. 2.8.1. Simulation to estimate uncertainty in raw data— For each underlying study, five hundred estimates of prevalence were randomly sampled from within a normal distribution constructed from within the lower and upper bounds of the corresponding confidence intervals of every prevalence estimate presented in the study. These samples were then used in the IDF estimation procedure as conducted for the original raw data. [4] From these modelled estimates, the minimum and the maximum were calculated, representing the uncertainty intervals in the raw age-specific data from each study.",
+  "pairs": [
+   {
+    "instruction": "What did the 10th edition of the IDF Diabetes Atlas change in estimating confidence intervals?",
+    "response": "There were minor modifications in the method of estimating the confidence intervals for the prevalence estimates."
+   },
+   {
+    "instruction": "Why does the IDF model use uncertainty intervals instead of confidence intervals?",
+    "response": "Confidence intervals in the traditional sense cannot be calculated in the IDF model, so uncertainty intervals were estimated instead."
+   },
+   {
+    "instruction": "How were prevalence estimates simulated for each underlying study?",
+    "response": "Five hundred estimates of prevalence were randomly sampled from within a normal distribution constructed from the lower and upper bounds of the study's confidence intervals."
+   },
+   {
+    "instruction": "What were the sampled estimates used for?",
+    "response": "These samples were then used in the IDF estimation procedure as conducted for the original raw data."
+   },
+   {
+    "instruction": "How were the uncertainty intervals for raw age-specific data calculated?",
+    "response": "From the modelled estimates, the minimum and the maximum were calculated, representing the uncertainty intervals in the raw age-specific data from each study."
+   },
+   {
+    "instruction": "How many prevalence estimates were sampled per study?",
+    "response": "Five hundred."
+   },
+   {
+    "instruction": "What distribution was used when sampling prevalence estimates?",
+    "response": "A normal distribution constructed from the lower and upper bounds of each study's confidence intervals."
+   },
+   {
+    "instruction": "What section covers the estimation of uncertainty intervals?",
+    "response": "Section 2.8, Estimation of uncertainty intervals."
+   },
+   {
+    "instruction": "Can traditional confidence intervals be calculated in the IDF model?",
+    "response": "No. Confidence intervals in the traditional sense cannot be calculated in the IDF model."
+   },
+   {
+    "instruction": "Describe the simulation used to estimate uncertainty in the raw data.",
+    "response": "For each study, five hundred prevalence estimates were randomly sampled from a normal distribution built from the study's confidence interval bounds, run through the IDF estimation procedure, and the minimum and maximum of the modelled estimates gave the uncertainty intervals."
+   }
+  ]
+ },
+ {
+  "passage_id": 11,
+  "source": "idf-atlas-global-diabetes-prevalence-2021.txt",
+  "passage": "comparisons between countries. An important change in the methods since the last edition is the exclusion of all studies published before 2005. Since older studies generally tend to report lower prevalence, the exclusion of these studies may have contributed to the 12.9% rise in global prevalence when compared to the prevalence estimate from the 9th edition of Atlas. As with earlier IDF Diabetes Atlas editions, our aim was to produce what we believe is the best estimate of diabetes prevalence for all countries and territories with a population of at least 50,000 persons. Therefore, when a country lacked internal data on diabetes prevalence, this was estimated by extrapolation of the prevalence from a country with similar economy, language and demographic features. We acknowledge that these extrapolations may represent sources of error.",
+  "pairs": [
+   {
+    "instruction": "What important methodological change was made since the last IDF Atlas edition?",
+    "response": "The exclusion of all studies published before 2005."
+   },
+   {
+    "instruction": "Why might excluding older studies have raised the prevalence estimate?",
+    "response": "Since older studies generally tend to report lower prevalence, their exclusion may have contributed to the 12.9% rise in global prevalence compared with the 9th edition."
+   },
+   {
+    "instruction": "By how much did global prevalence rise compared with the 9th edition?",
+    "response": "The global prevalence rose by 12.9%."
+   },
+   {
+    "instruction": "What is the aim of the IDF Diabetes Atlas?",
+    "response": "To produce what the authors believe is the best estimate of diabetes prevalence for all countries and territories with a population of at least 50,000 persons."
+   },
+   {
+    "instruction": "What is the minimum population for a country to be included in the estimates?",
+    "response": "A population of at least 50,000 persons."
+   },
+   {
+    "instruction": "What was done when a country lacked internal data on diabetes prevalence?",
+    "response": "Prevalence was estimated by extrapolation from a country with similar economy, language and demographic features."
+   },
+   {
+    "instruction": "Do the authors acknowledge limitations of extrapolation?",
+    "response": "Yes. They acknowledge that these extrapolations may represent sources of error."
+   },
+   {
+    "instruction": "Why do older studies matter for prevalence comparisons?",
+    "response": "Older studies generally tend to report lower prevalence, so including them lowers the estimates."
+   },
+   {
+    "instruction": "What features are used to match countries for extrapolation?",
+    "response": "Similar economy, language and demographic features."
+   },
+   {
+    "instruction": "Summarise the key methodological change and its consequence in the 10th IDF Atlas.",
+    "response": "All studies published before 2005 were excluded. Because older studies tend to report lower prevalence, this may have contributed to the 12.9% rise in global prevalence compared with the 9th edition."
+   }
+  ]
+ },
+ {
+  "passage_id": 12,
+  "source": "idf-clinical-practice-recommendations-2025.txt",
+  "passage": "lowest in Europe region (5.9%). North America and the Caribbean region showed the highest IFG prevalence (13.6%) while Europe had again the lowest (5.4%).1 There are significant differences in prevalence and congruence of IH identified by different criteria, and overlap between the various biochemical tests is only moderate. Although IFG and intermediate HbA1c were introduced to achieve alignment with IGT, individuals with IGT who also had ADA-IFG was 58%, WHO-IFG was 23%, and ADA-HbA1c was 32%.21 In addition, the percentage of people without IGT who have IFG increases substantially with ADA-FPG versus WHO-FPG.22 The 2015–2016 US NHANES survey reported IH prevalences ranging from 4.3% with IEC-HbA1c to 43.5% with ADA-IFG. If a combination of ADA-HbA1c, ADA-FPG, and 2 h PG was used, the prevalence was 2.5% compared with 51.3% if any of the three tests was used.23 Progression to diabetes All measures of IH predict progression to T2DM without intervention, and incident rates of T2DM increase with longer periods of follow-up.",
+  "pairs": [
+   {
+    "instruction": "Which region had the lowest prevalence of impaired glucose tolerance in the IDF recommendations?",
+    "response": "Europe had the lowest prevalence, at 5.9%."
+   },
+   {
+    "instruction": "Which region had the highest IFG prevalence?",
+    "response": "North America and the Caribbean region showed the highest IFG prevalence (13.6%)."
+   },
+   {
+    "instruction": "What was the lowest IFG prevalence and where?",
+    "response": "Europe had the lowest IFG prevalence, at 5.4%."
+   },
+   {
+    "instruction": "How well do the different biochemical tests for intermediate hyperglycaemia overlap?",
+    "response": "There are significant differences in prevalence and congruence of intermediate hyperglycaemia identified by different criteria, and overlap between the various biochemical tests is only moderate."
+   },
+   {
+    "instruction": "What percentage of people with IGT also had ADA-IFG?",
+    "response": "58% of individuals with IGT also had ADA-IFG."
+   },
+   {
+    "instruction": "What percentage of people with IGT also had WHO-IFG?",
+    "response": "23% of individuals with IGT also had WHO-IFG."
+   },
+   {
+    "instruction": "What percentage of people with IGT also had ADA-HbA1c criteria?",
+    "response": "32% of individuals with IGT also had ADA-HbA1c."
+   },
+   {
+    "instruction": "What range of intermediate hyperglycaemia prevalence did the 2015-2016 US NHANES survey report?",
+    "response": "Prevalences ranged from 4.3% with IEC-HbA1c to 43.5% with ADA-IFG."
+   },
+   {
+    "instruction": "What happens to the prevalence of intermediate hyperglycaemia when any of three tests is used?",
+    "response": "The prevalence was 51.3% if any of the three tests was used, compared with 2.5% if a combination of ADA-HbA1c, ADA-FPG and 2 h PG was required."
+   },
+   {
+    "instruction": "Do measures of intermediate hyperglycaemia predict progression to type 2 diabetes?",
+    "response": "Yes. All measures of intermediate hyperglycaemia predict progression to T2DM without intervention, and incident rates of T2DM increase with longer periods of follow-up."
+   }
+  ]
+ },
+ {
+  "passage_id": 13,
+  "source": "idf-clinical-practice-recommendations-2025.txt",
+  "passage": "all-cause mortality and macrovascular and microvascular complications. There is strong evidence that the T2DM burden can be reduced by controlling hyperglycaemia and associated risk factors, diagnosing earlier, and preventing high-risk individuals from progressing to T2DM. The global burden of T2DM continues to increase despite the wealth of existing evidence on diabetes care and prevention. Optimal diabetes management is not reaching the majority of individuals who could benefit. Poor glycaemic control is common in T2DM and does not meet the World Health Organization (WHO) goal of 80% of people with diagnosed diabetes achieving good glycaemic control.2 INTEGRATED DIABETES CARE deliver care in the context of a chronic care model which addresses the multifaceted challenges inherent to this complex condition.",
+  "pairs": [
+   {
+    "instruction": "What evidence is there about reducing the burden of type 2 diabetes?",
+    "response": "There is strong evidence that the T2DM burden can be reduced by controlling hyperglycaemia and associated risk factors, diagnosing earlier, and preventing high-risk individuals from progressing to T2DM."
+   },
+   {
+    "instruction": "Is the global burden of type 2 diabetes decreasing?",
+    "response": "No. The global burden of T2DM continues to increase despite the wealth of existing evidence on diabetes care and prevention."
+   },
+   {
+    "instruction": "What is the problem with optimal diabetes management globally?",
+    "response": "Optimal diabetes management is not reaching the majority of individuals who could benefit."
+   },
+   {
+    "instruction": "What WHO goal for glycaemic control is mentioned?",
+    "response": "The WHO goal is for 80% of people with diagnosed diabetes to achieve good glycaemic control."
+   },
+   {
+    "instruction": "Is the WHO glycaemic control goal being met?",
+    "response": "No. Poor glycaemic control is common in T2DM and does not meet the WHO goal of 80% of people with diagnosed diabetes achieving good glycaemic control."
+   },
+   {
+    "instruction": "What complications are reduced by controlling hyperglycaemia?",
+    "response": "All-cause mortality and macrovascular and microvascular complications."
+   },
+   {
+    "instruction": "What care model should integrated diabetes care use?",
+    "response": "Integrated diabetes care should deliver care in the context of a chronic care model which addresses the multifaceted challenges inherent to this complex condition."
+   },
+   {
+    "instruction": "Name three ways the T2DM burden can be reduced.",
+    "response": "Controlling hyperglycaemia and associated risk factors, diagnosing earlier, and preventing high-risk individuals from progressing to T2DM."
+   },
+   {
+    "instruction": "Why is diabetes care described as multifaceted?",
+    "response": "Because it is a complex condition with multifaceted challenges, which a chronic care model is meant to address."
+   },
+   {
+    "instruction": "Summarise the IDF statement on the burden of type 2 diabetes.",
+    "response": "Strong evidence shows the burden can be reduced by better glycaemic and risk-factor control, earlier diagnosis and prevention, yet the burden keeps rising, optimal management is not reaching most who could benefit, and poor glycaemic control falls short of the WHO 80% goal."
+   }
+  ]
+ },
+ {
+  "passage_id": 14,
+  "source": "idf-clinical-practice-recommendations-2025.txt",
+  "passage": "Levels of diabetes care and prevention approach All people with or at risk of diabetes should have equitable and affordable access to the best available evidence-based, cost-effective integrated diabetes care and prevention. However, it is widely recognised that many countries and health systems around the world do not currently have the workforce or financial resources to provide this level of diabetes care. An imperative in formulating IDF guidance is recognising the limitations and opportunities presented in the context of varying healthcare systems globally. This is pivotal in guiding recommendations that cater to diverse settings, and which can evolve and be adapted to encourage and facilitate healthcare system reform.",
+  "pairs": [
+   {
+    "instruction": "Who should have access to diabetes care and prevention according to IDF?",
+    "response": "All people with or at risk of diabetes should have equitable and affordable access to the best available evidence-based, cost-effective integrated diabetes care and prevention."
+   },
+   {
+    "instruction": "Why can some countries not provide the best level of diabetes care?",
+    "response": "Many countries and health systems do not currently have the workforce or financial resources to provide this level of diabetes care."
+   },
+   {
+    "instruction": "What is an imperative when formulating IDF guidance?",
+    "response": "Recognising the limitations and opportunities presented in the context of varying healthcare systems globally."
+   },
+   {
+    "instruction": "Why is it pivotal to recognise varying healthcare systems?",
+    "response": "It guides recommendations that cater to diverse settings and can evolve and be adapted to encourage and facilitate healthcare system reform."
+   },
+   {
+    "instruction": "What kind of access to care should people at risk of diabetes have?",
+    "response": "Equitable and affordable access."
+   },
+   {
+    "instruction": "What characteristics should diabetes care and prevention have?",
+    "response": "It should be evidence-based, cost-effective and integrated."
+   },
+   {
+    "instruction": "What does IDF guidance aim to encourage in health systems?",
+    "response": "It aims to encourage and facilitate healthcare system reform."
+   },
+   {
+    "instruction": "Are IDF recommendations designed for a single type of health system?",
+    "response": "No. They cater to diverse settings and can be adapted to varying healthcare systems around the world."
+   },
+   {
+    "instruction": "What resource gaps are acknowledged in the IDF text?",
+    "response": "Many countries and health systems lack the workforce or financial resources to provide the best level of diabetes care."
+   },
+   {
+    "instruction": "Summarise the IDF levels of diabetes care and prevention approach.",
+    "response": "All people with or at risk of diabetes should have equitable, affordable access to evidence-based, cost-effective integrated care, but because many systems lack workforce or finances, IDF guidance is designed to suit diverse settings and support healthcare system reform."
+   }
+  ]
+ },
+ {
+  "passage_id": 15,
+  "source": "idf-clinical-practice-recommendations-2025.txt",
+  "passage": "GLOBAL CONSIDERATIONS The capacity to detect individuals with undiagnosed T2DM and IH and implement diabetes prevention programmes varies considerably between countries and health services and systems, especially in low- and middle-income countries (LMIC). The World Health Organization (WHO) periodically conducts a country capacity survey on noncommunicable diseases (NCDs) to assess the national-level response to the NCD burden, which includes information on health system capacity for diabetes detection, treatment, and care. The most recent survey in 2019 collected data from 160 countries; 75% reported having an operational policy, strategy, or action plan for diabetes. Specific details on diabetes screening and prevention were not reported.",
+  "pairs": [
+   {
+    "instruction": "What varies considerably between countries in diabetes detection?",
+    "response": "The capacity to detect individuals with undiagnosed T2DM and intermediate hyperglycaemia and implement diabetes prevention programmes varies considerably between countries and health services and systems."
+   },
+   {
+    "instruction": "Which countries show the greatest variation in capacity?",
+    "response": "Especially low- and middle-income countries (LMIC)."
+   },
+   {
+    "instruction": "What does the WHO periodically conduct?",
+    "response": "The World Health Organization periodically conducts a country capacity survey on noncommunicable diseases (NCDs)."
+   },
+   {
+    "instruction": "What does the WHO capacity survey assess?",
+    "response": "It assesses the national-level response to the NCD burden, including information on health system capacity for diabetes detection, treatment, and care."
+   },
+   {
+    "instruction": "How many countries did the most recent WHO survey cover?",
+    "response": "The most recent survey, in 2019, collected data from 160 countries."
+   },
+   {
+    "instruction": "What proportion of countries reported an operational diabetes policy, strategy or action plan?",
+    "response": "75% of countries reported having an operational policy, strategy, or action plan for diabetes."
+   },
+   {
+    "instruction": "Were specific details on diabetes screening and prevention reported?",
+    "response": "No. Specific details on diabetes screening and prevention were not reported."
+   },
+   {
+    "instruction": "When was the most recent WHO NCD country capacity survey cited?",
+    "response": "In 2019."
+   },
+   {
+    "instruction": "What does NCD stand for?",
+    "response": "NCD stands for noncommunicable disease."
+   },
+   {
+    "instruction": "Summarise the global considerations for detecting diabetes.",
+    "response": "Capacity to detect undiagnosed T2DM and intermediate hyperglycaemia and to run prevention programmes varies widely, especially in low- and middle-income countries; the 2019 WHO survey of 160 countries found 75% had an operational diabetes policy or plan, but gave no details on screening and prevention."
+   }
+  ]
+ },
+ {
+  "passage_id": 16,
+  "source": "moh-malaysia-type2-diabetes-cpg-2020.txt",
+  "passage": "I note that there has been a recent explosion of advances made in the management of diabetic complications. The use of new technology and findings from landmark trials have changed clinical pathways and recommendations in the way T2DM is managed. This has been reflected in the latest Clinical Practice Guidelines (CPG) for the Management of T2DM (6 th Edition). These guidelines also focus on preventing and reducing diabetes-related complications, thereby improving clinical outcomes. This CPG will form a valuable resource for healthcare professionals from primary to tertiary care levels, to deliver the best possible care for their patients, from disease prevention to treatment of complications.",
+  "pairs": [
+   {
+    "instruction": "What has changed in the management of diabetic complications?",
+    "response": "There has been a recent explosion of advances in the management of diabetic complications, with new technology and findings from landmark trials changing clinical pathways and recommendations."
+   },
+   {
+    "instruction": "Which edition of the Malaysian CPG is described?",
+    "response": "The 6th Edition of the Clinical Practice Guidelines for the Management of T2DM."
+   },
+   {
+    "instruction": "What do the guidelines focus on?",
+    "response": "They focus on preventing and reducing diabetes-related complications, thereby improving clinical outcomes."
+   },
+   {
+    "instruction": "Who is the CPG intended for?",
+    "response": "It is a resource for healthcare professionals from primary to tertiary care levels."
+   },
+   {
+    "instruction": "What does the CPG help healthcare professionals deliver?",
+    "response": "It helps them deliver the best possible care for their patients, from disease prevention to treatment of complications."
+   },
+   {
+    "instruction": "What has altered clinical pathways in T2DM management?",
+    "response": "The use of new technology and findings from landmark trials."
+   },
+   {
+    "instruction": "What does CPG stand for?",
+    "response": "CPG stands for Clinical Practice Guidelines."
+   },
+   {
+    "instruction": "What is the scope of care covered by the CPG?",
+    "response": "From disease prevention to treatment of complications."
+   },
+   {
+    "instruction": "Why have the T2DM recommendations been updated?",
+    "response": "Because new technology and landmark trial findings have changed clinical pathways and recommendations for managing T2DM."
+   },
+   {
+    "instruction": "Summarise the foreword of the Malaysian T2DM CPG.",
+    "response": "Advances in managing diabetic complications and landmark trials have changed clinical pathways, and the 6th Edition CPG focuses on preventing and reducing complications to improve outcomes, serving healthcare professionals from primary to tertiary care."
+   }
+  ]
+ },
+ {
+  "passage_id": 17,
+  "source": "moh-malaysia-type2-diabetes-cpg-2020.txt",
+  "passage": "Grade A 2. As first line therapy, metformin is the preferred choice. Other OGLDs are acceptable alternatives, if metformin is not tolerated or contra-indicated. Grade A 4. Cost of medications is a barrier and should be given due consideration when choosing treatment options. Grade C 5. If targets are not met after optimal combined OGLDs therapy, consider adding GLP-1RA or insulin. Grade A 6. HbA 1c remains an important target. If glycaemic targets are not achieved, intensification of treatment should be made every 3-6 months. Grade C 3. Medication regimen choice should address: a. co-morbidities such as ASCVD, heart failure and CKD; and b. risk for specific adverse drug effects, safety, and tolerability.",
+  "pairs": [
+   {
+    "instruction": "What is the preferred first line therapy for type 2 diabetes in the Malaysian CPG?",
+    "response": "As first line therapy, metformin is the preferred choice."
+   },
+   {
+    "instruction": "When are other oral glucose lowering drugs acceptable?",
+    "response": "Other OGLDs are acceptable alternatives if metformin is not tolerated or contra-indicated."
+   },
+   {
+    "instruction": "What should be considered if targets are not met after optimal combined OGLD therapy?",
+    "response": "Consider adding GLP-1RA or insulin."
+   },
+   {
+    "instruction": "How often should treatment be intensified if glycaemic targets are not achieved?",
+    "response": "Intensification of treatment should be made every 3-6 months."
+   },
+   {
+    "instruction": "Does cost of medication matter in choosing treatment?",
+    "response": "Yes. Cost of medications is a barrier and should be given due consideration when choosing treatment options."
+   },
+   {
+    "instruction": "What should medication regimen choice address?",
+    "response": "Co-morbidities such as ASCVD, heart failure and CKD, and the risk for specific adverse drug effects, safety, and tolerability."
+   },
+   {
+    "instruction": "Does HbA1c remain an important target?",
+    "response": "Yes. HbA1c remains an important target."
+   },
+   {
+    "instruction": "Which comorbidities should influence the choice of regimen?",
+    "response": "ASCVD, heart failure and CKD."
+   },
+   {
+    "instruction": "What does OGLD stand for?",
+    "response": "OGLD stands for oral glucose lowering drug."
+   },
+   {
+    "instruction": "Summarise the Malaysian CPG recommendations on drug therapy.",
+    "response": "Metformin is the preferred first line choice, with other OGLDs as alternatives if it is not tolerated or contra-indicated; regimen choice should address comorbidities and adverse effect risk; cost should be considered; GLP-1RA or insulin can be added if targets are missed; and treatment should be intensified every 3-6 months if HbA1c targets are not achieved."
+   }
+  ]
+ },
+ {
+  "passage_id": 18,
+  "source": "moh-malaysia-type2-diabetes-cpg-2020.txt",
+  "passage": "Grade B 3. SMBG should be recommended in patients on insulin and is desirable for those on OGLDs. Grade C 4. CGM may be considered in patients with suboptimal HbA1c or suspected to have unrecognised hypoglycaemia on intensive insulin therapy. Grade B 5. Monitoring of glycaemic control, co-morbidities, complications and other CVD risk factors should be done at initial visit and whenever indicated subsequently. Grade C 1. Glycaemic targets must be individualised. Therapy in most patients with T2DM should be targeted to achieve an HbA1c≤7.0% or 6.5% (where appropriate), if achievable without significant hypoglycaemia.",
+  "pairs": [
+   {
+    "instruction": "What is recommended for patients on insulin regarding SMBG?",
+    "response": "SMBG should be recommended in patients on insulin and is desirable for those on OGLDs."
+   },
+   {
+    "instruction": "When may CGM be considered?",
+    "response": "CGM may be considered in patients with suboptimal HbA1c or suspected to have unrecognised hypoglycaemia on intensive insulin therapy."
+   },
+   {
+    "instruction": "When should glycaemic control, comorbidities and CVD risk factors be monitored?",
+    "response": "At the initial visit and whenever indicated subsequently."
+   },
+   {
+    "instruction": "How should glycaemic targets be set?",
+    "response": "Glycaemic targets must be individualised."
+   },
+   {
+    "instruction": "What HbA1c target is recommended for most patients with T2DM?",
+    "response": "Therapy in most patients with T2DM should be targeted to achieve an HbA1c of 7.0% or less, or 6.5% where appropriate, if achievable without significant hypoglycaemia."
+   },
+   {
+    "instruction": "What condition limits pursuit of the lower HbA1c target?",
+    "response": "The target should be achievable without significant hypoglycaemia."
+   },
+   {
+    "instruction": "Which patients is SMBG desirable for?",
+    "response": "Those on oral glucose lowering drugs (OGLDs)."
+   },
+   {
+    "instruction": "What does SMBG stand for?",
+    "response": "SMBG stands for self-monitoring of blood glucose."
+   },
+   {
+    "instruction": "Why might CGM be used in a patient on intensive insulin therapy?",
+    "response": "If they have suboptimal HbA1c or suspected unrecognised hypoglycaemia."
+   },
+   {
+    "instruction": "Summarise the Malaysian CPG monitoring recommendations.",
+    "response": "SMBG for patients on insulin and desirable for those on OGLDs, CGM when HbA1c is suboptimal or hypoglycaemia is suspected on intensive insulin, regular monitoring of control, comorbidities and CVD risk, and individualised targets such as HbA1c at or below 7.0% or 6.5% without significant hypoglycaemia."
+   }
+  ]
+ },
+ {
+  "passage_id": 19,
+  "source": "moh-malaysia-type2-diabetes-cpg-2020.txt",
+  "passage": "5. If selected, use nicotine replacement therapy (NRT) for at least eight to twelve weeks, whereas varenicline should be used for at least twelve weeks. 6. Combination therapy (e.g. two NRTs, a non-NRT, e.g. bupropion with an NRT) is better than monotherapy in smoking cessation treatment and may be most useful for those smokers at highest risk of relapse. 7. Use smoking cessation medications with caution in special populations (e.g. children and adolescents, pregnant, breastfeeding women, psychiatric and substance abuse disorder patients). 8. Arrange a minimum of six to eight face to face follow-up sessions for smoking cessation interventions in six months through counselling support team (health education officer, pharmacists or any officer trained for quit smoking services).",
+  "pairs": [
+   {
+    "instruction": "How long should nicotine replacement therapy be used?",
+    "response": "NRT should be used for at least eight to twelve weeks."
+   },
+   {
+    "instruction": "How long should varenicline be used?",
+    "response": "Varenicline should be used for at least twelve weeks."
+   },
+   {
+    "instruction": "Is combination therapy better than monotherapy for smoking cessation?",
+    "response": "Yes. Combination therapy, such as two NRTs or a non-NRT such as bupropion with an NRT, is better than monotherapy."
+   },
+   {
+    "instruction": "Who may benefit most from combination therapy?",
+    "response": "Smokers at highest risk of relapse."
+   },
+   {
+    "instruction": "Which special populations need caution with smoking cessation medications?",
+    "response": "Children and adolescents, pregnant and breastfeeding women, and psychiatric and substance abuse disorder patients."
+   },
+   {
+    "instruction": "How many follow-up sessions should be arranged for smoking cessation?",
+    "response": "A minimum of six to eight face to face follow-up sessions in six months."
+   },
+   {
+    "instruction": "Who can provide smoking cessation counselling support?",
+    "response": "A counselling support team such as a health education officer, pharmacist or any officer trained for quit smoking services."
+   },
+   {
+    "instruction": "Give an example of combination therapy for smoking cessation.",
+    "response": "Two NRTs, or a non-NRT such as bupropion combined with an NRT."
+   },
+   {
+    "instruction": "What does NRT stand for?",
+    "response": "NRT stands for nicotine replacement therapy."
+   },
+   {
+    "instruction": "Summarise the Malaysian CPG recommendations on smoking cessation medicines.",
+    "response": "Use NRT for at least eight to twelve weeks or varenicline for at least twelve weeks, prefer combination therapy for those at highest relapse risk, use caution in special populations, and arrange six to eight face to face follow-up sessions over six months."
+   }
+  ]
+ },
+ {
+  "passage_id": 20,
+  "source": "nice-ng28-type2-diabetes-management.txt",
+  "passage": "The committee agreed that this should be addressed in a conversation between the person and the healthcare professional when prescribing the medication. GLP-1 receptor agonists and tirzepatide GLP-1 receptor agonists and tirzepatide were not found to be or did not have evidence for clinical or cost effectiveness for this population, so were not recommended. Medicines for people who cannot take metformin The evidence showed that SGLT-2 inhibitors reduced cardiovascular events compared with placebo when metformin is the background therapy. The committee agreed that even though the evidence was limited for people with no relevant comorbidities, this benefit would also be seen in people for whom metformin is contraindicated.",
+  "pairs": [
+   {
+    "instruction": "Why did NICE not recommend GLP-1 receptor agonists and tirzepatide for this population?",
+    "response": "They were not found to have evidence for clinical or cost effectiveness for this population, so were not recommended."
+   },
+   {
+    "instruction": "What should be discussed when prescribing the medication?",
+    "response": "The committee agreed that this should be addressed in a conversation between the person and the healthcare professional when prescribing the medication."
+   },
+   {
+    "instruction": "What did the evidence show for SGLT-2 inhibitors when metformin is background therapy?",
+    "response": "SGLT-2 inhibitors reduced cardiovascular events compared with placebo when metformin is the background therapy."
+   },
+   {
+    "instruction": "Who might benefit from SGLT-2 inhibitors if they cannot take metformin?",
+    "response": "People for whom metformin is contraindicated would also see this benefit, even though evidence was limited for people with no relevant comorbidities."
+   },
+   {
+    "instruction": "Was evidence strong for people with no relevant comorbidities?",
+    "response": "No. The evidence was limited for people with no relevant comorbidities."
+   },
+   {
+    "instruction": "What benefit of SGLT-2 inhibitors did the committee extrapolate?",
+    "response": "That the cardiovascular benefit would also be seen in people for whom metformin is contraindicated."
+   },
+   {
+    "instruction": "What medicines were considered for people who cannot take metformin?",
+    "response": "SGLT-2 inhibitors."
+   },
+   {
+    "instruction": "What was the evidence base for the SGLT-2 inhibitor recommendation?",
+    "response": "Evidence showed they reduced cardiovascular events compared with placebo when metformin is the background therapy."
+   },
+   {
+    "instruction": "Which groups of drugs were not recommended for this population?",
+    "response": "GLP-1 receptor agonists and tirzepatide."
+   },
+   {
+    "instruction": "Summarise the committee rationale for people who cannot take metformin.",
+    "response": "SGLT-2 inhibitors reduced cardiovascular events in people already on metformin, and although evidence was limited for those with no relevant comorbidities the committee agreed the benefit would also apply when metformin is contraindicated, whereas GLP-1 receptor agonists and tirzepatide lacked evidence of clinical or cost effectiveness."
+   }
+  ]
+ },
+ {
+  "passage_id": 21,
+  "source": "nice-ng28-type2-diabetes-management.txt",
+  "passage": "The list of factors to think about as part of optimisation is not exhaustive but includes those that the committee thought were particularly important. The committee agreed that it is important to revisit advice about diet and healthy living. This is because part of this discussion is to ensure the person is supported with both non-pharmacological and pharmacological interventions to improve their current health and prognosis. The committee agreed that there are cases where treatment with certain medicines highlights diagnostic uncertainty (for example: absence of response to treatments other than insulin, sudden unexpected weight loss). Therefore, the committee highlighted guidance regarding type 1 diabetes and revisiting other diagnoses.",
+  "pairs": [
+   {
+    "instruction": "Is the list of optimisation factors exhaustive?",
+    "response": "No. The list of factors to think about as part of optimisation is not exhaustive but includes those that the committee thought were particularly important."
+   },
+   {
+    "instruction": "Why did the committee agree to revisit advice about diet and healthy living?",
+    "response": "Because part of the discussion is to ensure the person is supported with both non-pharmacological and pharmacological interventions to improve their current health and prognosis."
+   },
+   {
+    "instruction": "What kind of support should the person receive as part of optimisation?",
+    "response": "Support with both non-pharmacological and pharmacological interventions to improve their current health and prognosis."
+   },
+   {
+    "instruction": "When might treatment highlight diagnostic uncertainty?",
+    "response": "In cases such as absence of response to treatments other than insulin, or sudden unexpected weight loss."
+   },
+   {
+    "instruction": "Give examples of signs that suggest diagnostic uncertainty.",
+    "response": "Absence of response to treatments other than insulin and sudden unexpected weight loss."
+   },
+   {
+    "instruction": "Which other diagnosis does the guidance highlight revisiting?",
+    "response": "Type 1 diabetes, and revisiting other diagnoses."
+   },
+   {
+    "instruction": "What did the committee think was important about diet advice?",
+    "response": "That it is important to revisit advice about diet and healthy living."
+   },
+   {
+    "instruction": "Why does the committee highlight guidance about type 1 diabetes?",
+    "response": "Because treatment with certain medicines can highlight diagnostic uncertainty, so type 1 diabetes and other diagnoses should be revisited."
+   },
+   {
+    "instruction": "What is the goal of medicines optimisation discussions?",
+    "response": "To support the person with non-pharmacological and pharmacological interventions to improve their current health and prognosis."
+   },
+   {
+    "instruction": "Summarise the committee reasoning on optimisation.",
+    "response": "The list of optimisation factors is not exhaustive; diet and healthy living advice should be revisited alongside medicines; and where treatment highlights diagnostic uncertainty, such as no response to non-insulin treatment or sudden weight loss, type 1 diabetes and other diagnoses should be reconsidered."
+   }
+  ]
+ },
+ {
+  "passage_id": 22,
+  "source": "nice-ng28-type2-diabetes-management.txt",
+  "passage": "People already on standard-release metformin There was no evidence identified in the review to show that modified-release metformin was more effective than standard-release metformin, and no evidence that it would be more cost effective for people for whom it works. However, the committee agreed that, in their clinical experience, people can experience fewer gastrointestinal adverse events with modified-release metformin compared to standard-release metformin. Additionally, a person may want to reduce the number of times they take metformin each day. Therefore, the option of switching from standard-release to modified-release metformin should be available.",
+  "pairs": [
+   {
+    "instruction": "Was modified-release metformin more effective than standard-release metformin?",
+    "response": "There was no evidence identified in the review to show that modified-release metformin was more effective than standard-release metformin."
+   },
+   {
+    "instruction": "Was modified-release metformin found to be more cost effective?",
+    "response": "No. There was no evidence that it would be more cost effective for people for whom it works."
+   },
+   {
+    "instruction": "What did the committee's clinical experience suggest about modified-release metformin?",
+    "response": "People can experience fewer gastrointestinal adverse events with modified-release metformin compared with standard-release metformin."
+   },
+   {
+    "instruction": "Why might a person want to switch to modified-release metformin?",
+    "response": "They may want fewer gastrointestinal adverse events or to reduce the number of times they take metformin each day."
+   },
+   {
+    "instruction": "What option should be available for people already on standard-release metformin?",
+    "response": "The option of switching from standard-release to modified-release metformin should be available."
+   },
+   {
+    "instruction": "What side effects may be reduced by modified-release metformin?",
+    "response": "Gastrointestinal adverse events."
+   },
+   {
+    "instruction": "Why did the committee recommend the switch despite limited evidence?",
+    "response": "Based on clinical experience of fewer gastrointestinal adverse events and the convenience of fewer daily doses."
+   },
+   {
+    "instruction": "Can modified-release metformin reduce how often metformin is taken?",
+    "response": "Yes. A person may want to reduce the number of times they take metformin each day."
+   },
+   {
+    "instruction": "What did the review find about the effectiveness of modified-release versus standard-release metformin?",
+    "response": "It found no evidence that modified-release metformin was more effective."
+   },
+   {
+    "instruction": "Summarise the NICE rationale for allowing a switch to modified-release metformin.",
+    "response": "Although no evidence showed modified-release metformin to be more effective or cost effective, the committee's experience is that it causes fewer gastrointestinal adverse events and can reduce dosing frequency, so switching from standard-release should be an option."
+   }
+  ]
+ },
+ {
+  "passage_id": 23,
+  "source": "nice-ng28-type2-diabetes-management.txt",
+  "passage": "Tirzepatide is a glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 dual-receptor agonist. The committee looked at the evidence from NICE's technology appraisal guidance for tirzepatide for people with type 2 diabetes, which recommends tirzepatide as an alternative to GLP-1 receptor agonists. In October 2023, the technology appraisal guidance recommended that it should be offered alongside diet and exercise to adults for whom type 2 diabetes is insufficiently controlled and only if triple therapy with metformin and 2 other oral antidiabetic medicines is ineffective, not tolerated or contraindicated (among other criteria). Given that the evidence supporting the technology appraisal guidance found tirzepatide was clinically and cost effective for reducing HbA1c and weight for people with type 2 diabetes, the committee for this guideline agreed to recommend it as an alternative to GLP-1 receptor agonists.",
+  "pairs": [
+   {
+    "instruction": "What is tirzepatide?",
+    "response": "Tirzepatide is a glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 dual-receptor agonist."
+   },
+   {
+    "instruction": "What does NICE technology appraisal guidance recommend tirzepatide as?",
+    "response": "It recommends tirzepatide as an alternative to GLP-1 receptor agonists."
+   },
+   {
+    "instruction": "When did the technology appraisal guidance recommend tirzepatide?",
+    "response": "In October 2023."
+   },
+   {
+    "instruction": "Under what condition should tirzepatide be offered?",
+    "response": "It should be offered alongside diet and exercise to adults for whom type 2 diabetes is insufficiently controlled and only if triple therapy with metformin and 2 other oral antidiabetic medicines is ineffective, not tolerated or contraindicated."
+   },
+   {
+    "instruction": "What is the prerequisite triple therapy before tirzepatide?",
+    "response": "Triple therapy with metformin and 2 other oral antidiabetic medicines."
+   },
+   {
+    "instruction": "What outcomes was tirzepatide found clinically and cost effective for?",
+    "response": "Reducing HbA1c and weight for people with type 2 diabetes."
+   },
+   {
+    "instruction": "Should tirzepatide be given alongside lifestyle measures?",
+    "response": "Yes. It should be offered alongside diet and exercise."
+   },
+   {
+    "instruction": "Why did the guideline committee recommend tirzepatide?",
+    "response": "Because the evidence supporting the technology appraisal found it was clinically and cost effective for reducing HbA1c and weight, so it was recommended as an alternative to GLP-1 receptor agonists."
+   },
+   {
+    "instruction": "What kind of receptor agonist is tirzepatide?",
+    "response": "A dual-receptor agonist of glucose-dependent insulinotropic polypeptide (GIP) and glucagon-like peptide-1 (GLP-1)."
+   },
+   {
+    "instruction": "Summarise the NICE position on tirzepatide.",
+    "response": "Tirzepatide is a GIP and GLP-1 dual-receptor agonist recommended since October 2023 as an alternative to GLP-1 receptor agonists, alongside diet and exercise, when type 2 diabetes is insufficiently controlled and triple therapy with metformin and two other oral agents is ineffective, not tolerated or contraindicated."
+   }
+  ]
+ },
+ {
+  "passage_id": 24,
+  "source": "nice-qs209-type2-diabetes-quality-standard.txt",
+  "passage": "Data source: Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example from patient records. Adults with a learning disability could be identified by using the learning disability register in general practice. The National Diabetes Audit collects and reports data on the number of people with type 2 diabetes with a short acting insulin drug code who are on CGM. Outcome a) HbA1c levels in adults with type 2 diabetes who have multiple daily insulin injections and a condition or disability that means they cannot self-monitor using capillary blood glucose monitoring.",
+  "pairs": [
+   {
+    "instruction": "Where can data for the quality measure be collected from?",
+    "response": "Data can be collected from information recorded locally by healthcare professionals and provider organisations, for example from patient records."
+   },
+   {
+    "instruction": "How can adults with a learning disability be identified?",
+    "response": "By using the learning disability register in general practice."
+   },
+   {
+    "instruction": "What does the National Diabetes Audit report on CGM?",
+    "response": "It collects and reports data on the number of people with type 2 diabetes with a short acting insulin drug code who are on CGM."
+   },
+   {
+    "instruction": "What does outcome a) measure?",
+    "response": "HbA1c levels in adults with type 2 diabetes who have multiple daily insulin injections and a condition or disability that means they cannot self-monitor using capillary blood glucose monitoring."
+   },
+   {
+    "instruction": "Which adults are covered by this HbA1c outcome?",
+    "response": "Adults with type 2 diabetes on multiple daily insulin injections who cannot self-monitor using capillary blood glucose monitoring because of a condition or disability."
+   },
+   {
+    "instruction": "Which register helps identify adults with a learning disability?",
+    "response": "The learning disability register in general practice."
+   },
+   {
+    "instruction": "What kind of insulin drug code is used in the National Diabetes Audit CGM measure?",
+    "response": "A short acting insulin drug code."
+   },
+   {
+    "instruction": "Why can some adults not use capillary blood glucose monitoring?",
+    "response": "Because of a condition or disability that means they cannot self-monitor."
+   },
+   {
+    "instruction": "What is the data source for CGM use?",
+    "response": "The National Diabetes Audit."
+   },
+   {
+    "instruction": "Summarise the data source and outcome described for this quality statement.",
+    "response": "Data come from local records kept by healthcare professionals and providers, the learning disability register, and the National Diabetes Audit's CGM data; the outcome is HbA1c in adults on multiple daily insulin injections who cannot self-monitor with capillary glucose testing."
+   }
+  ]
+ },
+ {
+  "passage_id": 25,
+  "source": "nice-qs209-type2-diabetes-quality-standard.txt",
+  "passage": "Integrated care systems ensure that services offer intermittently scanned CGM (isCGM), or real-time CGM (rtCGM) if it is available for the same or lower cost as isCGM, to adults with insulin-treated type 2 diabetes who would need help from a care worker or healthcare professional to monitor their blood glucose. They should also address inequalities in CGM access and uptake by commissioning services that monitor who is using CGM, identify groups who are eligible but who have a lower uptake and make plans to engage with these groups to encourage them to consider CGM. Adults with insulin-treated type 2 diabetes who would need help to monitor their blood glucose are offered a CGM device to help them manage their diabetes. They and their care workers or healthcare professionals also receive education on how to use it. Their use of CGM is reviewed as part of their diabetes care plan.",
+  "pairs": [
+   {
+    "instruction": "What should integrated care systems ensure about CGM?",
+    "response": "That services offer intermittently scanned CGM (isCGM), or real-time CGM (rtCGM) if it is available for the same or lower cost as isCGM, to adults with insulin-treated type 2 diabetes who would need help from a care worker or healthcare professional to monitor their blood glucose."
+   },
+   {
+    "instruction": "When should rtCGM be offered instead of isCGM?",
+    "response": "When it is available for the same or lower cost as isCGM."
+   },
+   {
+    "instruction": "Which adults should be offered CGM?",
+    "response": "Adults with insulin-treated type 2 diabetes who would need help to monitor their blood glucose."
+   },
+   {
+    "instruction": "How should services address inequalities in CGM access?",
+    "response": "By commissioning services that monitor who is using CGM, identify groups who are eligible but have lower uptake, and make plans to engage with these groups."
+   },
+   {
+    "instruction": "What education should accompany CGM?",
+    "response": "Adults and their care workers or healthcare professionals should receive education on how to use the device."
+   },
+   {
+    "instruction": "How should CGM use be reviewed?",
+    "response": "Their use of CGM is reviewed as part of their diabetes care plan."
+   },
+   {
+    "instruction": "What does isCGM stand for?",
+    "response": "isCGM stands for intermittently scanned continuous glucose monitoring."
+   },
+   {
+    "instruction": "Who may need help to monitor their blood glucose?",
+    "response": "Adults with insulin-treated type 2 diabetes who would need help from a care worker or healthcare professional."
+   },
+   {
+    "instruction": "Why monitor which groups use CGM?",
+    "response": "To identify groups who are eligible but have lower uptake, so plans can be made to engage them and address inequalities."
+   },
+   {
+    "instruction": "Summarise the quality statement on CGM for adults with type 2 diabetes.",
+    "response": "Adults with insulin-treated type 2 diabetes who need help to monitor blood glucose are offered a CGM device, either isCGM or rtCGM at equal or lower cost, with education for them and their carers, review of use within their care plan, and active efforts to address inequalities in access."
+   }
+  ]
+ },
+ {
+  "passage_id": 26,
+  "source": "nice-qs209-type2-diabetes-quality-standard.txt",
+  "passage": "They refer adults with a limb- or life-threatening active diabetic foot problem to acute services for assessment by the multidisciplinary foot care service. Integrated care systems ensure that services are available in which adults with type 2 diabetes have 9 key care processes completed every 12 months, to identify and monitor complications of type 2 diabetes. This includes laboratory provision for testing blood and urine tests, and access to a foot protection service, multidisciplinary foot care service and eye screening service. Adults with type 2 diabetes have regular tests to check if they are at risk of developing, or have, complications of type 2 diabetes. They are referred to an appropriate service if any complications are identified.",
+  "pairs": [
+   {
+    "instruction": "What should happen for adults with a limb- or life-threatening active diabetic foot problem?",
+    "response": "They are referred to acute services for assessment by the multidisciplinary foot care service."
+   },
+   {
+    "instruction": "How often should the 9 key care processes be completed?",
+    "response": "Every 12 months."
+   },
+   {
+    "instruction": "What is the purpose of the 9 key care processes?",
+    "response": "To identify and monitor complications of type 2 diabetes."
+   },
+   {
+    "instruction": "What services should be available for the key care processes?",
+    "response": "Laboratory provision for blood and urine tests, access to a foot protection service, a multidisciplinary foot care service and an eye screening service."
+   },
+   {
+    "instruction": "What do adults with type 2 diabetes have regularly to check for complications?",
+    "response": "Regular tests to check if they are at risk of developing, or have, complications of type 2 diabetes."
+   },
+   {
+    "instruction": "What happens if complications are identified?",
+    "response": "They are referred to an appropriate service."
+   },
+   {
+    "instruction": "Who should ensure services are available for the 9 key care processes?",
+    "response": "Integrated care systems."
+   },
+   {
+    "instruction": "What tests does laboratory provision cover?",
+    "response": "Blood and urine tests."
+   },
+   {
+    "instruction": "Which service assesses limb- or life-threatening diabetic foot problems?",
+    "response": "The multidisciplinary foot care service."
+   },
+   {
+    "instruction": "Summarise the quality statement on regular complication checks.",
+    "response": "Adults with type 2 diabetes should have 9 key care processes every 12 months, supported by laboratory tests, foot protection, multidisciplinary foot care and eye screening services, with referral to the appropriate service for any complications and acute referral for limb- or life-threatening foot problems."
+   }
+  ]
+ },
+ {
+  "passage_id": 27,
+  "source": "nice-qs209-type2-diabetes-quality-standard.txt",
+  "passage": "What the quality statement means for different audiences Service providers (such as GP practices, community healthcare providers and secondary care providers) ensure that systems are in place for adults with type 2 diabetes to be offered a structured education programme at diagnosis, with key messages reinforced periodically. The services providing the education programme should ensure that it is available in a format suitable for the person, such as in-person or online, and at times suitable for them, including outside standard working hours. Healthcare professionals (such as GPs, practice nurses, community healthcare providers, dietitians, consultant diabetologists and diabetes specialist nurses) ensure that they offer a structured education programme to adults with type 2 diabetes at diagnosis, with key messages reinforced periodically. They should ensure adults with type 2 diabetes are given clear information on the structured education programme and help to access it.",
+  "pairs": [
+   {
+    "instruction": "What should service providers ensure at diagnosis of type 2 diabetes?",
+    "response": "Systems should be in place for adults with type 2 diabetes to be offered a structured education programme at diagnosis, with key messages reinforced periodically."
+   },
+   {
+    "instruction": "In what formats should the education programme be available?",
+    "response": "In a format suitable for the person, such as in-person or online."
+   },
+   {
+    "instruction": "When should the education programme be available?",
+    "response": "At times suitable for the person, including outside standard working hours."
+   },
+   {
+    "instruction": "Which professionals should offer structured education?",
+    "response": "Healthcare professionals such as GPs, practice nurses, community healthcare providers, dietitians, consultant diabetologists and diabetes specialist nurses."
+   },
+   {
+    "instruction": "What information should adults be given about structured education?",
+    "response": "They should be given clear information on the structured education programme and help to access it."
+   },
+   {
+    "instruction": "Who counts as a service provider in this statement?",
+    "response": "GP practices, community healthcare providers and secondary care providers."
+   },
+   {
+    "instruction": "How often should key education messages be reinforced?",
+    "response": "Periodically."
+   },
+   {
+    "instruction": "Should structured education be offered only at diagnosis?",
+    "response": "It is offered at diagnosis, and key messages should be reinforced periodically afterwards."
+   },
+   {
+    "instruction": "Why should education be available outside working hours?",
+    "response": "So that it is available at times suitable for the person."
+   },
+   {
+    "instruction": "Summarise what the quality statement means for providers and professionals.",
+    "response": "Providers must have systems to offer structured education at diagnosis in suitable formats and times, and healthcare professionals must offer it, reinforce key messages periodically, and give clear information and help to access the programme."
+   }
+  ]
+ },
+ {
+  "passage_id": 28,
+  "source": "niddk-national-diabetes-statistics-report.txt",
+  "passage": "and adolescents younger than 18 years with diagnosed diabetes. These percentages were then applied to the corresponding July 1, 2015 U.S. resident population estimates from the U.S. Census Bureau to derive the total number of people with diabetes. Applying 2011–2014 NHANES estimates to the 2015 U.S. resident population estimates has limitations. This methodology assumes that the prevalence of diabetes in 2015 was the same as it was in earlier periods (2011–2014) and that the prevalence of diabetes in the resident population was identical to those in the civilian, noninstitutionalized population (from NHANES). Deviations from these assumptions may result in overestimated or underestimated numbers and rates.",
+  "pairs": [
+   {
+    "instruction": "How were total numbers of people with diabetes derived in the NIDDK report?",
+    "response": "Percentages were applied to the corresponding July 1, 2015 U.S. resident population estimates from the U.S. Census Bureau to derive the total number of people with diabetes."
+   },
+   {
+    "instruction": "Which survey estimates were applied to the 2015 population?",
+    "response": "2011-2014 NHANES estimates."
+   },
+   {
+    "instruction": "What assumption does this methodology make?",
+    "response": "That the prevalence of diabetes in 2015 was the same as in earlier periods (2011-2014), and that prevalence in the resident population was identical to that in the civilian, noninstitutionalized population."
+   },
+   {
+    "instruction": "What are the limitations of applying NHANES estimates to 2015?",
+    "response": "Deviations from the assumptions may result in overestimated or underestimated numbers and rates."
+   },
+   {
+    "instruction": "Which population does NHANES represent?",
+    "response": "The civilian, noninstitutionalized population."
+   },
+   {
+    "instruction": "Which source provided the 2015 resident population estimates?",
+    "response": "The U.S. Census Bureau."
+   },
+   {
+    "instruction": "What age group is mentioned for diagnosed diabetes in this passage?",
+    "response": "Adolescents and children younger than 18 years with diagnosed diabetes."
+   },
+   {
+    "instruction": "Could the estimates be inaccurate?",
+    "response": "Yes. Deviations from the methodological assumptions may result in overestimated or underestimated numbers and rates."
+   },
+   {
+    "instruction": "Why is applying 2011-2014 data to 2015 a limitation?",
+    "response": "It assumes that diabetes prevalence in 2015 was the same as in 2011-2014."
+   },
+   {
+    "instruction": "Summarise the method and limitation for the total diabetes counts.",
+    "response": "Percentages from 2011-2014 NHANES were applied to July 1, 2015 Census resident population estimates; this assumes prevalence was unchanged since 2011-2014 and the same as in the civilian noninstitutionalized population, so numbers and rates may be over- or underestimated."
+   }
+  ]
+ },
+ {
+  "passage_id": 29,
+  "source": "niddk-national-diabetes-statistics-report.txt",
+  "passage": "Prevalence of diagnosed diabetes among AI/AN people was calculated using fiscal year 2015 data from the IHS NDW. This data system includes patient registration and encounter data that are received from IHS facilities, tribally operated programs, and urban and contract health systems (I/T/U). These health care facilities serve about 2.2 million AI/AN people who belong to 567 federally recognized tribes in 36 states. Data for active patients (i.e., those with at least one visit to an I/T/U facility during the preceding 3 years) aged 18 years or older were used to calculate these estimates. Diabetes cases among these patients were identified using International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9-CM) diagnostic codes 250.0–250.93 from patient visit data. Patients were considered to have a diagnosis of diabetes if they had at least two visits with an ICD 250 diagnosis code reported during fiscal year 2015. Estimates may not be comparable because of differences in the methods used to define diabetes in NHIS and IHS NDW.",
+  "pairs": [
+   {
+    "instruction": "How was prevalence of diagnosed diabetes among AI/AN people calculated?",
+    "response": "It was calculated using fiscal year 2015 data from the IHS NDW."
+   },
+   {
+    "instruction": "What does the IHS data system include?",
+    "response": "Patient registration and encounter data received from IHS facilities, tribally operated programs, and urban and contract health systems."
+   },
+   {
+    "instruction": "How many AI/AN people do the facilities serve?",
+    "response": "About 2.2 million AI/AN people who belong to 567 federally recognized tribes in 36 states."
+   },
+   {
+    "instruction": "Which patients were included in the estimates?",
+    "response": "Active patients, meaning those with at least one visit to an I/T/U facility during the preceding 3 years, aged 18 years or older."
+   },
+   {
+    "instruction": "How were diabetes cases identified?",
+    "response": "Using International Classification of Diseases, Ninth Revision, Clinical Modification (ICD-9-CM) diagnostic codes 250.0-250.93 from patient visit data."
+   },
+   {
+    "instruction": "What qualified a patient as having diabetes?",
+    "response": "Having at least two visits with an ICD 250 diagnosis code reported during fiscal year 2015."
+   },
+   {
+    "instruction": "Why may estimates not be comparable?",
+    "response": "Because of differences in the methods used to define diabetes in NHIS and IHS NDW."
+   },
+   {
+    "instruction": "How many federally recognized tribes are served?",
+    "response": "567 federally recognized tribes."
+   },
+   {
+    "instruction": "How many states do the tribes span?",
+    "response": "36 states."
+   },
+   {
+    "instruction": "Summarise how diabetes prevalence among AI/AN people was estimated.",
+    "response": "Fiscal year 2015 IHS NDW data on active adult patients were used, with diabetes defined by at least two visits with an ICD-9-CM 250 code; because methods differ from NHIS, estimates may not be comparable."
+   }
+  ]
+ },
+ {
+  "passage_id": 30,
+  "source": "niddk-national-diabetes-statistics-report.txt",
+  "passage": "High Blood Pressure The percentage of adults aged 18 years or older with diagnosed diabetes who had high blood pressure was estimated on the basis of the average measured systolic blood pressure of 140 mm Hg or higher or the average diastolic blood pressure of 90 mm Hg or higher or self-reported current use of prescription medication for high blood pressure. High Cholesterol (Hyperlipidemia) The percentage of adults aged 21 years or older with diagnosed diabetes who were eligible for and being treated with a statin was estimated on the basis of the 2013 cholesterol guidelines from the American College of Cardiology and American Heart Association. People with diabetes who were eligible for primary prevention statin therapy were 20 | Na tional Diabetes Statistics Report, 2017 defined as those aged 40 to 75 years with no history of cardiovascular disease or those aged 21 to 39 years with no history of cardiovascular disease and a low-density lipoprotein cholesterol level of 190 mg/dL or higher. People with diabetes and cardiovascular disease were eligible for secondary prevention statin therapy.",
+  "pairs": [
+   {
+    "instruction": "How was high blood pressure defined among adults with diagnosed diabetes?",
+    "response": "Average measured systolic blood pressure of 140 mm Hg or higher, or average diastolic blood pressure of 90 mm Hg or higher, or self-reported current use of prescription medication for high blood pressure."
+   },
+   {
+    "instruction": "What age group was used for the high blood pressure estimate?",
+    "response": "Adults aged 18 years or older with diagnosed diabetes."
+   },
+   {
+    "instruction": "What age group was used for the statin estimate?",
+    "response": "Adults aged 21 years or older with diagnosed diabetes."
+   },
+   {
+    "instruction": "Which guidelines were used to estimate statin eligibility?",
+    "response": "The 2013 cholesterol guidelines from the American College of Cardiology and American Heart Association."
+   },
+   {
+    "instruction": "Who was eligible for primary prevention statin therapy?",
+    "response": "People aged 40 to 75 years with no history of cardiovascular disease, or those aged 21 to 39 years with no history of cardiovascular disease and an LDL cholesterol level of 190 mg/dL or higher."
+   },
+   {
+    "instruction": "Who was eligible for secondary prevention statin therapy?",
+    "response": "People with diabetes and cardiovascular disease."
+   },
+   {
+    "instruction": "What systolic blood pressure threshold defines high blood pressure here?",
+    "response": "140 mm Hg or higher."
+   },
+   {
+    "instruction": "What diastolic blood pressure threshold defines high blood pressure here?",
+    "response": "90 mm Hg or higher."
+   },
+   {
+    "instruction": "What LDL cholesterol level applied to adults aged 21 to 39?",
+    "response": "A low-density lipoprotein cholesterol level of 190 mg/dL or higher."
+   },
+   {
+    "instruction": "Summarise how high blood pressure and statin use were defined.",
+    "response": "High blood pressure was systolic 140 mm Hg or more, diastolic 90 mm Hg or more, or treatment with blood pressure medication; statin eligibility followed the 2013 ACC/AHA guidelines, with primary prevention for ages 40-75 without CVD or ages 21-39 without CVD and LDL of 190 mg/dL or higher, and secondary prevention for those with CVD."
+   }
+  ]
+ },
+ {
+  "passage_id": 31,
+  "source": "racgp-gp-management-type2-diabetes-2016.txt",
+  "passage": "Monogenic diabetes is genetically heterogeneous and all forms are dominantly inherited. There is variance among the forms with two main types – neonatal diabetes mellitus (rare) and maturity onset diabetes of the young (MODY). MODY subtypes may vary in the severity of hyperglycaemia, need for insulin and risk for future complications. Apart from MODY type 2, all other forms of monogenic diabetes are due to transcription factor gene mutations. Not all forms of the MODY phenotype have yet been de/f_ined. Suspected cases should be referred to a specialist endocrinologist, and management options and possible genetic diagnosis should be considered.41 Gestational diabetes mellitus Refer to Section 13.3. Gestational diabetes mellitus.",
+  "pairs": [
+   {
+    "instruction": "What is monogenic diabetes and how is it inherited?",
+    "response": "Monogenic diabetes is genetically heterogeneous and all forms are dominantly inherited."
+   },
+   {
+    "instruction": "What are the two main types of monogenic diabetes?",
+    "response": "Neonatal diabetes mellitus (rare) and maturity onset diabetes of the young (MODY)."
+   },
+   {
+    "instruction": "How can MODY subtypes differ?",
+    "response": "MODY subtypes may vary in the severity of hyperglycaemia, need for insulin and risk for future complications."
+   },
+   {
+    "instruction": "What causes most forms of monogenic diabetes?",
+    "response": "Apart from MODY type 2, all other forms of monogenic diabetes are due to transcription factor gene mutations."
+   },
+   {
+    "instruction": "Are all forms of the MODY phenotype fully defined?",
+    "response": "No. Not all forms of the MODY phenotype have yet been defined."
+   },
+   {
+    "instruction": "What should happen with suspected cases of monogenic diabetes?",
+    "response": "Suspected cases should be referred to a specialist endocrinologist, and management options and possible genetic diagnosis should be considered."
+   },
+   {
+    "instruction": "Is neonatal diabetes mellitus common?",
+    "response": "No. Neonatal diabetes mellitus is rare."
+   },
+   {
+    "instruction": "Which MODY type is not caused by a transcription factor gene mutation?",
+    "response": "MODY type 2."
+   },
+   {
+    "instruction": "What does MODY stand for?",
+    "response": "MODY stands for maturity onset diabetes of the young."
+   },
+   {
+    "instruction": "Summarise the RACGP guidance on monogenic diabetes.",
+    "response": "Monogenic diabetes is genetically heterogeneous and dominantly inherited, mainly neonatal diabetes mellitus and MODY; MODY subtypes vary in hyperglycaemia severity, insulin need and complication risk, and suspected cases should be referred to a specialist endocrinologist for management and possible genetic diagnosis."
+   }
+  ]
+ },
+ {
+  "passage_id": 32,
+  "source": "racgp-gp-management-type2-diabetes-2016.txt",
+  "passage": "ABORIGINAL AND TORRES STRAIT ISLANDER POINT Many Aboriginal and Torres Strait Islander peoples are involved in physically demanding sporting and cultural activities, although, overall, Aboriginal and Torres Strait Islander peoples are not more physically active than non-Indigenous Australians. GPs should be aware of activities that are affordable, appropriate and accessible for their Aboriginal and Torres Strait Islander patients, which may be run by local community groups. Aboriginal and Torres Strait Islander peoples may prefer exercise and physical activities that are culturally, socially and economically meaningful. Such activities or other cultural activities may not be described as ‘exercise’ or ‘physical activity’, yet be of signi/f_icant health and social bene/f_it. A careful history in the context of a trusting doctor–patient relationship may bring about better understanding and opportunity.",
+  "pairs": [
+   {
+    "instruction": "Are Aboriginal and Torres Strait Islander peoples more physically active than non-Indigenous Australians?",
+    "response": "No. Overall, Aboriginal and Torres Strait Islander peoples are not more physically active than non-Indigenous Australians."
+   },
+   {
+    "instruction": "What activities are many Aboriginal and Torres Strait Islander peoples involved in?",
+    "response": "Physically demanding sporting and cultural activities."
+   },
+   {
+    "instruction": "What should GPs be aware of for their Aboriginal and Torres Strait Islander patients?",
+    "response": "GPs should be aware of activities that are affordable, appropriate and accessible, which may be run by local community groups."
+   },
+   {
+    "instruction": "What kinds of activities may Aboriginal and Torres Strait Islander peoples prefer?",
+    "response": "Exercise and physical activities that are culturally, socially and economically meaningful."
+   },
+   {
+    "instruction": "Might cultural activities be described as exercise?",
+    "response": "Such activities may not be described as exercise or physical activity, yet be of significant health and social benefit."
+   },
+   {
+    "instruction": "What can improve a GP's understanding of a patient's activity?",
+    "response": "A careful history in the context of a trusting doctor-patient relationship may bring about better understanding and opportunity."
+   },
+   {
+    "instruction": "Who may run accessible activities for Aboriginal and Torres Strait Islander patients?",
+    "response": "Local community groups."
+   },
+   {
+    "instruction": "Why is a trusting doctor-patient relationship important here?",
+    "response": "It allows a careful history that may bring about better understanding and opportunity."
+   },
+   {
+    "instruction": "Are cultural activities relevant to health?",
+    "response": "Yes. They may be of significant health and social benefit even if not described as exercise."
+   },
+   {
+    "instruction": "Summarise the point about physical activity for Aboriginal and Torres Strait Islander peoples.",
+    "response": "Many take part in demanding sport and cultural activity but are not more active overall, so GPs should know about affordable, accessible, culturally meaningful options run by local groups, recognising that cultural activities may carry real health benefit and that a trusting relationship helps understanding."
+   }
+  ]
+ },
+ {
+  "passage_id": 33,
+  "source": "racgp-gp-management-type2-diabetes-2016.txt",
+  "passage": "Recognise clinical context and prognosis Consider clinical management decisions within the context of risks, burdens, bene/f_its, and prognosis of a patient’s life (eg remaining life expectancy, functional status, quality of life).181,185,186 Treatment outcomes of glycaemia, hypertension, and hyperlipidaemia all have multi-year time horizons required to provide bene/f_it and these may not be available in all clinical contexts. Set treatment priorities with the patient Focus on outcomes that matter most to the individual. Shared decision making with patients is vital to ensure care is aligned with their values and preferences.185,192–195 Even though diabetes may be a clinically dominant condition, patients may prioritise therapeutic interventions differently. For example, pain relief from low back pain or respiratory relief from COPD may be considered above their diabetes needs, many of/uni00A0which may not cause daily symptoms.",
+  "pairs": [
+   {
+    "instruction": "What should clinical management decisions be considered within?",
+    "response": "The context of risks, burdens, benefits, and prognosis of a patient's life, for example remaining life expectancy, functional status and quality of life."
+   },
+   {
+    "instruction": "Why may treatment outcomes not be available in all clinical contexts?",
+    "response": "Treatment outcomes of glycaemia, hypertension, and hyperlipidaemia all have multi-year time horizons required to provide benefit."
+   },
+   {
+    "instruction": "How should treatment priorities be set?",
+    "response": "Treatment priorities should be set with the patient, focusing on outcomes that matter most to the individual."
+   },
+   {
+    "instruction": "Why is shared decision making vital?",
+    "response": "To ensure care is aligned with the patient's values and preferences."
+   },
+   {
+    "instruction": "Can patients prioritise things other than diabetes?",
+    "response": "Yes. Even though diabetes may be a clinically dominant condition, patients may prioritise therapeutic interventions differently."
+   },
+   {
+    "instruction": "Give examples of other priorities patients may have.",
+    "response": "Pain relief from low back pain or respiratory relief from COPD may be considered above their diabetes needs."
+   },
+   {
+    "instruction": "Why might diabetes needs be ranked lower by a patient?",
+    "response": "Many diabetes needs may not cause daily symptoms."
+   },
+   {
+    "instruction": "What time horizon do glycaemia, hypertension and hyperlipidaemia treatments need to benefit?",
+    "response": "Multi-year time horizons."
+   },
+   {
+    "instruction": "What factors make up clinical context and prognosis?",
+    "response": "Remaining life expectancy, functional status and quality of life, alongside risks, burdens and benefits."
+   },
+   {
+    "instruction": "Summarise the RACGP advice on clinical context and treatment priorities.",
+    "response": "Management decisions should consider risks, burdens, benefits and prognosis, since glycaemic, blood pressure and lipid treatments take years to benefit; priorities should be set with the patient through shared decision making, because patients may rank other problems such as back pain or COPD above diabetes."
+   }
+  ]
+ },
+ {
+  "passage_id": 34,
+  "source": "racgp-gp-management-type2-diabetes-2016.txt",
+  "passage": "Pathophysiology HHS develops because of relative rather than absolute insulin de/f_iciency. Signi/f_icant insulin de/f_iciency causes hyperglycaemia due to increased hepatic gluconeogenesis. However, as absolute insulin de/f_iciency is not present, peripheral lipolysis remains suppressed and the release of free fatty acids is low. Little substrate is available for the generation of ketoacids and a metabolic acidosis does not occur. The hyperglycaemia results in an osmotic diuresis leading to pre-renal failure. Eventually, severe intravascular volume depletion occurs resulting in a further deterioration of renal function. Consequently, glomerular /f_iltration diminishes, preventing the further excretion of glucose. With ongoing increasing hepatic glucose production, decreased peripheral glucose utilisation and reduced urinary glucose losses, severe hyperglycaemia results.",
+  "pairs": [
+   {
+    "instruction": "What causes hyperosmolar hyperglycaemic state (HHS)?",
+    "response": "HHS develops because of relative rather than absolute insulin deficiency."
+   },
+   {
+    "instruction": "Why does hyperglycaemia occur in HHS?",
+    "response": "Significant insulin deficiency causes hyperglycaemia due to increased hepatic gluconeogenesis."
+   },
+   {
+    "instruction": "Why does metabolic acidosis not occur in HHS?",
+    "response": "As absolute insulin deficiency is not present, peripheral lipolysis remains suppressed and free fatty acid release is low, so little substrate is available for ketoacid generation."
+   },
+   {
+    "instruction": "What does hyperglycaemia cause in HHS?",
+    "response": "It results in an osmotic diuresis leading to pre-renal failure."
+   },
+   {
+    "instruction": "What happens to renal function in HHS?",
+    "response": "Severe intravascular volume depletion occurs, causing further deterioration of renal function and diminished glomerular filtration."
+   },
+   {
+    "instruction": "Why does glucose excretion fall in HHS?",
+    "response": "Diminished glomerular filtration prevents further excretion of glucose."
+   },
+   {
+    "instruction": "What keeps lipolysis suppressed in HHS?",
+    "response": "The absence of absolute insulin deficiency."
+   },
+   {
+    "instruction": "What contributes to severe hyperglycaemia in HHS?",
+    "response": "Ongoing increasing hepatic glucose production, decreased peripheral glucose utilisation and reduced urinary glucose losses."
+   },
+   {
+    "instruction": "How does HHS differ from diabetic ketoacidosis in terms of ketones?",
+    "response": "In HHS little substrate is available for ketoacids, so metabolic acidosis does not occur."
+   },
+   {
+    "instruction": "Summarise the pathophysiology of HHS.",
+    "response": "Relative insulin deficiency raises hepatic gluconeogenesis and glucose, while lipolysis stays suppressed so no ketoacidosis occurs; osmotic diuresis causes volume depletion and pre-renal failure, reduced glomerular filtration stops glucose excretion, and severe hyperglycaemia results."
+   }
+  ]
+ },
+ {
+  "passage_id": 35,
+  "source": "sign116-management-of-diabetes-qrg.txt",
+  "passage": "A Computer-assisted education packages and telephone prompting should be considered as part of a multidisciplinary lifestyle intervention programme. B Healthcare professionals should receive training in patient-centred interventions in diabetes. B Structured education Educational interventions for diabetes are complex and varied. Any programme should:  have an underpinning philosophy, be evidence based, suit the needs of the individual, have specific aims and learning objectives, and support the development of self-management attitudes, beliefs, knowledge and skills for the learner, their family and carers  have a written, structured curriculum which is theory driven, evidence based and resource effective, with supporting materials  be delivered by trained educators who have an understanding of the educational theory appropriate to the age and needs of the programme learners  be quality assured, reviewed by trained, competent, independent assessors and assessed against key criteria to ensure sustained consistency  have regular audit of programme outcomes.",
+  "pairs": [
+   {
+    "instruction": "What should be considered as part of a multidisciplinary lifestyle intervention programme?",
+    "response": "Computer-assisted education packages and telephone prompting should be considered."
+   },
+   {
+    "instruction": "What training should healthcare professionals receive?",
+    "response": "Healthcare professionals should receive training in patient-centred interventions in diabetes."
+   },
+   {
+    "instruction": "What must any structured education programme have?",
+    "response": "It should have an underpinning philosophy, be evidence based, suit the needs of the individual, have specific aims and learning objectives, and support the development of self-management attitudes, beliefs, knowledge and skills."
+   },
+   {
+    "instruction": "What kind of curriculum should a structured education programme have?",
+    "response": "A written, structured curriculum which is theory driven, evidence based and resource effective, with supporting materials."
+   },
+   {
+    "instruction": "Who should deliver structured education?",
+    "response": "Trained educators who have an understanding of the educational theory appropriate to the age and needs of the programme learners."
+   },
+   {
+    "instruction": "How should structured education programmes be quality assured?",
+    "response": "They should be quality assured, reviewed by trained, competent, independent assessors and assessed against key criteria to ensure sustained consistency."
+   },
+   {
+    "instruction": "What audit is recommended for education programmes?",
+    "response": "Regular audit of programme outcomes."
+   },
+   {
+    "instruction": "Who should education programmes support besides the learner?",
+    "response": "The learner's family and carers."
+   },
+   {
+    "instruction": "Are educational interventions for diabetes simple?",
+    "response": "No. Educational interventions for diabetes are complex and varied."
+   },
+   {
+    "instruction": "Summarise the SIGN criteria for structured diabetes education.",
+    "response": "A programme should be evidence based with a clear philosophy, aims and objectives, a written theory-driven curriculum, trained educators, independent quality assurance against key criteria, and regular audit of outcomes, supporting self-management for the learner, family and carers."
+   }
+  ]
+ },
+ {
+  "passage_id": 36,
+  "source": "sign116-management-of-diabetes-qrg.txt",
+  "passage": " Offer intensive management plus pharmacological therapies to people with diabetes who wish to stop smoking.  Healthcare professionals should continue to monitor smoking status in all patient groups. B Self monitoring of glycaemia Smoking cessation Weight management in type 2 diabetes Type 2 diabetes is associated with obesity (defined as body mass index >30 kg/m 2). Obesity is associated with a significant negative impact on morbidity and mortality. Weight loss in obese individuals has been associated with reductions in mortality, blood pressure, lipid profiles, arthritis-related disability and other outcomes. The SIGN guideline on the management of obesity (SIGN 115) provides detailed recommendations on the prevention and treatment of obesity within the clinical setting, in children, young people and adults.",
+  "pairs": [
+   {
+    "instruction": "What should be offered to people with diabetes who wish to stop smoking?",
+    "response": "Intensive management plus pharmacological therapies."
+   },
+   {
+    "instruction": "What should healthcare professionals continue to do regarding smoking?",
+    "response": "Continue to monitor smoking status in all patient groups."
+   },
+   {
+    "instruction": "How is obesity defined in type 2 diabetes?",
+    "response": "Obesity is defined as body mass index above 30 kg/m2."
+   },
+   {
+    "instruction": "What is type 2 diabetes associated with?",
+    "response": "Obesity."
+   },
+   {
+    "instruction": "What are the effects of obesity on morbidity and mortality?",
+    "response": "Obesity is associated with a significant negative impact on morbidity and mortality."
+   },
+   {
+    "instruction": "What benefits has weight loss in obese individuals been associated with?",
+    "response": "Reductions in mortality, blood pressure, lipid profiles, arthritis-related disability and other outcomes."
+   },
+   {
+    "instruction": "Which SIGN guideline covers obesity management?",
+    "response": "SIGN 115, the guideline on the management of obesity."
+   },
+   {
+    "instruction": "Who does SIGN 115 provide recommendations for?",
+    "response": "It covers prevention and treatment of obesity within the clinical setting, in children, young people and adults."
+   },
+   {
+    "instruction": "Why is weight management important in type 2 diabetes?",
+    "response": "Because obesity has a significant negative effect on morbidity and mortality, and weight loss is associated with reductions in mortality, blood pressure and lipid levels."
+   },
+   {
+    "instruction": "Summarise the SIGN advice on smoking cessation and weight management.",
+    "response": "Offer intensive management with pharmacological therapy to people with diabetes who want to quit smoking and keep monitoring smoking status; type 2 diabetes is associated with obesity, and weight loss reduces mortality, blood pressure and lipid levels, with SIGN 115 giving detailed obesity guidance."
+   }
+  ]
+ },
+ {
+  "passage_id": 37,
+  "source": "sign116-management-of-diabetes-qrg.txt",
+  "passage": "D Individualised advice on avoiding hypoglycaemia when exercising by adjustment of carbohydrate intake, reduction of insulin dose, and choice of injection site, should be given to patients taking insulin. C People with existing complications of diabetes should seek medical review before embarking on exercise programmes. D A gradual introduction and initial low intensity of physical activity with slow progressions in volume and intensity should be recommended for sedentary people with diabetes. D Overweight individuals and those at high risk of developing diabetes should be encouraged to reduce this risk by lifestyle changes including weight management and physical activity.",
+  "pairs": [
+   {
+    "instruction": "What advice should be given to patients taking insulin about exercise?",
+    "response": "Individualised advice on avoiding hypoglycaemia when exercising by adjustment of carbohydrate intake, reduction of insulin dose, and choice of injection site."
+   },
+   {
+    "instruction": "Who should seek medical review before starting exercise programmes?",
+    "response": "People with existing complications of diabetes."
+   },
+   {
+    "instruction": "How should exercise be introduced to sedentary people with diabetes?",
+    "response": "A gradual introduction and initial low intensity of physical activity with slow progressions in volume and intensity should be recommended."
+   },
+   {
+    "instruction": "Who should be encouraged to reduce diabetes risk through lifestyle?",
+    "response": "Overweight individuals and those at high risk of developing diabetes."
+   },
+   {
+    "instruction": "What lifestyle changes reduce the risk of developing diabetes?",
+    "response": "Lifestyle changes including weight management and physical activity."
+   },
+   {
+    "instruction": "How can hypoglycaemia during exercise be avoided in insulin users?",
+    "response": "By adjusting carbohydrate intake, reducing insulin dose and choosing the injection site."
+   },
+   {
+    "instruction": "Why should people with complications have a medical review before exercising?",
+    "response": "Because they have existing complications of diabetes, so a medical review should happen before they embark on exercise programmes."
+   },
+   {
+    "instruction": "What grade of evidence supports advice for people with complications before exercise?",
+    "response": "Grade C."
+   },
+   {
+    "instruction": "Should sedentary people start with high intensity exercise?",
+    "response": "No. They should start with low intensity and progress slowly in volume and intensity."
+   },
+   {
+    "instruction": "Summarise the SIGN recommendations on physical activity.",
+    "response": "Insulin users need individualised advice on avoiding hypoglycaemia during exercise, people with complications should have a medical review first, sedentary people should start at low intensity and progress slowly, and overweight or high-risk individuals should be encouraged to manage weight and be active."
+   }
+  ]
+ },
+ {
+  "passage_id": 38,
+  "source": "sign116-management-of-diabetes-qrg.txt",
+  "passage": " Infants with mothers with diabetes GDM is defined as carbohydrate intolerance of variable severity with onset or first recognition during pregnancy. Metformin or glibenclamide may be considered as initial pharmacological glucose lowering treatment in women with gestational diabetes. B Pregnant women with GDM should be offered dietary advice and blood glucose monitoring and be treated with glucose lowering therapy depending on fasting and postprandial targets. A Women who have developed GDM should be reminded of the need for preconception counselling and appropriate testing to detect progression to type 2 diabetes.",
+  "pairs": [
+   {
+    "instruction": "How is gestational diabetes mellitus (GDM) defined?",
+    "response": "GDM is defined as carbohydrate intolerance of variable severity with onset or first recognition during pregnancy."
+   },
+   {
+    "instruction": "What drugs may be considered for initial pharmacological treatment of GDM?",
+    "response": "Metformin or glibenclamide may be considered as initial pharmacological glucose lowering treatment."
+   },
+   {
+    "instruction": "What should pregnant women with GDM be offered?",
+    "response": "Dietary advice and blood glucose monitoring, and treatment with glucose lowering therapy depending on fasting and postprandial targets."
+   },
+   {
+    "instruction": "What should women who have had GDM be reminded about?",
+    "response": "The need for preconception counselling and appropriate testing to detect progression to type 2 diabetes."
+   },
+   {
+    "instruction": "What grade of recommendation supports treating GDM with diet advice, monitoring and therapy?",
+    "response": "Grade A."
+   },
+   {
+    "instruction": "What decides when glucose lowering therapy is used in GDM?",
+    "response": "Fasting and postprandial targets."
+   },
+   {
+    "instruction": "What happens to some women who developed GDM later?",
+    "response": "They may progress to type 2 diabetes, so appropriate testing is needed."
+   },
+   {
+    "instruction": "Is GDM defined by severity?",
+    "response": "GDM covers carbohydrate intolerance of variable severity first recognised during pregnancy."
+   },
+   {
+    "instruction": "Why is preconception counselling advised after GDM?",
+    "response": "Women who have developed GDM should be reminded of the need for preconception counselling and testing for progression to type 2 diabetes."
+   },
+   {
+    "instruction": "Summarise the SIGN guidance on gestational diabetes.",
+    "response": "GDM is carbohydrate intolerance first recognised in pregnancy; women should be offered dietary advice, blood glucose monitoring and glucose lowering therapy guided by fasting and postprandial targets, with metformin or glibenclamide as initial options, and later reminded about preconception counselling and testing for type 2 diabetes."
+   }
+  ]
+ },
+ {
+  "passage_id": 39,
+  "source": "sign154-pharmacological-glycaemic-control.txt",
+  "passage": "When commencing insulin glargine U300, the summary of product characteristics recommends reducing the dose by 20% either when switching from twice-daily basal insulin to once-daily insulin glargine U300, or if switching back from once-daily insulin glargine U300 to once-daily insulin glargine U100. Rapid-acting analogues (whether as bolus insulin or as a component of premixed insulin) may be appropriate for: y those who prefer to inject insulin immediately before a meal y those having problems with hypoglycaemia y those in whom blood glucose rises markedly after meals. People with diabetes should have a clear plan of how to get help on an urgent or semi-urgent basis. This will often involve the local diabetes team in office hours, but outwith these times arrangements vary across Scotland. If admitted to hospital they should be aware that the Diabetes Team can be asked to advise on the management of their diabetes while they are in hospital, particularly if they have a concern.",
+  "pairs": [
+   {
+    "instruction": "What dose change is recommended when switching to insulin glargine U300 from twice-daily basal insulin?",
+    "response": "The summary of product characteristics recommends reducing the dose by 20% when switching from twice-daily basal insulin to once-daily insulin glargine U300."
+   },
+   {
+    "instruction": "When else is a 20% dose reduction recommended?",
+    "response": "When switching back from once-daily insulin glargine U300 to once-daily insulin glargine U100."
+   },
+   {
+    "instruction": "For whom may rapid-acting analogues be appropriate?",
+    "response": "Those who prefer to inject insulin immediately before a meal, those having problems with hypoglycaemia, and those in whom blood glucose rises markedly after meals."
+   },
+   {
+    "instruction": "What should people with diabetes have regarding getting help?",
+    "response": "A clear plan of how to get help on an urgent or semi-urgent basis."
+   },
+   {
+    "instruction": "Who is usually involved in urgent diabetes help in office hours?",
+    "response": "The local diabetes team."
+   },
+   {
+    "instruction": "What should people know if admitted to hospital?",
+    "response": "They should be aware that the Diabetes Team can be asked to advise on the management of their diabetes while they are in hospital."
+   },
+   {
+    "instruction": "Can rapid-acting analogues be part of premixed insulin?",
+    "response": "Yes. Rapid-acting analogues may be used as bolus insulin or as a component of premixed insulin."
+   },
+   {
+    "instruction": "How do arrangements vary out of hours?",
+    "response": "Outwith office hours, arrangements vary across Scotland."
+   },
+   {
+    "instruction": "Why might someone choose a rapid-acting analogue?",
+    "response": "If they prefer to inject immediately before a meal, have problems with hypoglycaemia, or have blood glucose that rises markedly after meals."
+   },
+   {
+    "instruction": "Summarise the SIGN advice on insulin glargine U300 and rapid-acting analogues.",
+    "response": "Reduce the dose by 20% when switching between twice-daily basal insulin or glargine U100 and glargine U300; rapid-acting analogues suit those who inject right before meals, have hypoglycaemia problems or marked post-meal rises; and people should have a plan for getting urgent help, including from the hospital Diabetes Team."
+   }
+  ]
+ },
+ {
+  "passage_id": 40,
+  "source": "sign154-pharmacological-glycaemic-control.txt",
+  "passage": "75 8.2 HYPOGLYCAEMIA, WEIGHT GAIN AND ADVERSE EFFECTS As SGLT2 inhibitors mediate their effects independently of insulin, there is a low risk of hypoglycaemia with their use. The incidence of hypoglycaemia associated with SGLT2 inhibitor monotherapy and combination therapy has been tested in a series of meta-analyses. A meta-analysis of four short-term RCTs (≤24 weeks) reported that there was no statistically significant difference in the odds of any hypoglycaemia between metformin and SGLT2 inhibitor monotherapy. Confidence intervals were wide for all included results due to the very small number of events reported.",
+  "pairs": [
+   {
+    "instruction": "Why is the risk of hypoglycaemia low with SGLT2 inhibitors?",
+    "response": "SGLT2 inhibitors mediate their effects independently of insulin, so there is a low risk of hypoglycaemia with their use."
+   },
+   {
+    "instruction": "How was hypoglycaemia incidence with SGLT2 inhibitors tested?",
+    "response": "In a series of meta-analyses of SGLT2 inhibitor monotherapy and combination therapy."
+   },
+   {
+    "instruction": "What did the meta-analysis of four short-term RCTs report?",
+    "response": "There was no statistically significant difference in the odds of any hypoglycaemia between metformin and SGLT2 inhibitor monotherapy."
+   },
+   {
+    "instruction": "How long were the short-term RCTs in the meta-analysis?",
+    "response": "24 weeks or less."
+   },
+   {
+    "instruction": "How many RCTs were included in the meta-analysis?",
+    "response": "Four."
+   },
+   {
+    "instruction": "Why were confidence intervals wide?",
+    "response": "Because of the very small number of events reported."
+   },
+   {
+    "instruction": "Does SGLT2 inhibitor monotherapy increase hypoglycaemia compared with metformin?",
+    "response": "No statistically significant difference in the odds of any hypoglycaemia was found between metformin and SGLT2 inhibitor monotherapy."
+   },
+   {
+    "instruction": "What is the mechanism that keeps hypoglycaemia risk low?",
+    "response": "SGLT2 inhibitors act independently of insulin."
+   },
+   {
+    "instruction": "What does section 8.2 of the guideline cover?",
+    "response": "Hypoglycaemia, weight gain and adverse effects of SGLT2 inhibitors."
+   },
+   {
+    "instruction": "Summarise the evidence on hypoglycaemia with SGLT2 inhibitors.",
+    "response": "Because they act independently of insulin the hypoglycaemia risk is low; a meta-analysis of four RCTs of 24 weeks or less found no significant difference versus metformin monotherapy, though confidence intervals were wide because very few events were reported."
+   }
+  ]
+ },
+ {
+  "passage_id": 41,
+  "source": "sign154-pharmacological-glycaemic-control.txt",
+  "passage": "12.1.3 SULPHONYLUREAS These agents, most commonly gliclazide and glimepiride, should ideally be taken 30 minutes before food. They are particularly useful for rapid control of blood glucose and relief of symptoms including thirst, polyuria and weight loss. They are more effective early in the management of type 2 diabetes. Their main side effects are hypoglycaemia and weight gain. The warning signs of hypoglycaemia, which should be outlined to people taking these agents, include (early signs) tremor, sweating, shaking, irritability, and (later signs) lack of concentration and co-ordination. People prescribed sulphonylureas should be prescribed adequate supplies of blood glucose test strips as per the local formulary. The risk of hypoglycaemia is higher in older age groups, and in those with renal impairment and/or liver disease; this risk may be underestimated by RCTs.",
+  "pairs": [
+   {
+    "instruction": "When should sulphonylureas ideally be taken?",
+    "response": "Sulphonylureas, most commonly gliclazide and glimepiride, should ideally be taken 30 minutes before food."
+   },
+   {
+    "instruction": "Which sulphonylureas are most commonly used?",
+    "response": "Gliclazide and glimepiride."
+   },
+   {
+    "instruction": "What are sulphonylureas particularly useful for?",
+    "response": "Rapid control of blood glucose and relief of symptoms including thirst, polyuria and weight loss."
+   },
+   {
+    "instruction": "When are sulphonylureas more effective?",
+    "response": "They are more effective early in the management of type 2 diabetes."
+   },
+   {
+    "instruction": "What are the main side effects of sulphonylureas?",
+    "response": "Hypoglycaemia and weight gain."
+   },
+   {
+    "instruction": "What are the early warning signs of hypoglycaemia?",
+    "response": "Tremor, sweating, shaking and irritability."
+   },
+   {
+    "instruction": "What are the later signs of hypoglycaemia?",
+    "response": "Lack of concentration and co-ordination."
+   },
+   {
+    "instruction": "What supplies should people prescribed sulphonylureas receive?",
+    "response": "Adequate supplies of blood glucose test strips as per the local formulary."
+   },
+   {
+    "instruction": "Who has a higher risk of hypoglycaemia with sulphonylureas?",
+    "response": "Older age groups, and those with renal impairment and/or liver disease."
+   },
+   {
+    "instruction": "Summarise the SIGN guidance on sulphonylureas.",
+    "response": "Agents such as gliclazide and glimepiride are taken about 30 minutes before food, give rapid glucose control and symptom relief, work best early in type 2 diabetes, and cause hypoglycaemia and weight gain; patients need warning-sign education and test strips, and the hypoglycaemia risk is higher in older people and those with renal or liver disease."
+   }
+  ]
+ },
+ {
+  "passage_id": 42,
+  "source": "waikato-gp-type2-diabetes-manual-2024.txt",
+  "passage": "Some background reading: Diabetes Prevention Program (DPP) and the ongoing DPP Outcomes Study (DPPOS) are major studies that changed the way people approach type 2 diabetes prevention worldwide. The DPP showed that people who are at high risk for type 2 diabetes can prevent or delay the disease by losing a modest amount of weight through lifestyle changes (dietary changes and increased physical activity). Taking metformin, a safe and effective generic medicine to treat diabetes, was also found to prevent the disease, though to a lesser degree. The DPPOS has continued to follow most DPP participants since 2002. To date, the DPPOS has shown that participants who took part in the DPP Lifestyle Change Program or are taking metformin continue to prevent or delay type 2 diabetes for at least 15 years. The DPPOS has also shown that the DPP Lifestyle Change Program is cost effective (costs are justified by the benefits of diabetes prevention, improved health, and fewer health care costs) and metformin is cost-saving (leads to a small savings in health care costs) after 10-years.",
+  "pairs": [
+   {
+    "instruction": "What did the Diabetes Prevention Program (DPP) show?",
+    "response": "People at high risk for type 2 diabetes can prevent or delay the disease by losing a modest amount of weight through lifestyle changes (dietary changes and increased physical activity)."
+   },
+   {
+    "instruction": "Was metformin also found to prevent type 2 diabetes?",
+    "response": "Yes, though to a lesser degree than lifestyle changes."
+   },
+   {
+    "instruction": "What is the DPPOS?",
+    "response": "The DPP Outcomes Study, which has continued to follow most DPP participants since 2002."
+   },
+   {
+    "instruction": "How long has the DPPOS shown prevention or delay to last?",
+    "response": "Participants in the DPP Lifestyle Change Program or taking metformin continue to prevent or delay type 2 diabetes for at least 15 years."
+   },
+   {
+    "instruction": "Is the DPP Lifestyle Change Program cost effective?",
+    "response": "Yes. The DPPOS has shown the DPP Lifestyle Change Program is cost effective."
+   },
+   {
+    "instruction": "Is metformin cost-saving for diabetes prevention?",
+    "response": "Yes. Metformin is cost-saving, leading to a small savings in health care costs after 10 years."
+   },
+   {
+    "instruction": "What does cost effective mean in this context?",
+    "response": "Costs are justified by the benefits of diabetes prevention, improved health, and fewer health care costs."
+   },
+   {
+    "instruction": "How is metformin described in the text?",
+    "response": "A safe and effective generic medicine to treat diabetes."
+   },
+   {
+    "instruction": "What lifestyle changes did the DPP use?",
+    "response": "Dietary changes and increased physical activity leading to modest weight loss."
+   },
+   {
+    "instruction": "Summarise the DPP and DPPOS findings.",
+    "response": "The DPP showed that modest weight loss through diet and activity, and to a lesser degree metformin, can prevent or delay type 2 diabetes in high-risk people; the DPPOS has followed participants since 2002 and shows the benefit lasting at least 15 years, with the lifestyle program cost effective and metformin cost-saving after 10 years."
+   }
+  ]
+ },
+ {
+  "passage_id": 43,
+  "source": "waikato-gp-type2-diabetes-manual-2024.txt",
+  "passage": "Introduction When starting a person on insulin have a clear plan of what you are aiming to achieve; the agreed HbA1c target, know that they are already on maximum oral medication, and that the person has had some time to talk about their concerns. Have a check list, clear documentation, and a follow up strategy to ensure the correct dose is obtained. The process takes time and the whole practice needs to support the additional time and effort this takes. The following chapter starts with two check lists. One is the process involved, the next is an education check list for the patient. Then each of the points on the education check list is explained in detail. This may be completed in one session, but in reality, only a small portion of what is taught is retained. You will need to create multiple opportunities to reinforce the information in the short term, but also over the years. The DAR is always a great opportunity to ask questions related to insulin administration such as hypo management or sharps disposal.",
+  "pairs": [
+   {
+    "instruction": "What should be clear when starting a person on insulin?",
+    "response": "A clear plan of what you are aiming to achieve, the agreed HbA1c target, knowledge that they are already on maximum oral medication, and time for them to talk about their concerns."
+   },
+   {
+    "instruction": "What tools help ensure the correct insulin dose is obtained?",
+    "response": "A check list, clear documentation, and a follow up strategy."
+   },
+   {
+    "instruction": "Does starting insulin take time?",
+    "response": "Yes. The process takes time and the whole practice needs to support the additional time and effort this takes."
+   },
+   {
+    "instruction": "What two check lists start the insulin chapter?",
+    "response": "One covers the process involved and the other is an education check list for the patient."
+   },
+   {
+    "instruction": "How much of insulin teaching is retained in one session?",
+    "response": "Only a small portion of what is taught is retained."
+   },
+   {
+    "instruction": "How should insulin education be reinforced?",
+    "response": "By creating multiple opportunities to reinforce the information in the short term, but also over the years."
+   },
+   {
+    "instruction": "What is the DAR an opportunity for?",
+    "response": "The DAR is always a great opportunity to ask questions related to insulin administration, such as hypo management or sharps disposal."
+   },
+   {
+    "instruction": "Should insulin be started before maximum oral medication is reached?",
+    "response": "No. You should know that the person is already on maximum oral medication."
+   },
+   {
+    "instruction": "Why talk about the person's concerns before insulin?",
+    "response": "The person should have had some time to talk about their concerns before starting insulin."
+   },
+   {
+    "instruction": "Summarise the introduction to starting insulin.",
+    "response": "Start insulin with a clear plan, an agreed HbA1c target, confirmation that oral medication is at maximum, and time to discuss concerns; use check lists, documentation and follow-up to reach the right dose, expect it to take practice-wide time, and reinforce education repeatedly because little is retained in one session."
+   }
+  ]
+ },
+ {
+  "passage_id": 44,
+  "source": "waikato-gp-type2-diabetes-manual-2024.txt",
+  "passage": "Formulate individualised plan of action – what and where will their hypo kit be. Consider Medical Alert bracelet. Oral medications Any changes? Lifestyle advice Maintaining healthy weight by healthy eating and exercise and reinforce advice from the dietitian. Risks with alcohol consumption and insulin. Driving Ensure understanding of their responsibility to maintain a reasonable level of glycaemic control when driving. Particularly how to minimise their risk of hypos. If vocational driver on insulin – Ensure control is adequate for safe driving. If required, or you are uncertain, refer for specialist advice.",
+  "pairs": [
+   {
+    "instruction": "What should be formulated for hypoglycaemia in a person on insulin?",
+    "response": "An individualised plan of action, including what and where their hypo kit will be."
+   },
+   {
+    "instruction": "What jewellery should be considered?",
+    "response": "A Medical Alert bracelet."
+   },
+   {
+    "instruction": "What lifestyle advice is given for people on insulin?",
+    "response": "Maintaining a healthy weight by healthy eating and exercise, and reinforcing advice from the dietitian."
+   },
+   {
+    "instruction": "What risk applies to alcohol consumption with insulin?",
+    "response": "There are risks with alcohol consumption and insulin."
+   },
+   {
+    "instruction": "What should people on insulin understand about driving?",
+    "response": "Their responsibility to maintain a reasonable level of glycaemic control when driving, particularly how to minimise their risk of hypos."
+   },
+   {
+    "instruction": "What applies to vocational drivers on insulin?",
+    "response": "Ensure control is adequate for safe driving."
+   },
+   {
+    "instruction": "When should a patient be referred for specialist advice about driving?",
+    "response": "If required, or if you are uncertain."
+   },
+   {
+    "instruction": "What should be reviewed regarding oral medications?",
+    "response": "Any changes."
+   },
+   {
+    "instruction": "Why reinforce dietitian advice?",
+    "response": "To maintain a healthy weight by healthy eating and exercise."
+   },
+   {
+    "instruction": "Summarise the follow-up checklist for people starting insulin.",
+    "response": "Plan where the hypo kit will be and consider a Medical Alert bracelet, review oral medicines, reinforce healthy weight and dietitian advice, discuss alcohol risks with insulin, and ensure drivers understand their responsibility for glycaemic control, with specialist referral for vocational drivers if needed."
+   }
+  ]
+ },
+ {
+  "passage_id": 45,
+  "source": "waikato-gp-type2-diabetes-manual-2024.txt",
+  "passage": "If you are really sick and if your glucose levels are higher than normal – contact your nurse for help. You may neeed to change the medicine you take. If your glucose levels are lower than normal – you may need less of the insulin or tablets that you take. Hypo – if your blood glucose is too low or under 4 mmols. If your blood glucose levels are under 4 mmols – your need to treat this ‘hypo’ with a small dose of sugary drink or food – ½ a glass of regular fizzy or orange juice, 3 tsp sugar disolved in warm water, 9 jelly beans, glucose tablets or similar. Test your blood glucose levels again in 15 minutes, if you are still under 4 mmols, treat again with sugar, but if you have blood glucose above 4 – have something to eat.",
+  "pairs": [
+   {
+    "instruction": "What should a person do if they are really sick and glucose levels are higher than normal?",
+    "response": "Contact the nurse for help, because they may need to change the medicine they take."
+   },
+   {
+    "instruction": "What if glucose levels are lower than normal when sick?",
+    "response": "They may need less of the insulin or tablets that they take."
+   },
+   {
+    "instruction": "How is a hypo defined?",
+    "response": "A hypo is when blood glucose is too low, under 4 mmols."
+   },
+   {
+    "instruction": "How should a hypo be treated?",
+    "response": "Treat it with a small dose of sugary drink or food such as half a glass of regular fizzy or orange juice, 3 tsp sugar dissolved in warm water, 9 jelly beans, glucose tablets or similar."
+   },
+   {
+    "instruction": "When should blood glucose be rechecked after treating a hypo?",
+    "response": "Test again in 15 minutes."
+   },
+   {
+    "instruction": "What if blood glucose is still under 4 mmols after 15 minutes?",
+    "response": "Treat again with sugar."
+   },
+   {
+    "instruction": "What should be done once blood glucose is above 4?",
+    "response": "Have something to eat."
+   },
+   {
+    "instruction": "Give examples of foods that treat a hypo.",
+    "response": "Half a glass of regular fizzy or orange juice, 3 tsp sugar dissolved in warm water, 9 jelly beans or glucose tablets."
+   },
+   {
+    "instruction": "What is the hypo threshold in mmol/L?",
+    "response": "Blood glucose under 4 mmols."
+   },
+   {
+    "instruction": "Summarise the sick day and hypo advice.",
+    "response": "When sick, contact the nurse if glucose is high or low because medicines may need changing; treat a hypo, blood glucose under 4 mmols, with a small amount of sugary drink or food, recheck after 15 minutes, repeat if still under 4, and eat once above 4."
+   }
+  ]
+ },
+ {
+  "passage_id": 46,
+  "source": "who-eb150-diabetes-recommendations-2021.txt",
+  "passage": "j) Data on diabetes derived from monitoring and surveillance systems in most countries are sparse and inadequate. Only 56% of countries have recently conducted a diabetes prevalence survey. While 50% of countries, mostly high -income ones, report having diabetes registries, their predominantly hospital-based nature and limited coverage do not provide sufficient information on diabetes outcomes .5 Less t han two -thirds of low -income countrie s report having vital registration systems to capture information on cause of death and the reliability of the information on diabetes is doubtful . Most countries do not have a system in place to evaluate national actions or programmes.",
+  "pairs": [
+   {
+    "instruction": "What is the state of diabetes monitoring and surveillance data in most countries?",
+    "response": "Data on diabetes derived from monitoring and surveillance systems in most countries are sparse and inadequate."
+   },
+   {
+    "instruction": "What percentage of countries have recently conducted a diabetes prevalence survey?",
+    "response": "Only 56% of countries."
+   },
+   {
+    "instruction": "What percentage of countries report having diabetes registries?",
+    "response": "50% of countries, mostly high-income ones."
+   },
+   {
+    "instruction": "Why are diabetes registries insufficient?",
+    "response": "Their predominantly hospital-based nature and limited coverage do not provide sufficient information on diabetes outcomes."
+   },
+   {
+    "instruction": "How many low-income countries have vital registration systems?",
+    "response": "Less than two-thirds of low-income countries report having vital registration systems to capture information on cause of death."
+   },
+   {
+    "instruction": "Is information on diabetes deaths reliable in low-income countries?",
+    "response": "The reliability of the information on diabetes is doubtful."
+   },
+   {
+    "instruction": "Do most countries evaluate national diabetes actions?",
+    "response": "No. Most countries do not have a system in place to evaluate national actions or programmes."
+   },
+   {
+    "instruction": "Which countries mostly have diabetes registries?",
+    "response": "Mostly high-income countries."
+   },
+   {
+    "instruction": "What gap exists in evaluating national programmes?",
+    "response": "Most countries have no system to evaluate national actions or programmes."
+   },
+   {
+    "instruction": "Summarise the WHO concern about diabetes surveillance.",
+    "response": "Surveillance data are sparse; only 56% of countries recently ran a prevalence survey, 50% have mostly hospital-based registries, fewer than two-thirds of low-income countries have vital registration with doubtful reliability for diabetes, and most lack systems to evaluate national programmes."
+   }
+  ]
+ },
+ {
+  "passage_id": 47,
+  "source": "who-global-report-diabetes-2016.txt",
+  "passage": "Efforts to improve capacity for diagnosis and treatment of diabetes should occur in the context of integrated noncommunicable disease (NCD) management to yield better outcomes. At a minimum, diabetes and cardiovascular disease management can be combined. Integrated management of diabetes and tuberculosis and/or HIV/AIDS can be considered where there is high prevalence of these diseases. NATIONA l CAPACIT y fOr PrEvENTION AND CONT rOl Of DIABETES National capacity to prevent and control diabetes as assessed in the 2015 NCD Country Capacity Survey varies widely by region and country-income level. Most countries report having national diabetes policies, as well as national policies to reduce key risk factors and national guidelines or protocols to improve management of diabetes. In some regions and among lower-income countries, however, these policies and guidelines lack funding and implementation.",
+  "pairs": [
+   {
+    "instruction": "How should diagnosis and treatment capacity for diabetes be improved?",
+    "response": "In the context of integrated noncommunicable disease (NCD) management to yield better outcomes."
+   },
+   {
+    "instruction": "Which conditions can be combined at a minimum?",
+    "response": "Diabetes and cardiovascular disease management can be combined."
+   },
+   {
+    "instruction": "When can diabetes be managed together with tuberculosis or HIV/AIDS?",
+    "response": "Integrated management can be considered where there is high prevalence of these diseases."
+   },
+   {
+    "instruction": "What did the 2015 NCD Country Capacity Survey assess?",
+    "response": "National capacity to prevent and control diabetes."
+   },
+   {
+    "instruction": "Do most countries have national diabetes policies?",
+    "response": "Yes. Most countries report having national diabetes policies, policies to reduce key risk factors, and national guidelines or protocols to improve management of diabetes."
+   },
+   {
+    "instruction": "What weakness exists in some regions and lower-income countries?",
+    "response": "Policies and guidelines lack funding and implementation."
+   },
+   {
+    "instruction": "Does national capacity vary?",
+    "response": "Yes. It varies widely by region and country-income level."
+   },
+   {
+    "instruction": "What is the benefit of integrating diabetes with NCD management?",
+    "response": "It yields better outcomes."
+   },
+   {
+    "instruction": "What is meant by integrating diabetes and tuberculosis management?",
+    "response": "Managing the two conditions together where both have high prevalence."
+   },
+   {
+    "instruction": "Summarise the WHO statement on national capacity for diabetes control.",
+    "response": "Capacity should be improved through integrated NCD management, at least combining diabetes and cardiovascular care; national capacity varies widely, and although most countries have diabetes policies and guidelines, in some regions and lower-income countries they lack funding and implementation."
+   }
+  ]
+ },
+ {
+  "passage_id": 48,
+  "source": "who-global-report-diabetes-2016.txt",
+  "passage": "Clinical vigilance alone, even in the absence of systems for early detection of type 2 diabetes or systematic risk prediction, will identify people who are at high 42 Pr E vENTING DIABETES risk for future development of type 2 diabetes. These people should receive (as a minimum) repeat counselling on weight loss, diet, physical activity and smoking. While type 2 diabetes is potentially preventable, the causes and risk factors for type 1 diabetes remain unknown and prevention strategies have not yet been successful (see Box 5). 2.3 S uMMA ry Much type 2 diabetes results from modifiable risk factors that can be reduced using a combination of approaches at population and individual levels. Creating supportive policy, social and physical environments for healthy lifestyles is a key aspect of type 2 diabetes prevention. Sustaining the lifestyle changes needed to reduce risk requires supportive family and social networks, as well as an enabling food system and physical environment. Healthy food and opportunities for physical activity must be available and affordable.",
+  "pairs": [
+   {
+    "instruction": "What should people at high risk of type 2 diabetes receive at minimum?",
+    "response": "Repeat counselling on weight loss, diet, physical activity and smoking."
+   },
+   {
+    "instruction": "Can clinical vigilance identify people at high risk?",
+    "response": "Yes. Clinical vigilance alone will identify people at high risk for future development of type 2 diabetes, even without early detection systems."
+   },
+   {
+    "instruction": "Is type 2 diabetes potentially preventable?",
+    "response": "Yes. Type 2 diabetes is potentially preventable."
+   },
+   {
+    "instruction": "What is known about the causes of type 1 diabetes?",
+    "response": "The causes and risk factors for type 1 diabetes remain unknown and prevention strategies have not yet been successful."
+   },
+   {
+    "instruction": "What results in much type 2 diabetes?",
+    "response": "Modifiable risk factors that can be reduced using a combination of approaches at population and individual levels."
+   },
+   {
+    "instruction": "What is key to type 2 diabetes prevention at population level?",
+    "response": "Creating supportive policy, social and physical environments for healthy lifestyles."
+   },
+   {
+    "instruction": "What is needed to sustain lifestyle changes?",
+    "response": "Supportive family and social networks, as well as an enabling food system and physical environment."
+   },
+   {
+    "instruction": "What must be available and affordable?",
+    "response": "Healthy food and opportunities for physical activity."
+   },
+   {
+    "instruction": "Has type 1 diabetes prevention been successful?",
+    "response": "No. Prevention strategies for type 1 diabetes have not yet been successful."
+   },
+   {
+    "instruction": "Summarise the WHO summary on preventing diabetes.",
+    "response": "Much type 2 diabetes comes from modifiable risk factors, so high-risk people should at least get repeat counselling on weight, diet, activity and smoking; prevention needs supportive policy, social and physical environments with affordable healthy food and activity, whereas type 1 diabetes cannot yet be prevented."
+   }
+  ]
+ },
+ {
+  "passage_id": 49,
+  "source": "who-global-report-diabetes-2016.txt",
+  "passage": "INS ulIN AND O rAl H yPOG lyCAEMIC AGENTS People with type 1 diabetes require insulin for survival – without insulin, even for a short time, these individuals may face life-threatening consequences. Yet an array of international and national barriers interact to hamper access to insulin, and many in low- and middle-income countries do not receive this essential treatment (39, 40). The insulin market is dominated by a small number of multinational manufacturers, with a few, smaller producers making up only 4% of the market by volume (41). This limited competition can potentially 59MANAGING DIABETES BOx 11. IMP rOvING ACCESS TO INS ulIN AND O rAl MEDICINES f Or DIABETES, MO lDOvA Although insulin is on WHO’s Model list of essential medicines , access in resource-poor settings can still be a problem because of international and national barriers – not just because of costs but also because of access issues.",
+  "pairs": [
+   {
+    "instruction": "Who requires insulin for survival?",
+    "response": "People with type 1 diabetes require insulin for survival; without it, even for a short time, they may face life-threatening consequences."
+   },
+   {
+    "instruction": "Is insulin access a problem in low- and middle-income countries?",
+    "response": "Yes. Many in low- and middle-income countries do not receive this essential treatment because of international and national barriers."
+   },
+   {
+    "instruction": "How dominated is the insulin market?",
+    "response": "The insulin market is dominated by a small number of multinational manufacturers."
+   },
+   {
+    "instruction": "What share do smaller producers have of the insulin market?",
+    "response": "A few smaller producers make up only 4% of the market by volume."
+   },
+   {
+    "instruction": "What is the effect of limited competition?",
+    "response": "Limited competition can potentially hamper access to insulin."
+   },
+   {
+    "instruction": "Is insulin on the WHO essential medicines list?",
+    "response": "Yes. Insulin is on WHO's Model list of essential medicines."
+   },
+   {
+    "instruction": "Why can access be a problem in resource-poor settings?",
+    "response": "Not only because of costs but also because of access issues."
+   },
+   {
+    "instruction": "Which country is highlighted in Box 11 on improving access to insulin?",
+    "response": "Moldova."
+   },
+   {
+    "instruction": "What happens if people with type 1 diabetes go without insulin?",
+    "response": "They may face life-threatening consequences even after a short time."
+   },
+   {
+    "instruction": "Summarise the WHO text on insulin and oral hypoglycaemic agents.",
+    "response": "People with type 1 diabetes need insulin to survive, yet national and international barriers limit access, especially in low- and middle-income countries; a few multinational manufacturers dominate the market, smaller producers hold only 4% by volume, and access problems persist in resource-poor settings even though insulin is on WHO's essential medicines list."
+   }
+  ]
+ },
+ {
+  "passage_id": 50,
+  "source": "who-global-report-diabetes-2016.txt",
+  "passage": "WHO’s Western Pacific Region had the highest achievement of surveys involving blood glucose measurement, with 80% of countries reporting one in the past 5 years. Countries in the WHO Eastern Mediterranean Region and the WHO European Region were least likely to have done a survey involving blood glucose measurement, with 25% and 27% of countries respectively reporting such a survey in the past 5 years. Coverage of other risk factors was slightly better. Roughly two in three countries had conducted a national, population-based survey of overweight and obesity (72%) and physical inactivity (69%) in the past 5 years. Only 58% of countries conducted a national, populationbased survey of overweight and obesity that involved measurement of height and weight.",
+  "pairs": [
+   {
+    "instruction": "Which WHO region had the highest achievement of surveys involving blood glucose measurement?",
+    "response": "WHO's Western Pacific Region, with 80% of countries reporting one in the past 5 years."
+   },
+   {
+    "instruction": "Which regions were least likely to have done a blood glucose survey?",
+    "response": "The Eastern Mediterranean Region and the European Region, with 25% and 27% of countries respectively reporting such a survey in the past 5 years."
+   },
+   {
+    "instruction": "What proportion of countries had a national survey of overweight and obesity?",
+    "response": "Roughly two in three countries (72%)."
+   },
+   {
+    "instruction": "What proportion of countries had a national survey of physical inactivity?",
+    "response": "69% of countries."
+   },
+   {
+    "instruction": "What percentage of countries measured height and weight in an obesity survey?",
+    "response": "Only 58% of countries conducted a national, population-based survey of overweight and obesity that involved measurement of height and weight."
+   },
+   {
+    "instruction": "Was coverage of other risk factors better than blood glucose surveys?",
+    "response": "Yes. Coverage of other risk factors was slightly better."
+   },
+   {
+    "instruction": "What time period do these WHO survey figures cover?",
+    "response": "The past 5 years."
+   },
+   {
+    "instruction": "What was the Western Pacific Region's survey percentage?",
+    "response": "80%."
+   },
+   {
+    "instruction": "What was the Eastern Mediterranean Region's blood glucose survey percentage?",
+    "response": "25%."
+   },
+   {
+    "instruction": "Summarise the WHO findings on national surveys.",
+    "response": "Western Pacific countries led on blood glucose surveys at 80%, while the Eastern Mediterranean (25%) and European (27%) regions were lowest; roughly two in three countries surveyed overweight and obesity (72%) and physical inactivity (69%), but only 58% included measured height and weight."
+   }
+  ]
+ }
+]
