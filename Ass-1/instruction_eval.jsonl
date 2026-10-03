@@ -1,97 +1,93 @@
-{"instruction": "How does HHS differ from diabetic ketoacidosis in terms of ketones?", "response": "In HHS little substrate is available for ketoacids, so metabolic acidosis does not occur."}
-{"instruction": "Which SIGN guideline covers obesity management?", "response": "SIGN 115, the guideline on the management of obesity."}
-{"instruction": "Summarise the WHO statement on national capacity for diabetes control.", "response": "Capacity should be improved through integrated NCD management, at least combining diabetes and cardiovascular care; national capacity varies widely, and although most countries have diabetes policies and guidelines, in some regions and lower-income countries they lack funding and implementation."}
-{"instruction": "Summarise the IDF levels of diabetes care and prevention approach.", "response": "All people with or at risk of diabetes should have equitable, affordable access to evidence-based, cost-effective integrated care, but because many systems lack workforce or finances, IDF guidance is designed to suit diverse settings and support healthcare system reform."}
-{"instruction": "What should be offered to people with diabetes who wish to stop smoking?", "response": "Intensive management plus pharmacological therapies."}
-{"instruction": "Which region had the lowest prevalence of impaired glucose tolerance in the IDF recommendations?", "response": "Europe had the lowest prevalence, at 5.9%."}
-{"instruction": "Give an example of combination therapy for smoking cessation.", "response": "Two NRTs, or a non-NRT such as bupropion combined with an NRT."}
-{"instruction": "What benefit of SGLT-2 inhibitors did the committee extrapolate?", "response": "That the cardiovascular benefit would also be seen in people for whom metformin is contraindicated."}
-{"instruction": "How was future prevalence for 2045 projected?", "response": "The 2021 diabetes prevalence estimates were applied to population estimates for 2045."}
-{"instruction": "What did the evidence show for SGLT-2 inhibitors when metformin is background therapy?", "response": "SGLT-2 inhibitors reduced cardiovascular events compared with placebo when metformin is the background therapy."}
-{"instruction": "Why does metabolic acidosis not occur in HHS?", "response": "As absolute insulin deficiency is not present, peripheral lipolysis remains suppressed and free fatty acid release is low, so little substrate is available for ketoacid generation."}
-{"instruction": "What is the data source for CGM use?", "response": "The National Diabetes Audit."}
-{"instruction": "What percentage of countries have recently conducted a diabetes prevalence survey?", "response": "Only 56% of countries."}
-{"instruction": "When should blood glucose be rechecked after treating a hypo?", "response": "Test again in 15 minutes."}
-{"instruction": "Name the lifestyle goals listed for diabetes management.", "response": "Optimum nutrition, reasonable body weight and normal growth, glycaemic control, optimum blood lipid levels, individualising the diet according to complications and co-morbidities, optimal physical activity, behavioural changes for smoking, tobacco and alcohol, and stress management."}
-{"instruction": "What must be available and affordable?", "response": "Healthy food and opportunities for physical activity."}
-{"instruction": "What jewellery should be considered?", "response": "A Medical Alert bracelet."}
-{"instruction": "Which edition of the Malaysian CPG is described?", "response": "The 6th Edition of the Clinical Practice Guidelines for the Management of T2DM."}
-{"instruction": "What are the early warning signs of hypoglycaemia?", "response": "Tremor, sweating, shaking and irritability."}
-{"instruction": "Do measures of intermediate hyperglycaemia predict progression to type 2 diabetes?", "response": "Yes. All measures of intermediate hyperglycaemia predict progression to T2DM without intervention, and incident rates of T2DM increase with longer periods of follow-up."}
-{"instruction": "How should structured education programmes be quality assured?", "response": "They should be quality assured, reviewed by trained, competent, independent assessors and assessed against key criteria to ensure sustained consistency."}
-{"instruction": "Name psychological approaches mentioned for behaviour change.", "response": "Psychological approaches such as motivational interviewing, behaviour therapy and cognitive behaviour therapy."}
-{"instruction": "Where can referral forms for smoking cessation be obtained?", "response": "Services should be contacted locally for a referral form."}
-{"instruction": "Should sedentary people start with high intensity exercise?", "response": "No. They should start with low intensity and progress slowly in volume and intensity."}
-{"instruction": "Why might excluding older studies have raised the prevalence estimate?", "response": "Since older studies generally tend to report lower prevalence, their exclusion may have contributed to the 12.9% rise in global prevalence compared with the 9th edition."}
-{"instruction": "What are the two main types of monogenic diabetes?", "response": "Neonatal diabetes mellitus (rare) and maturity onset diabetes of the young (MODY)."}
-{"instruction": "What should be discussed when prescribing the medication?", "response": "The committee agreed that this should be addressed in a conversation between the person and the healthcare professional when prescribing the medication."}
-{"instruction": "How should treatment priorities be set?", "response": "Treatment priorities should be set with the patient, focusing on outcomes that matter most to the individual."}
-{"instruction": "What time horizon do glycaemia, hypertension and hyperlipidaemia treatments need to benefit?", "response": "Multi-year time horizons."}
-{"instruction": "Who is the CPG intended for?", "response": "It is a resource for healthcare professionals from primary to tertiary care levels."}
-{"instruction": "How many states do the tribes span?", "response": "36 states."}
-{"instruction": "How much can diabetes be prevented in people with prediabetes according to studies?", "response": "Several studies, including from India, have shown that diabetes can be prevented in up to a third of people with prediabetes."}
-{"instruction": "Summarise the committee rationale for people who cannot take metformin.", "response": "SGLT-2 inhibitors reduced cardiovascular events in people already on metformin, and although evidence was limited for those with no relevant comorbidities the committee agreed the benefit would also apply when metformin is contraindicated, whereas GLP-1 receptor agonists and tirzepatide lacked evidence of clinical or cost effectiveness."}
-{"instruction": "How should the diabetic diet be changed during sick days?", "response": "In the event of fever or other illness, the diabetic diet should be modified by changing the consistency and texture of foods to maintain adequate calorie intake."}
-{"instruction": "How was prevalence of diagnosed diabetes among AI/AN people calculated?", "response": "It was calculated using fiscal year 2015 data from the IHS NDW."}
-{"instruction": "When should rtCGM be offered instead of isCGM?", "response": "When it is available for the same or lower cost as isCGM."}
-{"instruction": "For whom may rapid-acting analogues be appropriate?", "response": "Those who prefer to inject insulin immediately before a meal, those having problems with hypoglycaemia, and those in whom blood glucose rises markedly after meals."}
-{"instruction": "How many theories does the ABC of Behaviour Change Theories present?", "response": "Michie et al. (2014) present 83 theories in the ABC of Behaviour Change Theories."}
-{"instruction": "What two check lists start the insulin chapter?", "response": "One covers the process involved and the other is an education check list for the patient."}
-{"instruction": "What resource gaps are acknowledged in the IDF text?", "response": "Many countries and health systems lack the workforce or financial resources to provide the best level of diabetes care."}
-{"instruction": "What can improve a GP's understanding of a patient's activity?", "response": "A careful history in the context of a trusting doctor-patient relationship may bring about better understanding and opportunity."}
-{"instruction": "Is combination therapy better than monotherapy for smoking cessation?", "response": "Yes. Combination therapy, such as two NRTs or a non-NRT such as bupropion with an NRT, is better than monotherapy."}
-{"instruction": "Summarise the Malaysian CPG recommendations on smoking cessation medicines.", "response": "Use NRT for at least eight to twelve weeks or varenicline for at least twelve weeks, prefer combination therapy for those at highest relapse risk, use caution in special populations, and arrange six to eight face to face follow-up sessions over six months."}
-{"instruction": "How long may intermittently scanned CGM be used?", "response": "iSCGM (intermittently scanned CGM) may be used for 14 days."}
-{"instruction": "Is the list of optimisation factors exhaustive?", "response": "No. The list of factors to think about as part of optimisation is not exhaustive but includes those that the committee thought were particularly important."}
-{"instruction": "Summarise the WHO summary on preventing diabetes.", "response": "Much type 2 diabetes comes from modifiable risk factors, so high-risk people should at least get repeat counselling on weight, diet, activity and smoking; prevention needs supportive policy, social and physical environments with affordable healthy food and activity, whereas type 1 diabetes cannot yet be prevented."}
-{"instruction": "Which WHO region had the highest achievement of surveys involving blood glucose measurement?", "response": "WHO's Western Pacific Region, with 80% of countries reporting one in the past 5 years."}
-{"instruction": "Why might CGM be used in a patient on intensive insulin therapy?", "response": "If they have suboptimal HbA1c or suspected unrecognised hypoglycaemia."}
-{"instruction": "When should sulphonylureas ideally be taken?", "response": "Sulphonylureas, most commonly gliclazide and glimepiride, should ideally be taken 30 minutes before food."}
-{"instruction": "How well do the different biochemical tests for intermediate hyperglycaemia overlap?", "response": "There are significant differences in prevalence and congruence of intermediate hyperglycaemia identified by different criteria, and overlap between the various biochemical tests is only moderate."}
+{"instruction": "What has altered clinical pathways in T2DM management?", "response": "The use of new technology and findings from landmark trials."}
+{"instruction": "What condition limits pursuit of the lower HbA1c target?", "response": "The target should be achievable without significant hypoglycaemia."}
+{"instruction": "Why are omega-3 fatty acids useful?", "response": "Both fish and flax seeds are rich in omega-3 fatty acids, which is protective for heart disease."}
+{"instruction": "What is the advice about tobacco in lifestyle management?", "response": "Smoking and tobacco chewing is totally prohibited."}
+{"instruction": "Which behaviours should people be advised to change?", "response": "Smoking, other tobacco products and alcohol."}
 {"instruction": "How many countries and territories were represented?", "response": "215 countries and territories were represented."}
-{"instruction": "Which conditions can be combined at a minimum?", "response": "Diabetes and cardiovascular disease management can be combined."}
-{"instruction": "How long should nicotine replacement therapy be used?", "response": "NRT should be used for at least eight to twelve weeks."}
-{"instruction": "How dominated is the insulin market?", "response": "The insulin market is dominated by a small number of multinational manufacturers."}
-{"instruction": "What lifestyle changes reduce the risk of developing diabetes?", "response": "Lifestyle changes including weight management and physical activity."}
-{"instruction": "Which statistical method generated age-specific prevalence estimates?", "response": "Logistic regression was used to generate smoothed age-specific diabetes prevalence estimates."}
-{"instruction": "Does starting insulin take time?", "response": "Yes. The process takes time and the whole practice needs to support the additional time and effort this takes."}
-{"instruction": "What does section 8.2 of the guideline cover?", "response": "Hypoglycaemia, weight gain and adverse effects of SGLT2 inhibitors."}
-{"instruction": "What access should all people with type 2 diabetes be offered?", "response": "All people with type 2 diabetes should be offered access to a structured education package where they will receive appropriate dietary and clinical care advice."}
-{"instruction": "Is information on diabetes deaths reliable in low-income countries?", "response": "The reliability of the information on diabetes is doubtful."}
-{"instruction": "How much of insulin teaching is retained in one session?", "response": "Only a small portion of what is taught is retained."}
-{"instruction": "What proportion of countries reported an operational diabetes policy, strategy or action plan?", "response": "75% of countries reported having an operational policy, strategy, or action plan for diabetes."}
-{"instruction": "Which MODY type is not caused by a transcription factor gene mutation?", "response": "MODY type 2."}
-{"instruction": "Which register helps identify adults with a learning disability?", "response": "The learning disability register in general practice."}
-{"instruction": "What percentage of people with IGT also had WHO-IFG?", "response": "23% of individuals with IGT also had WHO-IFG."}
-{"instruction": "What is tirzepatide?", "response": "Tirzepatide is a glucose-dependent insulinotropic polypeptide and glucagon-like peptide-1 dual-receptor agonist."}
-{"instruction": "Is insulin on the WHO essential medicines list?", "response": "Yes. Insulin is on WHO's Model list of essential medicines."}
-{"instruction": "Why should people with complications have a medical review before exercising?", "response": "Because they have existing complications of diabetes, so a medical review should happen before they embark on exercise programmes."}
-{"instruction": "Summarise the pathophysiology of HHS.", "response": "Relative insulin deficiency raises hepatic gluconeogenesis and glucose, while lipolysis stays suppressed so no ketoacidosis occurs; osmotic diuresis causes volume depletion and pre-renal failure, reduced glomerular filtration stops glucose excretion, and severe hyperglycaemia results."}
-{"instruction": "What decides when glucose lowering therapy is used in GDM?", "response": "Fasting and postprandial targets."}
-{"instruction": "What is the minimum population for a country to be included in the estimates?", "response": "A population of at least 50,000 persons."}
-{"instruction": "Which guidelines were used to estimate statin eligibility?", "response": "The 2013 cholesterol guidelines from the American College of Cardiology and American Heart Association."}
-{"instruction": "What delayed risk follows evening alcohol consumption?", "response": "There is a risk of delayed nocturnal or fasting hypoglycaemia after evening alcohol consumption."}
-{"instruction": "Might cultural activities be described as exercise?", "response": "Such activities may not be described as exercise or physical activity, yet be of significant health and social benefit."}
-{"instruction": "What information should adults be given about structured education?", "response": "They should be given clear information on the structured education programme and help to access it."}
-{"instruction": "What is the problem with optimal diabetes management globally?", "response": "Optimal diabetes management is not reaching the majority of individuals who could benefit."}
-{"instruction": "What percentage of people with IGT also had ADA-IFG?", "response": "58% of individuals with IGT also had ADA-IFG."}
+{"instruction": "Is egg yolk recommended in dyslipidaemia?", "response": "No. Egg yellow is among the saturated fat sources that should be restricted."}
+{"instruction": "How were diabetes-related health expenditures estimated?", "response": "They were estimated using an attributable fraction method."}
+{"instruction": "What varies considerably between countries in diabetes detection?", "response": "The capacity to detect individuals with undiagnosed T2DM and intermediate hyperglycaemia and implement diabetes prevention programmes varies considerably between countries and health services and systems."}
+{"instruction": "What are the later signs of hypoglycaemia?", "response": "Lack of concentration and co-ordination."}
+{"instruction": "Summarise the global considerations for detecting diabetes.", "response": "Capacity to detect undiagnosed T2DM and intermediate hyperglycaemia and to run prevention programmes varies widely, especially in low- and middle-income countries; the 2019 WHO survey of 160 countries found 75% had an operational diabetes policy or plan, but gave no details on screening and prevention."}
+{"instruction": "Why are estimates extrapolated for some countries?", "response": "Because those countries lacked data meeting the quality criteria."}
+{"instruction": "What is the aim of modifying food consistency on sick days?", "response": "To maintain adequate calorie intake during fever or other illness."}
+{"instruction": "Is stress management important for people with diabetes?", "response": "Yes. Stress management is essential in lifestyle management."}
+{"instruction": "What should be done before recommending an exercise programme?", "response": "Complete evaluation of patients with diabetes should be performed before recommending an exercise program."}
+{"instruction": "Summarise the SIGN guidance on sulphonylureas.", "response": "Agents such as gliclazide and glimepiride are taken about 30 minutes before food, give rapid glucose control and symptom relief, work best early in type 2 diabetes, and cause hypoglycaemia and weight gain; patients need warning-sign education and test strips, and the hypoglycaemia risk is higher in older people and those with renal or liver disease."}
+{"instruction": "Which countries show the greatest variation in capacity?", "response": "Especially low- and middle-income countries (LMIC)."}
+{"instruction": "What quality rule applied to data sources in the IDF Atlas?", "response": "Data sources had to meet pre-established quality criteria."}
+{"instruction": "Why have the T2DM recommendations been updated?", "response": "Because new technology and landmark trial findings have changed clinical pathways and recommendations for managing T2DM."}
+{"instruction": "How should the exercise programme be tailored?", "response": "The exercise programme has to be individualized according to one's ability and individual capacity."}
+{"instruction": "What foods should be encouraged on sick days?", "response": "Semi solid foods and fluids or items like thin soups, milk, buttermilk, or fresh lime juice should be encouraged."}
+{"instruction": "What does MNT stand for?", "response": "MNT stands for Medical Nutrition Therapy."}
+{"instruction": "What HbA1c target is recommended for most patients with T2DM?", "response": "Therapy in most patients with T2DM should be targeted to achieve an HbA1c of 7.0% or less, or 6.5% where appropriate, if achievable without significant hypoglycaemia."}
 {"instruction": "When can advanced glucose monitoring be used?", "response": "Advanced monitoring can be done if required in case of recurrent hypoglycaemia, severe fluctuations in blood glucose, disparity in measured glucose values and HbA1c, severe anaemia, haemoglobinopathy, hypoglycaemia unawareness etc."}
+{"instruction": "Summarise the foreword of the Malaysian T2DM CPG.", "response": "Advances in managing diabetic complications and landmark trials have changed clinical pathways, and the 6th Edition CPG focuses on preventing and reducing complications to improve outcomes, serving healthcare professionals from primary to tertiary care."}
 {"instruction": "Why should glucose monitoring be emphasised after drinking alcohol?", "response": "The importance of glucose monitoring after drinking alcoholic beverages should be emphasised to reduce hypoglycaemia risk."}
-{"instruction": "Which diabetes medicines make alcohol a particular hypoglycaemia concern?", "response": "Insulin and sulphonylureas."}
-{"instruction": "When did the technology appraisal guidance recommend tirzepatide?", "response": "In October 2023."}
-{"instruction": "What does MODY stand for?", "response": "MODY stands for maturity onset diabetes of the young."}
-{"instruction": "Is metformin recommended instead of lifestyle measures for prediabetes?", "response": "No. Metformin may be considered in addition to lifestyle measures when lifestyle alone is not sufficient."}
-{"instruction": "What qualified a patient as having diabetes?", "response": "Having at least two visits with an ICD 250 diagnosis code reported during fiscal year 2015."}
-{"instruction": "Does national capacity vary?", "response": "Yes. It varies widely by region and country-income level."}
-{"instruction": "What time period do these WHO survey figures cover?", "response": "The past 5 years."}
-{"instruction": "What is type 2 diabetes associated with?", "response": "Obesity."}
-{"instruction": "What does Medical Nutrition Therapy require?", "response": "Medical Nutrition Therapy for diabetes mellitus requires application of nutritional and behavioral sciences along with physical activity."}
-{"instruction": "Can rapid-acting analogues be part of premixed insulin?", "response": "Yes. Rapid-acting analogues may be used as bolus insulin or as a component of premixed insulin."}
-{"instruction": "Under whose guidance should yoga be done?", "response": "It should be done under the guidance of an expert."}
-{"instruction": "What range of intermediate hyperglycaemia prevalence did the 2015-2016 US NHANES survey report?", "response": "Prevalences ranged from 4.3% with IEC-HbA1c to 43.5% with ADA-IFG."}
-{"instruction": "Why is diabetes care described as multifaceted?", "response": "Because it is a complex condition with multifaceted challenges, which a chronic care model is meant to address."}
+{"instruction": "Which statistical method generated age-specific prevalence estimates?", "response": "Logistic regression was used to generate smoothed age-specific diabetes prevalence estimates."}
+{"instruction": "How was future prevalence for 2045 projected?", "response": "The 2021 diabetes prevalence estimates were applied to population estimates for 2045."}
+{"instruction": "Why is physical activity important in type 2 diabetes?", "response": "Regular physical activity along with regulated exercise is an essential component of management of type 2 diabetes."}
+{"instruction": "Summarise the Malaysian CPG monitoring recommendations.", "response": "SMBG for patients on insulin and desirable for those on OGLDs, CGM when HbA1c is suboptimal or hypoglycaemia is suspected on intensive insulin, regular monitoring of control, comorbidities and CVD risk, and individualised targets such as HbA1c at or below 7.0% or 6.5% without significant hypoglycaemia."}
+{"instruction": "How should glycaemic targets be set?", "response": "Glycaemic targets must be individualised."}
+{"instruction": "How were estimates produced for countries without qualifying data?", "response": "Estimates were extrapolated from countries with similar economies, ethnicity, geography and language."}
+{"instruction": "What are sulphonylureas particularly useful for?", "response": "Rapid control of blood glucose and relief of symptoms including thirst, polyuria and weight loss."}
+{"instruction": "What does the CPG help healthcare professionals deliver?", "response": "It helps them deliver the best possible care for their patients, from disease prevention to treatment of complications."}
+{"instruction": "When may CGM be considered?", "response": "CGM may be considered in patients with suboptimal HbA1c or suspected to have unrecognised hypoglycaemia on intensive insulin therapy."}
+{"instruction": "What should accompany dietary management?", "response": "Dietary management should be accompanied with regular physical activity and exercise regimen."}
 {"instruction": "What does the WHO capacity survey assess?", "response": "It assesses the national-level response to the NCD burden, including information on health system capacity for diabetes detection, treatment, and care."}
-{"instruction": "Why might someone choose a rapid-acting analogue?", "response": "If they prefer to inject immediately before a meal, have problems with hypoglycaemia, or have blood glucose that rises markedly after meals."}
-{"instruction": "What happens to hypoglycaemia risk as the quantity of alcohol increases?", "response": "There is an increased risk of hypoglycaemia with the quantity of alcohol consumed."}
+{"instruction": "Who has a higher risk of hypoglycaemia with sulphonylureas?", "response": "Older age groups, and those with renal impairment and/or liver disease."}
+{"instruction": "What forms can stress management take?", "response": "Stress management could take the form of meditation, yoga, a long outdoor walk, exercise and trying out hobbies like reading, gardening, painting etc."}
+{"instruction": "What has changed in the management of diabetic complications?", "response": "There has been a recent explosion of advances in the management of diabetic complications, with new technology and findings from landmark trials changing clinical pathways and recommendations."}
+{"instruction": "How should people on insulin or sulphonylureas consume alcohol?", "response": "If on insulin or sulphonylureas, alcohol should be consumed with a meal containing carbohydrate to prevent hypoglycaemia."}
+{"instruction": "Why might CGM be used in a patient on intensive insulin therapy?", "response": "If they have suboptimal HbA1c or suspected unrecognised hypoglycaemia."}
+{"instruction": "Give dietary advice for a person with diabetes and dyslipidaemia.", "response": "Restrict saturated and trans fats such as ghee, butter, vanaspati, margarine, coconut oil, red meat and whole milk products; use healthy oils and fibre-rich foods; limit alcohol to lower triglycerides; and combine this with regular physical activity."}
+{"instruction": "What must any structured education programme have?", "response": "It should have an underpinning philosophy, be evidence based, suit the needs of the individual, have specific aims and learning objectives, and support the development of self-management attitudes, beliefs, knowledge and skills."}
+{"instruction": "What supplies should people prescribed sulphonylureas receive?", "response": "Adequate supplies of blood glucose test strips as per the local formulary."}
+{"instruction": "What effect can reducing alcohol intake have in people with hypertension?", "response": "A reduction in alcohol intake in hypertensive individuals has been shown to reduce blood pressure, especially if more than 28g alcohol is consumed daily."}
+{"instruction": "How long may intermittently scanned CGM be used?", "response": "iSCGM (intermittently scanned CGM) may be used for 14 days."}
+{"instruction": "How does alcohol restriction help?", "response": "Alcohol restriction will bring down the triglycerides."}
+{"instruction": "Why might the diet need to be individualised?", "response": "The diet should be individualised according to complications and co-morbidities."}
+{"instruction": "How many countries did the most recent WHO survey cover?", "response": "The most recent survey, in 2019, collected data from 160 countries."}
+{"instruction": "What should be considered as part of a multidisciplinary lifestyle intervention programme?", "response": "Computer-assisted education packages and telephone prompting should be considered."}
+{"instruction": "Who should education programmes support besides the learner?", "response": "The learner's family and carers."}
+{"instruction": "How should structured education programmes be quality assured?", "response": "They should be quality assured, reviewed by trained, competent, independent assessors and assessed against key criteria to ensure sustained consistency."}
+{"instruction": "What is the scope of care covered by the CPG?", "response": "From disease prevention to treatment of complications."}
+{"instruction": "When should glycaemic control, comorbidities and CVD risk factors be monitored?", "response": "At the initial visit and whenever indicated subsequently."}
+{"instruction": "What does the WHO periodically conduct?", "response": "The World Health Organization periodically conducts a country capacity survey on noncommunicable diseases (NCDs)."}
+{"instruction": "What do the guidelines focus on?", "response": "They focus on preventing and reducing diabetes-related complications, thereby improving clinical outcomes."}
+{"instruction": "How much daily alcohol is linked with a blood pressure benefit when reduced?", "response": "The reduction is especially helpful if more than 28g of alcohol is consumed daily."}
+{"instruction": "Which edition of the Malaysian CPG is described?", "response": "The 6th Edition of the Clinical Practice Guidelines for the Management of T2DM."}
+{"instruction": "What is recommended instead in dyslipidaemia?", "response": "Use of healthy oils and fibre rich foods is recommended."}
+{"instruction": "What is recommended for patients on insulin regarding SMBG?", "response": "SMBG should be recommended in patients on insulin and is desirable for those on OGLDs."}
+{"instruction": "When should sulphonylureas ideally be taken?", "response": "Sulphonylureas, most commonly gliclazide and glimepiride, should ideally be taken 30 minutes before food."}
+{"instruction": "What training should healthcare professionals receive?", "response": "Healthcare professionals should receive training in patient-centred interventions in diabetes."}
+{"instruction": "What are the lifestyle goals in diabetes regarding nutrition?", "response": "To improve health through optimum nutrition, and to provide energy for reasonable body weight, normal growth and development."}
+{"instruction": "When are sulphonylureas more effective?", "response": "They are more effective early in the management of type 2 diabetes."}
+{"instruction": "What can vegetarians take for omega-3 fatty acids?", "response": "Vegetarians can take flax seeds (10 g / day) in their diet."}
 {"instruction": "Which foods should be restricted in dyslipidaemia?", "response": "Saturated and trans fat food sources like vanaspati, butter, ghee, margarine, coconut oil, red meats like sausages, ham, bacon, egg yellow, whole milk and its products should be restricted."}
-{"instruction": "What happens to renal function in HHS?", "response": "Severe intravascular volume depletion occurs, causing further deterioration of renal function and diminished glomerular filtration."}
+{"instruction": "How many data sources were used in the IDF Atlas methods?", "response": "A total of 219 data sources meeting pre-established quality criteria were identified."}
+{"instruction": "What are the main side effects of sulphonylureas?", "response": "Hypoglycaemia and weight gain."}
+{"instruction": "Who is the CPG intended for?", "response": "It is a resource for healthcare professionals from primary to tertiary care levels."}
+{"instruction": "List the lifestyle management measures covered under 6.2.4.", "response": "Avoiding tobacco, which is totally prohibited, and stress management through meditation, yoga, outdoor walks, exercise and hobbies."}
+{"instruction": "What kind of curriculum should a structured education programme have?", "response": "A written, structured curriculum which is theory driven, evidence based and resource effective, with supporting materials."}
+{"instruction": "Which years did the research in the data sources cover?", "response": "Research conducted between 2005 and 2020."}
+{"instruction": "How should the diabetic diet be changed during sick days?", "response": "In the event of fever or other illness, the diabetic diet should be modified by changing the consistency and texture of foods to maintain adequate calorie intake."}
+{"instruction": "What proportion of countries reported an operational diabetes policy, strategy or action plan?", "response": "75% of countries reported having an operational policy, strategy, or action plan for diabetes."}
+{"instruction": "Under whose guidance should yoga be done?", "response": "It should be done under the guidance of an expert."}
+{"instruction": "Were specific details on diabetes screening and prevention reported?", "response": "No. Specific details on diabetes screening and prevention were not reported."}
+{"instruction": "Summarise the methods used for the IDF Diabetes Atlas estimates.", "response": "219 quality-checked data sources from 2005 to 2020 covering 215 countries and territories were used; missing countries were extrapolated from similar ones, smoothed age-specific prevalence came from logistic regression, health expenditure from an attributable fraction method, and 2045 projections applied 2021 prevalence to future population estimates."}
+{"instruction": "What does Medical Nutrition Therapy require?", "response": "Medical Nutrition Therapy for diabetes mellitus requires application of nutritional and behavioral sciences along with physical activity."}
+{"instruction": "What audit is recommended for education programmes?", "response": "Regular audit of programme outcomes."}
+{"instruction": "What does CPG stand for?", "response": "CPG stands for Clinical Practice Guidelines."}
+{"instruction": "Are educational interventions for diabetes simple?", "response": "No. Educational interventions for diabetes are complex and varied."}
+{"instruction": "What delayed risk follows evening alcohol consumption?", "response": "There is a risk of delayed nocturnal or fasting hypoglycaemia after evening alcohol consumption."}
+{"instruction": "Give practical advice for a person taking insulin who plans to drink alcohol.", "response": "Consume the alcohol with a meal containing carbohydrate, be aware that more alcohol means more hypoglycaemia risk, know the signs of delayed hypoglycaemia, and monitor glucose after drinking."}
+{"instruction": "What does NCD stand for?", "response": "NCD stands for noncommunicable disease."}
+{"instruction": "Name the lifestyle goals listed for diabetes management.", "response": "Optimum nutrition, reasonable body weight and normal growth, glycaemic control, optimum blood lipid levels, individualising the diet according to complications and co-morbidities, optimal physical activity, behavioural changes for smoking, tobacco and alcohol, and stress management."}
+{"instruction": "What happens to hypoglycaemia risk as the quantity of alcohol increases?", "response": "There is an increased risk of hypoglycaemia with the quantity of alcohol consumed."}
+{"instruction": "Summarise the SIGN criteria for structured diabetes education.", "response": "A programme should be evidence based with a clear philosophy, aims and objectives, a written theory-driven curriculum, trained educators, independent quality assurance against key criteria, and regular audit of outcomes, supporting self-management for the learner, family and carers."}
+{"instruction": "What are the early warning signs of hypoglycaemia?", "response": "Tremor, sweating, shaking and irritability."}
+{"instruction": "Under what situations is advanced glucose monitoring appropriate?", "response": "In recurrent hypoglycaemia, severe fluctuations in blood glucose, disparity between measured glucose and HbA1c, severe anaemia, haemoglobinopathy and hypoglycaemia unawareness."}
+{"instruction": "Who should deliver structured education?", "response": "Trained educators who have an understanding of the educational theory appropriate to the age and needs of the programme learners."}
+{"instruction": "How long may Continuous Glucose Monitoring be used for?", "response": "Continuous Glucose Monitoring (CGM) may be used for 5-7 days."}
+{"instruction": "What should people with diabetes be educated about regarding alcohol?", "response": "They should be educated about the signs, symptoms, and self-management of delayed hypoglycaemia after drinking alcohol, especially when using insulin or sulphonylureas."}
