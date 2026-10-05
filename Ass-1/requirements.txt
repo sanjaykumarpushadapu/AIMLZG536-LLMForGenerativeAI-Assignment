@@ -1,14 +1,12 @@
 # Assignment 1A - Building & Fine-Tuning a Domain-Specific LLM
 # Domain: Medical & Clinical Literature (Type 2 Diabetes, Variant 1)
-# Model:  microsoft/biogpt-large
+# Model:  stanford-crfm/BioMedLM (set by MODEL_ID in the notebook)
 #
 #   pip install -r requirements.txt
 #
-# Versions are pinned ONLY where the package has actually been run and verified
-# (Step 1 + notebook tooling). The training stack is deliberately left unpinned:
-# those versions are dictated by the CUDA build of whichever GPU runtime you use
-# (free Colab T4 / BITS A100), and pinning them here would fight the runtime's
-# own preinstalled wheels.
+# Versions used on the BITS lab server (A100): transformers 4.46.3, trl 0.12.1,
+# peft 0.13.2, bitsandbytes 0.44.1, torch 2.5.1. The torch build depends on the
+# GPU runtime, so it is left unpinned.
 
 # --- Step 1: extraction & cleaning (verified locally) ------------------------
 pypdf==6.15.0        # page-by-page PDF text extraction
@@ -29,10 +27,6 @@ pandas==2.3.3        # dataframe wrapper around the packed sequences
 torch                # install the build matching your GPU's CUDA version
 accelerate           # required by transformers.Trainer
 matplotlib==3.10.9   # Step 4 loss curve
-sacremoses           # REQUIRED by biogpt-large: its tokenizer is Moses-based and
-                     # will not load without this. Not needed for Llama/GPT-2 models.
-
-# --- Part B: QLoRA instruction fine-tuning -----------------------------------
 peft                 # LoRA adapters
 bitsandbytes         # 4-bit (nf4) quantization for QLoRA
 trl                  # SFTTrainer
