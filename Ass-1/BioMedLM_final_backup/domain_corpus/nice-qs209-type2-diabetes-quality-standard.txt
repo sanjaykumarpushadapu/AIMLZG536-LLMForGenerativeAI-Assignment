@@ -1,0 +1,895 @@
+Type 2 diabetes in adults
+Quality standard
+Published: 2 March 2023
+Last updated: 18 February 2026
+www.nice.org.uk/guidance/qs209
+Contents
+Quality statements ...................................................................................................................... 5
+Quality statement 1: Preventing type 2 diabetes ..................................................................... 6
+Quality statement .................................................................................................................................. 6
+Rationale ................................................................................................................................................ 6
+Quality measures ................................................................................................................................... 6
+What the quality statement means for different audiences .............................................................. 8
+Source guidance .................................................................................................................................... 8
+Definitions of terms used in this quality statement ........................................................................... 8
+Equality and diversity considerations ................................................................................................. 9
+Quality statement 2: Structured education programme .......................................................... 10
+Quality statement .................................................................................................................................. 10
+Rationale ................................................................................................................................................ 10
+Quality measures ................................................................................................................................... 10
+What the quality statement means for different audiences .............................................................. 12
+Source guidance .................................................................................................................................... 12
+Definitions of terms used in this quality statement ........................................................................... 13
+Equality and diversity considerations ................................................................................................. 13
+Quality statement 3: Continuous glucose monitoring for adults on multiple daily insulin
+injections who cannot self-monitor using capillary blood glucose monitoring ..................... 15
+Quality statement .................................................................................................................................. 15
+Rationale ................................................................................................................................................ 15
+Quality measures ................................................................................................................................... 15
+What the quality statement means for different audiences .............................................................. 16
+Source guidance .................................................................................................................................... 17
+Definitions of terms used in this quality statement ........................................................................... 17
+Equality and diversity considerations ................................................................................................. 18
+Page 2 of
+41
+Quality statement 4: Continuous glucose monitoring for adults who use insulin and need
+help monitoring their blood glucose .......................................................................................... 19
+Quality statement .................................................................................................................................. 19
+Rationale ................................................................................................................................................ 19
+Quality measures ................................................................................................................................... 19
+What the quality statement means for different audiences .............................................................. 20
+Source guidance .................................................................................................................................... 21
+Definitions of terms used in this quality statement ........................................................................... 21
+Equality and diversity considerations ................................................................................................. 22
+Quality statement 5: Treatment with an SGLT-2 inhibitor .......................................................23
+Quality statement .................................................................................................................................. 23
+Rationale ................................................................................................................................................ 23
+Quality measures ................................................................................................................................... 23
+What the quality statement means for different audiences .............................................................. 24
+Source guidance .................................................................................................................................... 24
+Definitions of terms used in this quality statement ........................................................................... 24
+Quality statement 6: 9 key care processes .............................................................................. 26
+Quality statement .................................................................................................................................. 26
+Rationale ................................................................................................................................................ 26
+Quality measures ................................................................................................................................... 26
+What the quality statement means for different audiences .............................................................. 30
+Source guidance .................................................................................................................................... 31
+Definitions of terms used in this quality statement ........................................................................... 31
+Equality and diversity considerations ................................................................................................. 32
+Quality statement 7: Assessing the risk of diabetic foot problems on admission to
+hospital .........................................................................................................................................33
+Quality statement .................................................................................................................................. 33
+Rationale ................................................................................................................................................ 33
+Quality measures ................................................................................................................................... 33
+Page 3 of
+41
+What the quality statement means for different audiences .............................................................. 34
+Source guidance .................................................................................................................................... 35
+Definitions of terms used in this quality statement ........................................................................... 35
+Update information ..................................................................................................................... 38
+About this quality standard ........................................................................................................39
+Resource impact .................................................................................................................................... 39
+Diversity, equality and language .......................................................................................................... 40
+Page 4 of
+41
+This standard replaces QS6.
+This standard is based on NG19, PH38, NG28, NG136, NG203, NG209 and NG238.
+Quality statements
+Statement 1 Adults at high risk of type 2 diabetes are offered a referral to the NHS
+Diabetes Prevention Programme. [2016, updated 2023]
+Statement 2 Adults with type 2 diabetes are offered a structured education programme at
+diagnosis. [2011, updated 2023]
+Statement 3 Adults with type 2 diabetes who have multiple daily insulin injections and a
+condition or disability that means they cannot use capillary blood glucose monitoring are
+offered continuous glucose monitoring (CGM) to support self-monitoring. [new 2023]
+Statement 4 Adults with insulin-treated type 2 diabetes having their blood glucose
+monitored by a care worker or healthcare professional are offered CGM. [new 2023]
+Statement 5 Adults with type 2 diabetes are prescribed an SGLT-2 inhibitor. [2023,
+updated 2026]
+Statement 6 Adults with type 2 diabetes have 9 key care processes completed every
+12 months. [new 2023]
+Statement 7 Adults with type 2 diabetes admitted to hospital have an assessment of their
+risk of developing a diabetic foot problem. [new 2023]
+Page 5 of
+41
+Quality statement 1: Preventing type 2
+diabetes
+Quality statement
+Adults at high risk of type 2 diabetes are offered a referral to the NHS Diabetes Prevention
+Programme. [2016, updated 2023]
+Rationale
+Many cases of type 2 diabetes can be delayed or prevented through changes to a
+person's diet and physical activity. Evidence-based intensive lifestyle-change
+programmes, such as the NHS Diabetes Prevention Programme, can significantly reduce
+the risk of developing the condition for those at high risk. Adults should be referred to the
+NHS Diabetes Prevention Programme in a timely manner following identification that they
+are at high risk of developing type 2 diabetes, recognising that they may be more open to
+change at this time.
+Quality measures
+The following measures can be used to assess the quality of care or service provision
+specified in the statement. They are examples of how the statement can be measured and
+can be adapted and used flexibly. Services may want to use these measures to focus on
+dimensions of health inequality, for example by reporting data grouped by age, ethnicity or
+indices of deprivation.
+Process
+a) Proportion of adults at high risk of type 2 diabetes who are offered a referral to the NHS
+Diabetes Prevention Programme.
+Numerator – the number in the denominator who are offered a referral to the NHS
+Diabetes Prevention Programme.
+Page 6 of
+41
+Denominator – the number of adults at high risk of type 2 diabetes.
+Data source: The National Diabetes Audit diabetes prevention programme non-diabetic
+hyperglycaemia report collects and reports data on the number of people registered in GP
+practices in England who had a glycaemic test result in the non-diabetic hyperglycaemia
+range within the last 12 months who were offered a referral to the NHS Diabetes
+Prevention Programme.
+b) Proportion of adults at high risk of type 2 diabetes who complete the NHS Diabetes
+Prevention Programme.
+Numerator – the number in the denominator who complete the NHS Diabetes Prevention
+Programme.
+Denominator – the number of adults at high risk of type 2 diabetes referred to the NHS
+Diabetes Prevention Programme.
+Data source: Data can be collected from information recorded locally by provider
+organisations, for example from patient records.
+Outcome
+a) Weight loss of participants in the NHS Diabetes Prevention Programme.
+Data source: Data can be collected from information recorded locally by provider
+organisations, for example, body mass index (BMI) recorded in patient records at referral
+and completion of the programme.
+b) Reduction in HbA1c of participants in the NHS Diabetes Prevention Programme.
+Data source: Data can be collected from information recorded locally by provider
+organisations, for example HbA1c recorded in patient records at referral and completion of
+the programme.
+Page 7 of
+41
+What the quality statement means for different
+audiences
+Service providers (such as local authorities who provide the NHS Health Check
+programme) ensure that systems are in place for adults at high risk of type 2 diabetes to
+be offered a referral to the NHS Diabetes Prevention Programme.
+Health and public health professionals (such as GPs, pharmacists and people carrying out
+diabetes risk assessments and other health checks) ensure that they offer a referral to the
+NHS Diabetes Prevention Programme to adults at high risk of type 2 diabetes. They should
+ensure adults with type 2 diabetes are given clear information on the NHS Diabetes
+Prevention Programme and help to access it. Health and public health professionals should
+recognise when offering a behaviour change intervention may not be appropriate due to
+personal circumstances.
+Integrated care systems ensure that they identify adults at high risk of developing type 2
+diabetes and refer them to the NHS Diabetes Prevention Programme.
+Adults who have been told they are at high risk of getting type 2 diabetes are offered a
+programme that will help them change their lifestyle to reduce their risk. This includes
+support to become more physically active and improve their diet. They receive clear
+information on the programme and are helped to access it.
+Source guidance
+Type 2 diabetes: prevention in people at high risk. NICE guideline PH38 (2012, updated
+2017), recommendation 1.5.4
+Definitions of terms used in this quality statement
+High risk of type 2 diabetes
+Fasting plasma glucose or HbA1c tests should be offered to adults with high-risk scores
+from a validated computer-based risk-assessment tool or a validated self-assessment
+questionnaire. A blood test should also be considered for those aged 25 and over of South
+Asian or Chinese family background whose BMI is greater than 23 kg/m2
+. A fasting plasma
+Page 8 of
+41
+glucose level of 5.5 mmol/litre to 6.9 mmol/litre or an HbA1c level of 42 mmol/mol to
+47 mmol/mol (6.0% to 6.4%) indicates that a person is at high risk of type 2 diabetes (nondiabetic hyperglycaemia). [Adapted from NICE's guideline on type 2 diabetes: prevention
+in people at high risk, recommendations 1.3.1 and 1.4.1 and the National Diabetes Audit's
+Diabetes Prevention Programme non-diabetic hyperglycaemia report]
+Equality and diversity considerations
+Programmes should be tailored to meet the needs of adults with a high risk of developing
+type 2 diabetes and particularly groups such as older people, adults of different
+socioeconomic status, adults from minority ethnic family backgrounds, vulnerable or
+socially disadvantaged adults and disabled adults, including those with a hearing
+impairment, a visual impairment or a learning disability. Provision should also be made for
+adults who may have difficulty accessing services in conventional healthcare venues.
+Programmes should take into account the local social and cultural contexts.
+Page 9 of
+41
+Quality statement 2: Structured education
+programme
+Quality statement
+Adults with type 2 diabetes are offered a structured education programme at diagnosis.
+[2011, updated 2023]
+Rationale
+Type 2 diabetes is a progressive long-term medical condition that the person
+predominantly self-manages. Managing type 2 diabetes involves lifestyle changes, and
+treatment can be complex. Structured education programmes can help adults with type 2
+diabetes to improve their knowledge and skills and increase patient activation to selfmanage effectively. Structured education should also be offered to family members and
+carers of adults with type 2 diabetes, if appropriate. Structured education programmes
+should be offered in a timely manner following diagnosis, recognising that adults may be
+more open to change at this time, and key messages reinforced periodically.
+Quality measures
+The following measures can be used to assess the quality of care or service provision
+specified in the statement. They are examples of how the statement can be measured,
+and can be adapted and used flexibly. Services may want to use these measures to focus
+on dimensions of health inequality, for example by reporting data grouped by age,
+ethnicity or indices of deprivation.
+Process
+a) Proportion of adults with type 2 diabetes who are offered a structured education
+programme at diagnosis.
+Numerator – the number in the denominator who are offered a structured education
+programme at diagnosis.
+Denominator – the number of adults with a new diagnosis of type 2 diabetes.
+Data source: The National Diabetes Audit's care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who have been offered structured education within 12 months
+of diagnosis. NHS England's Quality and Outcomes Framework indicator DM014 reports
+data on the percentage of patients newly diagnosed with diabetes who have a record of
+being referred to a structured education programme within 9 months of entry on to the
+diabetes register.
+b) Proportion of adults with a new diagnosis of type 2 diabetes who attend a structured
+education programme.
+Numerator – the number in the denominator who attend a structured education
+programme.
+Denominator – the number of adults with a new diagnosis of type 2 diabetes.
+Data source: The National Diabetes Audit care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who have attended structured education within 12 months of
+diagnosis.
+c) Proportion of adults with a new diagnosis of type 2 diabetes who complete a structured
+education programme.
+Numerator – the number in the denominator who complete a structured education
+programme.
+Denominator – the number of adults with type 2 diabetes who attend a structured
+education programme.
+Data source: Data can be collected from information recorded locally by healthcare
+professionals and provider organisations, for example, from patient records.
+Outcome
+Patient confidence to self-manage their type 2 diabetes after attending a structured
+Page 11 of
+41
+education programme.
+Data source: Data can be collected locally by healthcare professionals and provider
+organisations, for example, from patient surveys and confidence scaling.
+What the quality statement means for different
+audiences
+Service providers (such as GP practices, community healthcare providers and secondary
+care providers) ensure that systems are in place for adults with type 2 diabetes to be
+offered a structured education programme at diagnosis, with key messages reinforced
+periodically. The services providing the education programme should ensure that it is
+available in a format suitable for the person, such as in-person or online, and at times
+suitable for them, including outside standard working hours.
+Healthcare professionals (such as GPs, practice nurses, community healthcare providers,
+dietitians, consultant diabetologists and diabetes specialist nurses) ensure that they offer
+a structured education programme to adults with type 2 diabetes at diagnosis, with key
+messages reinforced periodically. They should ensure adults with type 2 diabetes are
+given clear information on the structured education programme and help to access it.
+Healthcare professionals ensure they highlight the importance of attending the structured
+education programme to encourage attendance.
+Integrated care systems ensure that structured education programmes of proven benefit
+are available for adults with type 2 diabetes. They ensure that programmes are made
+available in a format suitable for the person, such as in-person or online, and at times
+suitable for them, including outside standard working hours.
+Adults with type 2 diabetes are offered a course to help them improve their understanding
+of type 2 diabetes and how to manage it in their everyday life. The course should be
+offered at the time of the diagnosis of type 2 diabetes and reviewed periodically. Their
+family and carers should be able to attend the course, if appropriate.
+Source guidance
+Type 2 diabetes in adults: management. NICE guideline NG28 (2015, updated 2026),
+recommendation 1.2.1
+Definitions of terms used in this quality statement
+Structured education programme
+Adults with type 2 diabetes should be offered group education programmes as the
+preferred option. Any structured education programme for adults with type 2 diabetes
+should:
+• be evidence-based and suit the needs of the person
+• have specific aims and learning objectives, and should support the person and their
+family members and carers to develop attitudes, beliefs, knowledge and skills to selfmanage diabetes
+• have a structured curriculum that is theory-driven, evidence-based and resourceeffective, has supporting materials and is written down
+• be quality assured and reviewed by trained, competent, independent assessors who
+measure it against criteria that ensure consistency
+• have outcomes that are audited regularly
+• meet the cultural, linguistic, cognitive and literacy needs of people in the local area
+• be delivered by trained educators who:
+－ understand educational theory appropriate to the age and needs of the person
+－ are trained and competent to deliver the principles and content of the programme.
+[Adapted from NICE's guideline on type 2 diabetes in adults, recommendations 1.2.2, 1.2.4
+and 1.2.5]
+Equality and diversity considerations
+Structured education programmes should meet the cultural, linguistic, cognitive and
+literacy needs in the local area and consider the characteristics of the target population,
+including socioeconomic status and social context.
+Structured education programmes should be adapted to ensure they are accessible to
+adults with type 2 diabetes and a learning disability, such as accommodating views of
+those with a learning disability, short sessions and the programme rolled out over longer
+periods in community settings.
+Group education programmes are the preferred option, but an alternative of equal
+standard should be provided for adults who are unable or prefer not to take part in group
+education.
+Quality statement 3: Continuous glucose
+monitoring for adults on multiple daily
+insulin injections who cannot selfmonitor using capillary blood glucose
+monitoring
+Quality statement
+Adults with type 2 diabetes who have multiple daily insulin injections and a condition or
+disability that means they cannot use capillary blood glucose monitoring are offered
+continuous glucose monitoring (CGM) to support self-monitoring. [new 2023]
+Rationale
+CGM can help to improve glycaemic control in adults with type 2 diabetes who use insulin.
+It helps to improve glycaemic control by providing sufficient, reliable recordings of glucose
+against which insulin dose and schedules can be adjusted. The quality statement focuses
+on the use of CGM by adults with type 2 diabetes who have multiple daily insulin injections
+and a condition or disability, including a learning disability or cognitive impairment, that
+means they cannot self-monitor their blood glucose by capillary blood glucose monitoring.
+This will potentially increase their independence when compared with monitoring by
+finger-prick capillary methods.
+Quality measures
+The following measures can be used to assess the quality of care or service provision
+specified in the statement. They are examples of how the statement can be measured,
+and can be adapted and used flexibly. The quality measures focus on use of CGM by
+adults with a condition or disability that means they cannot use capillary blood glucose
+monitoring. The measures aim to reduce health inequalities in this group. Local services
+may want to identify groups for which there are specific concerns about health inequalities
+to focus measures on. For example, by reporting data for people with a learning disability
+or cognitive impairment, by age or indices of deprivation.
+Process
+Proportion of adults with type 2 diabetes who have multiple daily insulin injections and a
+condition or disability that means they cannot self-monitor using capillary blood glucose
+monitoring who use CGM.
+Numerator – the number in the denominator who use CGM.
+Denominator – the number of adults with type 2 diabetes who have multiple daily insulin
+injections and a condition or disability that means they cannot self-monitor using capillary
+blood glucose monitoring.
+Data source: Data can be collected from information recorded locally by healthcare
+professionals and provider organisations, for example from patient records. Adults with a
+learning disability could be identified by using the learning disability register in general
+practice. The National Diabetes Audit collects and reports data on the number of people
+with type 2 diabetes with a short acting insulin drug code who are on CGM.
+Outcome
+a) HbA1c levels in adults with type 2 diabetes who have multiple daily insulin injections and
+a condition or disability that means they cannot self-monitor using capillary blood glucose
+monitoring.
+Data source: Data can be collected from information recorded locally by healthcare
+professionals, for example from patient records.
+What the quality statement means for different
+audiences
+Service providers (such as primary care networks, community providers and secondary
+care services) ensure that services are in place to offer CGM to adults with type 2
+diabetes who have multiple daily insulin injections and a condition or disability, including a
+learning disability or cognitive impairment, that means they cannot self-monitor their blood
+glucose by capillary blood glucose monitoring. They should ensure education is provided
+alongside CGM to support adults to use it. They should also address inequalities in CGM
+access and uptake by monitoring who is using CGM, identifying groups who are eligible
+but who have a lower uptake and making plans to engage with these groups to encourage
+them to consider CGM.
+Healthcare professionals (such as GPs, diabetes specialist nurses and consultant
+diabetologists) are aware of CGM availability and offer it to adults with type 2 diabetes
+who have multiple daily insulin injections and a condition or disability, including a learning
+disability or cognitive impairment, that means they cannot self-monitor their blood glucose
+by capillary blood glucose monitoring. They also provide education to support them to use
+the CGM device and review their use of CGM as part of their diabetes care plan. In
+addition, they should help to address inequalities in CGM access and uptake by monitoring
+who is using CGM, identifying groups who are eligible but who have a lower uptake and
+making plans to engage with these groups to encourage them to consider CGM.
+Integrated care systems ensure that services address inequalities in CGM access and
+uptake by monitoring who is using CGM, identifying groups who are eligible but who have
+a lower uptake and making plans to engage with these groups to encourage them to
+consider CGM.
+Adults with type 2 diabetes on multiple daily insulin injections and with a condition or
+disability, including a learning disability or cognitive impairment, that means they cannot
+monitor their blood glucose themselves using a finger-prick are offered a CGM system to
+help them manage their diabetes and education on how to use it if they can scan it
+themselves. Their use of CGM is reviewed as part of their diabetes care plan.
+Source guidance
+Type 2 diabetes in adults: management. NICE guideline NG28 (2015, updated 2026),
+recommendations 1.7.1 and 1.7.3
+Definitions of terms used in this quality statement
+Multiple daily insulin injections
+Two or more daily insulin injections, which could either be a basal-bolus regimen or more
+than one daily insulin injection. [NICE's guideline on type 2 diabetes in adults, terms used
+in this guideline; multiple daily injections]
+Continuous glucose monitoring
+A CGM is a device that measures blood glucose levels and sends the readings to a display
+device or smartphone. Real-time CGM (rtCGM) and intermittently scanned CGM (isCGM),
+commonly referred to as 'flash', automatically measure glucose levels through a sensor
+applied under the skin. This allows patterns of glucose levels to be seen, which can be
+used to plan insulin treatment. rtCGM can be considered as an alternative to isCGM if it is
+available for the same or lower cost. [Adapted from NICE's guideline on type 2 diabetes in
+adults, recommendation 1.7.3, terms used in this guideline; continuous glucose monitoring,
+and expert opinion]
+Equality and diversity considerations
+Integrated care systems, providers and healthcare professionals should address
+inequalities in CGM access and uptake by monitoring who is using it, identifying groups
+who are eligible but have lower uptake and making plans to engage with these groups and
+encourage them to consider CGM, for example, older adults (aged 65 and over), adults
+with frailty and adults with physical, mental health related or learning disabilities. Data
+suggests that adults with diabetes from lower socioeconomic groups are less likely to
+access CGM.
+Quality statement 4: Continuous glucose
+monitoring for adults who use insulin and
+need help monitoring their blood glucose
+Quality statement
+Adults with insulin-treated type 2 diabetes having their blood glucose monitored by a care
+worker or healthcare professional are offered continuous glucose monitoring (CGM). [new
+2023]
+Rationale
+CGM can help to improve glycaemic control in adults with type 2 diabetes who use insulin.
+It helps to improve glycaemic control by providing sufficient, reliable recordings of glucose
+against which insulin dose and schedules can be adjusted. The use of CGM by adults with
+type 2 diabetes who need help to monitor their blood glucose and administer insulin
+injections will help care workers to record blood glucose levels quickly. For people who
+have multiple visits per day, blood glucose levels can be recorded at each visit. This can
+be used to adjust their insulin levels to reduce the risk of hypoglycaemic events between
+home visits and may also reduce the number of hospital admissions.
+Quality measures
+The following measures can be used to assess the quality of care or service provision
+specified in the statement. They are examples of how the statement can be measured,
+and can be adapted and used flexibly. The quality measures focus on use of CGM by
+adults who need help from a care worker or healthcare professional to monitor their blood
+glucose. The measures aim to reduce health inequalities in this group. Local services may
+want to identify other groups to focus measures on, for example, by reporting data for
+other groups that need help to monitor their blood glucose, by age or indices of
+deprivation.
+Process
+Proportion of adults with insulin-treated type 2 diabetes who need help from a care worker
+or healthcare professional to monitor their blood glucose who use CGM.
+Numerator – the number in the denominator who use CGM.
+Denominator – the number of adults with insulin-treated type 2 diabetes who need help
+from a care worker or healthcare professional to monitor their blood glucose.
+Data source: Data can be collected from information recorded locally by healthcare
+professionals and provider organisations, for example from patient records. The National
+Diabetes Audit collects and reports data on the number of people with type 2 diabetes
+with a short acting insulin drug code who are on CGM.
+Outcome
+HbA1c levels for adults with insulin-treated type 2 diabetes who need help from a care
+worker or healthcare professional to monitor their blood glucose.
+Data source: Data can be collected from information recorded locally by healthcare
+professionals, for example from patient records.
+What the quality statement means for different
+audiences
+Service providers (such as primary care networks, community providers and secondary
+care services) ensure that systems are in place to offer CGM to adults with insulin-treated
+type 2 diabetes who need help from a care worker or healthcare professional to monitor
+their blood glucose. They should ensure education is provided alongside CGM to support
+adults to use it. They should also address inequalities in CGM access and uptake by
+monitoring who is using CGM, identifying groups who are eligible but who have a lower
+uptake and making plans to engage with these groups to encourage them to consider
+CGM.
+Healthcare professionals (such as GPs, diabetes specialist nurses and consultant
+diabetologists) are aware of CGM availability and offer it to adults with insulin-treated
+type 2 diabetes who need help from a care worker or healthcare professional to monitor
+their blood glucose. They also provide education to support them to use the CGM device
+and review their use as part of their diabetes care plan. In addition, they should help to
+address inequalities in CGM access and uptake by monitoring who is using CGM,
+identifying groups who are eligible but who have a lower uptake and making plans to
+engage with these groups to encourage them to consider CGM.
+Integrated care systems ensure that services offer intermittently scanned CGM (isCGM),
+or real-time CGM (rtCGM) if it is available for the same or lower cost as isCGM, to adults
+with insulin-treated type 2 diabetes who would need help from a care worker or healthcare
+professional to monitor their blood glucose. They should also address inequalities in CGM
+access and uptake by commissioning services that monitor who is using CGM, identify
+groups who are eligible but who have a lower uptake and make plans to engage with these
+groups to encourage them to consider CGM.
+Adults with insulin-treated type 2 diabetes who would need help to monitor their blood
+glucose are offered a CGM device to help them manage their diabetes. They and their
+care workers or healthcare professionals also receive education on how to use it. Their use
+of CGM is reviewed as part of their diabetes care plan.
+Source guidance
+Type 2 diabetes in adults: management. NICE guideline NG28 (2015, updated 2026),
+recommendations 1.7.2 and 1.7.3
+Definitions of terms used in this quality statement
+Continuous glucose monitoring
+A CGM is a device that measures blood glucose levels and sends the readings to a display
+device or smartphone. rtCGM and isCGM, commonly referred to as 'flash', automatically
+measure glucose levels through a sensor applied under the skin. This allows patterns of
+glucose levels to be seen, which can be used to plan insulin treatment. rtCGM can be
+considered as an alternative to isCGM if it is available for the same or lower cost. [Adapted
+from NICE's guideline on type 2 diabetes in adults, recommendation 1.7.3, terms used in
+this guideline; continuous glucose monitoring, and expert opinion]
+Equality and diversity considerations
+Integrated care systems, providers and healthcare professionals should address
+inequalities in CGM access and uptake by monitoring who is using it, identifying groups
+who are eligible but have lower uptake and making plans to engage with these groups and
+encourage them to consider CGM, for example, older adults (aged 65 and over), adults
+with frailty and adults with physical, mental health related or learning disabilities. Data
+suggests that adults with diabetes from lower socioeconomic groups are less likely to
+access CGM.
+Quality statement 5: Treatment with an
+SGLT-2 inhibitor
+Quality statement
+Adults with type 2 diabetes are prescribed an SGLT-2 inhibitor. [2023, updated 2026]
+Rationale
+SGLT-2 inhibitors lower blood glucose and can reduce cardiovascular events and offer
+renal protection for adults with type 2 diabetes.
+Quality measures
+The following measures can be used to assess the quality of care or service provision
+specified in the statement. They are examples of how the statement can be measured,
+and can be adapted and used flexibly. The quality measure measures prescribing of an
+SGLT-2 inhibitor for adults with type 2 diabetes but local services may want to adapt the
+measure to focus on prescribing for specific population groups, such as adults with type 2
+diabetes and no relevant comorbidities or those comorbidities included in the NICE
+guideline. This could help to address inequality in prescribing.
+Process
+a) Proportion of adults with type 2 diabetes prescribed an SGLT-2 inhibitor.
+Numerator – the number in the denominator who are prescribed an SGLT-2 inhibitor.
+Denominator – the number of adults with type 2 diabetes.
+Data source: Data can be collected from information recorded locally by healthcare
+professionals and provider organisations, for example from patient records.
+Outcome
+Prevalence of cardiovascular complications in adults with type 2 diabetes.
+Data source: The National Diabetes Audit's report on complications and mortality includes
+data on the number of people with type 2 diabetes who are admitted to hospital with
+cardiovascular complications (angina, myocardial infarction, heart failure and stroke).
+What the quality statement means for different
+audiences
+Service providers (such as GP practices and secondary care providers) ensure that
+SGLT-2 inhibitors are available for prescribing to adults with type 2 diabetes.
+Healthcare professionals (such as GPs, consultant diabetologists, advanced nurse
+practitioners, diabetes specialist nurses and pharmacists) offer adults with type 2 diabetes
+treatment with an SGLT-2 inhibitor after a discussion of the benefits and risks and taking
+into account individual circumstances.
+Integrated care systems ensure that services can offer SGLT-2 inhibitors to adults with
+type 2 diabetes.
+Adults with type 2 diabetes are offered an SGLT-2 inhibitor along with other medication to
+help reduce the risk of developing complications from their diabetes.
+Source guidance
+Type 2 diabetes in adults: management. NICE guideline NG28 (2015, updated 2026),
+recommendations 1.13.1, 1.13.2, 1.14.1, 1.14.2, 1.15.1, 1.15.2, 1.16.1, 1.16.2, 1.17.1, 1.17.2, 1.18.1,
+1.18.2, 1.19.1, 1.19.2 and 1.20.2
+Definitions of terms used in this quality statement
+Prescribing an SGLT-2 inhibitor
+Adults with type 2 diabetes should be offered a Sodium-Glucose Co-Transporter 2
+inhibitor (SGLT-2 inhibitor) for treating type 2 diabetes, however individual circumstances
+should be considered, such as whether the person:
+• has chronic kidney disease (and what their eGFR is)
+• is pregnant or breastfeeding
+• has any level of frailty, and whether that places them at risk of adverse events from
+SGLT-2 inhibitors (for example, volume depletion or hypotension).
+Modifiable risk factors for diabetic ketoacidosis (DKA) should be addressed before starting
+an SGLT-2 inhibitor. Adults with type 2 diabetes who are taking an SGLT-2 inhibitor should
+be advised about minimising the risk of DKA when there is intercurrent illness and not to
+start a very low carbohydrate or ketogenic diet before speaking with their healthcare
+professional.
+For a full list of contraindications and cautions see information from the Medicines and
+Healthcare products Regulatory Agency (MHRA), and in the BNF and summary of product
+characteristics (SPC) for SGLT-2 inhibitors. [Adapted from NICE's guideline on type 2
+diabetes in adults, recommendations 1.18.1, 1.18.2, 1.19.1, 1.19.2, 1.21.1 to 1.21.3]
+Quality statement 6: 9 key care processes
+Quality statement
+Adults with type 2 diabetes have 9 key care processes completed every 12 months. [new
+2023]
+Rationale
+Regular testing and completion of the 9 key care processes to monitor and manage type 2
+diabetes can help to reduce the risk of complications and identify any complications
+earlier.
+Quality measures
+The following measures can be used to assess the quality of care or service provision
+specified in the statement. They are examples of how the statement can be measured,
+and can be adapted and used flexibly. Services may want to use these measures to focus
+on dimensions of health inequality, for example by reporting data grouped by age,
+ethnicity or indices of deprivation.
+Process
+a) Proportion of adults with type 2 diabetes who had a urine albumin-to-creatinine ratio
+(ACR) test in the previous 12 months.
+Numerator – the number in the denominator who had a urine ACR test in the previous
+12 months.
+Denominator – the number of adults with type 2 diabetes.
+Data source: The National Diabetes Audit's care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who had a urine albumin test in the audit year.
+b) Proportion of adults with type 2 diabetes who had an HbA1c test in the previous
+12 months.
+Numerator – the number in the denominator who had an HbA1c test in the previous
+12 months.
+Denominator – the number of adults with type 2 diabetes.
+Data source: The National Diabetes Audit's care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who had an HbA1c test in the audit year.
+c) Proportion of adults with type 2 diabetes who had their blood pressure measured in the
+previous 12 months.
+Numerator – the number in the denominator who had their blood pressure measured in the
+previous 12 months.
+Denominator – the number of adults with type 2 diabetes.
+Data source:The National Diabetes Audit's care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who had their blood pressure measured in the audit year.
+d) Proportion of adults with type 2 diabetes who had foot surveillance and risk
+classification recorded in the previous 12 months.
+Numerator – the number in the denominator who had foot surveillance and risk
+classification recorded in the previous 12 months.
+Denominator – the number of adults with type 2 diabetes.
+Data source: The National Diabetes Audit care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who had foot surveillance in the audit year. NHS England's
+Quality and Outcomes Framework indicator DM012 reports data on the percentage of
+patients with diabetes who have a record of a foot examination and risk classification in
+the preceding 12 months.
+e) Proportion of adults with type 2 diabetes who had a serum creatinine test in the
+previous 12 months.
+Numerator – the number in the denominator who had a serum creatinine test in the
+previous 12 months.
+Denominator – the number of adults with type 2 diabetes.
+Data source: The National Diabetes Audit care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who had a serum creatinine test in the audit year.
+f) Proportion of adults with type 2 diabetes who had a serum cholesterol test in the
+previous 12 months.
+Numerator – the number in the denominator who had a serum cholesterol test in the
+previous 12 months.
+Denominator – the number of adults with type 2 diabetes.
+Data source: The National Diabetes Audit care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who had a serum cholesterol test in the audit year.
+g) Proportion of adults with type 2 diabetes who had a record of their body mass index
+(BMI) in the previous 12 months.
+Numerator – the number in the denominator who had a record of their BMI in the previous
+12 months.
+Denominator – the number of adults with type 2 diabetes.
+Data source: The National Diabetes Audit care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who had a record of their BMI in the audit year.
+h) Proportion of adults with type 2 diabetes who had their smoking status recorded in the
+previous 12 months.
+Numerator – the number in the denominator who had their smoking status recorded in the
+previous 12 months.
+Denominator – the number of adults with type 2 diabetes.
+Data source: The National Diabetes Audit care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who had a record of their smoking status in the audit year.
+i) Proportion of adults with type 2 diabetes who had retinal screening in the previous
+12 months.
+Numerator – the number in the denominator who had retinal screening in the previous
+12 months.
+Denominator – the number of adults with type 2 diabetes.
+Data source: The National Diabetes Audit care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who had a record of retinal screening in the audit year for
+England. Data for Wales can be collected locally.
+j) Proportion of adults with type 2 diabetes who had 9 key care processes performed in
+the previous 12 months.
+Numerator – the number in the denominator who had 9 key care processes in the previous
+12 months.
+Denominator – the number of adults with type 2 diabetes.
+Data source: The National Diabetes Audit care processes and treatment targets report
+collects and reports data on the number of adults with type 2 and other types of diabetes
+(excluding type 1 diabetes) who received all 9 care processes in the audit year for England
+(8 care processes for Wales).
+Outcome
+Prevalence of cardiovascular complications, renal replacement therapy (end-stage kidney
+disease) or minor or major amputations in adults with type 2 diabetes.
+Data source: The National Diabetes Audit report on complications and mortality includes
+data on the number of people with type 2 diabetes admitted to hospital with
+cardiovascular complications, renal replacement therapy (end-stage kidney disease) and
+minor or major amputations.
+What the quality statement means for different
+audiences
+Service providers (such as primary care services, secondary care services, diabetic eye
+screening providers, community health services and foot protection services) ensure that
+systems are in place for adults with type 2 diabetes to have 9 key care processes
+completed every 12 months to identify and monitor complications of type 2 diabetes.
+Healthcare professionals (such as GPs, and practice nurses) are aware of local protocols
+for key care processes associated with type 2 diabetes and ensure that adults with type 2
+diabetes have 9 key care processes completed every 12 months, including measurement
+of urine ACR, HbA1c, blood pressure, serum creatinine, serum cholesterol and BMI, foot
+surveillance and smoking status. They refer adults to the local eye screening service when
+they are diagnosed with type 2 diabetes. They refer adults who are at moderate or high
+risk of developing a foot problem to the foot protection service and adults with an active
+diabetic foot problem to the multidisciplinary foot care service or foot protection service.
+They refer adults with a limb- or life-threatening active diabetic foot problem to acute
+services for assessment by the multidisciplinary foot care service.
+Integrated care systems ensure that services are available in which adults with type 2
+diabetes have 9 key care processes completed every 12 months, to identify and monitor
+complications of type 2 diabetes. This includes laboratory provision for testing blood and
+urine tests, and access to a foot protection service, multidisciplinary foot care service and
+eye screening service.
+Adults with type 2 diabetes have regular tests to check if they are at risk of developing, or
+have, complications of type 2 diabetes. They are referred to an appropriate service if any
+complications are identified.
+Source guidance
+• Tobacco: preventing uptake, promoting quitting and treating dependence. NICE
+guideline NG209 (2021, updated 2025), recommendation 1.11.1
+• Type 2 diabetes in adults: management. NICE guideline NG28 (2015, updated 2026),
+recommendations 1.5.1 and 1.43.1
+• Hypertension in adults: diagnosis and management. NICE guideline NG136 (2019,
+updated 2023), recommendation 1.2.11
+• Chronic kidney disease: assessment and management. NICE guideline NG203 (2021),
+recommendations 1.1.21, 1.3.1 and 1.3.4
+• Diabetic foot problems: prevention and management. NICE guideline NG19 (2015,
+updated 2019), recommendation 1.3.3
+• Cardiovascular disease: risk assessment and reduction, including lipid modification.
+NICE guideline NG238 (2023), recommendation 1.1.8
+The 12-month timeframe for recording of ACR, serum creatinine, serum cholesterol, BMI,
+smoking status and retinal screening is based on expert opinion and not derived from NICE
+guidance. It is considered a practical timeframe to enable stakeholders to measure
+performance. The timeframe is used in the National Diabetes Audit and the NHS diabetic
+eye screening programme.
+Definitions of terms used in this quality statement
+Key care processes
+The care processes are:
+• urine ACR measurement
+• HbA1c measurement
+• blood pressure measurement
+• foot surveillance
+• serum creatinine measurement
+• serum cholesterol measurement
+• BMI measurement
+• smoking status
+• retinal screening.
+[National Diabetes Audit]
+Equality and diversity considerations
+Appointments for completion of key care processes should be offered at times, and in
+locations, that meet the needs of adults with type 2 diabetes.
+Quality statement 7: Assessing the risk of
+diabetic foot problems on admission to
+hospital
+Quality statement
+Adults with type 2 diabetes admitted to hospital have an assessment of their risk of
+developing a diabetic foot problem. [new 2023]
+Rationale
+Assessing the risk of developing a diabetic foot problem and timely care during a hospital
+admission for any reason, by skilled healthcare professionals such as members of the foot
+care service, decreases the probability of developing diabetic foot problems for adults
+with type 2 diabetes.
+Quality measures
+The following measures can be used to assess the quality of care or service provision
+specified in the statement. They are examples of how the statement can be measured,
+and can be adapted and used flexibly.
+Structure
+a) Evidence of local systems to identify all adults with type 2 diabetes when they are
+admitted to hospital.
+Data source: The National Diabetes Audit's inpatient safety audit includes data on the
+number of providers that have a robust system to identify all people with diabetes on
+admission to hospital.
+b) Evidence of local arrangements to ensure that foot assessments for adults with type 2
+diabetes are performed by appropriately trained healthcare professionals.
+Data source: Data can be collected from information recorded locally by healthcare
+professionals and provider organisations, for example from training records, competency
+assessment and records of continuous professional development.
+Process
+Proportion of adults with type 2 diabetes admitted to hospital who have an assessment of
+their risk of developing a diabetic foot problem.
+Numerator – the number in the denominator who have an assessment of their risk of
+developing a diabetic foot problem.
+Denominator – the number of adults with type 2 diabetes admitted to hospital.
+Data source: Data can be collected from information recorded locally by healthcare
+professionals and provider organisations, for example from patient records.
+Outcome
+a) Incidence of diabetic foot ulcer identified on hospital admission in adults with type 2
+diabetes.
+Data source: Data can be collected from information recorded locally by healthcare
+professionals and provider organisations, for example from patient records.
+b) Rate of diabetic foot ulcer in adults with type 2 diabetes during a hospital admission.
+Data source: The National Diabetes Audit's inpatient safety audit includes data on the
+number, frequency and rate per 100,000 bed days of inpatient harms, including diabetic
+foot ulcer.
+What the quality statement means for different
+audiences
+Service providers (secondary care services) ensure that a foot care service is available
+within hospitals to provide foot assessments to adults with type 2 diabetes when they are
+admitted to hospital. They ensure that a multidisciplinary foot care team is available for
+management of any high-risk and active foot problems that are identified.
+Healthcare professionals (members of the foot care service, nurses, doctors and
+podiatrists) are trained to provide foot assessments to adults with type 2 diabetes when
+they are admitted to hospital. They can refer to and work with the multidisciplinary foot
+protection service if any foot problems are identified on assessment.
+Integrated care systems ensure that multidisciplinary foot care services and foot
+protection services are available to provide management of foot problems including highrisk and active foot problems identified from foot assessments for adults with type 2
+diabetes when they are admitted to hospital.
+Adults with type 2 diabetes who are admitted to hospital have a check of their feet for
+any problems that may be related to their diabetes.
+Source guidance
+Diabetic foot problems: prevention and management. NICE guideline NG19 (2015, updated
+2019), recommendation 1.3.3
+Definitions of terms used in this quality statement
+Assessment of their risk of developing a diabetic foot problem
+Adults with type 2 diabetes should remove their shoes, socks, bandages and dressings for
+the assessment. Their feet should be examined for the following risk factors:
+• neuropathy (using a 10 g monofilament as part of a foot sensory examination)
+• limb ischaemia (palpation of foot pulses as part of a vascular assessment)
+• ulceration
+• callus
+• infection or inflammation
+• deformity
+• gangrene
+• Charcot arthropathy or an unexplained hot, swollen foot with or without pain
+• ankle brachial pressure index.
+The risk of developing a diabetic foot problem can be assessed using the following risk
+stratification:
+• Low risk:
+－ no risk factors present except callus alone.
+• Moderate risk:
+－ deformity or
+－ neuropathy or
+－ peripheral arterial disease.
+• High risk
+－ previous ulceration or
+－ previous amputation or
+－ on renal replacement therapy or
+－ neuropathy and peripheral arterial disease together or
+－ neuropathy in combination with callus, deformity or both
+－ peripheral arterial disease in combination with callus, deformity or both.
+• Active diabetic foot problem:
+－ ulceration or
+－ infection or
+－ chronic limb-threatening ischaemia or
+－ gangrene or
+－ suspicion of an acute Charcot arthropathy, or an unexplained hot, swollen foot
+with a change in colour, with or without pain.
+[Adapted from NICE's guideline on diabetic foot problems, recommendations 1.3.4 to 1.3.6
+and expert opinion]
+Update information
+February 2026: Changes have been made to align this quality standard with the update to
+NICE's guideline on type 2 diabetes in adults. Quality statement 5 on treatment with an
+SGLT-2 inhibitor has been updated to include all adults with type 2 diabetes. Links, data
+sources and source guidance sections have also been updated throughout.
+March 2023: This quality standard was updated, and statements prioritised in 2011 and
+2016 were replaced. The topic was identified for update following a review of quality
+standards. The review identified:
+• changes in the priority areas for improvement
+• new and updated guidance on type 2 diabetes in adults
+• that the quality standard on diabetes in adults should be split into separate quality
+standards.
+Statements are marked as:
+• [new 2023] if the statement covers a new area for quality improvement
+• [2011, updated 2023] or [2016, updated 2023] if the statement covers an area for
+quality improvement included in the 2011 or 2016 quality standard and has been
+updated.
+The previous version of the quality standard for diabetes in adults is available as a pdf.
+Minor changes since publication
+December 2023: Changes have been made to align this quality standard with the updated
+NICE guideline on cardiovascular disease. The link to the source guidance has been
+updated for statement 6.
+About this quality standard
+NICE quality standards describe high-priority areas for quality improvement in a defined
+care or service area. Each standard consists of a prioritised set of specific, concise and
+measurable statements. NICE quality standards draw on existing NICE or high-quality
+external guidance that provides an underpinning, comprehensive set of recommendations,
+and are designed to support the measurement of improvement.
+Expected levels of achievement for quality measures are not specified. Quality standards
+are intended to drive up the quality of care, so achievement levels of 100% should be
+aspired to (or 0% if the quality statement states that something should not be done).
+However, this may not always be appropriate in practice. Taking account of safety, shared
+decision making, choice and professional judgement, desired levels of achievement should
+be defined locally.
+Information about how NICE quality standards are developed is available from the NICE
+website.
+See our webpage on quality standards advisory committees for details about our standing
+committees. Information about the topic experts invited to join the standing members is
+available from the webpage for this quality standard.
+NICE guidance and quality standards apply in England and Wales. Decisions on how they
+apply in Scotland and Northern Ireland are made by the Scottish government and Northern
+Ireland Executive. NICE quality standards may include references to organisations or
+people responsible for commissioning or providing care that may be relevant only to
+England.
+Resource impact
+NICE quality standards should be achievable by local services. The potential resource
+impact is considered by the quality standards advisory committee, drawing on resource
+impact work for the source guidance. Organisations are encouraged to use the resource
+impact reports for NICE's guideline on type 2 diabetes in adults to help estimate local
+costs.
+Diversity, equality and language
+Equality issues were considered during development, and equality assessments for this
+quality standard are available. Any specific issues identified during development of the
+quality statements are highlighted in each statement.
+For all quality statements where information is given, it is important that people are
+provided with information that they can easily read and understand themselves, or with
+support, so they can communicate effectively with healthcare services. Information should
+be in a format that suits their needs and preferences. It should be accessible to people
+who do not speak or read English, and it should be culturally appropriate and age
+appropriate. People should have access to an interpreter if needed. People should also
+have access to an advocate, if needed, as set out in NICE's guideline on advocacy
+services for adults with health and social care needs.
+For people with additional needs related to a disability, impairment or sensory loss,
+information should be provided as set out in NHS England's Accessible Information
+Standard or the equivalent standards for the devolved nations.
+Commissioners and providers should aim to achieve the quality standard in their local
+context, in light of their duties to have due regard to the need to eliminate unlawful
+discrimination, advance equality of opportunity and foster good relations. Nothing in this
+quality standard should be interpreted in a way that would be inconsistent with
+compliance with those duties.
+ISBN: 978-1-4731-9296-6
+Endorsing organisation
+This quality standard has been endorsed by NHS England, as required by the Health and
+Social Care Act (2012)
+Supporting organisations
+Many organisations share NICE's commitment to quality improvement using evidencebased guidance. The following supporting organisations have recognised the benefit of
+the quality standard in improving care for patients, carers, service users and members of
+the public. They have agreed to work with NICE to ensure that those commissioning or
+providing services are made aware of and encouraged to use the quality standard.
+• Foot In Diabetes UK
+• Association of British Clinical Diabetologists
+• Diabetes UK
+• Royal College of Physicians (RCP)
+• British Dietetic Association – Diabetes Specialist Group

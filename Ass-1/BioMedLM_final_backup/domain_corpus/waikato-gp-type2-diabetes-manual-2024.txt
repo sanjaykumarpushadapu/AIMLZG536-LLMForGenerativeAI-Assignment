@@ -1,0 +1,2814 @@
+DIABETES
+A guide for general practice
+clinical management in type 2 diabetes
+
+- Waikato -
+
+3rd Edition September 2024
+
+This folder is to give all general practice teams a resource for type 2 diabetes. It is filled with practical
+information, hints and tips that are intended to support people who are beginning to work in
+diabetes, through to proficient nurses developing knowledge and clinical reasoning in diabetes care.
+We have focused on clinical management; however we acknowledge there is much more to working
+with people who live with any long-term condition than simply clinical knowledge.
+This is not an original work, but a compilation from many different sources and experts from our local
+area. The original manual was created in 2018, and this is the second update since then.
+We hope you find it useful, and we always welcome feedback.
+Suzanne, Kathy, and Helen.
+
+Hauraki PHO - Suzanne Moorhouse
+Diabetes Nurse 0276086978 suzanne.moorhouse@haurakipho.org.nz
+
+Pinnacle PHO - Kathy Knight
+Diabetes Clinical Specialist 0276425846 kathy.knight@pinnacle.health.nz
+
+National Hauora Coalition – Helen Morton
+Clinical Pharmacist Prescriber 0272247712 helenm@nhc.maori.nz
+
+Waikato Regional Diabetes Service 07 8599180
+
+Our aim is that a person with type 2 diabetes can go to any general practice in the Waikato DHB region
+and receive excellent care for their diabetes.
+
+CONTENTS
+
+SCREENING FOR DIABETES ................................ ................................ ................................ ... 3
+Adults ............................................................................................................................................. 3
+Screening for diabetes - Children .................................................................................................. 5
+HbA1c ............................................................................................................................................ 6
+Clarification of diagnosing and coding .......................................................................................... 8
+Type 1 or Type 2 Diabetes ............................................................................................................. 9
+PRE-DIABETES ................................ ................................ ................................ ................... 10
+INITIAL EDUCATION AND DAR ................................ ................................ ........................... 12
+Patient Initial Education .............................................................................................................. 13
+Goal setting.................................................................................................................................. 14
+Diabetes Annual Review .............................................................................................................. 15
+Cardiovascular risk ....................................................................................................................... 17
+Hypertension ............................................................................................................................... 18
+Dyslipidaemia .............................................................................................................................. 19
+Diabetes recall process ................................................................................................................ 20
+LIFESTYLE ................................ ................................ ................................ .......................... 21
+Nutrition resources ...................................................................................................................... 22
+Dietary Intake .............................................................................................................................. 23
+Food/glucose activity record sheet ............................................................................................. 25
+Physical activity ........................................................................................................................... 27
+Sleep ............................................................................................................................................ 28
+Stress ........................................................................................................................................... 29
+MICROVASCULAR COMPLICATIONS ................................ ................................ ................... 30
+Renal disease ............................................................................................................................... 31
+Autonomic neuropathy ............................................................................................................... 34
+Peripheral neuropathy ................................................................................................................ 35
+Retinopathy ................................................................................................................................. 39
+Erectile dysfunction ..................................................................................................................... 41
+MONITORING ................................ ................................ ................................ ................... 42
+Paired checking & Overnight hypoglycemia ............................................................................... 43
+Smartlog – downloading meters ................................................................................................. 46
+Ketone Testing ............................................................................................................................. 48
+NON-INSULIN MEDICATIONS ................................ ................................ ............................. 49
+Metformin hydrochloride ............................................................................................................ 49
+SGLT2inhibitors – Empagliflozin Jardiance .................................................................................. 50
+GLP1RA – Dulaglutide (Trulicity) Liraglutide (Victoza) ................................................. 51
+DPP4inhibitors – Vildagliptin Galvus ........................................................................................... 52
+Other funded 3rd line oral agents ................................................................................................ 53
+
+A visual overview of non-insulin medications mechanisms of action ......................................... 54
+INITIATING INSULIN ................................ ................................ ................................ .......... 55
+Have a plan: ................................................................................................................................. 56
+Checklist....................................................................................................................................... 57
+Background information .............................................................................................................. 58
+Devices ......................................................................................................................................... 62
+Technique .................................................................................................................................... 63
+Starting Basal Insulin ................................................................................................................... 64
+Starting Mixed (biphasic) Insulin ................................................................................................. 65
+Starting Bolus (Rapid) Insulin ...................................................................................................... 66
+Correction Doses ......................................................................................................................... 67
+Titration ....................................................................................................................................... 68
+Troubleshooting – I Help ............................................................................................................. 69
+Intensification .............................................................................................................................. 70
+Sharps containers ........................................................................................................................ 71
+Hypoglycaemia ............................................................................................................................ 72
+Insulin storage ............................................................................................................................. 73
+Alcohol ......................................................................................................................................... 74
+Driving.......................................................................................................................................... 75
+SICK DAY MANAGEMENT ................................ ................................ ................................ .. 76
+Sick day management for people with type two diabetes. ......................................................... 78
+MEDICATION USE REVEIW ................................ ................................ ................................ . 80
+ORAL HEALTH ................................ ................................ ................................ ................... 81
+PLANNED/ELECTIVE SURGERY ................................ ................................ ........................... 82
+TRAVEL GUIDELINES ................................ ................................ ................................ .......... 83
+PRE-PREGNANCY PLANNING ................................ ................................ .............................. 84
+PAEDIATRICS AND YOUTH ................................ ................................ ................................ . 85
+APPENDICES ................................ ................................ ................................ ...................... 86
+Appendix 1: Key contacts ............................................................................................................ 86
+Appendix 2: NZSSD T2DM guideline algorithm ........................................................................... 88
+Appendix 3: NZSSD insulin algorithm .......................................................................................... 89
+Appendix 4: Key words ................................................................................................................ 90
+Appendix 5: Recalls ...................................................................................................................... 91
+REFERENCES ................................ ................................ ................................ ...................... 96
+
+SCREENING FOR DIABETES
+
+Adults
+New Zealand Society for the Study of Diabetes (NZSSD) has recommended that HbA1c should be the
+first line check for screening and diagnosis of type 2 diabetes in adults.
+Screening for Diabetes should be offered:
+• As part of cardiovascular risk assessment (CVA)
+• In Māori, Pasifika or Indo-Asian screen men from 30 years and women from 40
+years of age
+• For Europeans, screen men from 45 years and women from 55years of age
+• Those who are at high risk of developing diabetes.
+• Whanau of current patients with diabetes – use the PMS to locate high risk whanau.
+Identified risk factors for diabetes:
+• Non-European ethnicity
+• Family history of Diabetes, including first degree relative <40 years of age
+• Pre-Diabetes (HbA1c 41-49mmol/L)
+• History of Gestational Diabetes or large-for-dates babies
+• On long term steroids or antipsychotics
+• Polycystic Ovarian Syndrome or other features of insulin resistance
+• Increased BMI ≥ 30kg/m2 (or≥27kg/m2 in Indo-Asian)
+• Increased Waist Circumference: ≥94cm (Men) and ≥80cm (Women) (or ≥90cm
+(Men) and ≥80cm (Women) if Indo-Asian)
+
+Note for woman with previous gestational diabetes:
+Hba1c is checked by general practice 3 months post-delivery and at least annually thereafter
+depending on result (sooner if HbA1c closer to 49).
+
+Interpretation of screening results (adults) https://t2dm.nzssd.org.nz/
+
+HbA1c Result Fasting
+Glucose
+Non fasting
+glucose Diagnosis Comments
+≥50mmol/mol,
+with symptoms
+≥7.0mmol/L,
+with symptoms
+≥11mmol/L Diabetes Start treatment.
+≥50mmol/mol,
+no symptoms
+≥7.0mmol/L, no
+symptoms
+
+Diabetes
+2 Abnormal tests (HbA1c or
+fasting) are required to confirm
+diagnosis, either on the same
+day or subsequent day.
+41-49mmol/mol 6.1-6.9mmol/L
+
+Pre-Diabetes
+Offer lifestyle advice. Perform
+CVD risk assessment and follow
+guidelines for treatment of risk.
+Repeat checking of HbA1c every
+6-12 months
+≤40mmol/mol ≤6.0mmol/L
+
+Diabetes Unlikely
+Normal range. Repeat HbA1c at
+next CVD assessment or when
+clinically indicated.
+
+• Use of fasting plasma glucose is recommended when HbA1c results are borderline or further
+investigation of the result is necessary, such as when a patient has two differing HbA1c
+results.
+• In pregnancy, HbA1c should be included in first antenatal bloods but is not useful in the 2nd
+or 3rd trimester for diagnosis of GDM.
+• Fasting plasma glucose remains a valid test for diagnosing people with Type 2 Diabetes,
+including when HbA1c is not appropriate or cannot be used or may be inaccurate in patients
+with haemoglobinopathies with the direction of change depending on the specific diagnosis,
+as this could cause HbA1c to be artificially high or low.
+
+New Zealand is an outlier as in the rest of the world the cut off for diagnosing diabetes is an
+HbA1c of ≥48mmol/mol, and pre-diabetes is considered to be an HbA1c of 42-47mmol/mol. It
+is anticipated that the criteria in New Zealand will change to come into line with the rest of the
+world in the near future.
+
+Screening for diabetes - Children
+
+Australasian Paediatric Endocrine Group recommend that targeted screening should be considered in
+children and adolescents aged > 10years old or at onset of puberty, which ever occurs first in those
+who are overweight (BMI ≥ 85 and < 95%) or obese (BMI ≥ 95%) and who have one or more of the
+following risk factors:
+• maternal history of diabetes or gestational diabetes mellitus during the child's gestation;
+• family history of type 2 diabetes in first degree relative;
+• race and ethnicity (Māori, Pasifika, South Asian, South East Asian, Middle Eastern, North
+African and Latino); **add Māori and PI in here?? Or do separately
+• signs of insulin resistance (acanthosis nigricans);
+• conditions associated with obesity and metabolic syndrome (hypertension, dyslipidaemia,
+fatty liver disease, polycystic ovary syndrome, or small for gestational age); and
+• use of psychotropic medications
+Interpretation of screening results (children)
+Diagnosis (glucose
+measurements)
+• Classic symptoms of diabetes or hyperglycaemic crisis and random
+plasma glucose ≥ 11.1 mmol/L, or
+• Fasting plasma glucose ≥ 7.0 mmol/L, or
+• 2-hour plasma glucose ≥ 11.1 mmol during an OGTT, or
+• HbA1c ≥ 48 mmol/mol (≥ 6.5%)
+Other investigations
+at diagnosis
+• Consider diabetes autoantibody testing in all paediatric patients
+with the clinical phenotype of type 2 diabetes due to higher
+prevalence of type 1 diabetes — GAD and IA2 are the most
+commonly available. Insulin antibodies and zinc transporter 8
+antibodies can also be measured if negative GAD and IA2, and type
+1 diabetes is suspected
+• Insulin and C-peptide measurements are not recommended as
+glucotoxicity and lipotoxicity can acutely affect insulin secretion
+For more guidance, phone 07 839 8899 and ask for the on call paediatric registrar or contact the
+paediatric diabetes CNS on 01272831885 or 021549650
+
+HbA1c
+
+HbA1c is the measure of how much glucose has become stuck to the haemoglobin molecules on the red
+blood cells. By looking at the oldest red blood cells (remember that red blood cells only live for about 12
+weeks) it gives an average of how much glucose has been circulating in the blood for the previous 3
+months. This is the preferred test for diagnosing diabetes, and for on going monitoring of control.
+
+For most people in New Zealand, the target HbA1c is ≤ 53mmol/mol, however the frail, elderly or those
+with limited life expectancy may be safer with an HbA1c at 60-65mmol/mol.
+
+Until your patient has an HbA1c to target, it should be monitored every 3 months, and if still above target
+an escalation of therapy is required to implement change.
+
+Factors which can increase HbA1c Factors which can decrease HbA1c
+• Alcohol intake
+• Iron or B12 deficiency
+• Hyperbilirubinaemia
+• Opiate use
+• Splenectomy
+• Renal failure
+• Erythropoietin, iron or B12 administration
+• High ingestion of antioxidants (vits C&E)
+• Very high triglyceride levels
+• Chronic aspirin use
+• Rheumatoid arthritis
+• Use of antiretrovirals
+• Post blood transfusion
+• Anaemia
+• Renal failure
+
+41-49:
+• pre-diabetes, or
+• very well controlled, or
+• too well controlled if on
+insulin or
+sulphonylureas
+65-75: Too high f or most people: Maybe
+okay for some people but may need
+change in treatment depending on
+circumstances.
+50-55: Target for most people
+with Diabetes
+Lower may be ok depending on
+medication mix and not having
+hypos.
+Less than 40mmol/L: ok for people
+without diabetes. Too low for people
+with diabetes taking insulin or gliclazide.
+75—90: Much too high
+for almost everyone.
+ABOVE 90: TOO HIGH! DISCUSS
+WITH YOUR DOCTORS AS SOON
+AS PO SSI BLE.
+
+56-65: Suggest Review: May be
+okay for some people but may
+need change in treatment.
+
+Clarification of diagnosing and coding
+
+Advice for those people who have an HbA1c that has returned to within normal range.
+Once a person is diagnosed with diabetes, HbA1c is an indication of control only - not an indicator for
+change in diagnosis. This is why diagnosis in the first instance needs to be clear and well documented.
+• Target HbA1c for most New Zealanders is <53mmol/mol, and with new medications in the
+toolbox that do not cause hypoglycaemia, it is safe and even ideal to have an HbA1c in the 40s.
+• There are a few patients who fulfil the criteria for a diagnosis of diabetes, and having been
+coded as such, may achieve long-term normalisation of glycaemic control without medication,
+through lifestyle measures or bariatric surgery.
+• In the UK, GPs are advised not to remove such patients from relevant screening registers
+(including retinal screening) as current evidence shows that all people with diabetes should be
+screened for diabetic retinopathy for life once there has been a definite diagnosis, excluding
+gestational diabetes.
+• Studies show up to 40% of people who go into remission (using ADA criteria) following bariatric
+surgery will have relapsed within 5 years.
+As yet, there is no criteria for remission of diabetes agreed on in New Zealand. However, in academia,
+REVERSAL of diabetes is considered when HbA1c <48mmol/mol with metformin only.
+REMISSION of diabetes is considered when HbA1c has been <48mmol/mol for over 12 months with no
+pharmacological input at all.
+If you do consider removing the diagnosis of diabetes:
+• Clear documentation in the notes by the patients GP as to why the diagnosis was changed
+• How the patient is informed of the changes and a record of this occurring
+• Consideration of medico-legal issues relating to removing a diagnosis of diabetes if the
+patient fulfilled criteria for that diagnosis at one time, particularly as it relates to past
+medical history for the purpose of medical insurance or life insurance.
+HbA1c 41-49
+• This can indicate prediabetes.
+• If your patient has been previously diagnosed with diabetes, it indicates very good control.
+Someone taking metformin, vildagliptin and empagliflozin or dulaglutide might have an HbA1c in
+this range and have no risk of hypoglycaemia and requires no down titration of their medication.
+• If your patient is prescribed insulin or a sulphonylurea, an HbA1c in this range indicates they have
+hypoglycaemia reasonably regularly, and their medication should be down titrated.
+
+Type 1 or Type 2 Diabetes
+
+Some background information
+C peptide is a part of proinsulin. When the insulin splits off, C peptide is left. It is more stable in the
+blood stream and therefore a more useful measure than insulin.
+
+In a pancreas that is functioning normally the C peptide level will correspond with the amount of glucose
+in the blood stream. The more glucose that is present the more c peptide is present.
+In type 1 diabetes C peptide can be very low despite a high glucose level i.e. <250pmol/L fasting or
+<600pmol/L post meal if glucose >8mmo/L.
+With type 2 diabetes there are a number of options. If the glucose level is low and C peptide is high this
+indicates insulin resistance. If the glucose is high, and the C peptide is lower than expected, this
+indicates insulin deficiency. This is why it is critical to do both tests, C peptide and glucose at the same.
+Note that there are other indicators for c peptide checking including insulinoma (may be indicated by a
+high C peptide and low blood glucose).
+GAD stands for Glutamic acid decarboxylase. While this usually acts to make neurotransmitters, it can at
+times work as an autoantigen. It triggers the autoimmune system to produce autoantibodies to destroy
+its own beta cells. GAD antibodies can be found in 70 - 80% of people diagnosed with Type 1 diabetes. If
+at the same time there are autoantibodies to Islet cells (tyrosine phosphatase–related islet antigen 2 =
+(IA2), it strengthens the diagnosis. Type 1 diabetes is an autoimmune condition.
+If you are concerned that the GAD and IA2 have missed the type 1 diagnosis, request a zinc transporter
+check as well. These are done at Waikato hospital and in some areas are added automatically if
+GAD/1A2 come back negative. Request ZnT8 transporters.
+There are more than simply the 2 types of diabetes—MODY, GDM and LADA are a few of the more
+common ones. If you need more information on these conditions, try this article: CMAJ 2014 Approach
+to the patient with atypical diabetes; Jun 10; 186(9): 678–684.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4049991/
+Anti-IA2, anti-GAD or anti-ZnT8 can help diagnosis.
+C peptide must always be done with a corresponding glucose result.
+If initially managed on diet and oral medications— but are now on insulin,
+they have Type 2 diabetes on insulin.
+
+PRE-DIABETES
+ALSO KNOWN AS INTERMEDIATE HYPERGLYCEMIA
+
+• Diabetes is one of New Zealand’s fastest growing long-term conditions
+• Annually, 5-10% of individuals with pre-diabetes will progress to T2DM
+• Prevalence has been increasing approximately 7% per year for the past 8 years
+• The appropriate term to classify patients with HbA1c 41-49 is debated. In 2006, the WHO
+recommended use of the term “Intermediate Hyperglycaemia” as opposed to “prediabetes”, as not all individuals with an HbA1c between 41-49 would proceed to Type 2
+Diabetes. (From MOH pre-diabetes and self-management 2016).
+
+ADA consensus 2021 states, ‘Metformin therapy prevention of type 2 diabetes should be considered in
+those with pre-diabetes, especially those with BMI >35kg/m2, those aged >60years, women with prior
+gestational diabetes mellitus, and/or those with rising A1c despite lifestyle intervention. Long term
+Metformin may be associated with biochemical vitamin B12 deficiency, and periodic measurements of
+vitamin B12 levels should be considered in metformin-treated patients, especially in those with anaemia
+or peripheral neuropathy.
+Beta cell function can be less than 50% of normal by the time diabetes is diagnosed
+Treatment: lifestyle measures are the key treatment
+Consider: The initiation of Metformin for prevention of diabetes.
+
+Some background reading:
+Diabetes Prevention Program (DPP) and the ongoing DPP Outcomes Study (DPPOS) are
+major studies that changed the way people approach type 2 diabetes prevention worldwide. The DPP showed that people who are at high risk for type 2 diabetes can prevent
+or delay the disease by losing a modest amount of weight through lifestyle changes
+(dietary changes and increased physical activity). Taking metformin, a safe and
+effective generic medicine to treat diabetes, was also found to prevent the disease,
+though to a lesser degree.
+The DPPOS has continued to follow most DPP participants since 2002. To date, the
+DPPOS has shown that participants who took part in the DPP Lifestyle Change Program
+or are taking metformin continue to prevent or delay type 2 diabetes for at least 15
+years. The DPPOS has also shown that the DPP Lifestyle Change Program is cost
+effective (costs are justified by the benefits of diabetes prevention, improved health,
+and fewer health care costs) and metformin is cost-saving (leads to a small savings in
+health care costs) after 10-years.
+DiRECT and PREVIEW studies have investigated weight loss early in the diabetes
+journey and its positive impact on blood glucose control, and even preventing diabetes
+in those with prediabetes.
+• Pre-diabetes is not a clinical condition in its own right but is a high-risk factor that can
+contribute to both diabetes and cardiovascular disease.
+• Prevalence of pre-diabetes is particularly high in some population groups for example: Over
+40% of people living in the Auckland metro region who are Māori, Pacific, or Indian ethnicity
+have been identified with pre- diabetes at 35-39 years, and over 50% at 45-49 years (Chan
+2015).
+SOME QUESTIONS FOR YOUR PRACTICE:
+• Does your practice have a routine protocol for pre-diabetes diagnosis, education, and
+follow up?
+• There are seven possible pre-diabetes classification read codes—encouraging the whole
+practice to maintain one or two of these options simplifies systematic review and
+prompts intervention.
+• Recall will depend on results of HbA1c and patient history. If HbA1c close to 49—consider
+recalling at 3-6 months rather than annually.
+• Provide a combination of written and verbal advice.
+• When someone moves from pre- to diabetes, you will need to change their Reed Code
+
+INITIAL EDUCATION AND DAR
+
+PATIENT INFORMED
+GP = DIAGNOSIS
+MADE
+CODED:
+TYPE 2 (C109)
+TYPE 1 (C108)
+3 MONTH RECALL
+HbA1C/DAR
+APPOINTMENT FOR:
+DIABETES NURSE
+SELF MANAGEMENT &
+DIABETES EDUCATION
+APPOINTMENT
+BASELINE DAR
+OBS as per common
+form
+REFER RETINAL
+SCREENING
+ONGOING F/UP
+REQUIRED BY PATIENT
+Other helpful read codes.
+
+Gestational diabetes L180
+Pre-diabetes R102.11
+Type 2 diabetes on insulin C1089
+DAR COMPLETE
+AT 3 MONTHS
+RECALLS
+SET
+Weight loss of
+10% can induce
+remission.
+Supportive and thorough
+education at diagnosis will
+reduce diabetes distress
+down the track.
+
+Patient Initial Education
+How we educate people is as important as what we teach
+
+Assessment: What do they already know?
+Establish what the person/whānau already know about Diabetes, build on this when
+answering questions they may have.
+
+Make it personal for the person with diabetes
+Make information relevant to their diabetes, so it makes sense to them—consider their
+health beliefs and their previous experience/knowledge of diabetes
+
+Consider questions that the person/whānau may not voice
+• What caused their Diabetes?
+• What is actually wrong?
+• How will Diabetes affect me now and in the future?
+• How long will it last?
+• How good is my treatment at controlling my Diabetes?
+• What can I do to look after myself?
+These are just some of the questions that a person can have but be too shy to ask.
+
+Documentation
+Document what information you have covered, and any gaps that you believe will need
+to be discussed at a later time.
+
+1.
+2.
+3.
+.
+Use a keyword to make documentation easier
+and more consistent. E.g. diabetes education:
+• Food
+• Checking
+• Activity
+
+Goal setting
+Small achievable goals are the key to lifestyle change
+
+SPECIFIC
+• Define the goal with clear, understandable language.
+• WHO is involved? WHAT do I want to accomplish? WHERE?
+MEASURABLE
+• Can you track the process and measure outcomes?
+• How much, how many, how will I know when I’m at my goal?
+ATTAINABLE/ACHIEVABLE
+• Is the goal reasonable enough to be accomplished? How so?
+• Is the goal out of reach or below standard performance?
+RELEVANT
+• Is the goal worthwhile and will it meet your needs?
+• Is each goal consistent with other goals you have established?
+TIMELY
+• Your objective should include a time limit. E.g. I will
+complete this step by month/day/year
+Work together to ensure best results.
+
+People are capable partners in their health care
+
+Diabetes Annual Review
+
+• Type 2 diabetes is a progressive condition.
+• Often treatments are layered in over the years; this means that on-going control is reviewed
+regularly.
+• An annual review is standard care for all people with diabetes.
+• An annual review is the screening phase. Then triage—who needs to be seen again urgently,
+soon, next year? Who needs to be referred to a secondary service such as podiatry, renal or
+dietetics?
+• Treatment is individualized.
+
+Annual reviews are about the person who has diabetes. It is their opportunity once a
+year to check in and make sure their diabetes management and education is up to
+date. If we are prepared prior to them arriving, it means that we can focus on what is
+most important to the person.
+On the next page is a suggested format for preparing yourself for an annual review.
+Take a photocopy and fill in everything you can prior to the person arriving, and then
+you will have identified the clinical issues and are free to focus on them. It is most
+helpful to create a plan forward together.
+
+Example of Diabetes Annual Review on next page:
+
+DAR bloods can be preset on MedTech request form, and the Pathlab e-request form (right click)
+Minimum: HbA1c, Full (non-fasting) lipid profile, Renal function, full blood count, urine
+microalbuminuria, consider B12 if on long term Metformin, and LFT if on Vildagliptin.
+
+Diabetes Annual Review Preparation Sheet
+Patient Name/NHI: Today’s Date:
+Type of diabetes: Duration:
+On-going plan:
+
+Date most recent results: Comment:
+  
+Relevant medications:
+Hba1c Metformin
+Cholesterol Total: Ratio: Vildagliptin
+LDL: HDL: Trig: Empagliflozin
+Kidneys EFGR: Dulaglutide
+Microalbuminuria: Sulphonylurea
+Last result Today’s
+result
+*Insulin (type/device/amount)
+BP:
+Weight:
+Height: Diabetes Distress Score
+WC: DSS2
+CVRA: PQH2
+Smoking:
+Exercise: Type duration frequency
+
+Food – any changes and goals:
+
+Assessment of feet complete and able to self-care:
+
+Checking when, recording, changes required:
+
+Hypos: YES/NO What used to treat hypos?
+
+♀ discuss contraception or pregnancy planning
+♂ discuss erectile dysfunction
+Medical alert
+bracelet?:
+Driver licence type if
+relevant:
+Retinal
+screening due:
+Vaccines due? Shingles (≥65) /COVID/Flu
+
+*If on insulin:  Storage  Sharp disposal  Check sites  Travel  Sick day
+ Insulin dose corect  Insulin technique  Correct pen and insulin  Changing needles
+
+Cardiovascular risk
+
+• All people with type 2 diabetes are at higher risk of cardiac disease. The reason for this is
+multifaceted and not completely understood.
+
+From: World J Diabetes. 2014 Aug 15; 5(4): 444–470.
+
+• CVD risk assessment is now based on New Zealand PREDICT study data beginning
+assessments 10—15 years earlier in some at risk groups.
+• The aim is to facilitate informed choices, so patient considers early and lifelong healthy
+lifestyle choices, and when appropriate other treatments.
+• Non-fasting blood lipids are now recommended for all treatment decisions and monitoring
+as long as the triglyceride levels are normal. Fasting bloods are only required if triglycerides
+are elevated
+Full details can be found here: https://www.health.govt.nz/publication/cardiovascular-disease-riskassessment-and-management-primary-care
+• CVD risk assessment and management is a recommended component of the annual diabetes
+review in people with type 2 diabetes.
+• The risk prediction equations for people with type 2 diabetes include: duration of diabetes,
+BMI, eGFR, ACR, HbA1c and hypoglycaemic medications; in addition to the risk factors in
+equations for people without diabetes.
+• No specific risk equations are available for people with type 1 diabetes, although the same
+main disease variables (diabetes duration, renal disease, glycaemic control) apply as for type
+2 diabetes. CVD risks for this group are substantially higher than for people with type 2
+diabetes (50% higher in men and up to 90% higher in women).
+• Encourage a healthy lifestyle (smoking cessation, healthy diet, regular physical activity,
+optimal weight) in everyone.
+• Optimise glycaemic control to an appropriate level in consultation with the individual
+patient. Agreed target range will generally be more stringent in younger and fitter patients
+(e.g. HbA1c 48-53, FBG 5-7mmol/L without hypos) than older, co-morbid or frail patients and
+those prone to hypoglycaemia (e.g. HbA1c 55-64, FBG 7-9mmol/L without hypos).
+
+Hypertension
+
+A word from the experts!
+Between 70 and 80 % of people with diabetes have hypertension.
+The coexistence of diabetes and hypertension worsens clinical outcomes with respect to both
+microvascular and macrovascular disease. Diabetes management should therefore be comprised of a
+multifaceted approach that targets optimal blood pressure and lipid management in addition to
+glycaemic control. The pathophysiology of hypertension in diabetes involves maladaptive changes and
+complex interactions between the autonomic nervous system, mechanical forces, renin-angiotensinaldosterone system as well as individual and environmental factors. Multiple high-quality randomized
+controlled trials have shown reduced morbidity with reduction of elevated blood pressure in people
+with diabetes.
+
+Causes of hypertension
+Sedentary lifestyle, increased calories and insulin resistance:
+• Increased adiposity = increased insulin resistance = oxidative stress and inflammation =
+vascular stiffness = hypertension
+Increased intra vascular volume:
+• Mismatch between sodium intake and sodium loss = increased sodium concentration =
+increased venous return = elevated arterial pressure
+Premature vascular aging:
+• Structural changes to the lumen of small vessels = vascular remodelling, inflammation,
+peripheral vascular resistance, decreased elasticity = hypertension
+Autonomic nervous system deregulation:
+• Increased sympathetic activity = increased heart rate, ventricular contraction, peripheral
+resistance, and fluid retention.
+Role of innate and adaptive immunity:
+• Involved in angiotensin II and aldosterone induced hypertension. Renin Angiotensin
+Aldosterone system
+• Angiotensin II is a potent vasoconstrictor and has a direct effect on the vascular smooth
+muscle also promotes sodium and water retention.
+
+What this means in practice is — please treat hypertension!
+Treatment needs to be individualised but <130/80 is the recommendation for most
+people, although <125/75 likely to benefit younger patients.
+
+Dyslipidaemia
+
+The New Zealand Heart foundation has a great explanation of Cholesterol.
+Cholesterol (Matu Ngako) is a type of fat that circulates in your blood. Your body needs some
+cholesterol to work properly, but when you have high cholesterol (hyperlipidaemia) it speeds up the
+process of atherosclerosis.
+This is when plaque builds up in your artery walls, narrowing arteries and restricting blood flow.
+Eventually the plaque can get so large and hard that it cracks, and a clot forms over the plaque. If this
+clot blocks an artery, it can cause a heart attack or stroke.
+There is only one type of cholesterol, but it is carried around the body by different ‘carriers’
+(lipoproteins) that have different tasks. There are two types of carriers: LDL (low density lipoprotein)
+and HDL (high density lipoprotein).
+LDL-cholesterol L-L-L (LDL is Lousy and it needs to be Low)
+• The role of LDL in the body is to transport cholesterol to all organs for use in building cells.
+• LDL is like a large 'dump truck', and dumps cholesterol in the artery walls.
+• Known as ‘bad’ or ‘lousy’ cholesterol.
+For high-risk individuals an LDL-C target of 1.4mmol/L or lower is recommended.
+For intermediate-risk individuals the benefits and harms of lipid-lowering drugs should be presented and
+discussed to allow an individualised informed decision about whether to start treatment. A target LDL-C
+reduction of 40% or greater is recommended if drug treatment is commenced.
+HDL-cholesterol H-H-H (HDL is Happy and it needs to be High)
+• HDL cholesterol is like a ‘pick up’ truck that picks up and transports cholesterol from the
+blood stream to the liver, which gets rid of it.
+• The role of HDL in the body is to carry extra cholesterol away from the arteries to the liver.
+• Known as ‘good’ (or happy) cholesterol.
+Triglycerides are the most common form of fat in your body. The role of triglycerides is to store and transport fat in the blood. Extra energy from food and
+alcohol that your body does not need is changed to triglycerides. High triglycerides increase your risk of heart attack and stroke.
+Total cholesterol is a rough measure of all the cholesterol and triglycerides in your blood.
+Total cholesterol/HDL cholesterol ratio is the ratio of your total cholesterol to your HDL cholesterol.
+This ratio is used to measure your risk of heart attack and stroke.
+
+Diabetes recall process
+
+• What system does your practice have in place?
+• Is it one person or multiple people responsible for recalls?
+• People with type 1 diabetes may or may not want an annual review at the GP—offer them a
+choice and aim to have a DAR in primary health 6 months after the specialist review.
+
+• First recall letter and blood test form sent
+• Enclose blood test form
+• Phone calls, emails, text, and portal contacts
+• Document each contact attempt
+• You could set up a key word for this
+• Task GP to inform outstanding DAR
+• Aim for opportunistic DAR or continue with
+contact attempts
+• This is MOST important—what happens after the
+DAR?
+• How soon do you need to phone or see the
+person to assess goals, HbA1c, BP or any other
+issues that were raised in DAR. Who follows this
+up?
+
+LIFESTYLE
+FOOD ACTIVITY SLEEP STRESS
+
+Numerous aspects of lifestyle and wellness affect a person’s diabetes. There are real constraints in
+general practice as to how we can support the patient to live as well as they possibly can.
+There are some key concepts that support our understanding of diabetes management. Each of you will
+find different ways of explaining these concepts to patients. Remember cornerstone of treatment for
+type 2 diabetes is:
+
+healthy food choices,
+physical activity,
+medication
+
+There is no conclusive evidence to suggest one dietary strategy is more effective than any other
+for achieving sustained weight loss and improvements in glycaemic control. The choice of
+dietary strategy will depend on many factors but particularly patient preference, tolerance,
+nutritional needs, income, comorbidities, and cultural suitability.
+Some recommended sites for lifestyle information
+https://t2dm.nzssd.org.nz/Section-88-Healthy-eating (has links to some dietitian resources for
+practice nurses)
+https://www.diabetes.org.nz/
+
+IF ONLY IT WERE
+THIS SIMPLE
+Our favourite
+booklet about
+food
+
+Nutrition resources
+
+There are so many resources to choose from—be selective. Aim for no more than 5 resources you use a
+lot. Here are a couple more favourites.
+
+Healthy Food Guide has a portion size poster as well– it has more detail than this one from the heart
+foundation
+
+Remember that people get
+confused if they are told
+different health messages. Keep
+to evidence-based health/food
+messages. Ensure as a team you
+are all saying the same things
+about food. Fad diets typically
+promise quick weight loss, restrict a specific food group, require expensive
+supplements, and are short lived.
+If it sounds too good to be true—it probably is!
+Try this at
+home!
+
+Dietary Intake
+
+Make an opportunity to assess a person’s food intake and prior knowledge level.
+Carbohydrate (CHO) foods provide not only “carbs”, “energy”, and “fuel” but also
+many health promoting nutrients from fibres to phytonutrients. Discuss whole
+verses refined for their health benefits.
+Discuss some common labelling misconceptions. (No added sugar, organic, fat free).
+Make sure that patients are aware that increased calorie consumption over their
+individual requirements will increase their weight.
+Enjoy a variety of nutritious foods every day including:
+• plenty of vegetables and whole fruit, wholegrain foods, and those naturally high in fibre
+• some milk and milk products, mostly low and reduced fat
+• some legumes, nuts, seeds, fish and other seafood, eggs, poultry (e.g. chicken) and/or red
+meat with the fat removed. Consider swapping some animal protein for plant-based protein
+meals.
+• Choose and/or prepare foods and drinks with unsaturated fats instead of saturated fats,
+foods that are low in salt (sodium); and if using salt, choose iodised salt, foods with little or
+no added sugar, and foods that are mostly ‘whole’ and less processed.
+• Make plain water your first choice over other drinks – minimise sugar and alcohol containing
+drinks.
+• No alcohol is good for you, it increases your risk of atrial fibrillation and stroke, and may
+increase your risk of heart failure and IHD. If you choose to drink alcohol, keep your intake
+low. Stop drinking alcohol if you could be pregnant, are pregnant or are trying to get
+pregnant.
+• Buy or gather, prepare, cook, and store food in ways that keep it safe to eat.
+• To the best of your ability avoid processed foods.
+An Example: if a person’s favourite food is pizza and they eat this 3 times a week, could they eat it once
+a week, or eat a smaller portion (and add a salad on the side), or change the choice they make from
+Hawaiian stuffed crust x large (1512 KJ) to large slice thin and crispy (626 KJ).
+Basal Bolus insulin does work best with great CHO knowledge and when teaching our patients we should
+focus on timing, type and amount as this is very relevant to achieving control and balance in their diet.
+Some people require more in-depth information e.g. education on Glycaemic Index, being able to read
+nutrition labels, in general how much CHO they consume at each meal. Dietitians specialise in teaching
+CHO management whilst maintaining good nutrition, and patients on or starting insulin meet criteria for
+referral. People prescribed Empagliflozin have a minimum CHO requirement of 130g per day.
+
+All people with diabetes need to know that carbohydrates impact on their BGL.
+
+Basic CHO Sheet
+Bread Carbohydrate Vegetables Carbohydrate
+1 slice – check the label 10 – 20 g 1 med potato (135 g) 15 g
+1 medium slice Molenberg 13 g 1 cup mashed potato 30 g
+1 toast slice Molenberg 17 g 1 small piece kumara (135 g) 18 g
+1 slice Vogel 18 g 1 whole cob corn 30 g
+1 med slice white bread 13 g ½ cup creamed corn 23 g
+1 toast slice white bread 17 g ½ of 420g can baked beans 23 g
+1 slice your usual bread _____ g 1 cup cooked dried beans 30 g
+1 bread roll long/hamburger 30 g 1 parsnip (22 cm long 160 g) 20 g
+1 bread roll med bakery 20 g Yams (135g) 17 g
+1 crumpet 20 g 1 cup thick vegetable soup 20 g
+1 large pita bread 40 g Taro (135 g) 33 g
+1 wrap – check the label 15-40 g Plantain/Green banana (135 g) 33 g
+1 English muffin 30 g
+Cereals Fruit
+1 Weetbix 10 g 1 banana 30 g
+1 cup cooked porridge 30 g 2 raw apricots/plums 10 g
+½ cup raw rolled oats 25 g 150 gm berries 10 g
+1 cup muesli - check the label 90 g ½ cup stewed fruit (in juice) 10 g
+1 cup just right/ light n tasty 54 g 1 cup grapes/cherries 25 g
+Weetbix Bites (45 g) 32 g 1 apple 15 g
+1 cup All Bran flakes 28 g 1 orange 10 g
+1 cup Kornies/rice bubbles 25 g 2 medium feijoa 5 g
+1 cup Nutrigrain 25 g 1 slice fresh pineapple 13 g
+Pasta/Rice Dried fruit
+1 cup cooked pasta 40 g 4 dried apricot halves 10 g
+1 cup cooked rice 50 g 1 cup dried fruit 100 g
+1 pkt instant noodles 50 g 1 tablespoon raisins/sultanas 10 g
+½ of 420g can spaghetti 23 g 4 dates 20 g
+Dairy products Crackers biscuits baking
+1 glass milk (200 ml) 10 g 1 med cracker (check the label) 5 g
+1 pottle diet yoghurt 10 g 1 large cracker 10 g
+1 pottle regular yoghurt 25 g 1 plain biscuit (arrowroot, round wine) 5 g
+1 ice-cream slice 10 g 1 large biscuit (digestive) 10 g
+1 glass soy milk (200ml) 10g 1 rice wafer 10 g
+Extras 1 sweet muffin (small 80 g) 40 g
+1 pie 45 g 1 scone (small 80 g) 30 g
+1 cup macaroni cheese 35 g 1 pikelet (small 25 g) 10 g
+1 hamburger – regular 30 g 1 cup flour 90 g
+¼ pizza (2 slices) 60 g 1 pkt crisps (small 40 g) 18 g
+2 Sushi rolls 20 g 1 pkt crisps (large 150 g) 68 g
+1 serve hot chips - med 60 g 1 muesli bar (read the label) 15 – 40 g
+
+Food/glucose activity record sheet
+
+Please record as much information as you can the 4 days before your appointment. You do not need to change your normal
+pattern of eating, but please write down what you do eat. It also helps to record your blood glucose levels before the meals
+and 2 hours after the meals. If you normally snack between meals, eat AFTER you have done the 2 -hour glucose check.
+Remember - there is no such thing as a bad level, as all the information can be used to help you manage your diabetes better.
+
+Day one Day two
+Before meal blood glucose level
+
+Breakfast
+
+2 hours after meal blood glucose level
+
+Morning tea
+
+Before meal blood glucose level
+
+Lunch
+
+2 hours after meal blood glucose level
+
+Afternoon tea
+
+Before meal blood glucose level
+
+Dinner
+
+2 hours after meal blood glucose level
+
+Supper before bed
+
+Day three Day four
+Before meal blood glucose level
+
+Breakfast
+
+2 hours after meal blood glucose level
+
+Morning tea
+
+Before meal blood glucose level
+
+Lunch
+
+2 hours after meal blood glucose level
+
+Afternoon tea
+
+Before meal blood glucose level
+
+Dinner
+
+2 hours after meal blood glucose level
+
+Supper before bed
+
+Bring these records to your appointment
+Remember to bring your glasses if you wear them!
+
+Physical activity
+
+Physical activity is a key component in diabetes management
+It increases insulin sensitivity and increases consumption of glucose by the cells.
+The latest NZ MoH guidelines are for ADULTS:
+Do at least 2 ½ hours of moderate or 1 ¼ hours of vigorous physical activity spread throughout the
+week.
+Moderate intensity activity causes a slight, but noticeable, increase in breath and heart rate. You can
+still carry on a conversation.
+Vigorous intensity makes you out of breath – you can’t do these activities and chat at the same time.
+For extra health benefits, aim for 5 hours of moderate or 2 ½ hours of vigorous physical activity spread
+throughout the week.
+Do some muscle-strengthening activities on at least 2 days each week. More information can be found
+here: https://www.health.govt.nz/our-work/preventative-health-wellness/physical-activity
+
+There are many opportunities for people to increase
+their activity.
+It can be as simple as parking further away from work,
+walking upstairs not taking the elevator, sit and be fit
+activities.
+Dancing, walking, swimming, waka ama, in2hula,
+marathons, TriMāori, hiking… the list is endless. Be
+aware of what opportunities are in your local area.
+It must be affordable, achievable, and often. Doing a
+small amount of activity regularly is better than a huge
+effort once in a while.
+Consider setting a goal, invite a friend, gradually
+increase the intensity.
+Some people are motivated by technology—pedometers are cheap, fitness watches and apps such as
+my fitness pal or charity miles.
+Encourage people to start any new exercise slowly and aim to increase.
+Exercise may impact on the BGL for up to 24 hours. People need to be aware of the potential of a hypo
+following moderate or vigorous exercise.
+Ideally adults with Type 2 diabetes should do both aerobic and resistance exercise training for optimal
+glycaemic and health outcomes (ADA,2016).
+Pre exercise health check by GP is advisable for people with diabetes if previously sedentary or comorbidities present.
+
+Sleep
+
+Reduced sleep is now widespread, usually as an accommodation to a busy lifestyle and the use of
+technology intruding into sleep time.
+The Sleep Heart Health Studied those with a self-reported short sleep duration (<5 hours) had an
+increased risk of type 2 diabetes compared to those with a sleep duration of 7—8 hours.
+You can find more information about sleep hygiene on the Healthify NZ page:
+https://healthify.nz/health-a-z/s/sleep-problems/
+
+If blood glucose levels are high overnight, nocturia can be an issue and further interrupt sleep
+patterns. Restless leg syndrome is sometimes experienced by people with diabetes as is cramping
+and neuropathic pain. All of these issues will improve with improved blood glucose control.
+Consider assessment for sleep apnoea
+Obstructive sleep apnoea (OSA) alters glucose metabolism, promotes insulin resistance, β cell
+dysfunction, and is associated with development of type 2 diabetes. This appears to be independent of
+obesity. Chronic exposure to intermittent hypoxia and other pathophysiological effects of OSA affect
+glucose metabolism directly and treatment of OSA using a CPAP machine can improve glucose
+homeostasis. Lifestyle interventions has a significant impact on Apnoea hypopnoea index (AHI) in people
+with type 2 diabetes.
+If people are struggling with sleeping well, encourage them to talk to their GP.
+
+Stress
+
+KEY POINTS for the person with diabetes
+• Stress is a part of our daily lives
+• Stress becomes unhealthy when it begins to make us less able to manage our physical or
+psychological health, or other factors in our lives such as our work and relationships
+• Stress can be caused by physical factors (like an injury or illness) or psychological or social
+factors (unresolved work issues, bereavements, moving house, unresolved relationship
+problems)
+• For many people with diabetes, stress can cause blood glucose levels to rise. Learning
+strategies to deal with stress may lessen this effect
+• Having diabetes is in itself a major source of stress. People with diabetes have higher rates of
+anxiety and depression. Learning how to manage stress and treating these skills as a priority,
+can help a person cope with stress more effectively
+• There are practical things that can be done to reduce stress, such as learning relaxation
+techniques, learning different ways to respond to stress, identifying situations that cause
+stress and choosing to avoid them, and making changes to your life that increase your
+enjoyment level
+• Developing a positive coping style may help you deal more effectively with stress
+Stay vigilant for diabetes burnout and distress.
+Screening for psychological problems and diabetes burn out has not been happening systematically. In
+order to address this, the PHQ2 Depression questionnaire and DDS2 are now a routine aspect of the
+diabetes annual review. These give more focus to the persons feeling of coping with the rigorous
+demands of living with diabetes. If the person you are seeing scores highly when answering these
+questions, your role is to support them to achieve healthy habits that benefit their physical body as well
+as their mental health – good food, good exercise, good sleep habits, meditation and referral to the GP
+highlighting your concerns.
+
+All of the lifestyle topics addressed here are great for the whole population.
+Be the champion for healthy lifestyle messages.
+
+MICROVASCULAR COMPLICATIONS
+
+It is essential to identify diabetes related complications by early and regular screening and this includes
+gum disease, foot examination for neuropathy and ulceration, kidney damage and eye disease. Patient
+education is necessary in all of these areas to avoid impaired quality and length of life and burden of
+costs to secondary health care services. (MOH, 2015. Living well with Diabetes).
+
+While the UKPDS is an older study in today’s terms, it still a landmark for reducing
+complications. The key messages are:
+• retinopathy, nephropathy, and possibly neuropathy are benefited by lowering
+blood glucose levels in type 2 diabetes with intensive therapy. The overall
+microvascular complication rate was decreased by 25%.
+• Tight control of blood pressure reduced the risk of any non-fatal or fatal diabetic
+complications and of death related to diabetes
+Think about how
+to communicate
+this to your
+patient
+This is why there is
+a target for
+glycaemic control,
+which is HbA1c ≤53
+for most people.
+
+Renal disease
+
+All people with type 2 diabetes should have eGFR and Albumin/Creatinine ratio
+assessed annually and more often if abnormal (3 - 6monthly)
+
+• If the patient has albuminuria, then this result should be repeated one or two times over the
+next 3 months to confirm the result. Exclude causes such as UTI, severe hyperglycaemia,
+heart failure, vigorous physical activity, contamination with blood, or other kidney disease
+i.e., concomitant haematuria is present. Confirm with another blood test.
+• The combination of a low eGFR and albuminuria/proteinuria means that the patient is at
+greater risk of developing end-stage renal failure, compared with patients who have a low
+eGFR, but no albuminuria or proteinuria.
+
+Kidney Disease: Improving Global Outcomes (KDIGO) 2017 Clinical Practice Guideline classification chart for albuminuria .
+
+For people with diabetes and renal disease in the Waikato region there is an early diabetes and kidney
+disease clinic at the hospital. Referral is via BPAC e-Referral
+Queries can be directed to Regional Diabetes Service 07 8599180 – ask for the CKD clinical nurse
+specialist
+Referral criteria:
+• Type 1 or 2 diabetes > 18 years old
+• Urinary albumin:creatine ratio (ACR) ≥70mg/mol on at least 2 occasions, and / or
+• CKD G2 or G3 – eGFR ≥30 AND ≤60 ML/MIN/1.73m2, and / or
+• Sustained decline in eGFR ≥15MIL.MIN/1.73m2 in a 12-month period
+• Willing to attend and engage in an education programme.
+
+PRACTICE POINTS
+• People with confirmed microalbuminuria should be treated with an ACE inhibitor or an
+ARB whether or not hypertension is present.
+• Good glycaemic control in patients with CKD and diabetes is essential to prevent or delay
+the progression of diabetic nephropathy, and to reduce cardiovascular risk.
+• Empagliflozin (Jardiance) is the preferred second line therapy and funded for patients
+with renal complications and eGFR ≥20 mL/min.
+• Dulaglutide (Trulicity) would be the next preferred therapy if empagliflozin is not
+tolerated, and can be used down to eGFR ≥15 mL/min.
+• An HbA1c ≤53 mmol/mol is generally a target for patients with CKD and diabetes.
+However, there is an increased risk of hypoglycaemia with insulin or a sulphonylurea for
+older patients living alone, those with comorbidities or limited life expectancy, and a
+target HbA1c ≥ 53 mmol may be more appropriate. This should be decided with patients
+using a shared decision-making approach.
+• In patients with advanced stage 4 and stage 5 CKD the risk of hypoglycaemia with insulin
+or sulphonylurea use is also clinically relevant, and less intensive glycaemic control but
+with close monitoring is often required.
+• KDIGO guidelines now recommend that a Metformin dose of 2g per day is safe when the
+eGFR is ≥45 mL/min. Metformin should be avoided altogether in patients with an eGFR
+≤15 except under the close supervision of a nephrologist.
+
+Some extra notes about treatment of renal disease:
+• Any evidence of renal disease based or decreasing eGFR should be treated with urgency.
+• Loop diuretics may be used instead of or in combination with thiazide diuretics in patients
+with significant renal impairment (eGFR <45 ml/min/1.73m2).
+• People with type 2 diabetes are more prone to nephrogenic anaemia (from no other cause)
+and eligible for erythropoietin for eGFR<45. Hb <100
+Opinions vary as to when metformin should be reduced in the presence of renal impairment, but all
+agree that metformin is contraindicated when eGFR<15.
+A helpful resource:
+‘Chronic kidney disease (CKD) management in general practice’:
+https://www.kidneys.co.nz/resources/file/kidneyhealth_complete_pgs-2.pdf
+End stage renal disease (ESRD)
+Historically this has been the domain of the renal unit, but at times general practice will be asked to
+manage blood glucose levels. This needs to be done on an individual basis. Some general points are:
+HbA1c target is moderate. Expert opinion recommends HbA1c between 53-75mmol/mol. Targeting
+lower HbA1c levels may exacerbate mortality risk in dialysis patients with underlying illness and
+malnutrition.
+Up to 1/3 of people with ESRF experience ‘Burn- out diabetes’. There are a number of factors that
+contribute to a spontaneous resolution of hyperglycaemia—the HbA1c returns to normal without the
+use of treatment.
+Many glucose lowering drugs and their active metabolites are metabolised and excreted through the
+kidneys and will therefore require dose adjustment in the dialysis patient.
+Limitations of HbA1c in dialysis patients: ESRD related factors can cause falsely high HbA1c values (due
+to high urea levels and metabolic acidosis) as well as falsely low values (due to anaemia, repeated blood
+transfusions, haemoglobinopathies, use of erythropoietin-stimulating agents and malnutrition). Despite
+this, renal guidelines from both the UK and US advise use of HbA1c to monitor glycaemic control in
+dialysis patients.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3960718/pdf/nihms558834.pdf
+ACEi or ARB
+• When renal disease is present, start an ACEi or ARB and maximise dose before starting another
+agent.
+• If an ACEi is commenced, the eGFR and serum potassium should be measured 7—10 days later to
+ensure there is no further decline in eGFR.
+• If reduction in eGFR ≤ 25% and eGFR stabilises within 2 months of initiation, continue the ACEi.
+• A reduction > 25% after starting ACEi may indicate renal artery stenosis. Reduce or stop the ACEi
+and consider nephrology assessment.
+• If potassium > 6 mmol/L, stop the ACE inhibitor and switch to an ARB.
+
+Autonomic neuropathy
+
+This can affect the sympathetic and parasympathetic functions in people with diabetes involving
+cardiovascular (silent MI), gastrointestinal (gastroparesis, constipation), genitourinary (neurogenic
+bladder/erectile dysfunction), metabolic (hypoglycaemia unawareness), sudomotor (excessive sweating)
+and ocular changes (small pupil that constricts poorly to light).
+
+PRACTICE POINT
+It is important when screening patients at annual diabetes review you can recognise the symptoms of
+autonomic neuropathy and refer the patient on for further medical assessment.
+
+Peripheral neuropathy
+• Diabetic peripheral neuropathy is one of the most common long-term complications of
+diabetes.
+• It develops in up to half of all people with diabetes and is one of the main risk factors
+contributing to foot ulceration and eventual amputation.
+• Basic foot education at an annual review can prevent some issues developing.
+• It is the main cause of non-traumatic lower limb amputation, which is a result of a
+combination of decreased sensation and reduced arterial supply.
+• Assessing for peripheral neuropathy is a routine part of ongoing care for patients with
+diabetes.
+• Treatment of diabetic neuropathy includes optimal control of hyperglycaemia, appropriate
+foot care (often involving input from a podiatrist), and symptomatic management of any
+neuropathic pain.
+A very comprehensive article on Peripheral Neuropathy can be found here:
+https://bpac.org.nz/BPJ/2014/June/diabetic-peripheral-neuropathy.aspx
+For a thorough foot check:
+• Take off the both the persons shoes and socks – you need to
+compare feet!!!
+• A general inspection of the feet and the patient’s footwear
+• Musculoskeletal assessment for deformity (including Charcot arthropathy)
+• Neurological assessment
+• Vascular assessment of the feet, and assessment of the heart rate and blood pressure
+General inspection of the feet notes.
+Examine both feet and check the condition of the skin, particularly looking for erythematous areas, dryness, flakiness, thickness, cracking, callus formation, infection, and ulceration. Dermatological changes,
+such as dry or scaly skin may be secondary to a degree of autonomic dysfunction which can begin
+distally.
+There may also be abnormalities of sweating or circulatory instability in the feet, e.g. a hot or cold foot.
+Heavy callus formation over the pressure points of the foot and signs of localised rubbing or friction,
+blisters or erythema can also be an indication of inappropriate footwear. Foot ulcers are not caused by
+neuropathy alone but can occur without injury once hard callus is present over pressure points. If a
+patient has a loss of sensation in the foot, there will be prolonged and increased forces on the callused
+areas which then increases the risk of tissue breakdown and ulceration.
+
+Checking for sensation in feet
+Monofilament
+Monofilament testing uses a 10 g monofilament to assess a patient’s ability to feel light pressure at
+several separate sites on the foot. The New Zealand Society for the Study of Diabetes guidelines suggest
+the examination of 12 sites in total – six on each foot (Figure 1), although some clinicians believe that
+fewer sites are required, e.g. four sites on each foot. If the patient cannot detect the light pressure at
+more than one of the designated checking sites, then loss of protective sensation is deemed to be
+present.
+To perform the check the patient is placed supine with bare feet (or their feet raised on a stool in front
+of the clinician). The use of the filament should be demonstrated to the patient on their upper arm. Ask
+them to close their eyes and say “yes” when they can feel the filament. The filament should then be
+placed against the foot, avoiding areas of callus if possible, and pressed until the patient indicates they
+can feel it, or until the filament bows (Figure 1). The filament should be pressed against the foot slowly
+over three seconds, not tapped. Site selection should be random and not predictable by the patient.
+N.B. It is recommended that a monofilament is not used on
+more than ten patients in 24 hours, as they may buckle. The
+monofilament should also be replaced on a regular basis to
+ensure it still has a 10 g pressure. In addition, the
+monofilament should be cleaned with alcohol after each use.
+
+Ipswich Touch Test
+If a monofilament is not available, it is still important to examine and touch the feet. The Ipswich Touch
+Test involves lightly TOUCHING or RESTING (not brushing, tapping, or poking) the tip of the index finger
+for 1-2 seconds at the same points indicated above. The online DAR form has the Ipswich Touch Test as
+an option, but defaults to the monofilament test as this is the gold standard assessment. This video
+shows you how to do the touch test https://www.youtube.com/watch?v=KbMljfRubvQ
+Vibratip
+The idea with vibration checking is that sensation is the first sensation to be impacted by neuropathy,
+rather than pressure—so the changes in the foot could be picked up earlier than with a monofilament.
+Vibratip should only be used in conjunction with a monofilament, not as an alternative.
+Available to purchase from:
+https://www.mediray.co.nz/diabetes/shop/peripheral-neuropathy/neuropen-monofilaments-10g-box-5-gds-nt0104/
+or source from an online retailer such as www.aliexpress.com
+
+Podiatry Services (via e-Referral)
+Active foot clinic at Waikato Regional Diabetes Service for patients who meet the following criteria
+
+Funding is available for 4 community podiatry consults/year. Patients are eligible for this if
+the foot check shows they have a high risk foot, as per the algorithm above.
+Referral is via BPAC e-Referral.
+
+Patient education is essential.
+Encourage your patient to check their feet daily so they will immediately know if there is a change
+• After a shower or bath, when putting on shoes and socks, or when getting into bed
+• If they can’t check their own feet, get a family member to check for them, or they could use a
+mirror on the floor to check the underside of the foot
+• Check between the toes, nails and skin
+• Compare the feet – colour, temperature, sensation
+• Choose shoes that fit have a wide and broad toe, a heal counter, don’t rub and are preferably
+laced or have Velcro.
+• Socks are advisable to prevent rubbing (wool or cotton)
+
+You will find some more useful patient resources at the diabetes New Zealand website:
+https://www.diabetes.org.nz/
+
+Retinopathy
+• Classified into non-proliferative, proliferative, and macular oedema
+• Is the leading course of blindness in the developed world countries
+• Diabetic retinopathy is a microvascular complication of both type 1 and 2 diabetes
+• About 20% of patients with type 2 diabetes have retinopathy at diagnosis.
+• The prevalence is strongly related to the duration of diabetes, prolonged hyperglycaemia
+and the presence of nephropathy, hypertension and dyslipidaemia
+• National and international studies show that between 30-40% of people with diabetes have
+retinopathy
+• Severe retinopathy may be present with normal vision
+• Educate patients to seek prompt medical assessment if there is any visual deterioration
+• Very rapid improvement of glycaemic control can result in short-term worsening of
+retinopathy. Inform the ophthalmology department if a patient with established retinopathy
+is being taken from poor control to tight control quickly in case laser treatment becomes
+indicated
+• In the longer term, the risk of retinopathy progression is decreased by tight glycaemic
+control.
+• Refractive errors occur as the lens changes shape with elevated blood glucose
+
+Arrange regular retinal photography:
+• For type 2 diabetes, start from diagnosis.
+• For type 1 diabetes, start 5 years after diagnosis, not if aged < 12 years.
+• If no retinopathy, screen every 2 years— 3 years.
+• If retinopathy present, screen at least annually for changes
+• If you are not sure when they last had an eye photograph—check clinical workstation
+for an upcoming appointment. If there is none, call the Regional Diabetes Service on
+07 859 9180
+This means that when the
+glucose levels are high, they
+may experience blurred vision.
+This is reversible. Retinopathy
+is not reversible.
+
+ACTIVE MANAGEMENT
+Referral to the eye clinic can be concerning to people; they need good explanations of what is
+happening and why.
+• Active management of all diabetes risk factors (e.g. glycaemic control, blood pressure, lipids,
+renal function) helps prevent the onset and reduce the progression of retinopathy.
+
+Retinal Photo Screening
+Use e-Referral for retinal screening:
+Entry criteria:
+all individuals with a confirmed clinical diagnosis of diabetes
+
+Referral must include:
+Most recent labs
+HbA1c Creatinine/eGFR /ACR
+Type of diabetes
+Duration of diagnosis or year of diagnosis
+History of foot ulcers
+Include BP / height / weight if available (automatically included if in screening).
+Note: Gestational diabetes lasts the length of pregnancy – these women will not develop diabetic
+retinopathy within 9 months and do not meet the service entry criteria.
+
+Normal visual acuity does not preclude sight-threatening retinopathy.
+Cataracts are more common in diabetes, seen at a younger age, and progress more rapidly.
+
+Erectile dysfunction
+
+Erectile dysfunction is defined as the inability to get and maintain an erection
+• impacts 35 – 75 % of men who have diabetes.
+• Men with diabetes are likely to develop the problem 10 – 15 years earlier than men without
+diabetes. Over the age of 70, there is a 95% likelihood of facing difficulties with erectile
+function.
+• Women also experience sexual dysfunction at higher rates when they have diabetes. Up to
+78% of women with diabetes will experience sexual dysfunction in the form of decreased
+lubrication, desire and arousal, dyspareunia, orgasmic dysfunction and sexual satisfaction.
+This rate increases if the woman has diabetes and depression and/or anxiety.
+The following website has excellent up to date information about what ED is, the pathophysiology
+and the treatment options. https://urologywaikato.co.nz/patient-resources/erectile-dysfunction/
+
+There are a number of treatments for ED
+• Glucose and BP management are the essential first steps of reversing erectile dysfunction
+• Counselling – the basis of ED may be psychological, behavioural, or physical
+• Exercise – this does more than simply boost circulation, it can reduce weight, reduce depression
+and anxiety, it may increase testosterone, and it simply boosts how we feel about ourselves
+• Oral medications – there are many of these on the market. Some have a shorter half-life than
+others, they still require stimulation and arousal to achieve a positive result, and they have
+reduced in price considerably since coming off market. They are available without script from
+pharmacy, encourage the person to try them more than once before they say it doesn’t work –
+performance anxiety can reduce their effect the first time, and warn people about online herbal
+options particularly from overseas; the label claims are not always accurate
+• Penile injections are often a useful option
+• Vacuum devices
+• Penile implant or prosthesis
+Often the person will not ask about ED issues. To help health professionals to become
+more comfortable at starting the conversation, prompts have been added to the
+common form.
+
+MONITORING
+
+• Refer to CHECKING rather than TESTING. Testing suggests a pass or fail. There are no
+“wrong” answers to the monitoring as it is investigative, not accusatory.
+• People prescribed Metformin, Galvus, Jardiance or Trulicity are not at risk of hypoglycaemia
+unless also taking insulin or a sulphonylurea and do not “need” to monitor their blood
+glucose from a safety aspect.
+• However, self-monitoring of blood glucose (SMBG) is the only way the person with diabetes
+(PWD) and their health care professional know what is happening with their diabetes. The
+more checking being done the more information they (we) have.
+• People can learn more about their own diabetes by looking at how their blood glucose
+respond to what they eat /do/feel/medication use.
+• Short periods of intense checking 3-4 days are achievable by most and gives you the
+information that is required to make decisions on medication options.
+Most people will be somewhere on the following continuum:
+
+Pre breakfast, pre bed 1 day a week Pre and 2-hour post meals (6)
+Plus pre bed (7) plus 2 am (8 checks)
+• Encourage checking even when levels are not great. Identifying the problem times of day
+means you can work towards fixing the problem
+• Consider getting people to write their results in a logbook/download results/use an app
+(mysugr) at home as they are looking for a pattern
+• Discuss BGL patterns - what can you see and what does this mean? - CHO consumption,
+exercise and medication
+• Use a food/exercise diary with blood glucose check results alongside for a 4-day snapshot
+(see pages 23/24 and photocopy this for your patient to use)
+Bare minimum/maintenance
+Intense focus
+
+Paired checking & Overnight hypoglycemia
+
+• If starting a new insulin or concerned about overnight hypos (people often sleep through
+these) ask the person to check at 2am.
+Clues to overnight lows - HbA1c is low, but daytime glucose levels are high, >0.5 units/kg
+basal prescribed, waking with nightmares or sweaty, elevated results in the morning (there
+can be a rebound like effect), or simply that something just does not make sense.
+• Paired checking is when people check before and then 2 hours after a meal.
+The thinking is that if there is a postprandial rise of more than 3mmols, reassess CHO load of
+the meal. Is it excessive or reasonable? Or introduce/increase medications that support
+insulin secretion (sulphonylurea, rapid acting insulin). Consider dietitian referral.
+
+Whichever meter the person uses, the correct technique is important.
+Wash hands prior to checking
+
+Keep meter in upright position
+Battery—CR2032 Lithium battery for the CareSens range of meters are
+free from your local pharmacy.
+
+Lancets are not free but please ensure that people are
+changing them because when they are blunt, they often cause
+more pain and can lead to resistance to self-monitoring of
+blood glucose. One lancet is good for 12 finger pricks.
+
+CareSens N 0800 742 762
+Ensure you have enough replacement meters—use MPSO and the vouchers available from your
+caresens rep. Mob. 021575128 or 0800 glucose.
+
+Smartlog – downloading meters
+This is really useful for helping to adjust medication to BGL profiles
+
+The software is free and the cord you can get free from the rep.
+Patients can also buy their own + download the free software on the website
+
+https://www.pharmacodiabetes.co.nz/smartlog-data-management/smartlog-software/
+
+There are some very helpful videos on the website to guide you or your patient set up functions on the
+meter https://pharmacodiabetes.co.nz/helpful-videos/
+
+Sue Laywood
+Diabetes Territory Manager Pharmaco (N.Z.) Ltd
+PO Box 4079, Auckland 1140
+P 09-377 3336 TF 0800 GLUCOSE (458 267)
+M 021 575 128
+
+CareSens N Voice
+• With its talking function, the N Voice makes checking easier for those who are
+visually impaired.
+• In addition to the talking function, the N Voice has a larger screen and numbers.
+• The N Voice comes with a test strip ejector for the easy removal of a used strip.
+
+The FreeStyle Libre2 Flash Glucose Monitoring System is a glucose monitoring device used to
+detect trends and track patterns without the need to finger prick. The system is not funded for type
+2 diabetes, and the sensors are around $118 (delivered) each. They last 2 weeks and can be blue
+toothed to a compatible phone. If the phone is not compatible, scanners can be purchased from the
+company. People can use them continuously or use them when they want more in-depth picture of
+their BGL, or when medication is being titrated. Ask your PHO diabetes lead if you are interested in
+trialling a patient on a Libre2.
+
+More information can be found at Mediray New Zealand
+https://www.mediray.co.nz/freestyle-libre/freestyle-libre-2-flash-glucose-monitoringsystem/
+
+Ketone Testing
+A bit of Pathophysiology
+
+When there is not enough insulin, the fat cells keep releasing fat
+into the circulation, and the liver keeps making more and more
+ketones and ketoacids. The rising ketoacid levels make the blood
+pH too low (acidotic), which requires immediate medical
+attention.
+A person with Type 1 diabetes has the highest risk of developing
+ketoacidosis.
+
+However, ketoacidosis also can occur in someone with Type 2
+diabetes if there is a major increase in insulin resistance (such
+as infection or treatment with steroids) or reduction in insulin
+release from the pancreas.
+
+If unwell, someone taking Jardiance can have a glucose in the
+normal range but still have ketosis. The Jardiance prevents them
+passing ketones via the urine, so you must do a blood ketone test using the DUAL meter.
+
+Ketone blood testing is the preferred method for assessing the presence of ketones during times of
+sickness, as they are more accurate and timelier than urine tests. When using a DUAL meter results will
+fall into one of the following three ranges:
+• Below 0.6 mmol/L: Normal range
+• 0.6 to 1.5 mmol/L: This may develop into a problem if not treated
+• Above 1.5 mmol/L: Readings above 1.5 indicate a greater risk for developing Ketoacidosis
+(DKA). Discuss with GP and consider acute sick day management. Consider referral to
+hospital
+Regularly check the expiry date of ketone strips as they have a short life
+People are most likely to develop ketones when unwell.
+If a person with Type 2 Diabetes presents to general
+practice and is physically unwell, it is useful to do a ketone
+test. You can get Ketone tests on MPSO and they work with
+the CareSens duo meter, particularly if they are on SGLT2i
+(Jardiance).
+
+NON-INSULIN MEDICATIONS
+
+Common Oral Hypoglycaemic Agents
+Full information can be found on the New Zealand Formulary (nzf.org.nz). Prescribers need to be aware
+that the following pages are for a quick reference only.
+Metformin hydrochloride
+Metformin is the first line of treatment and sensitises the patient to their own insulin. Initially 500mg 12 times daily, increased gradually as tolerated to 1.5-2g daily in divided doses; there is very little clinical
+benefit over 2g/day.
+
+Patient Advice:
+• Take with or just after food or at a meal to reduce side effects.
+• Contact your doctor immediately if symptoms such as increasing drowsiness, loss of
+appetite, nausea, vomiting, abdominal pain, cramps, fatigue, diarrhoea, unexplained weight
+loss, muscle pain, and non-specific abdominal upset.
+• Metformin may induce ovulation, so discuss contraception with women of childbearing age.
+Renal Impairment:
+• KDIGO now recommend that 2 g per day is safe when the
+eGFR is > 45 mL/min.
+• eGFR 30-45 1000mg maximum daily dose
+• eGFR 15-30 500mg maximum daily dose
+• eGFR < 15 avoid.
+Remember:
+Withdraw or interrupt treatment in those at risk of tissue hypoxia or sudden deterioration in renal
+function, such as those with dehydration, severe infection, serious trauma, shock sepsis, acute heart
+failure, respiratory failure, or hepatic impairment, or those who have recently had a myocardial
+infarction - increased risk of Lactic acidosis.
+STOP taking temporarily if transient tummy bug, prior to surgery or contrast dye procedure (see page
+76 - sick day mangement and 82 - planned surgery).
+If you find people have had a GI upset from Metformin, encourage them to try again with a 250 mg
+dose once a day. Increase this very slowly. It doesn’t matter how small the dose is and how slowly
+you increase it, there will still be some benefit!
+Take it up as far as they can until they get GI upset again and then pull it back slightly and you have
+found their tolerated dose.
+ALWAYS THINK
+ABOUT RENAL
+FUNCTION WHEN
+SOMEONE IS ON
+METFORMIN
+
+SGLT2inhibitors – Empagliflozin Jardiance
+90% of glucose is reabsorbed from the urine back into the blood stream by Sodium Glucose cotransporter 2 in the proxmial renal tubual, along with sodium and water.
+If this process is blocked or inhibited, then glucose and fluid loss in the urine is increased.
+SGLT2inhibitors do just that, lowering blood glucose and blood volume.
+
+Preferred 2nd line agent after metformin if renal disease and/or heart failure predominates
+Doses:
+Either once a day as Jardiance in a 10mg or 25mg tablet.
+Or twice a day mixed with Metformin as Jardiamet (often better GI tolerated than metformin alone)
+
+Benefits of SGLT2i
+• Reduction in HbA1c of 5 – 11 mmol/mol
+• Hypoglycaemia is rare, but consider reducing insulin doses if HbA1c < 65
+• Modest weight loss
+• Mean reduction in systolic and diastolic BP of 1 – 6 mmHg
+• Reduced progression of diabetic renal disease
+• Reduced CVD events
+• Reduced death from heart failure
+Side effects of SGLT2i
+• Lower blood pressure – consider review of BP meds
+• Urinary tract infections & genital thrush, which is usually
+mild and short lived, but patients need advice on
+genitourinary hygiene and to seek help if concerned.
+• Consider back pocket script for thrust treatment if past Hx of thrush
+
+Your patient will meet special authority criteria if they have type 2 diabetes with an HbA1c > 53
+mmol/mol despite at least 3 months of regular use of metformin and/or an alternative glucose
+lowering therapy, is not on a funded GLP1RA (i.e. dulaglutide/liraglutide) AND any of the following:
+• has diabetic renal disease (ACR > 3 mg/mmol and/or eGFR < 60 mL/min) OR
+• has known cardiovascular disease (any ischaemic heart disease, cerebrovascular event,
+peripheral vascular disease, congestive heart failure or familial hypercholesterolaemia) OR
+• has a 5-year cardiovascular disease risk > 15% (using PREDICT risk calculator) OR
+• has a high lifetime cardiovascular risk due to onset of diabetes in childhood or as a young adult
+OR
+• is of Māori or Pacific ethnicity
+5mg / 500mg
+Or
+5mg / 1000mg
+12.5mg / 500mg
+Or
+12.5mg / 1000mg
+If your patient is
+unwell with D&V they
+are at risk of DKA.
+They should come to
+the practice for a
+blood ketone check
+(see page 48.) You
+must have a CareSens
+Dual meter and
+KetoSens test strips
+available.
+
+GLP1RA – Dulaglutide (Trulicity)
+Liraglutide (Victoza)
+Glucagon Like Peptide 1 Receptor Agonist is the main incretin produced in the small bowel. The
+mechanism of action of its receptor agonist is to act on the pancreatic islet cells to increase glucose
+dependent insulin secretion, decrease glucagon secretion and reduce hepatic glucose production. It also
+acts on other organs to slow gastric emptying, reduce appetite, increase cardiac output and increase
+loss of sodium.
+Due to a worldwide shortage of supply, refer to the PHARMAC website for the latest on availability and
+SA criteria https://pharmac.govt.nz/medicine-funding-and-supply/medicine-notices/dulaglutide . Best
+practice does indicate that both can be prescribed, so if the patient chooses to self-fund one of the 2nd
+line therapies, the empagliflozin is considerably cheaper than the dulaglutide or liraglutide.
+Preferred 2nd line agent after metformin if cerebrovascular disease predominates, especially if
+overweight or obese
+
+Clinical benefits
+• Mean ↓ in HbA1c of 6-15mmol/mol
+• ↓ Weight
+• Mean ↓ in systolic BP 2-3mmHg
+• Mean ↓ LDL 0.08mmol/L
+• ↓cardiovascular events (MI, CVA, CVD death)
+• Likely ↓ progression to diabetic renal disease
+Adverse effects
+• Gastrointestinal (nausea, vomiting, diarrhoea)
+usually mild and reduces with time
+• Injection site reactions
+• Antibody formation to GLP1RA
+• Pancreatitis – caution recommended if previous
+pancreatitis
+Anticipate and prepare for adverse effects
+Up to 30% of people suffer nausea when starting dulaglutide or liraglutide. Reassure your patient that the GI
+symptoms are expected, usually mild, will reduce within 2 or 3 weeks and are less if they:
+• Have adequate hydration
+• Eat smaller meals – stop eating when you feel full
+• Avoid fatty or spicy food
+• Reduce smoking and alcohol intake
+• Don’t eat within 2 hours of bed
+DULAGLUTIDE (Trulicity)
+• Dose - 1.5mg weekly injection (max dose
+4.5mg per week, or 3 injections
+• Pre-loaded single use pen. Dispose of in
+sharps container after use.
+LIRAGLUTIDE (Victoza)
+• Dose – start at 0.6mg per day for a
+week, increasing step wise to 1.2mg per
+day for a week and then 1.8mg per day.
+• Prescribe 4mm needles and change
+daily, provide sharps container.
+• Prefilled pen lasts approximately a
+week.
+GLP1ra may
+induce
+ovulation.
+Discuss
+contraception
+.
+
+DPP4inhibitors – Vildagliptin Galvus
+Dipeptidylpeptidase is an enzyme that deactivates GLP-1 (glucagon-like-peptide-1) and GIP (glucosedependent insulinotropic polypeptide). After eating a meal these hormones inhibit glucagon release and
+increase insulin production, they also delay gastric emptying, all of which lower blood glucose levels.
+DPP4 inhibitors block the enzyme DPP4 and enables the GLP-1 and GIP incretins to work properly so
+improving blood glucose control
+
+Galvus is the next 2nd line agent after metformin for those not meeting funding criteria for SGLT2i or
+GLP1ra
+Galvumet which combines Galvus and Metformin is available in 50/850mg tablets and 50/1000mg
+tablets. This decreases medication burden as patients take less tablets for the same effect. Anecdotally,
+people intolerant to metformin often tolerate it well in this combined tablet.
+• Galvus and Galvumet cannot be used in conjunction with GLP1RA (Trulicity/Victoza) but can
+be used with SGLT2i (Jardiance)
+• Vildagliptin can be used at a dosage of 50mg once or twice daily. It should be reduced to
+50mg if eGFR is less than 50mL/minute/1.73m2. It does not cause hypos by itself but used in
+combination with sulphonylurea or insulin hypoglycaemia can occur.
+• Vildagliptin has been shown to delay the progression to requiring insulin.
+• Gliptins are a class of medications that are weight neutral. They can cause a reduction of
+HbA1c between 7-12mmol after 12 weeks of treatment.
+• There seems to be few side effects but the most common of these are nasal stuffiness,
+headache and dizziness which can occur in 6-9% of patients.
+• Contraindicated: do not use if liver enzymes (ALT or AST) are two and half times the upper
+limit of normal pre-treatment. The use of DPP4 inhibitors have been associated with an
+increased risk of pancreatitis although there is still uncertainty and debate around the
+strength of this association but probably best to avoid in this group of patients.
+• A very comprehensive Bpac article can be found here:
+https://bpac.org.nz/2018/vildagliptin.aspx
+
+Other funded 3rd line oral agents
+A snippet of less used/available oral medication options.
+Find all the up to date information at: https://t2dm.nzssd.org.nz/Subject-21-Non-insulin-medications
+Class Name Background Information
+Sulphonylurea
+
+Gliclazide
+Glipizide
+• Stimulates the pancreas to produce more insulin
+• Effectiveness diminishes over time as βcell function declines
+• Take with breakfast or first meal of the day. If BD dose, take second
+dose with evening meal
+• Can cause hypoglycaemia. Patients need education about hypo
+management and a funded glucose meter
+• Can lead to weight gain
+• Do not use in conjunction with rapid acting or mixed insulin
+• Contraindicated: pregnancy, renal and hepatic impairment.
+Thiazolidinediones
+(TZD)
+Pioglitazone
+• Makes cells more sensitive to insulin
+• Shown to decrease cardiovascular outcomes
+• Beneficial with some mild MAFLD, high TG, or low HDL
+• Caution in patients with renal dysfunction/liver failure
+• AVOID in patients with heart failure
+• 2.3-4.9kg weight gain
+• Side effects: Peripheral oedema, expansion of plasma volume,
+increased risk of anaemia, heart failure
+• Contraindicated: History of heart failure, bladder cancer,
+osteoporosis – fracture risk in women if used long term
+• Only continue beyond 6 months if there has been a reduction of
+5mmol/mol or more in HbA1c
+a-Glucosidase
+Inhibitors Acarbose
+• Taken orally and reduces the amount of glucose absorbed in the
+small intestine by blocking the a-glucosidase enzymes.
+• Should be taken with a meal.
+• Can be used as first line or added to any of oral anti-diabetic meds
+• Hypoglycaemia can occur if used with insulin/sulfonylurea - patients
+should consume glucose not sucrose if hypos occur
+• Flatulence, soft stools and diarrhoea are common side effects
+• Abdominal distension, pain and hepatitis have been reported
+• Contraindicated: in pregnancy, people with hepatic or renal
+impairment, have inflammatory bowel disease, history of intestinal
+obstruction/hernia, previous abdominal surgery or GI disorders with
+malabsorption
+
+A visual overview of non-insulin medications
+mechanisms of action
+
+Each of these different medications has a different mode of action.
+Not all medications are available or fully funded in New Zealand. People emigrating into New Zealand
+may be using medications which they do not meet the funding criteria for here, and they may have to
+self-fund. They may be on a similar medication, and if they do meet the criteria, they might like to
+change to the funded version e.g., Dapagliflozin is not funded in New Zealand, but Empagliflozin is.
+
+If a person is already on insulin, you can still initiate oral medications to achieve the agreed
+HbA1c target. Your patient may have started insulin prior to these newly funded
+medications being available. Introducing new non-insulin medications may be an
+opportunity to decrease insulin doses, reducing hypo risk.
+
+INITIATING INSULIN
+
+Introduction
+When starting a person on insulin have a clear plan of what you are aiming to achieve; the agreed
+HbA1c target, know that they are already on maximum oral medication, and that the person has had
+some time to talk about their concerns. Have a check list, clear documentation, and a follow up strategy
+to ensure the correct dose is obtained. The process takes time and the whole practice needs to support
+the additional time and effort this takes.
+The following chapter starts with two check lists. One is the process involved, the next is an education
+check list for the patient. Then each of the points on the education check list is explained in detail. This
+may be completed in one session, but in reality, only a small portion of what is taught is retained. You
+will need to create multiple opportunities to reinforce the information in the short term, but also over
+the years. The DAR is always a great opportunity to ask questions related to insulin administration such
+as hypo management or sharps disposal.
+The earlier the insulin is started, the more of the remaining beta cell function is preserved.
+This is a sobering graph showing the consequences of delaying insulin treatment (IT) by 1 year taken
+from Primary care diabetes review regarding clinical inertia.
+
+If you need any support or further education regarding insulin initiation, contact the local diabetes
+specialist from your PHO:
+Pinnacle Kathy Knight Mob. 0276425846 kathy.knight@pinnacle.health.nz
+Hauraki Suzanne Mob. 0276086978 suzanne.moorhouse@haurakipho.org.nz
+Moorhouse
+NHC Helen Morton Mob.0272247712 helenm@nhc.maori.nz
+
+Have a plan:
+Before—During –After
+
+Before starting insulin – consider these factors:
+• What other things could be causing hyperglycaemia? Consider food, fluids, exercise, stress,
+medication, lack of sleep, infection, illness.
+• Dietitian review to prepare for mixed or bolus insulin
+• Check understanding of why control is necessary.
+• Do they take their oral meds?
+• Are the orals at maximum dose for that patient?
+• What are their blood glucose levels like? – logbook profile. No checking? No insulin!
+• Address their concerns about starting insulin.
+• Script: - Insulin (plus 2 units for priming)
+- Needles BD microfine 4 mm / 5 mm
+- Test strips if required.
+
+During insulin initiation - consider these factors:
+• You will need a 45 – 60 minute appointment.
+• Use check list.
+• Consider having check list for patient as well.
+• Company handouts.
+• Principles of adult education (don’t ‘tell’ patient what to do!)
+• Lots of opportunity for hands on with the device.
+• Consider having first dose while in clinic.
+• Key information vs information overload. Dose/pen/hypos.
+• Clearly arrange next contact moment.
+• Document – if you haven’t recorded then it didn’t happen.
+• Claim Insulin initiation and one follow up appointment through primary options.
+After the initial education session – consider these factors.
+• Phone call, email, face to face.
+• Blood glucose levels.
+• One ‘topic’ e.g. hypos – “so tell me what it would feel like, what have you got prepared to treat….”
+• Document.
+• Insulin adjusted with GP.
+• Next contact arranged.
+• Exit appointment – ensure all information covered and documented.
+• Next blood test arranged and encouraged to make contact if anything changes.
+Your practice needs to have a clear pathway for getting the initial dose of insulin to correct level.
+Either prescriber led titration, or patient led titration can work.
+
+Checklist
+
+Using a check list helps you and the patient know what to expect and provides a framework for the
+education process. The following is one example.
+Starting Insulin
+Patient name: ___________________________________________________ Date: ________________
+Checking
+When to check, how to check, how to record.
+Increase if unwell, check if hypo, looking for patterns.
+Insulin regimen
+Which insulin, what dose, and when to administer.
+How to use injection device and importance of priming.
+How to administer the insulin.
+System in place for titration.
+Sharps disposal.
+Storage of insulin.
+Hypoglycaemia advice
+How to recognise, manage and treat hypos. Discuss hypo prevention.
+Formulate individualised plan of action – what and where will their hypo kit be.
+Consider Medical Alert bracelet.
+Oral medications
+Any changes?
+Lifestyle advice
+Maintaining healthy weight by healthy eating and exercise and reinforce advice from the dietitian.
+Risks with alcohol consumption and insulin.
+Driving
+Ensure understanding of their responsibility to maintain a reasonable level of glycaemic control
+when driving. Particularly how to minimise their risk of hypos.
+If vocational driver on insulin – Ensure control is adequate for safe driving. If required, or you are
+uncertain, refer for specialist advice.
+Next contact time: _____________________________________________________________________
+
+Practice Tip: DOCUMENTATION:
+Set up a key word that mimics your education check list. It is then simple to document what you
+have covered today and what needs to be covered next time.
+
+Background information
+
+This is the insulin profile when we do not have diabetes and we eat 3 meals a day. When people have
+diabetes, and their blood glucose control deteriorates the aim of treatment is to mimic this natural
+profile, without causing hypos.
+Initially the natural function of the pancreas is supported by adding in a basal insulin. The aim being to
+reduce the overall BGL, assuming that the beta cells can still make enough post prandial (after food)
+insulin on their own. Over time, the ability to make post prandial insulin diminishes and we need to also
+add a rapid acting insulin that matches the food intake (called a bolus dose). This can be as a separate
+dose of rapid acting insulin, or a premixed insulin.
+Blood glucose checking when starting/changing insulin
+Refer chapter 5 on monitoring for more information.
+While insulin is being initiated and titrated to the correct dose, a commitment to some glucose checking
+is required. Without knowing what the blood glucose pattern is for the individual, we cannot
+initiate or correct the insulin dose.
+
+Bare minimum checking most intensive checking
+Pre breakfast, pre bed pre and 2 hour post meals (6) + pre bed (7) plus 2 am (8 checks)
+2 am checking
+If starting a new insulin or concerned about overnight hypos (often people sleep through these) ask the
+person to check at 2 am. Clues to overnight lows – HbA1c is lowish, but daytime checking high. Waking
+with nightmares or sweaty, elevated results in the morning (there can be a rebound like effect), basal
+dose >0.5 units/kg, or simply that something just does not make sense.
+Paired checking
+Refers to checks before a meal and 2 hours after a meal. The thinking is that if the rise between the two
+checks is more than 3mmols, a rapid insulin is required with the meal.
+
+Insulins to choose from
+Three companies provide insulin – Sanofi, Novo Nordisk, and Lilly. Get to know the reps and keep up to
+date with their handouts. There are a limited number of insulin options – Long acting, intermediate
+acting, rapid acting, and several premixed options. There is also short acting (Actrapid) – but rarely used
+in primary care. Most clinics are very familiar with 3 – 4 insulins and get to know how they work and
+when one is more appropriate than the other. Be aware there are more options than this and be open
+to trying different types. One insulin option will not work for every person. The trick is to look at the
+blood glucose profile and fit the insulin that best matches, while also considering the person’s lifestyle
+and the goals of management. Consider that a person may need one insulin in the morning and a
+different insulin regimen in the evening; or weekday at work is one regimen and weekends they take
+something different. See Appendix 3 (page 91) for a guide to help choose insulins for your patient.
+Insulin regimens
+Simplest most complex
+
+Long acting daily Intermediate daily and BD Premixed Basal bolus
+Once day, doesn’t
+intrude into lifestyle
+(often taken at night)
+Dose is same time every
+day and does not need
+to be taken with food.
+Works well for people
+with high BGL at one end
+of day but not the other.
+Simple. Easy to progress
+from once a day to twice.
+Gives some postprandial control. Once
+twice or three times a
+day.
+Most flexible, can
+achieve great results
+pre and post prandial
+Consider one, two or
+three bolus doses
+depending on need
+Gives no post prandial
+control (relies on some
+residual insulin supply)
+Impact on BGL may not
+cover 24 hours
+Gives no postprandial
+control.
+Best for people whose
+lifestyle is routine. Less
+flexibility, but also less
+work. Taken just before
+or with meals.
+Works best if checking
+pre (and post) meals,
+CHO counting and
+awareness of activity
+impact.
+
+Take time to discuss with
+the person the difference
+in insulin regimens.
+You may be surprised
+what they choose.
+
+Lantus CAN be used once a day (preferably nocte), but Protaphane and Humalin NPH are twice a day
+insulins.
+Rapid Insulins (New Zealand)
+
+Premixed Insulins with analogue (rapid)
+The following insulins are not used as much but are still available in New Zealand. They
+contain short acting, or human insulin as opposed to analogue insulin (rapid acting)
+Note—human insulin is manufactured in a laboratory using recombinant DNA
+technology— not from humans per se!
+Short acting insulin with human component
+
+Any insulin that is premixed (Novomix30 or Humalog Mix), or cloudy in nature (Humulin
+NPH or Protaphane), needs to be gently resuspended prior to injection. Use a rolling or
+similar action not a shake, which will introduce bubbles.
+
+Devices
+
+Consider different devices – disposable (best if there is less dexterity, convenient), or non-disposable
+(environment?), what does the patient prefer. Familiarise yourself with the pens prior to starting a
+patient on insulin. A well-resourced kit such as the one below means you will have all the gear needed in
+one place in your clinic.
+
+Follow manufacturer’s instructions. https://www.lantus.com/-
+/media/ems/conditions/diabetes/brands/lantus/consumer/lantus-solostar-pen-guide.pdf
+Make sure you know which insulin goes with which pen.
+
+Practice tip:
+A well-resourced demonstration kit such
+as this ensures that you have all the
+demonstration pens, needles, cartridges
+and the dummy tummy in one place.
+
+Technique
+When teaching a patient to use insulin, it is a good idea to get the “injection part” done early in the
+session, otherwise they are so anxious about the injection that they hear very little of the education you
+provide. Once they see it’s not as bad as anticipated, they relax and are in a better space to hear and
+learn.
+
+“Priming the pen” means dialling up 2 units and squirting into the air to make sure there are no air bubbles
+in the pen or needle. The patient then dials up the dose and injects into their thigh or abdomen. The
+prescription needs to allow for priming or they will run out of supply before the end of the month.
+
+Starting Basal Insulin
+
+Insulin can be used in conjunction with oral medications, although those that are insulin secretagogues
+(e.g. sulfonylurea) may need to be down titrated or switched to bolus insulin if hypoglycaemia occurs.
+• Start isophane (Protaphane or Humulin NPH) or glargine (Lantus) insulin at
+o 0.1 units/kg daily if HbA1c < 64 mmol/mol or BMI < 18 or elderly or renal/liver failure
+o 0.2 units/kg daily if HbA1c > 64 mmol/mol and BMI >18
+• Start with a nocte dose to counteract hepatic gluconeogenesis and target fasting blood glucose.
+• Monitor fasting blood glucose levels, and educate on how to manage hypoglycaemia (page 72)
+• If 3 consecutive fasting blood glucose levels are > 7mmol/L then increase the dose by 10% or 2 units
+every 3 days (see page 68 for more on titration)
+• Stop up-titration of basal insulin if;
+o Hypoglycaemia occurs (< 4mmol/L), OR
+o Fasting blood glucose is < 7mmol/L, OR
+o Dose reaches 0.5 units per kilogram per day
+• Basal insulin can be injected into the thigh or abdomen
+• Prescribe 4 or 5mm needles for optimal absorption, which should be changed daily
+• Rotating the site of injection is important to avoid build-up of scar tissue (lipohypertrophy) which
+results in poor absorption over time
+Examples of rotating the injection sites:
+
+Treatment intensification should be considered for patients who have not reached their
+HbA1c target after 3 months of using basal insulin, despite achieving fasting levels of
+<7mmol/L and/or they are taking a dose of 0.5units per kilogram per day.
+They may need bolus or mixed insulin…
+
+Starting Mixed (biphasic) Insulin
+
+Mixed insulins are the best option for some one who requires insulin to improve glycaemic control after meals,
+and:
+• Does not need flexibility for work patterns or exercise
+• Eats similar meals at similar times each day
+• Is not likely to need rapid intensification of insulin therapy
+• Has reduced dexterity, cognitive ability or requires supervison/support with medications
+• Prefers not to regularly monitor blood glucose levels
+• Prefers fewer injections daily
+
+When converting from basal only insulin to mixed insulin if the person generally eats one big meal per day;
+• Convert the total daily dose of basal to premixed insulin and inject before the largest meal
+• Monitor BGLs before and 2 hours after meals (paired checking, page 43)
+• Increase dose by 10% if
+o 3 paired checks indicate a rise of > 3mmol/L after meals AND
+o 3 fasting levels are > 10mmol/L
+
+When converting from basal only to mixed insulin if the person usually eats more than one meal a day;
+• Convert the total daily dose of basal to premixed insulin and inject half before breakfast and half before
+the evening meal
+• Consider a different ratio (e.g. 1/3 with breakfast, 2/3 with dinner) if one meal is larger than the other
+• Monitor BGLs before and 2 hours after breakfast and dinner (paired checking, page 43)
+o Increase breakfast dose by 10% if 3 paired checks indicate post prandial rise of > 3mmol/L AND 3 predinner BGLs are > 10mmol/L
+o Increase dinner dose by 10% if 3 paired checks with dinner indicate a post prandial rise of > 3mmol/L AND
+3 pre-breakfast BGLs are > 10mmol/L
+
+Rotate the injection sites every time to avoid lipohypertrophy (lumpy bumpy under the skin)
+
+Patients starting mixed insulin meet the referral criteria for a community dietitian to learn about eating
+a consistent amount of carbohydrate at meals. This will improve post prandial BGLs, lower HbA1c and
+help prevent weight gain.
+
+Starting Bolus (Rapid) Insulin
+
+Bolus insulin with meals is the best option for someone who requires insulin to improve glycaemic control
+after meals, and;
+• Requires flexibility for work patterns or exercise
+• Prefers a varied diet in terms of quanitity and timing
+• Will likely require rapid intensification of insulin therapy
+• Has good ability to inject
+• Is comofortable with monitoring blood glucose levels more frequently
+• Is comfortable with more frequent injections – 4 or 5 in total per day (basal + bolus)
+
+“Basal Plus” is the addition of bolus insulin to the largest meal, while continuing the basal regimen.
+• Start bolus insulin at 4 units or 10% of the basal dose
+• Monitor BGLs before and 2 hours after the meal (Paired checking, page 43)
+• Increase dose by 2 units every 3 days if 3 paired checks indicate a post prandial rise of > 3mmol/L
+• Consider the early addition of bolus insulin at other meals if the paired checking indicates a post prandial
+rise of > 3mmol/L at the other meals
+• Add correction doses to treat preprandial hyperglycaemia (see page 72)
+
+Doses of basal insulin may need to be decreased to prevent hypoglycaemia, especially if HbA1c <
+64mmol/mol
+
+If the bolus dose is “right”, a person will only need a correction dose occasionally. Correction doses are given
+when a persons blood glucose levels are unexpedly high before a meal. If someone is taking a correction
+dose at every meal or even every day then the bolus dose needs review and up titration from the prescriber
+(see page 68) . The “right dose” is achieved when the blood glucose check 2 hours after the meal is
+consistently only 1 or 2 mmol/L higher than the pre meal level.
+
+Patients starting bolus insulin meet the referral criteria for a community dietitian to learn about
+managing carbohydrate intake either through carbohydrate portions or carbohydrate counting. The
+dietitian will assess the most appropriate approach depending on the patient’s health and maths
+literacy. This will improve post prandial levels, reduce the need for correction doses, lower HbA1c and
+help prevent weight gain.
+
+Correction Doses
+
+Rapid acting insulin can be used to “correct” high blood glucose levels when added to the bolus, or
+mealtime dose, of insulin. The only insulins that can be used for this are Novo Rapid, Humalog or Apidra. It
+is NOT suitable for basal or mixed insulins.
+
+We ask our patients to check their blood glucose 2 hours after a meal as a safety measure, or to establish a
+pattern so we can determine if the bolus dose requires titration (page 68). It is NOT for the purpose of
+correcting a higher than expected reading. If someone requires correction most days or always at a certain
+meal, they likely require titration at the previous meal.
+
+Rapid insulin is active for up to 5 hours after the injection. If a correction dose is given 2 or 3 hours after
+the meal, the bolus dose has not had a chance to work fully, and the additional dose is “stacked on top” of
+the initial dose. This can cause hypoglycaemia and is why it is important that bolus insulin is not given more
+than 3 times a day - at breakfast, lunch, and dinner.
+
+The correction calculation is based on the total daily dose of insulin
+
+Rapid acting insulin is used to correct PREMEAL hyperglycaemia. It should not be injected between
+meals. A patient using bolus insulin should only ever give 3 bolus injections per day.
+
+Titration
+• Ensure you have up-to-date contact details – cell phone, landline, email, NOK.
+• Make a time and date you will contact them for BGLs and to check how they are managing.
+• Every phone call is an opportunity to reiterate the education you have given them. Pick one
+topic each time and go over it. Ask them for what they remember so you can ensure they did
+understand all the detail.
+Typically, a person will be started on a small amount of insulin then the dose is titrated up to what they
+actually require. Talk with the person about what they may expect. This process may take some time
+and ongoing commitment to blood glucose monitoring.
+
+• If the prescriber writes a maximum dose in the prescription, the nurse can support the
+patient to increase a dose up to that point.
+• Patient can self-titrate – with direction from the prescriber (using titration rates provided by
+company). Ensure that patient knows an upper limit to titration – otherwise they may just
+keep going!
+• A weight gain of 2 – 3 kgs is reasonably normal (not everyone gains weight – especially if
+insulin is started earlier).
+• Contact every 3 – 7 days until BGL within target. Don’t take too long to reach ideal dose (risk
+is patient disengages). If the patient is quite insulin resistant, they may need large doses of
+insulin, however there is very little clinical benefit in greater than 0.5units per kilo body
+weight of basal insulin.
+• Consider a percentage increase rather than a unit increase if the person appears to be
+needing quite a number of increases.
+Always be aware that insulin doses may need to decrease if the person is experiencing lower than
+target blood glucose levels. Talk to the prescriber about this.
+• Basal insulin needs to be given at the same time each day.
+• Premixed and rapid insulin must be taken immediately prior to a meal.
+If the patient is gaining weight or is regularly hypoglycaemic; they are on too much insulin.
+Type 2 diabetes is not an acute condition – aim to commence and titrate insulin safely, but efficiently.
+Be clear about the agreed HbA1c target with the patient. Tight control is not the aim for everyone.
+
+Other than the doctor, only a nurse prescriber or pharmacist prescriber can change a
+prescription
+
+Troubleshooting – I Help
+
+Try this mnemonic if there is unexplained hyperglycaemia:
+
+I HELP
+I for Insulin
+✓ is the correct insulin being used?
+✓ Is the correct insulin in the correct pen?
+✓ Is the insulin taken at the right time and sites rotated?
+✓ Is the patient priming the needle and changing it regularly?
+✓ Are doses of insulin being missed?
+✓ Is mixed/cloudy insulin being mixed prior to use?
+✓ Is the insulin being stored correctly?
+✓ Is the insulin potent/expired/gone off due to extreme temperature change?
+✓ Is the insulin being absorbed? Check the site for lumps and bumps.
+✓ Is the correct needle length being used/ (4 or 5mm)
+
+H is for Health status
+✓ Is there underlying illness?
+✓ Has a new medication been prescribed e.g prednisone, that changes glucose metabolism?
+✓ Is there a change in renal function?
+✓ Has there been a change in eyesight making dialling correct doses difficult?
+✓ Is the patient dehydrated?
+✓ Has the patient’s weight increased lately?
+✓ Check for ketones.
+
+E is for Equipment
+✓ Check glucose meter and insulin pen are working.
+✓ Check strips/insulin expiry dates.
+✓ Check storage of strips (not out of the container).
+✓ Observe technique for checking BGL and administration of insulin.
+✓ If on an insulin pump, contact the pump team.
+✓ Chek patient is washing hands prior to checking BGL.
+
+L is for Lifestyle
+✓ Has there been change in diet e.g. a new food/drink or dietary strategy?
+✓ Has there been a change in exercise habits?
+✓ Check alcohol and drug consumption.
+
+P is for Psychological issues
+✓ Are there stressors that impact on the patient’s ability to manage their diabetes?
+✓ Are the prescribed doses of insulin and non-insulin medications being taken?
+✓ Is there a fear of hypoglycaemia that leads to a reduced dose of insulin being administered?
+✓ Does the patient have a needle phobia?
+✓ Are there underlying mental health issues?
+✓ Are doses of insulin being missed to control weight?
+
+Intensification
+
+There are times when a person needs a different insulin regimen.
+• They started on a very simple regimen of one daily dose of insulin, but they no longer
+achieve adequate control on this.
+• They require fewer doses of insulin (i.e. as people age, a basal bolus regimen that requires
+CHO counting and dose adjustment may be too complex for them to manage, or they simply
+don’t wish to any longer).
+• They are planning pregnancy and require excellent control of their diabetes in the
+preconception time.
+Ensure that your clinic has up to date resources from each of the companies. Contact the representative if
+you have any questions.
+
+NovoNordisk There is no Lantus rep based in NZ
+Lee Carruthers but call Sanofi on 0800 283684
+0273694963 for their call centre in Australia
+lecu@novonordisk.com for help or resources
+
+Sharps containers
+available in pharmacies for patients
+
+Pharmacy
+• For those prescribed insulin or other injectable medications 1
+• There may be a part charge up to $5.00.
+• Available at any pharmacy who will also arrange disposal as required.
+• Patients need to provide a current prescription or have collected prescription at the
+pharmacy previously.
+
+1 note: not for needle exchange programme sharps
+
+Sharps containers are ONLY for sharps!
+• Disposable pens can be thrown away—only the
+needle goes into the sharps container.
+• Insulin cartridges can be thrown away—only the
+needle goes into the sharps containers.
+• Plastic caps, band-aids, tissues ...do not belong in
+sharps containers
+• Lancets can be disposed of in sharps container
+• The aim is one small sharps container should last
+about a year!
+
+Hypoglycaemia
+
+• What does a hypo feel like? People need to be clear between the symptoms of
+hypoglycaemia and simply feeling tired/rundown. If someone feels the “symptoms” of a
+hypo, it is always better to check blood glucose levels before treating.
+• Give written information.
+• No driving for ONE hour after a hypo has been successfully treated.
+• No driving for 24 hours after a severe hypo that has been treated by someone else because
+the person could not treat their own hypo.
+
+Consider a medical alert bracelet https://www.medicalert.co.nz/net/products/
+Practice point:
+Ask the person—"What have you got with you today if you needed to treat a hypo?”
+or “What have you got in the car?”
+
+Waiting gives the glucose time
+to be absorbed.
+
+Insulin storage
+
+• Insulin is stored in the fridge.
+• Once opened - store at room temperature (so the injection does not hurt as much) Dispose
+of opened insulin 28 days after opening.
+• Check the expiry date before using.
+• Look at the insulin—does it look like it normally does? Any particles, discolouration, crystal
+formation?
+• Frozen insulin cannot ever be used—throw away.
+• Do not keep insulin in the glovebox of the car—the temperature can rise too high and
+denature (cook) the insulin.
+• Cooling wallets are designed for people travelling to hot climates and are activated by water
+— no refrigeration needed. Each soak in water keeps the bag cool for 2 days.
+The Frio wallet is available in different sizes and available here:
+https://www.mediray.co.nz/diabetes/product-category/insulin-cooling-wallets/
+
+Hypo unawareness—this happens when someone has had so many hypos that their
+body no longer thinks it is unusual and forgets to warn them when their blood glucose levels drop
+below 4 mmol/L. This means they can have a blood glucose level of 2 or less in some cases, and yet
+feel absolutely normal. This puts them at extreme risk of going unconscious without warning. They
+can partially reverse this condition by keeping their blood glucose levels a little higher with NO
+hypos for a number of weeks or months. This helps ‘reset’ their body warning system so that they
+start experiencing symptoms of hypos when their blood glucose levels fall below 4mmols/L.
+
+Alcohol
+Alcohol is very energy dense, and it is easy to gain weight if drinking regularly.
+• Alcohol inhibits hepatic gluconeogenesis and induces hypoglycaemia whenever
+gluconeogenesis is required to maintain normal glucose levels. People with diabetes on a
+sulphonylurea or insulin should be warned about the blood glucose-lowering action of
+alcohol.
+
+The recommendations for people with
+diabetes remain the same as for all
+New Zealanders.
+
+Some tips from the American diabetes association:
+If you have diabetes, do not drink on an empty stomach or when your blood glucose is low, since your
+risk of low blood glucose increases after drinking.
+• Don’t skip a meal if you are going to drink. (If you use carbohydrate counting to plan meals,
+it is important to understand how the drinks you choose affect your blood glucose and often
+your insulin dose will need to be decreased if having more than one drink).
+• Wear an I.D. that notes you have diabetes. If you are in a setting where people are drinking
+alcohol, hypoglycaemia may be mistaken for being drunk.
+• For mixed drinks, choose calorie-free drink mixers like diet soda, club soda, diet tonic water
+or water.
+• As with anyone with or without diabetes, do not drive or plan to drive for several hours after
+you drink.
+Alcohol can cause hypoglycaemia shortly after drinking and for up to 24 hours after drinking. If you
+are going to drink alcohol, check your blood glucose:
+• Before you drink.
+• Before bed and throughout the night—needs to be over 8mmols before you go to sleep.
+If your blood glucose is low, eat something to raise it and be sure to check again before you go to sleep,
+and again over night to be sure it’s not dropping too low.
+Wondering if adding a glass of wine or beer might help lower your blood glucose if it is high? The effects
+of alcohol can be unpredictable, and it is not recommended as a treatment for high blood glucose. The
+risks likely outweigh any benefit that may be seen in blood glucose alone.
+
+Driving
+
+• The biggest risk is that a person has a hypo while driving causing an accident.
+• Think—over 5 to drive.
+• Tips: Check prior to driving and regularly while on a long drive—every 2 hours is
+recommended.
+• Keep your blood glucose meter with you while driving for evidence of regular checking.
+• Have a hypo kit in the car: non-perishable sweet items (glucose tablets) and a longer acting
+carbohydrate such as a muesli bar, crackers or similar.
+• The NZTA advise that you should not drive for:
+• One hour after a mild hypo
+• 24 hours for a sever hypo (requiring some else’s help)
+• 1 month if severe hypo while driving. An urgent review is required.
+• Your insurance may not be valid if you have an accident and have no evidence of
+monitoring on your meter
+
+Who needs a NZTA
+diabetes specialist
+review?
+Type 1
+Type 2 diabetes on
+insulin with or without
+oral medications
+Type 2 diabetes on
+metformin and/or
+sulphonylurea
+License Classes 2,3,4,5
+(Heavy Transport)
+and/or Endorsements
+License Classes 2,3,4,5
+(Heavy Transport)
+and/or Endorsements
+License Classes 2,3,4,5
+(Heavy Transport)
+and/or Endorsements
+Refer by Bpac for
+NZTA diabetes
+specialist review
+GP:
+If patient not engaging with selfmanagement or concerned
+about glucose
+Patient requirements for
+NZTA diabetes specialist
+review
+At least four blood glucose
+checks per day for four weeks on
+a meter prior to appointment
+Current license.
+List of current medications.
+Glasses (if worn for driving)
+Cost $300
+Payment on invoice
+Options for payments available
+
+SICK DAY MANAGEMENT
+
+This refers to periods of minor inter-current illness that
+requires changes to the persons usual diabetes selfmanagement. It is important that patients are educated on
+how to deal with sick days and have an individualised plan
+and this should be revised at each annual review.
+
+Key Concepts of sick day management
+• Have a sick day management plan
+• Never stop your usual insulin, doses may need adjusting
+• Hourly fluids to reduce the risk of dehydration (1 glass/cup)
+• Increase the frequency of blood glucose monitoring and blood ketones as necessary (1hourly if ketones present, if not then 2-hourly if BG >15mmmol)
+• Diabetes medication dose adjustment as necessary (type 2) and insulin adjustment (type 1 &
+2)
+• Metformin and Jardiance should be stopped for the duration of the illness
+• Supplementary insulin as necessary (use individualised plan)
+• Health professional number and name for assistance when sick—especially after hours.
+
+HHS: high glucose levels can cause hyperosmolar hyperglycaemic state (HHS).
+This condition is characterised by hyperglycaemia, hyperosmolarity and an absence of significant
+ketosis. The blood glucose is usually >30mmol with a raised osmolarity >320mOsmol, dehydration
+with no significant ketones/or acidosis.
+There is insulin deficiency and this condition can lead to coma if untreated.
+
+When a person with diabetes is acutely unwell, the role of primary care is to ensure that person is
+
+Type 1 Diabetes
+• patients can develop diabetic ketoacidosis (DKA) when unwell with an increase in levels of
+counter regulatory hormones which leads to hyperglycaemia and ketone bodies due to not
+enough insulin present.
+• They will often require a temporary increase in insulin which can include basal rates and
+supplementary rapid acting insulin 1-2 hourly if ketones are present and while they remain
+unwell.
+• Dehydration must be avoided with frequent fluid replacement hourly (aim for at least a cup
+or glass hourly).
+• Patient to contact their Diabetes nurse specialist or present to ED if hyperglycaemia/
+ketones/vomiting/abdominal pain/fruity breath or shortness of breath are present.
+
+On the following 2 pages is a sick day leaflet for patients with type 2 diabetes that you can copy and
+give to your patients.
+already well educated
+about sick day
+management
+well supported
+with their
+diabetes
+management
+while treating
+the underlying
+cause of the
+illness
+Almost all sick day management can happen in primary health care setting.
+Preparing the patient prior to them getting sick is important.
+Always test for ketones if
+a person with type 1 or
+type 2 diabetes presents
+to general practice and
+is unwell. See page 47
+for ketone level advice.
+
+Sick day management for people with type two
+diabetes.
+
+When you are sick you may notice that your blood glucose levels change. This can be because
+your appetite changes, but also because infections, trauma, stress and other illnesses can
+cause your blood glucose levels to go up or down.
+It can be difficult to manage your diabetes on your own when you feel crook, so it is important
+to let a whānau member, friend or neighbour know when you are unwell.
+Drink:
+If you are vomiting and not eating or drinking enough, you can quickly become dehydrated. Sip at least one
+glass of sugar free drink every hour. (Water, sugar free soft drink, tomato juice, tea, weak coffee)
+Food:
+If you are unable to eat your usual meals, something small and full of energy each hour can help. Some
+examples are orange juice, milk, soup and toast, fruit yoghurt, 4 – 6 water crackers, 1 small banana
+Checking:
+Check your blood glucose levels often – every 2 or 4 hours if you are really sick. More often if needed. This is
+so you can react if your blood glucose is too high or too low. You might need to call your nurse for help, and
+she will ask how your blood glucose levels have been.
+
+Healthline is a free 24-hour telephone health advice service. Phone 0800 611 116 for any health
+information.
+
+Medicine:
+If you are feeling a little unwell, its really important that you still take the medicines the doctor has prescribed
+for you.
+
+If you are really sick and if your glucose levels are higher than normal – contact your nurse for help. You may
+neeed to change the medicine you take.
+If your glucose levels are lower than normal – you may need less of the insulin or tablets that you take.
+Hypo – if your blood glucose is too low or under 4 mmols.
+If your blood glucose levels are under 4 mmols – your need to treat this ‘hypo’ with a small dose of sugary
+drink or food – ½ a glass of regular fizzy or orange juice, 3 tsp sugar disolved in warm water, 9 jelly beans,
+glucose tablets or similar. Test your blood glucose levels again in 15 minutes, if you are still under 4 mmols,
+treat again with sugar, but if you have blood glucose above 4 – have something to eat.
+Phone your doctor or nurse if you
+Cannot keep your blood glucose above 4 mmol
+Are too sick and have no support person
+Are passing lots of urine or have abdominal pain
+Have nausea, vomiting or diarrhoea for more than 12 hours
+Feel drowsy, weak or confused
+Have chest pain
+Have difficulty breathing
+Healthline is a free 24 hour telephone health advice service.
+Phone 0800 611 116 for any health information
+
+BUT: If you have any diarrhoea or tummy upset
+Stop the Metformin, Jardiance or Jardiamet tablets if you take these.
+
+Start taking Metformin, Jardiance or Jardiamet again once you are well
+
+MEDICATION USE REVEIW
+
+What is a Medicine Use Review (MUR)?
+A Medicine Use Review Assessment is a FREE one-on-one consultation with a qualified community
+pharmacist for patients with:
+• medicines adherence issues
+• poor understanding of their medicines
+• or confusion with their medicines
+The MUR consultation involves:
+• An MUR pharmacist meeting with an eligible patient in pharmacy or at the patient’s own home
+• Collecting information about patient’s health, their history, and their medicines
+• Offering medicine advice and solutions identified in partnership with the patient
+• Reporting to the patients GP with issues identified, solutions offered, and adherence
+recommendations made
+What is the Patient Eligibility Criteria?
+The MUR service is eligible to people:
+• Living independently in the community with a chronic condition, plus one or more of the following:
+• Takes 3+ medicines and/or 12+ doses per day
+• Has multiple prescribers
+• Had a recent admission to hospital (especially if there had been a medicine change)
+• Is taking medicine(s) with a high risk of adverse effects
+• Is experiencing sub-optimal response to medication
+• Is non-adherent or unable to manage their medicines
+• Has literacy or language difficulties, dexterity problems, impaired sight, or cognitive deficiencies which
+impact on their ability to manage their medicines
+• Is taking a narrow therapeutic index medicine e.g. warfarin, amiodarone
+
+Exclusion criteria for the service is the patient can’t be living in assisted care (e.g. rest homes) – unless they
+are living in an independent villa within the retirement village, in which case they are eligible.
+
+Benefits for the Patient:
+• Improvement in patient’s adherence to taking medications
+• Increasing understanding of medicines
+• Advising when, how and what is the best way to take medicines
+
+Who can refer a patient to this service?
+• Health providers e.g. GPs, Practice Nurses, District Nurses, Diabetes Nurses
+• Pharmacists
+• Patients
+• Family/Whanau and Caregivers
+
+For more information or to refer a patient, email pharmacyreferrals@midcpg.co.nz or phone 07 8585921
+
+You can also refer via BPAC e-referrals – there is an option to send a referral to Mobile Clinical Pharmacist.
+
+ORAL HEALTH
+
+People with diabetes (type 1 or 2) have a high prevalence of oral problems such as dental caries,
+xerostomia (reduced or absent saliva flow causing dry mouth), periodontal disease, taste problems and
+oral infections. Periodontal disease which is an inflammatory condition destroys the connective tissue
+surrounding the teeth which can lead to tooth loss. These conditions are caused by poorly controlled
+blood glucose levels which cause susceptibility to bacterial infections in the mouth.
+
+Figure 5: Oral manifestations among diabetic patients [23] [41] Open Access Macedonian Journal of Medical Sciences.
+2018.
+
+Patient education includes being aware of the risk for periodontal disease and the importance of
+maintaining oral health as part of their diabetes management. This includes regular dental checks and
+care, with collaboration between patient and all health care professionals. Advice should include tooth
+brushing twice daily, with dental floss once a day to control plaque. The use of mouthwashes to prevent
+caries and plaque build-up may be useful for prevention of periodontal disease.
+
+PLANNED/ELECTIVE SURGERY
+
+Diabetes Management for Gastroenterology Procedures
+On most occasions these are outpatient procedures. All situations should be discussed with GP and
+practice nurse. However, the Endoscopy Unit have specific endoscopy protocols for the management of
+patients with diabetes who are undergoing endoscopic procedures.
+These include upper endoscopy, endoscopic ultrasound, endoscopic retrograde
+cholangiopancreatography, bronchoscopy and anterograde double balloon.
+There is also the preparation for lower endoscopic procedures which include colonoscopy and
+retrograde double balloon procedure, Klean-Prep or Pico-Salax preparation and capsule endoscopy.
+These can either be morning or afternoon procedures but for people with diabetes we would expect
+that these procedures are scheduled for the mornings.
+Patients will need an insulin reduction for all these procedures, particularly if they need to be nil by
+mouth for an extended time or require bowel prep prior to surgery. This will involve the days prior to
+the procedure and the day of procedure, and the patient’s current blood glucose profile must also be
+considered. This is particularly relevant if they have tight control, or you feel that their current dosage
+might be a bit too high. It will also depend on whether they are using basal/bolus or premixed insulins.
+It may be necessary to stop or reduce other medications such as Metformin or sulphonylurea prior to
+the procedure. For procedures involving bowel prep, Empagliflozin (Jardiance) should be stopped 3
+days prior and the day of (4 days in total) to reduce the risk of diabetes ketoacidosis (DKA).
+Other Elective Surgery
+If your patient is referred for an elective procedure, it is imperative to support good glycaemic control.
+• Patients with HbA1c 70 mmol/l will be put “on hold” until their diabetes is better managed.
+This means at least another 4 months wait for their surgery.
+• Higher HbA1c indicates
+• Twice as likely to get surgical site infection
+•  risk post-operative myocardial infarction
+• post-operative renal failure (AKI)
+• Stop Metformin and Empagliflozin (Jardiance) 3 days prior to planned surgery (i.e. 2 days
+pre-procedure and day of procedure).
+Plan ahead and maximise glycaemic control as soon as the patient is referred for surgery
+
+TRAVEL GUIDELINES
+
+There are a number of recommendations to be given to people with diabetes so that they can travel
+safely. These include planning travel with the following safeguards in mind:
+• Have a medical consultation prior to travel to assess diabetes control and check
+immunization status
+• Ask GP to provide a covering letter for travel stating that the person has diabetes requiring
+use of insulin, syringes/pen devices, monitoring equipment such as insulin
+pumps/continuous glucose monitoring devices
+• Check with airline if continuous monitoring devices can be operated during flight
+• Advise to use travel insurance
+• Advise to find out from airline about security guidelines in countries being visited
+• Carry supplies on board with the person in their hand luggage
+• Do not put insulin supplies in checked in luggage as it will be exposed to extreme
+temperatures which may degrade the insulin/lose efficacy
+• It is a good idea to also carry a printed list of prescriptions in case of medication loss or theft
+of bag
+
+If a person is on insulin and changing time zones, they will need to consider how they will change their
+insulin to meet their needs while away. Any advice given will depend on if the patient is on basal only or
+basal plus rapid acting insulins. Work out when the most likely time is that the person will be having a
+meal, and how they can change into the new time zone. Remember there is quite a difference in the
+insulin needs between a person with type 1 diabetes (contact the diabetes clinic for advice) with
+absolute insulin deficiency and a person with Type 2 diabetes and some residual beta cell function.
+
+PRE-PREGNANCY PLANNING
+
+Women with pre-existing diabetes who are planning a pregnancy should be supported to achieve
+excellent glycaemic control prior to conception. This means blood glucose of 4 – 8mmol/L, or an HbA1c
+≤48mmol/mol without hypoglycaemia. They will require an appointment with their prescriber to
+maximise therapies and start folic acid.
+If HbA1c is elevated, ensure contraception is available or prescribed until glycaemic control is achieved.
+Contraindicated in pregnancy:
+• Statin
+• ACE
+• SGLT2i, GLP1RA, DPP4
+• Sulphonylurea—consider starting insulin
+prior to pregnancy.
+Recommended prior to pregnancy:
+• Folic acid 5mg (not the standard 0.8mg)
+• Retinal screening within last 6 months
+• Stop smoking and alcohol
+• Weight management
+
+The aim for pregnancy is a healthy baby and a well mother. By focusing on pre pregnancy care, the
+whānau start the pregnancy with the best outcomes in mind. For 3 months prior and during pregnancy,
+aim to achieve normoglycemia so that the baby is conceived and develops in conditions as close to a
+pregnancy uncomplicated by diabetes as possible.
+At times, this means a lot more effort from the woman with food choices, activity and checking blood
+glucose. Recommended reading: https://www.nice.org.uk/guidance/ng3/chapter/1recommendations#preconception-planning-and-care-2
+
+• Once pregnant the woman can be referred the diabetes in pregnancy team via BPAC e-referral, or
+diatetesinpregnancy@waikatodhb.health.nz Call the CNS on 021761891 for further advice.
+• Women will be in the care of a multidisciplinary team of Endocrinologist, Obstetrician, Diabetes CNS
+and Diabetes Dietitian once referred into secondary care.
+
+It is important that a woman starts the pregnancy with well controlled diabetes so that the baby's
+growth and development is optimised.
+Questions regarding contraception and pregnancy planning are embedded on the common form as
+prompts as 50% of pregnancies are not planned.
+
+PAEDIATRICS AND YOUTH
+
+If a child with type 1 diabetes presents with a concurrent illness, the role of general practice is to assess
+and treat the illness with the support of the paediatric team as required.
+Clinical Nurse specialists 027 283 1885 or 021 549 650
+Or call Waikato Hospital on 07 8398899 and ask for the Paediatric Diabetes Registrar.
+
+All members of the multi-disciplinary team which includes a Diabetes Specialist Dietitian and Clinical
+Psychologist, work part time but can be contacted individually using
+Firstname.lastname@waikatodhb.health.nz or alternatively paedsdiabetes2@waikatodhb.health.nz
+
+Taken from the Starship website for parents: what to do when your child is sick:
+https://www.starship.org.nz/sick-days
+Children and young people with diabetes generally don't get sick any more often than other
+children if their diabetes is well managed. However, illness can have a significant impact on
+diabetes. The stress hormones produced during illness can cause changes to blood glucose
+levels. Levels can go high or low depending on the type of illness. Infections that cause fever
+and pain often cause high blood glucose levels. Gastroenteritis (vomiting and diarrhoea) can
+cause low blood glucose levels. Vomiting can also be a sign of not enough insulin.
+If a child with type 1 diabetes presents with an acute illness:
+• Ask the care giver for the sick day management plan from their diabetes CNS
+• Never withhold insulin, but call the paediatric registrar for advice on changes to the usual
+dose
+• Advise the care giver to check blood glucose and ketone levels 2 hourly (see page 48 for
+ketone level advice)
+• Encourage the child to drink plenty of fluids
+Advice for when a child is unable to eat:
+• If blood glucose levels are under 10, give fluids with sugar such as diluted juice or jelly (not
+sugar free)
+• If blood glucose levels are 10 or higher, give water or sugar-free fluids
+• If the child has been vomiting or has diarrhoea, Pedialyte™ should be recommended by the
+and can be purchased from the pharmacy
+• Relieve the symptoms of pain and fever with Paracetamol or Ibuprofen
+
+Remember that teenagers who usually manage their diabetes independently need to be looked after
+when they are sick .
+
+THE YOUTH AND YOUNG ADULT DIABETES TEAM SEES YOUNG PEOPLE WITH TYPE 1 AND TYPE 2 DIABETES
+BETWEEN THE AGES OF 15 -25 FOR WRAP AROUND CARE. REFER VIA BPAC e-REFERRAL, OR 0800 242228
+
+APPENDICES
+
+Appendix 1: Key contacts
+
+Lee Caruthers add details
+
+Customer Careline please call or email
+on 0800 733 737 or
+aunrccc@novonordisk.com
+
+Nicola Edwards
+Senior Sales Representative
+Boehringer Ingelheim (N.Z.) Limited
+nicola.edwards@boehringer-ingelheim.com
+Phone: | Fax: +64 (9) 271-0629 | Mobile: +64 (0) 274993104
+
+CURRENT AS AT JUNE 2024
+
+Brian Swain 021378475
+Swain_brian@lilly.com
+Eli Lilly and company (NZ) Limited
+PO Box 109197 New Market
+
+Appendix 2: NZSSD T2DM guideline algorithm
+
+Appendix 3: NZSSD insulin algorithm
+
+Appendix 4: Key words
+
+Using
+KEYWORDS can make writing notes easier and helps keep documentation consistent
+between users. This is an example on MedTech—your PMS system will have similar capabilities. Talk
+with your administrator to set up keywords for your practice:
+
+Now to practice:
+Using MedTech, open the Mickey Mouse practice screen.
+In the clinical notes type. DAR (full stop DAR) and press ‘Enter’, and it will automatically self-populate
+what you set up.
+The headings listed here guide what you are going to record. You start typing after each heading and
+then press ENTER. This will move to the next heading down the consult and you can start typing beside
+it, repeating until all headings have an entry beside them:
+time and that you don’t repeat very often.
+
+Aim: to have keywords you can recall easily and that’ll help save you time.
+Aim: to have keywords you can recall easily and that will help save you time.
+1. After opening MedTech locate the option for:
+‘Setup/Clinical/keyword’
+2. This box will appear after setup
+is clicked
+3. To add a new
+keyword select the
+‘create document’
+option.
+4. Once the ‘create document’ is
+selected, this grey box will appear.
+
+Keyword: Type the letters for the
+keyword (If you want a keyword
+for Diabetes annual review, use
+DAR—it is important to use
+something that you will remember
+and makes sense.
+
+Type in the sentence(s) you want
+to appear in your notes when the
+keyword is select- ed. {Such as
+’Diabetes annual review
+completed today”
+5. Leave providers as
+‘All(*)’ and select ‘OK’.
+E.g. Diabetes annual review completed today
+PLAN: HbA1c remains high, requires more oral medication—task to GP.
+CLINICAL FINDINGS: BP LIPIDS WEIGHT all stable
+NUTRITION: Food plan completed 2016—discussed today and remains very
+similar. Portion size the biggest issues along with eating out at weekends.
+EXERCISE: sedentary at office but has been walking across carpark and up 4 sets
+stairs.
+Try to use keywords for
+longer blocks of typing.
+
+Appendix 5: Recalls
+
+Every practice will have a different process/system - the key, is to have a system and a key person
+assigned to:
+• monitor/do the recalls
+• Be familiar with the recall list and BPI information
+Below is a mock-up recall letter - you will need to adapt this for individual needs (annual, 3-month
+monitoring appointment, Type 1 diabetes, Type 2 diabetes).
+The majority of clinics are contacting patients with verbal and paper invitations and we know that those
+who do not respond to the initial letter or the five phone calls are most probably the people who would
+benefit the most.
+
+Recall Letter.
+
+Dear Mickey,
+
+Free Annual Diabetic Review
+
+Your annual check-up for your diabetes is now due.
+Please do a blood test and make a double appointment when it suits your schedule.
+
+Please find enclosed a form for blood tests and also a urine test. These should be done at least 3 days
+before your appointment.
+
+If you have a meter, please bring this and your logbook to your appointment. We look forward to seeing
+you soon and assisting you with your diabetes management.
+
+PLEASE ALSO BRING ALONG ALL MEDICATIONS, INSULIN PENS and STRIP SUPPLY for a check.
+You will be having a foot check, so wear footwear that is easy to remove and replace.
+
+There is no cost to you for this appointment, however, if you require a prescription there will be a
+prescription charge of $20.
+
+Yours sincerely,
+
+[Insert Name]
+
+DAR Recall Process
+A designated person initiates DAR recalls at the beginning of each Quality quarter (July, October,
+January and April). If there is a query, this person can clarify recalls. The essence is that no person misses
+their opportunity to be seen and discuss their diabetes management goals and aspirations.
+1. Print off the BPI list of High Needs “Not Achieved” Patients with HbA1c >64mmol/mol Refer to
+this list when sending DAR invites.
+2. Create the Recall Contact List for all patients requiring DAR during the next Quarter, using the
+toolbar icon or via the “Module” tab.
+3. For each patient on the Recall Contact List:
+• Check Classifications: If Type 1 Diabetes, check if patient is under secondary review, and if
+so, send a task to the designated Diabetes Nurse to decide if a Virtual DAR is best.
+• Check screening: Has DAR already been completed? If so, check if Recall is correct
+• Check Outbox: Has DAR invite/lab form already been sent?
+• Check Inbox: Have lab checks already been completed?
+• Check Daily Record, Classifications and Tasks for any relevant information/exceptions to
+DAR.
+
+Exceptions to DAR Recall:
+For any of the following, send a Task to the designated Nurse to advise DAR is due. The Nurse can liaise
+as appropriate with either the Doctor or other service provider.
+• Patients who are in Rest Home care (See below)
+• Patients who are palliative
+• Patients who are being intensively managed by a designated Diabetes Nurse
+• Patients who are under the care of Specialists services
+
+First Contact (Letter)
+• Print DIABAR letter (DAR invite)
+• Print DAR lab request. Check Tasks for any other lab tests which are also due (Liaise with
+Doctor as needed)
+• Forward letter and lab form together to Doctor for signing, before being mailed
+• If the patient is identified as “High Needs” on the BPI list: Send a task to the designated
+nurse to follow up in 2 weeks.
+• Do not reschedule recall at this stage, to keep the Patient Prompt Recall active
+• Adjust “R#” in the Recall Contact List to “1”, to indicate 1st contact made
+Second contact (phone)
+After 2 weeks if “High Needs” patients, and 6-8 weeks if standard DAR
+• Check Screening: Has DAR been completed, and Recalls updated?
+• Check Appointments: Has DAR been booked?
+• Check Daily Record, Classifications and Tasks for any new relevant information/exceptions
+before phoning patient
+• Check Inbox: Have lab tests been completed?
+ If not, phone patients to check letter and lab-form were received, and to remind them to
+complete lab tests and book DAR appointment
+ If lab tests have been completed, phone patient to book DAR appointment. Consider offering
+a Doctor’s appointment if prescription or other review is due. The DAR appointment should be
+scheduled before the Doctor’s appointment.
+• Do not reschedule recall
+• Adjust “R#” in the Recall Contact List to “2”, to indicate 2nd contact made.
+
+As with all patient phone contact, check contact details are correct, check and advise if other recalls are
+due (e.g. cervical smear) and update smoking status as appropriate.
+Third Contact (letter)
+After 2 weeks if “High Needs” patients, and 6-8 weeks if standard DAR
+• Check as per Second Contact above
+• If no appointment made send DIABR2 letter with a copy of lab test request if not yet
+completed
+• Adjust “R#” in the Recall Contact List to “3”, to indicate 3rd contact made
+If DAR incomplete after a further interval, send a Task to GP/designated Diabetes Nurse
+for review.
+
+Rest Home DARs
+Rest Home Contact Information:
+Rest Home DAR Process
+• If all people with diabetes within the rest home come to your clinic,
+• The Diabetes Nurse(s) or HCA responsible for the Rest Home DARs will coordinate these
+DARs, following the standard DAR Recall Process checks
+• A single covering letter is sent to the Nurse in Charge/Manager at the Rest Home, with all
+the DAR lab request forms for the residents due to their DAR.
+• Forward letter and lab forms together to Doctor for signing, before being sent to the Rest
+Home
+• Monitor patients on task list. Make notes of the dates lab request form were sent, when
+results are received, and leave on task list until DAR documentation complete
+• When results are back, arrange visit with the Rest Home Nurse in Charge/Manager
+• On the day of the Rest Home visit:
+• Check Rest Home has a list of patients being seen, and request patient file be available - to
+include copy of medication chart, current weight and height.
+• Take required equipment for DAR, including sphygmomanometer, foot check monofilament,
+tape measure, steri-gel, as well as DAR forms, and laptop if available
+• Invoice via reception on the day seen.
+• Complete PMS notes and submit Common Form. Task can then be completed
+• Check and adjust Recalls as appropriate
+• Send task to Doctor advising DAR has been done
+
+Diabetes Annual Review Decline Process
+• If a Patient declines to have a DAR, document this in their notes using a keyword you have
+set up adjusting as appropriate:
+“Face to face/phone discussion re diabetes annual review invitation. Pt declines to
+have DAR her as: seen elsewhere …/ declines to participate. DIAP code entered as
+incomplete, with declined, added to note line”
+• In “Screening” under “Outcome” select “Incomplete Screening (IN). Type “declined” in the
+‘Note’ field. This enables available data to still be added.
+• Reschedule Recall for 1 year and send a task to the designated nurse to advise of the decline
+• Designated Diabetes Nurse to complete Screening template as much as possible, as for
+“Virtual DAR”
+Diabetes Monitoring Recall Guideline
+Diabetes Monitoring Recalls are completed by the designated Diabetes Nurse between patient DARs - as
+a means of providing ongoing Diabetes support to the patient and based on goals set at DAR.
+To create the recall contact List:
+Process:
+• When the DAR is completed, a recall for “Diabetes Monitoring” (DCIP) is automatically
+generated for 3-6 months’ time
+• Monitoring notes can be added into DCIP (e.g. repeat HbA1c and BP in 3 months). As a
+minimum, all patients with diabetes should have their HbA1c checked 6-monthly.
+• The designated Diabetes Nurse is responsible for implementing the Diabetes Monitoring
+Process for their own patients. This may include reminding patients to complete lab tests,
+reviewing current Diabetes control and management, medications reviews and liaising with
+the Doctor as required
+Before contacting patients, the designated Diabetes Nurse should check the patient records for any new
+information, including the Daily Record and Inbox.
+• Make an entry in the notes using the Diabetes Monitoring classification, noting current
+Diabetes management and control, any recent investigations, and advice given including
+intensification of treatment
+• Liaise with/send task to GP if further input required or send task to self to provide further
+follow- up.
+• Reset Diabetes Monitoring Recall as appropriate.
+
+REFERENCES
+American Diabetes Association. (2002). Implications of the United Kingdom Prospective
+Diabetes Study. Diabetes Care. 25(1): s28-s32.
+American Diabetes Association. (2019). Microvascular complications and foot care: Standards
+of medical care in diabetes-2019. 42(1), 124-138.
+Australian Diabetes Educators Association. (2016) Clinical guiding principles for sick day
+management of adults with teyp1 diabetes and type 2 diabetes. Technical document.
+Canberra: Australian Diabetes Educators Association; 2016.
+Bate,K.L., & Jerums,G. (2003). Preventing complications of diabetes. The Medical Journal of
+Australia. 179 (9). 498-503.
+Best Practice Journal. (2014). Assessing diabetic peripheral neuropathy in primary care. (61)
+36-47.
+Diabetes New Zealand. (2018). Diabetes and health food choices.
+Doumit,J., & Prasad,B. (201). Sleep apnea in type 2 diabetes. Diabetes Spectrum 29(1), 14-19.
+Heart Foundation NZ. Managing high cholesterol.
+https://www.heartfoundation.org.nz/wellbeing/managing-risk/managing-high-cholesterol
+https://bpac.org.nz/2018/vildagliptin.aspx : a new treatment for type 2 diabetes
+https://www.health.govt.nz/your-health/healthy-living/food-activity-and-sleep/physicalactivity/how-much-activity-recommended
+International Hypoglycaemia Study Group. (2014). Current developments in diabetic
+hypoglycaemia. Paper presented at 50th Annual Meeting of European Association for the Study
+of Diabetes. Vienna.
+Jatrana,S., Crampton,P., & Filoche,S. (2009). The case for integrating oral health into primary
+health care. The New Zealand Medical Journal (122), 1301, 43-52.
+Kahkoska,A.R., & Buse,J.B. (2018). Primum Non Nocere: Refocusing Our Attention on Severe
+Hypoglycemia Prevention. Diabetes care 41(8): 1557-1559.
+Kaur,N., Kishore,L., & Singh,R. (2014). Diabetic autonomic neuropathy: pathogenesis to
+pharmacological management. Journal of Diabetes and Metabolism 5(7), 1-8.
+Khangura,D.S., Salem,M.W., Brietzke,S.A., & Sowers,M.D. (2018) Hypertension in Diabetes.
+NCBI. National Institutes of Health.
+Khunti,K., & Millar-Jones,D. (2017) Clinical inertia to insulin initiation and intensification in the
+UK: A focused literature review. Primary Care Diabetes 11(1): 3-12.
+
+Kidney Disease: Improving Global Outcomes (KDIGO) 2017. Clinical Practice Guideline Update
+for the Diagnosis, Evaluation, Prevention, and Treatment of Chronic Kidney Disease–Mineral
+and Bone Disorder (CKD-MBD). Kidney International Supplements (2017) 7, 1–59.
+Martín-Timón I, Sevillano-Collantes C, Segura-Galindo A, Del Cañizo-Gómez FJ. Type 2 diabetes
+and cardiovascular disease: Have all risk factors the same strength?. World J Diabetes.
+2014;5(4):444–470. doi:10.4239/wjd.v5.i4.444
+Ministry of Health. (2011). Guidance on the Management of Type 2 Diabetes. Wellington, New
+Zealand.
+Ministry of Health. (2015). Living Well with Diabetes. Wellington, New Zealand.
+Ministry of Health. (2018). Healthy eating.
+Nazir,M.A., AlGhamdi,L., Alkadi,M., AlBeajan,N., AlRashoudi,L., & AlHussan,M. (2018). The burden
+of Diabetes, Its Oral Complications and Their Prevention and Management. Open access
+Macedonian journal of medical sciences.
+New Zealand Formulary (NZF). (2018). Available from: www.nzf.org.nz/
+New Zealand Primary Care Handbook. (2013). Chronic Kidney Disease (CKD) Management in
+General Practice.
+New Zealand Society for the Study of Diabetes Type 2 Diabetes Management Guidance
+https://t2dm.nzssd.org.nz/
+Newman,A.B., Nieto,F.J., Guidry,U., Lind,B.K., Redline,S., Eyal,S., Pickering,T.G., & Quan. S.F. for
+the Sleep Heart Health Study Research Group. (2001). Relation of Sleep-disordered breathing to
+cardiovascular disease risk factors: the sleep heart health study. American Journal of
+Epidemiology, 154,(1), 50-59
+Willits,I.,Cole,H., Jones,R., Dimmock., Arber,M.,Craig, J., & Sims,A. (2015). Vibra tip for testing
+vibration perception to detect diabetic peripheral neuropathy:A NICE medical technology
+guidance. Applied Health Economics Health Policy. 13,315-324.
