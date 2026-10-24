@@ -40,6 +40,22 @@ These paths are relative to the folder the Assignment 1 notebook ran in (`PERSIS
 - "Total chunks (1M)" in the A2 table is a stray label. Use the header "Total chunks".
 - The B question about the best method is numbered "4" under three numbered steps. Treat it as B4.
 
+## Model choices and where each comes from
+
+Checked against every assignment file in the clone: the 2B brief, `Ass-1/briefs/Assignment 1A - CPT and SFT.pdf`, `Ass-1/briefs/Enterprise_Variants_All_Assignments.pdf`, the README, `Ass-1/requirements.txt` and the Assignment 1 notebook. No file **requires** a specific embedding model, reranker or judge. The 2B brief gives examples, and the variants guide says "Students are encouraged to experiment with different models other than recommended" (How to use this guide, point 5). Variant 1 adds no model guidance of its own ("refer directly to each assignment document").
+
+| Role | Model | Source |
+| --- | --- | --- |
+| Generator | `mistralai/Mistral-7B-v0.1` + CPT + QLoRA adapter (Assignment 1) | **Brief:** 2B Overview, "your fine-tuned model as the answer generator", and D1.2 "give your Assignment 1 model the top 3 chunks". Mistral-7B-v0.1 is one of the four Medical options in the 1A brief's "Domain & Model Selection" table, and it is `MODEL_ID` in `Assignment1A.ipynb` cell 18. |
+| Generator fallback (only if the Assignment 1 model fails) | `Qwen/Qwen2.5-7B-Instruct` | **Brief:** D1, "you may switch to an instruct model such as Llama 3.1 8B Instruct or Qwen2.5 7B Instruct". Qwen picked from that list because it is not gated. |
+| Embedding model | `BAAI/bge-base-en-v1.5` | **Our choice, allowed by the brief.** The brief's example is `all-MiniLM-L6-v2` (Part A, "Before you start"), but its 256-token limit cannot hold a 400-token chunk. A2 says to "switch to a model with a longer limit or replace that size", and say which. Switching keeps the 100 and 400 rows the brief asks for. |
+| Vector index | FAISS `IndexFlatIP` | **Brief:** A1.1, "builds a FAISS IndexFlatIP index (or another vector index)". |
+| Keyword search | BM25 (`rank-bm25`, `BM25Okapi`) | **Brief:** B2, "build a BM25 index". The library is our choice. |
+| Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2` | **Brief:** C1, "for example cross-encoder/ms-marco-MiniLM-L-6-v2". |
+| Judge | `Qwen/Qwen2.5-7B-Instruct` (or `meta-llama/Llama-3.1-8B-Instruct` if Qwen became the generator) | **Brief:** D2, "Use a judge model different from your generator, for example Llama 3.1 8B Instruct or Qwen2.5 7B Instruct". |
+
+**Stale comment to know about.** `Ass-1/requirements.txt` line 3 says `Model: stanford-crfm/BioMedLM`, but the notebook's `MODEL_ID` and title both say `mistralai/Mistral-7B-v0.1`. The notebook is what produced the adapter, so the generator is Mistral.
+
 ## Important: which file is the Assignment 1 evaluation set
 
 **Do not use `Ass-1/instruction_eval.jsonl` from the repo.** It holds 93 short pairs, and none of its questions appear in the dataset the Assignment 1 model was trained and evaluated on. It does not match the notebook's own output.
