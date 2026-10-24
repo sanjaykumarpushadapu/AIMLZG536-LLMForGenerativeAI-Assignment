@@ -30,7 +30,7 @@ The Assignment 1 generator is not in git (`cpt_ckpt/` and `adapter/` are in `Ass
 - QLoRA adapter: `Ass-1/persistent/adapter`
 - Base model id: `mistralai/Mistral-7B-v0.1`
 
-These paths are relative to the folder the Assignment 1 notebook ran in (`PERSIST = Path(".") / "persistent"` in its cell 8). If Assignment 1 ran from a different folder on the lab server, set two variables in the 2B setup cell, `CPT_DIR` and `ADAPTER_DIR`, to the real paths, and use them everywhere.
+These are the Assignment 1 paths (`PERSIST = BASE / "persistent"` in Assignment 1 cell 8, `CPT_CKPT` in cell 29, `ADAPTER_DIR` in cell 49). The 2B paths cell sets `CPT_DIR` and `ADAPTER_DIR` to the same folders. On the lab server the CPT checkpoint and adapter sit in the same folder as in Assignment 1, confirmed by the project owner, so the paths need no change.
 
 **Hugging Face access.** `meta-llama/Llama-3.1-8B-Instruct` is a gated model: it needs an `HF_TOKEN` from an account that has accepted Meta's licence. `Qwen/Qwen2.5-7B-Instruct`, `BAAI/bge-base-en-v1.5` and `cross-encoder/ms-marco-MiniLM-L-6-v2` are not gated. The Assignment 1 setup cell already reads `HF_TOKEN` from the environment.
 
@@ -46,13 +46,12 @@ Checked against every assignment file in the clone: the 2B brief, `Ass-1/briefs/
 
 | Role | Model | Source |
 | --- | --- | --- |
-| Generator | `mistralai/Mistral-7B-v0.1` + CPT + QLoRA adapter (Assignment 1) | **Brief:** 2B Overview, "your fine-tuned model as the answer generator", and D1.2 "give your Assignment 1 model the top 3 chunks". Mistral-7B-v0.1 is one of the four Medical options in the 1A brief's "Domain & Model Selection" table, and it is `MODEL_ID` in `Assignment1A.ipynb` cell 18. |
-| Generator fallback (only if the Assignment 1 model fails) | `Qwen/Qwen2.5-7B-Instruct` | **Brief:** D1, "you may switch to an instruct model such as Llama 3.1 8B Instruct or Qwen2.5 7B Instruct". Qwen picked from that list because it is not gated. |
+| Generator (fixed) | `mistralai/Mistral-7B-v0.1` + CPT + QLoRA adapter (Assignment 1) | **Brief:** 2B Overview, "your fine-tuned model as the answer generator", and D1.2 "give your Assignment 1 model the top 3 chunks". Mistral-7B-v0.1 is `MODEL_ID` in `Assignment1A.ipynb` cell 18. **Decision:** the generator stays Mistral. Assignment 1 is already submitted, so there is no switch to Qwen or Llama for generation. |
 | Embedding model | `BAAI/bge-base-en-v1.5` | **Our choice, allowed by the brief.** The brief's example is `all-MiniLM-L6-v2` (Part A, "Before you start"), but its 256-token limit cannot hold a 400-token chunk. A2 says to "switch to a model with a longer limit or replace that size", and say which. Switching keeps the 100 and 400 rows the brief asks for. |
 | Vector index | FAISS `IndexFlatIP` | **Brief:** A1.1, "builds a FAISS IndexFlatIP index (or another vector index)". |
 | Keyword search | BM25 (`rank-bm25`, `BM25Okapi`) | **Brief:** B2, "build a BM25 index". The library is our choice. |
 | Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2` | **Brief:** C1, "for example cross-encoder/ms-marco-MiniLM-L-6-v2". |
-| Judge | `Qwen/Qwen2.5-7B-Instruct` (or `meta-llama/Llama-3.1-8B-Instruct` if Qwen became the generator) | **Brief:** D2, "Use a judge model different from your generator, for example Llama 3.1 8B Instruct or Qwen2.5 7B Instruct". |
+| Judge | `Qwen/Qwen2.5-7B-Instruct` (option: `meta-llama/Llama-3.1-8B-Instruct`, gated) | **Brief:** D2, "Use a judge model different from your generator, for example Llama 3.1 8B Instruct or Qwen2.5 7B Instruct". Qwen differs from the Mistral generator, so it is kept. |
 
 **Stale comment to know about.** `Ass-1/requirements.txt` line 3 says `Model: stanford-crfm/BioMedLM`, but the notebook's `MODEL_ID` and title both say `mistralai/Mistral-7B-v0.1`. The notebook is what produced the adapter, so the generator is Mistral.
 
@@ -277,21 +276,21 @@ Put this whole text in the user turn, so the model sees `Instruction: <prompt> R
 2. **All 10 answers (1 mark).** For each query, pass the 3 reranked chunks, labelled [1] to [3]. Show a table: query, answer, chunks cited.
 3. **The not-in-corpus query (1 mark).** Add one question whose answer is not in the 14 documents (for example, about a sport, or a drug the corpus never mentions). Run it through the same retrieval, reranking and prompt. Show its 3 chunks and the reply `Not found in the documents`.
 
-**If the Assignment 1 model fails.** If it ignores the chunks, never cites, or never says "Not found", the brief allows switching to an instruct model such as `Qwen/Qwen2.5-7B-Instruct` or `meta-llama/Llama-3.1-8B-Instruct`. Then:
+**If the Assignment 1 model does not follow the rules.** The generator is kept as Mistral in every case; there is no switch. If it ignores the chunks, never cites, or never says "Not found", report the D1 check honestly:
 
-- Name the model you used.
-- Show one example of the problem: the Assignment 1 model's answer next to the chunks it ignored.
-- Choose the judge in D2 so it is still a different model.
+- Count the failures (answers with no citation, and the out-of-corpus query if it does not return "Not found").
+- Show one or two failure examples: the Mistral answer next to the chunks it ignored.
+- Say in the D1 text what the failures mean for the answers, and do not describe the answers as grounded where they are not.
 
-**Show:** the prompt, the generator name, the 10 answers, the not-in-corpus query with its reply, and the failure example if you switched.
+**Show:** the prompt, the generator name (Mistral), the 10 answers, the not-in-corpus query with its reply, the citation count, and the failure examples.
 
-**Check:** each answer either cites at least one of [1], [2] or [3], or is exactly "Not found in the documents".
+**Check:** each answer either cites at least one of [1], [2] or [3], or is exactly "Not found in the documents". Where an answer does not meet this, the failure is reported, not hidden.
 
 ## Step 7: Part D2, LLM judge (4 marks)
 
 **Inputs:** the 10 answers, their 3 chunks, the expected answers from Step 1.
 
-**Choose the judge.** It must differ from the generator. If the generator is the Assignment 1 Mistral model, use `Qwen/Qwen2.5-7B-Instruct`. If you switched the generator to Qwen, use `meta-llama/Llama-3.1-8B-Instruct` (gated: needs `HF_TOKEN`, see "Where it runs"). Free the generator first (`del model`, `gc.collect()`, `torch.cuda.empty_cache()`), load the judge in 4-bit, and use its own chat template. Use greedy decoding (`do_sample=False`), which is temperature 0. Name the judge in the notebook.
+**Choose the judge.** It must differ from the generator. The generator is Mistral, so use `Qwen/Qwen2.5-7B-Instruct`. `meta-llama/Llama-3.1-8B-Instruct` is an option only (gated: needs `HF_TOKEN`, see "Where it runs"). Free the generator first (`del model`, `gc.collect()`, `torch.cuda.empty_cache()`), load the judge in 4-bit, and use its own chat template. Use greedy decoding (`do_sample=False`), which is temperature 0. Name the judge in the notebook.
 
 1. **D2.1 Judge prompt and results (1 mark).** One prompt that checks both things and follows every hint in the brief:
 
@@ -380,7 +379,7 @@ Run it on the 10 answers (not on the not-in-corpus query). Parse the three lines
 **Part D**
 
 - [ ] D1: generation prompt, all 10 answers, the "Not found" query and its answer (Step 6)
-- [ ] D1: generator model used, plus one example of the problem if you switched from the Assignment 1 model (Step 6)
+- [ ] D1: generator model used (Mistral, the Assignment 1 model), with the D1 check results and any failure examples reported honestly (Step 6)
 - [ ] D2: judge model name and judge prompt (Step 7)
 - [ ] D2: judge results table per query, and the summary counts (Step 7)
 - [ ] D2: spot-check of 3 verdicts, with one disagreement explained if any (Step 7)
