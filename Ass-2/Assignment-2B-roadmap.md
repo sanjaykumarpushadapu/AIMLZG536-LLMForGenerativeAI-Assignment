@@ -2,21 +2,25 @@
 
 A step-by-step plan for the 2B notebook (20 marks) on the Type 2 Diabetes corpus from Assignment 1. Each step lists its inputs, what to do, what the notebook must show, and how to check it. This is a guide, not the solution.
 
+Items marked **Our choice** are not required by the brief. Each one says where it comes from.
+
 ## At a glance
 
-Build one notebook, `Ass-2/Assignment2B.ipynb`, in the same style as `Ass-1/Assignment1A.ipynb`, and run it top to bottom on the lab server (Kubeflow).
+Build one notebook, `Ass-2/Assignment2B.ipynb`, and run it top to bottom on the lab server (Kubeflow).
 
 | Part | What you build | Marks | Step |
 | --- | --- | --- | --- |
 | Setup | Notebook, folders, libraries, model paths | 0 | 0 |
-| Before A | 10 queries with expected answers and answer spans | 0 (A, B, C depend on it) | 1 |
-| A1 | One reusable dense search function, and its setup report | 2 | 2 |
+| Before A | 10 queries with expected answers and answer spans | 0 (A, B, C depend on it) | 1 (our choice for the passage link) |
+| A1 | One reusable dense search function (A1.1), and its setup report (A1.2) | 2 | 2 and 3 |
 | A2 | Chunk size test (100 and 400 tokens) and the choice | 3 | 3 |
 | B | Dense vs BM25 vs hybrid (RRF), top 5 | 4 | 4 |
 | C | Cross-encoder reranking, top 10 to top 3 | 4 | 5 |
-| D1 | Grounded answers with citations and "Not found", with a before and after check | 3 | 6 |
+| D1 | Grounded answers with citations and "Not found" | 3 | 6 |
 | D2 | LLM judge, spot-check, cause, fix | 4 | 7 |
 | Submit | .ipynb with all outputs, plus HTML export | 0 | 8 |
+
+Part totals from the brief: A 5, B 4, C 4, D 7, total 20.
 
 ### Where it runs
 
@@ -30,15 +34,15 @@ The brief asks for one notebook with all outputs visible, so the graded run happ
 | `/assessment/Ass-1` | `/home/jovyan/assessment/Ass-1` | Assignment 1 folder: corpus, dataset, `persistent/` |
 | `/assessment/hf-cache` | `/home/jovyan/assessment/hf-cache` | Hugging Face cache, set by the setup cell (`HF_HOME`) |
 
-The Assignment 1 model files sit under the Assignment 1 folder, in the same folders as Assignment 1:
+The generator is the Assignment 1 model. Its files sit in the Assignment 1 folder, the same folders Assignment 1 used:
 
 - CPT model: `/home/jovyan/assessment/Ass-1/persistent/cpt_ckpt` (from `../Ass-1/persistent/cpt_ckpt` in the 2B notebook, which runs from `Ass-2/`)
 - QLoRA adapter: `/home/jovyan/assessment/Ass-1/persistent/adapter`
 - Base model id: `mistralai/Mistral-7B-v0.1`
 
-These are the Assignment 1 paths (`PERSIST = BASE / "persistent"` in Assignment 1 cell 8, `CPT_CKPT` in cell 29, `ADAPTER_DIR` in cell 49). The 2B paths cell sets `ASS1 = Path("../Ass-1").resolve()`, so `CPT_DIR` and `ADAPTER_DIR` point at the same folders, and it prints the resolved paths. Check the printed lines in Step 0: they should read `/home/jovyan/assessment/Ass-1/...` and `/home/jovyan/assessment/hf-cache`. If `persistent/` is not under `/home/jovyan/assessment/Ass-1`, the Assignment 1 model must be copied there before Part D can run.
+**Our choice:** the folder names `persistent/cpt_ckpt` and `persistent/adapter` come from the Assignment 1 code (`PERSIST = BASE / "persistent"` in cell 8, `CPT_CKPT` in cell 29, `ADAPTER_DIR` in cell 49). The 2B brief does not name them. The 2B paths cell sets `ASS1 = Path("../Ass-1").resolve()` and prints the resolved paths. In Step 0, check that the printed lines read `/home/jovyan/assessment/Ass-1/...` and `/home/jovyan/assessment/hf-cache`. If `persistent/` is not under `/home/jovyan/assessment/Ass-1`, the Assignment 1 model must be copied there before Part D can run.
 
-**Hugging Face access.** `meta-llama/Llama-3.1-8B-Instruct` is a gated model: it needs an `HF_TOKEN` from an account that has accepted Meta's licence. `Qwen/Qwen2.5-7B-Instruct`, `BAAI/bge-base-en-v1.5` and `cross-encoder/ms-marco-MiniLM-L-6-v2` are not gated. The Assignment 1 setup cell already reads `HF_TOKEN` from the environment.
+**Hugging Face access.** `meta-llama/Llama-3.1-8B-Instruct` is a gated model: it needs an `HF_TOKEN` from an account that has accepted Meta's licence. `Qwen/Qwen2.5-7B-Instruct`, `BAAI/bge-base-en-v1.5` and `cross-encoder/ms-marco-MiniLM-L-6-v2` are not gated.
 
 ### Fixes to the brief to handle openly
 
@@ -48,16 +52,28 @@ These are the Assignment 1 paths (`PERSIST = BASE / "persistent"` in Assignment 
 
 ## Model choices and where each comes from
 
-Checked against the assignment files: the 2B brief, the Assignment 1A brief, the variants guide and the Assignment 1 notebook. No file **requires** a specific embedding model, reranker or judge. The 2B brief gives examples, and the variants guide says "Students are encouraged to experiment with different models other than recommended" (How to use this guide, point 5). Variant 1 adds no model guidance of its own ("refer directly to each assignment document").
+No file in the course requires a specific embedding model, reranker or judge. The 2B brief gives examples, and the variants guide says "Students are encouraged to experiment with different models other than recommended" (How to use this guide, point 5).
 
 | Role | Model | Source |
 | --- | --- | --- |
 | Generator (fixed) | `mistralai/Mistral-7B-v0.1` + CPT + QLoRA adapter (Assignment 1) | **Brief:** 2B Overview, "your fine-tuned model as the answer generator", and D1.2 "give your Assignment 1 model the top 3 chunks". Mistral-7B-v0.1 is `MODEL_ID` in `Assignment1A.ipynb` cell 18. The generator stays Mistral in every run. |
-| Embedding model | `BAAI/bge-base-en-v1.5` | **Our choice, allowed by the brief.** The brief's example is `all-MiniLM-L6-v2` (Part A, "Before you start"), but its 256-token limit cannot hold a 400-token chunk. A2 says to "switch to a model with a longer limit or replace that size", and say which. Switching keeps the 100 and 400 rows the brief asks for. |
+| Embedding model | `BAAI/bge-base-en-v1.5` | **Our choice, allowed by the brief.** The brief's example is `all-MiniLM-L6-v2` (Part A, "Before you start"), but its 256-token limit cannot hold a 400-token chunk. A2 says to "switch to a model with a longer limit or replace that size", and say which. |
 | Vector index | FAISS `IndexFlatIP` | **Brief:** A1.1, "builds a FAISS IndexFlatIP index (or another vector index)". |
-| Keyword search | BM25 (`rank-bm25`, `BM25Okapi`) | **Brief:** B2, "build a BM25 index". The library is our choice. |
+| Keyword search | BM25 (`rank-bm25`, `BM25Okapi`) | **Brief:** B2, "build a BM25 index". The library is **our choice**. |
 | Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2` | **Brief:** C1, "for example cross-encoder/ms-marco-MiniLM-L-6-v2". |
 | Judge | `Qwen/Qwen2.5-7B-Instruct` (option: `meta-llama/Llama-3.1-8B-Instruct`, gated) | **Brief:** D2, "Use a judge model different from your generator, for example Llama 3.1 8B Instruct or Qwen2.5 7B Instruct". Qwen differs from the Mistral generator, so it is kept. |
+
+## Our choices that are not in the brief
+
+These are working choices. Each one is labelled where it appears.
+
+| Item | Where | Source of the choice |
+| --- | --- | --- |
+| Setup cells: detect environment, folder checks, install, versions table, helpers | Step 0 | **Assignment 1 conventions.** The brief does not ask for them. |
+| Linking each eval question to its passage, and choosing the 10 queries | Step 1 | **Our choice.** Neither the brief nor the dataset gives this link. The course may not accept this method. |
+| Generator settings: 4-bit config, 120 new tokens, greedy decoding, repetition penalty 1.1, stop strings, cleanup | Step 6 | **Our choice,** taken from Assignment 1 code (cells 50 and 51). The brief does not ask for them. |
+| BEFORE and AFTER runs and the drift counts | Step 6 | **Our check,** added after the Assignment 1 model drifted on grounded prompts. It has no separate mark. |
+| Eval set = last 80 rows of `instruction_dataset.jsonl` | Step 1 | **Source:** the Assignment 1 B1 cell writes train pairs first and eval pairs last. The brief says "your Assignment 1 evaluation set". |
 
 ## Important: which file is the Assignment 1 evaluation set
 
@@ -65,42 +81,29 @@ Checked against the assignment files: the 2B brief, the Assignment 1A brief, the
 
 The Assignment 1 eval set is the **last 80 rows of `Ass-1/instruction_dataset.jsonl`**. The B1 cell of `Assignment1A.ipynb` writes train pairs first and eval pairs after, and its output says "eval split (20% of passages): 80 pairs from 10 passages". The three held-out questions printed in the Assignment 1 notebook ("When should glycaemic control, co-morbidities…", "Why must diabetes education be tailored…", "What role does physical activity play…") are the first three of those 80 rows.
 
-These 80 pairs come from 10 passages that share no passage with the training data. Each passage appears word for word, exactly once, in the cleaned corpus:
+The dataset does not record which passage each row came from. Step 1 links each row to its corpus file by matching the answer text, which is our choice.
 
-| Passage id | Source file |
-| --- | --- |
-| 2 | hse-ireland-nutrition-dietetic-type2-diabetes-2020.txt |
-| 6 | icmr-type2-diabetes-guidelines-2018.txt |
-| 7 | icmr-type2-diabetes-guidelines-2018.txt |
-| 8 | icmr-type2-diabetes-guidelines-2018.txt |
-| 9 | idf-atlas-global-diabetes-prevalence-2021.txt |
-| 15 | idf-clinical-practice-recommendations-2025.txt |
-| 16 | moh-malaysia-type2-diabetes-cpg-2020.txt |
-| 18 | moh-malaysia-type2-diabetes-cpg-2020.txt |
-| 35 | sign116-management-of-diabetes-qrg.txt |
-| 41 | sign154-pharmacological-glycaemic-control.txt |
+## Step 0: Set up the notebook (no marks; Assignment 1 conventions)
 
-Taking one query per passage gives exactly 10 queries, and you already know which passage holds each answer.
+**Our choice, not in the brief:** this step follows the Assignment 1 notebook's setup. Everything else depends on it.
 
-## Step 0: Set up the notebook the Assignment 1 way (no marks, everything depends on it)
-
-**Inputs:** `Ass-1/Assignment1A.ipynb` (to copy cells from), `Ass-1/domain_corpus/*.txt`, `Ass-1/instruction_dataset.jsonl`, `Ass-1/instruction_source_pairs.json`, the model folders above.
+**Inputs:** `Ass-1/Assignment1A.ipynb` (to copy cells from), `Ass-1/domain_corpus/*.txt`, `Ass-1/instruction_dataset.jsonl`, the model folders above.
 
 **Do:**
 
 1. Create `Ass-2/Assignment2B.ipynb` with a title cell: assignment name, domain (Type 2 Diabetes), variant 1, generator model.
 2. Copy cell 1 of Assignment 1 (`detect_env()` and `setup()`): it finds the storage folder, sets `HF_HOME` before `transformers` is imported, and picks the GPU and dtype. On Kubeflow it uses `/home/jovyan/assessment` as the storage root, so the cache is `/home/jovyan/assessment/hf-cache`.
-3. Add a folder cell that creates `data/` and `outputs/` and checks the inputs: 14 corpus files, `instruction_dataset.jsonl` with 400 rows, `instruction_source_pairs.json` with 50 passages, and both model folders. Print OK or MISSING for each, like Assignment 1 cell 3. The paths cell prints the resolved folders, so check them against the lab layout above.
+3. Add a folder cell that creates `data/` and `outputs/` and checks the inputs: 14 corpus files, `instruction_dataset.jsonl` with 400 rows, and both model folders. Print OK or MISSING for each, like Assignment 1 cell 3. The paths cell prints the resolved folders, so check them against the lab layout above.
 4. Add an install cell and a versions cell (Python, packages, torch, GPU), like Assignment 1 cells 5 and 6.
 5. Copy the helpers `print_table()` (cell 9), `md_safe()` and `working` (cell 18).
 6. Fix the random seed (`SEED = 42`) for `random`, `numpy` and `torch`.
 
-Use the Assignment 1 conventions in every part:
+**Assignment 1 conventions for every part** (**our choice**, not in the brief):
 
 - A markdown cell per part with **Goal**, **What we do**, and the marks.
-- A small heading for every numbered step in the brief, with its marks, for example "A1.1 Dense search function (1 mark)". The brief grades each numbered step on its own, so the marker should find each one at a glance.
+- A heading for every numbered step in the brief, with its marks, for example "A1.1 Dense search function (1 mark)". The brief grades each numbered step on its own.
 - A header comment on every code cell: "What this cell does", "Why", "Output".
-- An Inference cell at the end of each part that builds its text from the computed numbers, so the words always match the results.
+- An Inference cell at the end of each part that builds its text from the computed numbers.
 - Save every table to `outputs/` as CSV or JSON.
 
 **Libraries** (install with pip):
@@ -121,29 +124,48 @@ Use the Assignment 1 conventions in every part:
 
 ## Step 1: Pick 10 queries and mark answer spans (needed for A, B, C)
 
-**Inputs:** the last 80 rows of `instruction_dataset.jsonl`, `instruction_source_pairs.json`, the corpus.
+**Our choice, not in the brief.** The brief says the 10 queries come from the Assignment 1 evaluation set and each needs an answer span from the corpus. Neither the brief nor `instruction_dataset.jsonl` says which passage each question came from. This step links them by matching the answer text to the corpus. The course may not accept this method, so confirm it before the final run.
+
+**Inputs:** the last 80 rows of `instruction_dataset.jsonl`, the 14 corpus files.
 
 **Do:**
 
-1. Load the 80 eval rows and map each question to its passage through `instruction_source_pairs.json` (match on `instruction`; every eval question is there).
-2. Pick **one question per eval passage**, so the 10 queries cover all 10 passages. Prefer questions with one clear fact (a number, a drug, a threshold, a named step).
-3. Keep the pair's `response` as the **expected answer**. Part D2 judges against it.
-4. Mark the **answer span**: the shortest exact sentence or phrase in the passage that answers the question, usually 10 to 30 words. Copy it from the passage, not from the response, because the responses were written in the model's own words.
-5. Check each span appears in the cleaned corpus file after whitespace normalisation, and appears only once in the corpus.
-6. Save `data/answer_spans.json` with `qid`, `query`, `expected_answer`, `source_file`, `passage_id`, `span`.
+1. Load the last 80 rows. Assert there are 80.
+2. For each row, score every corpus sentence of 8 to 40 words against the row's `response`. Words are lowercase `[a-z0-9]+` tokens, without common stop words (`the`, `of`, `and`, and so on). Score = overlap / √(sentence tokens). Ties go to the shorter sentence. The best sentence is the row's **span**, and its file is the row's **passage**.
+3. Keep only rows whose span occurs exactly once in the whole corpus, after whitespace normalisation.
+4. Keep the best row per file. Take the 10 files with the highest overlap. Each file gives one query.
+5. Query = the row's `instruction`. Expected answer = its `response`. Span = the sentence from step 2.
+6. Save `data/answer_spans.json` with `qid`, `query`, `expected_answer`, `source_file`, `span`.
 
 ```python
 def norm(t): return " ".join(t.lower().split())
 def is_hit(chunk_text, span): return norm(span) in norm(chunk_text)
 ```
 
-Use `is_hit` for every hit rate in Parts A, B and C. A span split across two chunks counts as a miss, which is a real effect of chunk size. Shorter spans make this less likely.
+Use `is_hit` for every hit rate in Parts A, B and C. A span split across two chunks counts as a miss, which is a real effect of chunk size.
 
-**Show:** a table of the 10 queries with source file, span and expected answer. This is a graded checklist item ("Answer span marked for each of the 10 queries").
+**The 10 queries this method picks** (from the run on the 80 eval rows; the spans are whole sentences from the corpus):
 
-**Check:** all 10 asserts pass, 10 different passages are used, and each span occurs exactly once in the corpus.
+| Qid | Passage file | Query | Span (corpus sentence) |
+| --- | --- | --- | --- |
+| Q1 | `idf-clinical-practice-recommendations-2025.txt` | What should be considered when planning detection of undiagnosed T2DM and prevention programmes in low- and middle-income countries? | GLOBAL CONSIDERATIONS The capacity to detect individuals with undiagnosed T2DM and IH and implement diabetes prevention programmes varies considerably between countries and health services and systems, especially in low- and middle-income countries (LMIC). |
+| Q2 | `icmr-type2-diabetes-guidelines-2018.txt` | Which foods should people with diabetes and dyslipidaemia restrict because of their saturated and trans fats? | (b) Dyslipidaemia : Saturated and trans fats food sources like vanaspati, butter, ghee, margarine, coconut oil, red meats like sausages, ham, bacon, egg yellow, whole milk and its products should be restricted. |
+| Q3 | `moh-malaysia-type2-diabetes-cpg-2020.txt` | How should glycaemic targets be set for people with T2DM? | Therapy in most patients with T2DM should be targeted to achieve an HbA1c≤7.0% or 6.5% (where appropriate), if achievable without significant hypoglycaemia. |
+| Q4 | `sign154-pharmacological-glycaemic-control.txt` | How should people starting a sulphonylurea be counselled about hypoglycaemia warning signs? | The warning signs of hypoglycaemia, which should be outlined to people taking these agents, include (early signs) tremor, sweating, shaking, irritability, and (later signs) lack of concentration and co-ordination. |
+| Q5 | `idf-atlas-global-diabetes-prevalence-2021.txt` | How many data sources underpinned the IDF diabetes prevalence estimates, and what period did the research cover? | Methods: A total of 219 data sources meeting pre-established quality criteria reporting research conducted between 2005 and 2020 and representing 215 countries and territories were identified. |
+| Q6 | `hse-ireland-nutrition-dietetic-type2-diabetes-2020.txt` | What teaching should be given to people with diabetes who drink alcohol while on insulin or sulphonylureas? | Educating people with diabetes abou t the signs, symptoms, and self – management of delayed hypoglycaemia after drinking alcohol, especially when using insulin or sulphonylureas is recommended. |
+| Q7 | `waikato-gp-type2-diabetes-manual-2024.txt` | What hypoglycaemia risk follows evening alcohol consumption in people with diabetes? | Alcohol can cause hypoglycaemia shortly after drinking and for up to 24 hours after drinking. |
+| Q8 | `sign116-management-of-diabetes-qrg.txt` | What supportive approaches should be considered within a multidisciplinary lifestyle intervention programme for diabetes? | A Computer-assisted education packages and telephone prompting should be considered as part of a multidisciplinary lifestyle intervention programme. |
+| Q9 | `who-global-report-diabetes-2016.txt` | What behavioural changes should be advised as part of lifestyle goals in diabetes? | These people should receive (as a minimum) repeat counselling on weight loss, diet, physical activity and smoking. |
+| Q10 | `nice-ng28-type2-diabetes-management.txt` | How should diet be tailored in people with diabetes who have complications or other conditions? | It is particularly important to choose the technology that best supports a person's diabetes care. |
 
-## Step 2: Part A1, dense search (2 marks)
+**Weak matches to check by hand.** The method is word overlap, so it can pick a sentence that shares words without answering the question. Q10's span (about technology) does not answer the diet question, and Q9's span only partly does. Before the final run, read each span against its query and replace any that does not answer it. Record each replacement as a choice.
+
+**Show:** the table of 10 queries with passage file, span and expected answer. This is a graded checklist item ("Answer span marked for each of the 10 queries").
+
+**Check:** the 10 spans each occur exactly once in the corpus, the 10 passage files are all different, and a human has read each span and confirmed it answers its query.
+
+## Step 2: Part A1.1, one reusable dense search function (1 mark)
 
 **Inputs:** the corpus, the embedding model.
 
@@ -160,17 +182,15 @@ def dense_search(chunks, queries, k, model, batch_size=64, cache={}):
     # 3. Return, per query, a list of (rank, chunk_id, score, text), ranks starting at 1.
 ```
 
-The cache keeps Parts A, B and C from rebuilding the same index. Normalised vectors make the inner product equal cosine similarity. bge v1.5 accepts a query prefix (`"Represent this sentence for searching relevant passages: "`); use it or not, but say which, and keep it the same everywhere.
+The cache keeps Parts A, B and C from rebuilding the same index. Normalised vectors make the inner product equal cosine similarity. bge v1.5 accepts a query prefix (`"Represent this sentence for searching relevant passages: "`). **Our choice:** use it on queries only, never on chunks.
 
-**A1.2 Report the setup (1 mark).** The brief asks for this "for your final chunk set", so print it **after** A2 picks the size: model name, vector size, similarity measure, batch size, number of chunks, and index build time (encoding plus `index.add`, timed with `time.perf_counter()`).
-
-**Show:** the function, and the A1.2 table after A2.
+**Show:** the function.
 
 **Check:** a query copied word for word from a chunk returns that chunk at rank 1 with a score near 1.0.
 
-## Step 3: Part A2, chunk size (3 marks)
+## Step 3: Part A2, chunk size (3 marks), then A1.2 report (1 mark)
 
-**Inputs:** the corpus, `dense_search` from A1, the 10 queries and spans.
+**Inputs:** the corpus, `dense_search` from A1.1, the 10 queries and spans from Step 1.
 
 **A2.1 Chunk and test (2 marks).**
 
@@ -189,9 +209,11 @@ The cache keeps Parts A, B and C from rebuilding the same index. Normalised vect
 | 400 | | | |
 | 500 (header typo) | | | |
 
-**A2.2 Choose the size (1 mark).** Two or three sentences weighing hit rate, tokens per query, and how much context the Assignment 1 model can take. Facts to use, from the Assignment 1 notebook: the adapter was trained with `SFT_MAX_LEN = 512` on prompts with no context (cell 49), and the model's context window is 4,096 tokens (printed by cell 18). Three 400-token chunks plus the prompt come to roughly 1,300 tokens, which fits the window but is well beyond the 512 tokens the adapter saw in training. Measure the full Part D prompt length with the **Mistral** tokenizer for your chosen size, since it counts differently from the embedding tokenizer. Let the numbers decide, and quote them.
+**A2.2 Choose the size (1 mark).** Two or three sentences weighing hit rate, tokens per query, and how much context the Assignment 1 model can take. Facts to use, from the Assignment 1 notebook: the adapter was trained with `SFT_MAX_LEN = 512` on prompts with no context (cell 49), and the model's context window is 4,096 tokens (printed by cell 18). Measure the full Part D prompt length with the **Mistral** tokenizer for your chosen size, since it counts differently from the embedding tokenizer. Let the numbers decide, and quote them.
 
-**Show:** the table, the chosen size with the reason, and then the A1.2 report.
+**A1.2 Report the setup (1 mark).** The brief asks for this "for your final chunk set", so print it after A2.2 picks the size: model name, vector size, similarity measure, batch size, number of chunks, and index build time (encoding plus `index.add`, timed with `time.perf_counter()`).
+
+**Show:** the A2 table, the chosen size with the reason, and the A1.2 report.
 
 **Check:** the chunk count for 100 is about 4 times the count for 400, and `max(n_tokens) <= size` for every size.
 
@@ -258,31 +280,26 @@ Save the reranked top 3 per query as `final_chunks[qid]`. Part D uses exactly th
 
 **Inputs:** `final_chunks`, the 10 queries, the Assignment 1 generator.
 
-**Load the generator.** Load the CPT model from `../Ass-1/persistent/cpt_ckpt` in 4-bit with the same `BitsAndBytesConfig` as Assignment 1 B2, add the adapter with `PeftModel.from_pretrained(model, "../Ass-1/persistent/adapter")`, and call `model.eval()`. Load the tokenizer from the adapter folder (`AutoTokenizer.from_pretrained("../Ass-1/persistent/adapter")`): Assignment 1 saved it there after setting the chat template (cells 49 and 50), so the `Instruction: … Response:` format comes with it. Set `GEN_MAX_NEW_TOKENS = 120`, the same as Assignment 1 (`SFT_MAX_NEW_TOKENS`, cell 51), and use greedy decoding (`do_sample=False`).
+The brief asks for three D1 steps, and each is one mark:
 
-**Why the answers drift.** Assignment 1 trained the adapter on prompts with no chunks, and its answers are 1 to 3 sentences. With a long grounded prompt, the model can keep writing after its answer: a new `Instruction:` block, a heading or bold block, a repeated paragraph, or a citation such as [7] when only 3 chunks were given. The fix stays inside 2B and keeps the generator and the Assignment 1 format.
+1. **D1.1 Prompt (1 mark).** Write a prompt that tells the model to answer only from the chunks, cite the chunk numbers it used (for example [2]), and reply "Not found in the documents" when the chunks do not contain the answer. Show the prompt.
+2. **D1.2 All 10 answers (1 mark).** For each of the 10 queries, give the Assignment 1 model the top 3 chunks after reranking, each labelled with a number. Show all 10 answers.
+3. **D1.3 Not-in-corpus query (1 mark).** Add one query whose answer is not in the corpus, and show that the model replies that it cannot find it.
 
-**The fixes (AFTER run):**
+If the Assignment 1 model ignores the chunks or never says "Not found", the brief allows switching to an instruct model. **Report only:** this plan does not switch, so the generator stays Mistral. Show one example of the problem and report the counts.
 
-1. **Strict prompt** in the `Instruction: … Response:` format: answer only from the numbered chunks, cite [1] to [3] after each fact, use no other numbers, stop after the answer, and reply exactly "Not found in the documents" when the chunks do not cover the question.
-2. **Decoding control:** greedy, `max_new_tokens=120`, `repetition_penalty=1.1`, and a stop list at the next `Instruction:` or `Question:`.
-3. **Cleanup:** cut the text at the first stop string, drop a trailing heading or bold block, and trim spaces.
+**Load the generator. Our choice,** taken from Assignment 1 code (cells 50 and 51): load the CPT model from `../Ass-1/persistent/cpt_ckpt` in 4-bit with the same `BitsAndBytesConfig` as Assignment 1 B2, add the adapter with `PeftModel.from_pretrained(model, "../Ass-1/persistent/adapter")`, and call `model.eval()`. Load the tokenizer from the adapter folder (`AutoTokenizer.from_pretrained("../Ass-1/persistent/adapter")`): Assignment 1 saved it there after setting the chat template (cells 49 and 50), so the `Instruction: … Response:` format comes with it. Use greedy decoding (`do_sample=False`) and `max_new_tokens=120`, the same as Assignment 1 (`SFT_MAX_NEW_TOKENS`, cell 51).
 
-**The BEFORE run** uses the plain first draft: no rules about citations or "Not found". It uses the same greedy decoding and 120 tokens, and cuts only at `Instruction:`, as Assignment 1 does. Both runs use the same 3 reranked chunks for each query.
+**Our check (not in the brief, no separate mark): the drift test.** The Assignment 1 adapter was trained on prompts with no chunks and answers of 1 to 3 sentences. A long grounded prompt can make the model keep writing: a new `Instruction:` block, a heading or bold block, or a citation such as [7] when only 3 chunks were given. To measure this, run the same 10 queries and the not-in-corpus query twice, with the same chunks:
 
-**What we do:**
+- **BEFORE:** the plain first draft, with no rules about citations or "Not found". Greedy, 120 tokens, cut only at `Instruction:`, as Assignment 1 does.
+- **AFTER:** the strict prompt in the `Instruction: … Response:` format. It uses **our choice** settings: `repetition_penalty=1.1`, stop strings at `Instruction:` and `Question:`, and a cleanup that cuts at the first stop string and drops a trailing heading or bold block.
 
-1. D1.1 Show both prompts.
-2. D1.2 Answer the 10 queries both ways.
-3. D1.3 Answer one out-of-corpus query both ways.
-4. D1.4 Count the results, and show two examples where BEFORE drifted and AFTER did not.
-
-**Measures** (counted on the 10 queries plus the out-of-corpus query):
+Count these on the 11 queries (10 plus the not-in-corpus query):
 
 - **Valid citation:** the answer cites at least one of [1], [2], [3], and no other number.
 - **Grounded:** a valid citation, or exactly "Not found in the documents".
 - **Drift flag:** on the raw text before cleanup, a stop string appears, a heading or bold line appears, or a number outside 1 to 3 is cited.
-- **Out-of-corpus query:** correct if the reply is exactly "Not found in the documents".
 
 | Measure | BEFORE | AFTER |
 | --- | --- | --- |
@@ -290,19 +307,19 @@ Save the reranked top 3 per query as `final_chunks[qid]`. Part D uses exactly th
 | Valid citations (of 10) | | |
 | Not-found replies on the 10 queries | | |
 | Drift flags (of 11) | | |
-| Out-of-corpus query: Not found (1 = yes) | | |
+| Not-in-corpus query: Not found (1 = yes) | | |
 
-**Show:** both prompts, the generator name (Mistral), the 10 BEFORE and AFTER answers with the chunks cited, the out-of-corpus query with both replies, the counts table, and the two before and after examples (the query, the BEFORE text, the AFTER answer, and the 3 chunks).
+Show the two examples where BEFORE drifted and AFTER did not, with the query, the BEFORE text, the AFTER answer and the 3 chunks. This check is part of the D1 output, but it earns no extra marks.
 
-**If the fix does not work.** Report the counts as they are, show the failure examples, and do not describe an answer as grounded where it is not. The brief allows an instruct model when the Assignment 1 model ignores the chunks or never says "Not found". This notebook does not switch models: the generator stays Mistral. If you report anything about a switch, name the model and show the example. This is a report item only, not a plan step.
+**Show:** both prompts, the generator name (Mistral), the 10 answers with the chunks cited, the not-in-corpus query and its reply, and the drift table with its two examples.
 
-**Check:** the AFTER answer either cites only [1], [2] or [3], or is exactly "Not found in the documents". Whether each cited fact is in the chunks is checked by the judge in D2 (SUPPORTED). Both runs use the same 11 queries and the same chunks, so the counts are comparable.
+**Check:** each AFTER answer either cites only [1], [2] or [3], or is exactly "Not found in the documents". Whether each cited fact is in the chunks is checked by the judge in D2 (SUPPORTED).
 
 ## Step 7: Part D2, LLM judge (4 marks)
 
 **Inputs:** the 10 answers, their 3 chunks, the expected answers from Step 1.
 
-**Choose the judge.** It must differ from the generator. The generator is Mistral, so use `Qwen/Qwen2.5-7B-Instruct`. `meta-llama/Llama-3.1-8B-Instruct` is an option only (gated: needs `HF_TOKEN`, see "Where it runs"). Free the generator first (`del model`, `gc.collect()`, `torch.cuda.empty_cache()`), load the judge in 4-bit, and use its own chat template. Use greedy decoding (`do_sample=False`), which is temperature 0. Name the judge in the notebook.
+**Choose the judge.** It must differ from the generator. The generator is Mistral, so use `Qwen/Qwen2.5-7B-Instruct`. `meta-llama/Llama-3.1-8B-Instruct` is an option only (gated: needs `HF_TOKEN`, see "Where it runs"). Free the generator first (`del model`, `gc.collect()`, `torch.cuda.empty_cache()`), load the judge in 4-bit, and use its own chat template. Use greedy decoding (`do_sample=False`), which is temperature 0 as the brief asks. Name the judge in the notebook.
 
 1. **D2.1 Judge prompt and results (1 mark).** One prompt that checks both things and follows every hint in the brief:
 
@@ -373,7 +390,7 @@ Run it on the 10 AFTER answers (not on the not-in-corpus query). Parse the three
 
 **Part A**
 
-- [ ] Answer span marked for each of the 10 queries (Step 1)
+- [ ] Answer span marked for each of the 10 queries (Step 1, our choice for the passage link)
 - [ ] A1: embedding model name, vector size, similarity measure, batch size, index build time (Steps 2 and 3)
 - [ ] A2: chunk size table (100 and 400 tokens) and the chosen size with its reason (Step 3)
 
@@ -390,16 +407,17 @@ Run it on the 10 AFTER answers (not on the not-in-corpus query). Parse the three
 
 **Part D**
 
-- [ ] D1: both generation prompts, BEFORE and AFTER answers for all 10 queries, and the "Not found" query with both replies (Step 6)
-- [ ] D1: generator model used (Mistral, the Assignment 1 model), with the before and after counts and two before and after examples (Step 6)
+- [ ] D1: prompt, all 10 answers, and the not-in-corpus query with its answer (Step 6)
+- [ ] D1: generator model used (Mistral, the Assignment 1 model), with a problem example if the answers drifted (Step 6)
 - [ ] D2: judge model name and judge prompt (Step 7)
-- [ ] D2: judge results table per query, and the summary counts (Step 7)
+- [ ] D2: judge results table (per query) and summary counts (Step 7)
 - [ ] D2: spot-check of 3 verdicts, with one disagreement explained if any (Step 7)
-- [ ] D2: one failed answer with its 3 chunks, its cause and a suggested fix (Step 7)
+- [ ] D2: one failed answer with its 3 chunks, its cause, and a suggested fix (Step 7)
 
 ## Sources
 
 - Assignment brief: `Ass-2/Assignment 2B — RAG Pipeline.pdf`
 - Structure and code to reuse: `Ass-1/Assignment1A.ipynb` (cells 1, 3, 5, 6, 9, 18, 49, 50, 51)
-- Data: `Ass-1/domain_corpus/`, `Ass-1/instruction_dataset.jsonl` (last 80 rows = eval set), `Ass-1/instruction_source_pairs.json`
+- Data: `Ass-1/domain_corpus/`, `Ass-1/instruction_dataset.jsonl` (last 80 rows = eval set; no passage field, so Step 1 matches by answer text)
 - Model files: `Ass-1/persistent/cpt_ckpt`, `Ass-1/persistent/adapter` (under `/home/jovyan/assessment/Ass-1` on the lab server)
+- Lab Jupyter folder: `/assessment/` (the absolute path is `/home/jovyan/assessment/`)
