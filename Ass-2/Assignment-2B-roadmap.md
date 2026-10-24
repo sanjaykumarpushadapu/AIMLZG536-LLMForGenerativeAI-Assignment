@@ -2,7 +2,7 @@
 
 A step-by-step plan for the 2B notebook (20 marks) on the Type 2 Diabetes corpus from Assignment 1. Each step lists its inputs, what to do, what the notebook must show, and how to check it. This is a guide, not the solution.
 
-Audited twice against `Ass-2/Assignment 2B — RAG Pipeline.pdf` and the Assignment 1 files in this repo on 2026-10-24.
+Audited twice against `Ass-2/Assignment 2B — RAG Pipeline.pdf` and the Assignment 1 files in this repo on 2026-10-24. Step 6 was revised the same day to fix drift in the generator's answers.
 
 ## At a glance
 
@@ -16,7 +16,7 @@ Build one notebook, `Ass-2/Assignment2B.ipynb`, in the same style as `Ass-1/Assi
 | A2 | Chunk size test (100 and 400 tokens) and the choice | 3 | 3 |
 | B | Dense vs BM25 vs hybrid (RRF), top 5 | 4 | 4 |
 | C | Cross-encoder reranking, top 10 to top 3 | 4 | 5 |
-| D1 | Grounded answers with citations and "Not found" | 3 | 6 |
+| D1 | Grounded answers with citations and "Not found", with a before and after drift check | 3 | 6 |
 | D2 | LLM judge, spot-check, cause, fix | 4 | 7 |
 | Submit | .ipynb with all outputs, plus HTML export | 0 | 8 |
 
@@ -254,37 +254,45 @@ Save the reranked top 3 per query as `final_chunks[qid]`. Part D uses exactly th
 
 **Inputs:** `final_chunks`, the 10 queries, the Assignment 1 generator.
 
-**Load the generator.** Load the CPT model from `../Ass-1/persistent/cpt_ckpt` in 4-bit with the same `BitsAndBytesConfig` as Assignment 1 B2, add the adapter with `PeftModel.from_pretrained(model, "../Ass-1/persistent/adapter")`, and call `model.eval()`. Load the tokenizer from the adapter folder (`AutoTokenizer.from_pretrained("../Ass-1/persistent/adapter")`): Assignment 1 saved it there after setting the chat template (cells 49 and 50), so the `Instruction: … Response:` format comes with it. Use greedy decoding (`do_sample=False`) and about 150 new tokens.
+**Load the generator.** Load the CPT model from `../Ass-1/persistent/cpt_ckpt` in 4-bit with the same `BitsAndBytesConfig` as Assignment 1 B2, add the adapter with `PeftModel.from_pretrained(model, "../Ass-1/persistent/adapter")`, and call `model.eval()`. Load the tokenizer from the adapter folder (`AutoTokenizer.from_pretrained("../Ass-1/persistent/adapter")`): Assignment 1 saved it there after setting the chat template (cells 49 and 50), so the `Instruction: … Response:` format comes with it. Set `GEN_MAX_NEW_TOKENS = 120`, the same as Assignment 1 (`SFT_MAX_NEW_TOKENS`, cell 51), and use greedy decoding (`do_sample=False`).
 
-1. **Prompt (1 mark).** Show the prompt in the notebook. One template for all queries:
+**Why the answers drift.** Assignment 1 trained the adapter on prompts with no chunks, and its answers are 1 to 3 sentences. With a long grounded prompt, the model can keep writing after its answer: a new `Instruction:` block, a heading or bold block, a repeated paragraph, or a citation such as [7] when only 3 chunks were given. The fix stays inside 2B and keeps the generator and the Assignment 1 format.
 
-```text
-Answer the question using ONLY the numbered chunks below.
-Cite the chunk number you used after each fact, for example [2].
-If the chunks do not contain the answer, reply exactly: Not found in the documents
+**The fixes (AFTER run):**
 
-Chunks:
-[1] {chunk_1}
-[2] {chunk_2}
-[3] {chunk_3}
+1. **Strict prompt** in the `Instruction: … Response:` format: answer only from the numbered chunks, cite [1] to [3] after each fact, use no other numbers, stop after the answer, and reply exactly "Not found in the documents" when the chunks do not cover the question.
+2. **Decoding control:** greedy, `max_new_tokens=120`, `repetition_penalty=1.1`, and a stop list at the next `Instruction:` or `Question:`.
+3. **Cleanup:** cut the text at the first stop string, drop a trailing heading or bold block, and trim spaces.
 
-Question: {question}
-```
+**The BEFORE run** uses the plain first draft: no rules about citations or "Not found". It uses the same greedy decoding and 120 tokens, and cuts only at `Instruction:`, as Assignment 1 does. Both runs use the same 3 reranked chunks for each query.
 
-Put this whole text in the user turn, so the model sees `Instruction: <prompt> Response:` as in Assignment 1. Cut the output at the next `Instruction:`, as `generate_instruct()` does.
+**What we do:**
 
-2. **All 10 answers (1 mark).** For each query, pass the 3 reranked chunks, labelled [1] to [3]. Show a table: query, answer, chunks cited.
-3. **The not-in-corpus query (1 mark).** Add one question whose answer is not in the 14 documents (for example, about a sport, or a drug the corpus never mentions). Run it through the same retrieval, reranking and prompt. Show its 3 chunks and the reply `Not found in the documents`.
+1. D1.1 Show both prompts.
+2. D1.2 Answer the 10 queries both ways.
+3. D1.3 Answer one out-of-corpus query both ways.
+4. D1.4 Count the results, and show two examples where BEFORE drifted and AFTER did not.
 
-**If the Assignment 1 model does not follow the rules.** The generator is kept as Mistral in every case; there is no switch. If it ignores the chunks, never cites, or never says "Not found", report the D1 check honestly:
+**Measures** (counted on the 10 queries plus the out-of-corpus query):
 
-- Count the failures (answers with no citation, and the out-of-corpus query if it does not return "Not found").
-- Show one or two failure examples: the Mistral answer next to the chunks it ignored.
-- Say in the D1 text what the failures mean for the answers, and do not describe the answers as grounded where they are not.
+- **Valid citation:** the answer cites at least one of [1], [2], [3], and no other number.
+- **Grounded:** a valid citation, or exactly "Not found in the documents".
+- **Drift flag:** on the raw text before cleanup, a stop string appears, a heading or bold line appears, or a number outside 1 to 3 is cited.
+- **Out-of-corpus query:** correct if the reply is exactly "Not found in the documents".
 
-**Show:** the prompt, the generator name (Mistral), the 10 answers, the not-in-corpus query with its reply, the citation count, and the failure examples.
+| Measure | BEFORE | AFTER |
+| --- | --- | --- |
+| Grounded answers (of 11) | | |
+| Valid citations (of 10) | | |
+| Not-found replies on the 10 queries | | |
+| Drift flags (of 11) | | |
+| Out-of-corpus query: Not found (1 = yes) | | |
 
-**Check:** each answer either cites at least one of [1], [2] or [3], or is exactly "Not found in the documents". Where an answer does not meet this, the failure is reported, not hidden.
+**Show:** both prompts, the generator name (Mistral), the 10 BEFORE and AFTER answers with the chunks cited, the out-of-corpus query with both replies, the counts table, and the two before and after examples (the query, the BEFORE text, the AFTER answer, and the 3 chunks).
+
+**If the fix does not work.** Report the counts as they are, show the failure examples, and do not describe an answer as grounded where it is not. The brief allows an instruct model when the Assignment 1 model ignores the chunks or never says "Not found". This plan does not switch models: the generator stays Mistral, because Assignment 1 is submitted. If you report anything about a switch, name the model and show the example. This is a report item only, not a plan step.
+
+**Check:** the AFTER answer either cites only [1], [2] or [3], or is exactly "Not found in the documents". Whether each cited fact is in the chunks is checked by the judge in D2 (SUPPORTED). Both runs use the same 11 queries and the same chunks, so the counts are comparable.
 
 ## Step 7: Part D2, LLM judge (4 marks)
 
@@ -320,7 +328,7 @@ SUPPORTED: <YES | NO>
 REASON: <one sentence>
 ```
 
-Run it on the 10 answers (not on the not-in-corpus query). Parse the three lines with regular expressions on `^CORRECT:`, `^SUPPORTED:` and `^REASON:`. Show one table with a row per query: query, correct, supported, reason. Then fill the summary:
+Run it on the 10 AFTER answers (not on the not-in-corpus query). Parse the three lines with regular expressions on `^CORRECT:`, `^SUPPORTED:` and `^REASON:`. Show one table with a row per query: query, correct, supported, reason. Then fill the summary:
 
 | Check | Count out of 10 |
 | --- | --- |
@@ -378,8 +386,8 @@ Run it on the 10 answers (not on the not-in-corpus query). Parse the three lines
 
 **Part D**
 
-- [ ] D1: generation prompt, all 10 answers, the "Not found" query and its answer (Step 6)
-- [ ] D1: generator model used (Mistral, the Assignment 1 model), with the D1 check results and any failure examples reported honestly (Step 6)
+- [ ] D1: both generation prompts, BEFORE and AFTER answers for all 10 queries, and the "Not found" query with both replies (Step 6)
+- [ ] D1: generator model used (Mistral, the Assignment 1 model), with the before and after counts and two before and after examples (Step 6)
 - [ ] D2: judge model name and judge prompt (Step 7)
 - [ ] D2: judge results table per query, and the summary counts (Step 7)
 - [ ] D2: spot-check of 3 verdicts, with one disagreement explained if any (Step 7)
@@ -398,3 +406,4 @@ Run it on the 10 answers (not on the not-in-corpus query). Parse the three lines
 - The model folders could not be checked from this clone, because they are not in git. Confirm they exist on the lab server in Step 0.
 - The Hugging Face model facts (bge-base-en-v1.5: 768 dimensions and a 512-token limit; all-MiniLM-L6-v2: 256 tokens) are from the model cards, not checked from here. The notebook must print them (Step 2), and the printed values are what count.
 - The Ass-1 README points to `Ass-1/SPRINT-PLAN.md` for the team's execution sequence. That file is not in the clone.
+- The drift fix in Step 6 is a plan. Whether it works is only known after a run on the lab server, so the counts in the table are the evidence.
