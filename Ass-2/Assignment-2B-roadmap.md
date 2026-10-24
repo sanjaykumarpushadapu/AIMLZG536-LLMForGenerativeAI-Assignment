@@ -1,154 +1,242 @@
 # Assignment 2B: RAG Pipeline roadmap
 
-Plan for building the 2B notebook (20 marks) on the Type 2 Diabetes corpus from Assignment 1. This is a how-to guide, not the solution.
+A step-by-step plan for the 2B notebook (20 marks) on the Type 2 Diabetes corpus from Assignment 1. Each step lists its inputs, what to do, what the notebook must show, and how to check it. This is a guide, not the solution.
+
+Audited against `Ass-2/Assignment 2B — RAG Pipeline.pdf` and the Assignment 1 files in this repo on 2026-10-24.
 
 ## At a glance
 
-Build one notebook, `Ass-2/Assignment2B.ipynb`, in the same style as `Ass-1/Assignment1A.ipynb`.
+Build one notebook, `Ass-2/Assignment2B.ipynb`, in the same style as `Ass-1/Assignment1A.ipynb`, and run it top to bottom on the **lab server**.
 
 | Part | What you build | Marks | Step |
 | --- | --- | --- | --- |
-| Setup | Notebook, folders, libraries | 0 | 0 |
-| Before A | 10 queries with answer spans | 0 (needed for A, B, C) | 1 |
-| A | Dense search (FAISS) and chunk size | 5 | 2 |
-| B | Dense vs BM25 vs hybrid (RRF) | 4 | 3 |
-| C | Cross-encoder reranking | 4 | 4 |
-| D1 | Grounded answers with citations | 3 | 5 |
-| D2 | LLM judge, spot-check, cause, fix | 4 | 6 |
-| Submit | .ipynb with outputs and HTML export | 0 | 7 |
+| Setup | Notebook, folders, libraries, model paths | 0 | 0 |
+| Before A | 10 queries with expected answers and answer spans | 0 (A, B, C depend on it) | 1 |
+| A1 | One reusable dense search function, and its setup report | 2 | 2 |
+| A2 | Chunk size test (100 and 400 tokens) and the choice | 3 | 3 |
+| B | Dense vs BM25 vs hybrid (RRF), top 5 | 4 | 4 |
+| C | Cross-encoder reranking, top 10 to top 3 | 4 | 5 |
+| D1 | Grounded answers with citations and "Not found" | 3 | 6 |
+| D2 | LLM judge, spot-check, cause, fix | 4 | 7 |
+| Submit | .ipynb with all outputs, plus HTML export | 0 | 8 |
 
-**Reuse from Assignment 1**
+### Where it runs
 
-- `Ass-1/domain_corpus/*.txt`: the 14 cleaned documents, the document collection.
-- `Ass-1/instruction_eval.jsonl` (93 pairs): pick the 10 queries and expected answers here.
-- `Ass-1/instruction_source_pairs.json`: each pair's source passage and file name, which makes marking answer spans quick.
-- The generator: `mistralai/Mistral-7B-v0.1` with the CPT checkpoint and QLoRA adapter in `persistent/`.
+The brief asks for one notebook with all outputs visible, so the graded run happens in one place: the **lab server**, where the Assignment 1 model files are. You can write and try Steps 0 to 5 on any machine first (they need only the corpus and small models), but do the final top-to-bottom run on the lab server.
 
-**Where each step runs**
+The Assignment 1 generator is not in git (`cpt_ckpt/` and `adapter/` are in `Ass-1/.gitignore`). On the lab server they sit next to the Assignment 1 notebook:
 
-- Steps 0 to 4 (setup, spans, search, BM25, reranking) can run on any machine.
-- Part D (generating answers and judging them) runs on the lab server, where the Assignment 1 model files live.
+- CPT model: `Ass-1/persistent/cpt_ckpt` (from `../Ass-1/persistent/cpt_ckpt` in the 2B notebook)
+- QLoRA adapter: `Ass-1/persistent/adapter`
+- Base model id: `mistralai/Mistral-7B-v0.1`
 
-**Brief typos to handle openly**
+### Fixes to the brief to handle openly
 
 - The A2 text says 100 and 400 tokens, but the table header says 100 and 500. Run 100 and 400 as the text says, add a 500 row, and write one line explaining why.
-- "Total chunks (1M)" looks like a stray label.
+- "Total chunks (1M)" in the A2 table is a stray label. Use the header "Total chunks".
+- The B question about the best method is numbered "4" under three numbered steps. Treat it as B4.
 
-## Notebook layout (follow Assignment 1)
+## Important: which file is the Assignment 1 evaluation set
 
-Assignment 1 uses one pattern throughout, so copy it:
+**Do not use `Ass-1/instruction_eval.jsonl` from the repo.** It holds 93 short pairs, and none of its questions appear in the dataset the Assignment 1 model was trained and evaluated on. It does not match the notebook's own output.
 
-- A setup cell that finds the storage folder, sets the cache folder, and checks the GPU and dtype (`detect_env()` / `setup()`).
-- A cell that creates the working folders and checks that inputs exist.
-- A versions cell that prints library and GPU versions.
-- For each part: a markdown cell with **Goal** and **What we do**, then code cells, then an Inference cell whose text is built from the real numbers.
-- Every code cell starts with a header comment: "What this cell does", "Why", "Output".
-- A `print_table()` helper for every table, and `md_safe()` for printing model answers in markdown.
+The real Assignment 1 eval set is the **last 80 rows of `Ass-1/instruction_dataset.jsonl`**. The B1 cell of `Assignment1A.ipynb` writes train pairs first and eval pairs after, and its output says "eval split (20% of passages): 80 pairs from 10 passages". The three held-out questions printed in the Assignment 1 notebook ("When should glycaemic control, co-morbidities…", "Why must diabetes education be tailored…", "What role does physical activity play…") are the first three of those 80 rows.
 
-Suggested folders:
+These 80 pairs come from 10 passages that share no passage with the training data. Each passage appears word for word, exactly once, in the cleaned corpus:
 
-```
-Ass-2/
-  Assignment2B.ipynb
-  Assignment2B.html          <- export at the end
-  requirements.txt
-  data/answer_spans.json     <- 10 queries and spans (Step 1)
-  outputs/                   <- tables, rankings, answers, judge results
-```
+| Passage id | Source file |
+| --- | --- |
+| 2 | hse-ireland-nutrition-dietetic-type2-diabetes-2020.txt |
+| 6 | icmr-type2-diabetes-guidelines-2018.txt |
+| 7 | icmr-type2-diabetes-guidelines-2018.txt |
+| 8 | icmr-type2-diabetes-guidelines-2018.txt |
+| 9 | idf-atlas-global-diabetes-prevalence-2021.txt |
+| 15 | idf-clinical-practice-recommendations-2025.txt |
+| 16 | moh-malaysia-type2-diabetes-cpg-2020.txt |
+| 18 | moh-malaysia-type2-diabetes-cpg-2020.txt |
+| 35 | sign116-management-of-diabetes-qrg.txt |
+| 41 | sign154-pharmacological-glycaemic-control.txt |
 
-Read the corpus from `../Ass-1/domain_corpus/` rather than copying it.
+Taking one query per passage gives exactly 10 queries, and you already know which passage holds each answer.
 
-**Libraries** (add to `Ass-2/requirements.txt`)
+## Step 0: Set up the notebook the Assignment 1 way (no marks, everything depends on it)
+
+**Inputs:** `Ass-1/Assignment1A.ipynb` (to copy cells from), `Ass-1/domain_corpus/*.txt`, `Ass-1/instruction_dataset.jsonl`, `Ass-1/instruction_source_pairs.json`, the model folders above.
+
+**Do:**
+
+1. Create `Ass-2/Assignment2B.ipynb` with a title cell: assignment name, domain (Type 2 Diabetes), variant 1, generator model.
+2. Copy cell 1 of Assignment 1 (`detect_env()` and `setup()`): it finds the storage folder, sets `HF_HOME` before `transformers` is imported, and picks the GPU and dtype.
+3. Add a folder cell that creates `data/` and `outputs/` and checks the inputs: 14 corpus files, `instruction_dataset.jsonl` with 400 rows, `instruction_source_pairs.json` with 50 passages, and both model folders. Print OK or MISSING for each, like Assignment 1 cell 3.
+4. Add an install cell and a versions cell (Python, packages, torch, GPU), like Assignment 1 cells 5 and 6.
+5. Copy the helpers `print_table()` (cell 9), `md_safe()` and `working` (cell 18).
+6. Fix the random seed (`SEED = 42`) for `random`, `numpy` and `torch`.
+
+Use the Assignment 1 conventions in every part:
+
+- A markdown cell per part with **Goal**, **What we do**, and the marks.
+- A header comment on every code cell: "What this cell does", "Why", "Output".
+- An Inference cell at the end of each part that builds its text from the computed numbers, so the words always match the results.
+- Save every table to `outputs/` as CSV or JSON.
+
+**Libraries** (list them in `Ass-2/requirements.txt`):
 
 | Library | Used for | Part |
 | --- | --- | --- |
-| `sentence-transformers` | Embeddings and `CrossEncoder` | A, C |
-| `faiss-cpu` (or `faiss-gpu`) | `IndexFlatIP` vector index | A |
-| `transformers` | Tokenizers; generator and judge models | A, D |
+| `sentence-transformers` | Embedding model and `CrossEncoder` | A, B, C |
+| `faiss-cpu` or `faiss-gpu` | `IndexFlatIP` vector index | A, B |
+| `transformers` | Tokenizers, generator and judge models | A, D |
 | `rank-bm25` | `BM25Okapi` keyword index | B |
-| `peft`, `bitsandbytes`, `accelerate`, `torch` | Load the CPT model and QLoRA adapter in 4-bit | D |
-| `pandas` | Result tables and CSV exports | all |
+| `peft`, `bitsandbytes`, `accelerate`, `torch` | Load the CPT model and adapter in 4-bit | D |
+| `pandas`, `numpy` | Tables and scores | all |
 | `nbconvert` | HTML export | submit |
 
-**Test:** run the setup and versions cells on the target machine and confirm the GPU, the 14 corpus files, and the adapter folder are all found.
+**Show:** the environment line, the input checks, the versions table.
 
-## Step 1: Pick 10 queries and mark answer spans
+**Check:** every input check prints OK on the lab server before you write any RAG code.
 
-Every hit-rate number in Parts A to C depends on these spans. A chunk is a hit if it contains the span.
+## Step 1: Pick 10 queries and mark answer spans (needed for A, B, C)
 
-1. Choose 10 pairs from `instruction_eval.jsonl` that come from different documents and ask for a specific fact (a number, a drug, a threshold).
-2. Look up each pair's passage in `instruction_source_pairs.json` (match on `instruction`) to get its `source` file.
-3. Copy the shortest exact sentence or phrase that answers the question, usually 10 to 30 words. Short spans are fairer; long spans are more likely to split across a chunk boundary.
-4. Assert that each span appears in the cleaned corpus after whitespace normalisation.
-5. Save `data/answer_spans.json` with `id`, `query`, `expected_answer`, `source_file`, `span`.
-6. Show the 10 rows in a table in the notebook.
+**Inputs:** the last 80 rows of `instruction_dataset.jsonl`, `instruction_source_pairs.json`, the corpus.
+
+**Do:**
+
+1. Load the 80 eval rows and map each question to its passage through `instruction_source_pairs.json` (match on `instruction`; every eval question is there).
+2. Pick **one question per eval passage**, so the 10 queries cover all 10 passages. Prefer questions with one clear fact (a number, a drug, a threshold, a named step).
+3. Keep the pair's `response` as the **expected answer**. Part D2 judges against it.
+4. Mark the **answer span**: the shortest exact sentence or phrase in the passage that answers the question, usually 10 to 30 words. Copy it from the passage, not from the response, because the responses were written in the model's own words.
+5. Check each span appears in the cleaned corpus file after whitespace normalisation, and appears only once in the corpus.
+6. Save `data/answer_spans.json` with `qid`, `query`, `expected_answer`, `source_file`, `passage_id`, `span`.
 
 ```python
 def norm(t): return " ".join(t.lower().split())
 def is_hit(chunk_text, span): return norm(span) in norm(chunk_text)
 ```
 
-**Test:** the assert passes for all 10 spans, and each span appears exactly once in the corpus.
+Use `is_hit` for every hit rate in Parts A, B and C. A span split across two chunks counts as a miss, which is a real effect of chunk size. Shorter spans make this less likely.
 
-## Step 2: Part A, dense search and chunk size (5 marks)
+**Show:** a table of the 10 queries with source file, span and expected answer. This is a graded checklist item ("Answer span marked for each of the 10 queries").
 
-**Embedding model.** `all-MiniLM-L6-v2` truncates at 256 tokens, so 400-token chunks would be cut off. Recommended: switch to `BAAI/bge-base-en-v1.5` (768-dim, 512-token limit). Print `model.max_seq_length` and the vector size to prove it, and write one sentence saying you switched and why.
+**Check:** all 10 asserts pass, 10 different passages are used, and each span occurs exactly once in the corpus.
 
-**A1.1 Reusable dense search (1 mark).** Write `build_dense_index(chunks, model, batch_size=64)`: encode with `normalize_embeddings=True`, then `faiss.IndexFlatIP(dim)` and `index.add(...)`. Normalised vectors make inner product equal cosine similarity. Write `dense_search(query, k)` to encode the query the same way and return `(rank, chunk_id, score)`.
+## Step 2: Part A1, dense search (2 marks)
 
-**A1.2 Report the setup (1 mark).** Print model name, vector size, similarity measure, batch size, chunk count, and index build time (timed with `time.perf_counter()`) for the final chunk size.
+**Inputs:** the corpus, the embedding model.
 
-**A2.1 Chunk at 100 and 400 tokens, no overlap (2 marks).**
+**Choose the embedding model first.** `all-MiniLM-L6-v2` cuts input at 256 tokens, so 400-token chunks would be truncated. The brief asks you to switch models or change the size, and say which. Recommended: switch to `BAAI/bge-base-en-v1.5` (768 dimensions, 512-token limit), so 100, 400 and 500 all fit with room for the 2 special tokens. Write one sentence saying you switched and why, and print `model.max_seq_length`.
 
-- Chunk per document so no chunk spans two files. Keep `doc`, `chunk_id`, `text`, `n_tokens`.
-- Tokenise with the embedding model's tokenizer and slice the original text using offsets (`return_offsets_mapping=True`). Decoding token IDs lowercases the text, and the generator needs the original wording.
-- For each size, build the index, run the 10 queries at k=3, and compute Hit rate@3 and tokens sent per query (the top 3 chunks' `n_tokens`, averaged).
-- Fill the table, including the 500 row.
+**A1.1 One reusable function (1 mark).** The brief asks for **one** function that embeds the chunks, builds the index, and returns the top k for a query. For example:
 
-**A2.2 Choose the size (1 mark).** Two or three sentences weighing hit rate, tokens per query, and the generator's context. The Assignment 1 adapter was trained with `SFT_MAX_LEN = 512`, so three 400-token chunks is far more context than it saw in training. Let the numbers decide and quote them.
+```python
+def dense_search(chunks, queries, k, model, batch_size=64, cache={}):
+    """Embed the chunks, build a FAISS IndexFlatIP, return the top k chunks for each query."""
+    # 1. If this chunk set is not cached: encode with normalize_embeddings=True,
+    #    build faiss.IndexFlatIP(dim), index.add(...), record the build time.
+    # 2. Encode the queries the same way, index.search(q, k).
+    # 3. Return, per query, a list of (rank, chunk_id, score, text), ranks starting at 1.
+```
 
-**Test:** run one query by hand and read its top 3 chunks; check that `max(n_tokens) <= size`.
+The cache keeps Parts A, B and C from rebuilding the same index. Normalised vectors make the inner product equal cosine similarity. bge v1.5 accepts a query prefix (`"Represent this sentence for searching relevant passages: "`); use it or not, but say which, and keep it the same everywhere.
 
-## Step 3: Part B, dense vs BM25 vs hybrid (4 marks)
+**A1.2 Report the setup (1 mark).** The brief asks for this "for your final chunk set", so print it **after** A2 picks the size: model name, vector size, similarity measure, batch size, number of chunks, and index build time (encoding plus `index.add`, timed with `time.perf_counter()`).
 
-Use the chunk size from A2. All three methods return top 5 and share one `evaluate(search_fn)` helper.
+**Show:** the function, and the A1.2 table after A2.
 
-- **B1 Dense (1 mark).** Reuse `dense_search(query, k=5)`.
-- **B2 BM25 (1 mark).** `BM25Okapi` over lowercased tokens (`re.findall(r"[a-z0-9]+", text)`). Keep domain terms like `hba1c` and `sglt2` intact.
-- **B3 Hybrid with RRF (1 mark).** Take the top 20 from each method, then fuse:
+**Check:** a query copied word for word from a chunk returns that chunk at rank 1 with a score near 1.0.
+
+## Step 3: Part A2, chunk size (3 marks)
+
+**Inputs:** the corpus, `dense_search` from A1, the 10 queries and spans.
+
+**A2.1 Chunk and test (2 marks).**
+
+1. Chunk each document separately, so no chunk spans two files.
+2. Use fixed-size chunks with no overlap, at 100 and 400 tokens (plus 500, see the typo note).
+3. Count tokens with the **embedding model's** tokenizer: `tok(text, add_special_tokens=False, return_offsets_mapping=True)`. Slice the original text with the offsets, because decoding token ids lowercases it and the generator needs the original wording.
+4. Keep `doc`, `chunk_id`, `text`, `n_tokens` for each chunk.
+5. For each size, run `dense_search` on the 10 queries with k=3.
+6. Hit rate@3 = share of queries with the span in any of the top 3. Tokens sent per query = the sum of `n_tokens` of the top 3, averaged over the 10 queries.
+
+**Table to fill:**
+
+| Chunk size (tokens) | Total chunks | Hit rate@3 (%) | Tokens sent per query (top 3) |
+| --- | --- | --- | --- |
+| 100 | | | |
+| 400 | | | |
+| 500 (header typo) | | | |
+
+**A2.2 Choose the size (1 mark).** Two or three sentences weighing hit rate, tokens per query, and how much context the Assignment 1 model can take. Facts to use: the adapter was trained with `SFT_MAX_LEN = 512` on prompts with no context, and Mistral's window is far larger. Measure the full Part D prompt length with the **Mistral** tokenizer for your chosen size, since it counts differently from the embedding tokenizer. Let the numbers decide, and quote them.
+
+**Show:** the table, the chosen size with the reason, and then the A1.2 report.
+
+**Check:** the chunk count for 100 is about 4 times the count for 400, and `max(n_tokens) <= size` for every size.
+
+## Step 4: Part B, dense vs BM25 vs hybrid (4 marks)
+
+**Inputs:** the chunks at the chosen size, the 10 queries and spans.
+
+All three methods return the top 5 and share one `evaluate(search_fn)` helper, so the rows are comparable.
+
+1. **B1 Dense (1 mark).** Call `dense_search(..., k=5)`.
+2. **B2 BM25 (1 mark).** Build `BM25Okapi` once over the chunks. Tokenise chunks and queries the same way: lowercase, `re.findall(r"[a-z0-9]+", text)`. This keeps domain terms like `hba1c` and `sglt2` whole. Per query: `bm25.get_scores(tokens)`, then `np.argsort(-scores)[:k]`.
+3. **B3 Hybrid with RRF (1 mark).** Take the top **20** from dense and from BM25, then score each chunk:
 
 ```latex
 \mathrm{RRF}(d) = \frac{1}{60 + r_{\text{dense}}(d)} + \frac{1}{60 + r_{\text{BM25}}(d)}
 ```
 
-Ranks start at 1, and a chunk missing from one list gets nothing from it. Keep the top 5. Write `rrf_fuse(dense_ids, bm25_ids, k=60, top=5)` and unit-test it on a toy example.
+Ranks start at 1, and a chunk missing from one list gets nothing from that list. Sort by score and keep the top 5. Write it as `rrf_fuse(dense_ids, bm25_ids, k=60, top=5)` and test it on a toy case: a chunk ranked 2nd and 3rd should beat a chunk ranked 1st in only one list.
 
-**Table columns**
+**Table to fill:**
 
-| Column | How |
+| Method | Average query latency (ms) | Hit rate@1 (%) | Hit rate@3 (%) |
+| --- | --- | --- | --- |
+| Dense | | | |
+| BM25 | | | |
+| Hybrid (RRF) | | | |
+
+How to compute the columns:
+
+- **Latency:** the time to return the top 5 for one query, averaged over the 10 queries. Run one warm-up query first and leave it out. Dense includes encoding the query. Hybrid includes both top-20 searches and the fusion.
+- **Hit rate@1:** share of queries whose rank-1 chunk contains the span.
+- **Hit rate@3:** share with the span in any of the top 3.
+
+4. **B4 Best method (1 mark).** Two or three sentences naming the method that works best for your queries and why, using **one query** as the example. Show where the answer chunk ranked under each of the three methods for that query.
+
+**Show:** the table, a per-query table of the answer chunk's rank under each method, and the B4 text.
+
+**Check:** every hit rate is a multiple of 10%, and the hybrid top 5 only contains chunks from the two top-20 lists.
+
+## Step 5: Part C, reranking (4 marks)
+
+**Inputs:** the best method from B4, the chunks, the 10 queries and spans.
+
+1. **C1 Rerank (1 mark).** Retrieve the top **10** with the best method. Score each (query, chunk text) pair with `CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2", max_length=512)` using `ce.predict(pairs)`. Sort by score and keep the top 3. Say whether it ran on GPU or CPU.
+2. **C2 Compare rankings (1 mark).** For each query, show the top 3 before reranking (the best method's own order) and after. Show the chunk id, the first 80 characters, and a hit marker. **Rank change rate** = share of the 10 queries whose first result changes.
+3. **C3 Measure (1 mark).** Time only the `predict` call, after one warm-up, and average over the 10 queries.
+
+| Measure | Value |
 | --- | --- |
-| Avg query latency (ms) | One warm-up call, then time each of the 10 queries and average. Hybrid includes both searches and fusion. |
-| Hit rate@1 (%) | Share of queries whose rank-1 chunk contains the span |
-| Hit rate@3 (%) | Share with the span in any of the top 3 |
+| Reranking time per query (ms) | |
+| Rank change rate (%) | |
+| Hit rate@1 before reranking (from Part B, same method) | |
+| Hit rate@1 after reranking | |
 
-- **B4 Best method (1 mark).** Two or three sentences naming the winner, with one query as evidence: show where the answer chunk ranked under each method.
+4. **C4 Did it help? (1 mark).** Two or three sentences that weigh the hit rate@1 before and after against the time added. If the gain is small, note that ms-marco was trained on web search, not clinical text.
 
-**Test:** print per-query ranks of the answer chunk for each method. Every hit rate should be a multiple of 10%.
+Save the reranked top 3 per query as `final_chunks[qid]`. Part D uses exactly these.
 
-## Step 4: Part C, reranking with a cross-encoder (4 marks)
+**Show:** the before and after table for all 10 queries, the measure table, and the C4 text.
 
-- **C1 Rerank (1 mark).** Take the best method from B, retrieve the top 10, and score each (query, chunk) pair with `CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")`. Keep the top 3.
-- **C2 Compare (1 mark).** For each query, show the top 3 before and after reranking in a table. Rank change rate is the share of queries whose rank-1 chunk changes.
-- **C3 Measure (1 mark).** Fill the table: reranking time per query (ms, timing only `predict`, after a warm-up), rank change rate, hit rate@1 before (from B) and after.
-- **C4 Did it help? (1 mark).** Two or three sentences weighing the hit@1 change against the added milliseconds. ms-marco was trained on web search, not clinical text, so mention that if it explains a weak result.
+**Check:** the after list is always a subset of the top 10, and "hit rate@1 before" equals the value in the Part B table for the same method.
 
-**Test:** the reranked top 3 must be a subset of the original top 10. Keep `final_chunks[qid]` for Part D.
+## Step 6: Part D1, grounded answers (3 marks)
 
-## Step 5: Part D1, grounded answers (3 marks)
+**Inputs:** `final_chunks`, the 10 queries, the Assignment 1 generator.
 
-The generator is the Assignment 1 model with the CPT checkpoint and QLoRA adapter. Load it with the same 4-bit setup as Assignment 1 B2, and adapt `generate_instruct()` to take chunks.
+**Load the generator.** Load the CPT model from `../Ass-1/persistent/cpt_ckpt` in 4-bit with the same `BitsAndBytesConfig` as Assignment 1 B2, add the adapter with `PeftModel.from_pretrained(model, "../Ass-1/persistent/adapter")`, and call `model.eval()`. Set the same chat template as Assignment 1 (`Instruction: … Response:`). Greedy decoding (`do_sample=False`), about 150 new tokens.
 
-- **Prompt (1 mark, show it).** One template for all queries:
+1. **Prompt (1 mark).** Show the prompt in the notebook. One template for all queries:
 
 ```text
 Answer the question using ONLY the numbered chunks below.
@@ -161,25 +249,33 @@ Chunks:
 [3] {chunk_3}
 
 Question: {question}
-Answer:
 ```
 
-Keep the Assignment 1 marker style so the adapter stays on-format, and stop generation at a newline or `Instruction:`.
+Put this whole text in the user turn, so the model sees `Instruction: <prompt> Response:` as in Assignment 1. Cut the output at the next `Instruction:`, as `generate_instruct()` does.
 
-- **All 10 answers (1 mark).** Use the 3 reranked chunks from Part C. Print query, answer, and cited chunks.
-- **"Not in corpus" query (1 mark).** Add one question whose answer is not in the documents. Show the reply is `Not found in the documents`.
-- **Fallback.** If the model ignores the chunks or never says "Not found", switch to Qwen2.5 7B Instruct or Llama 3.1 8B Instruct. Name the model and show one example of the failure.
+2. **All 10 answers (1 mark).** For each query, pass the 3 reranked chunks, labelled [1] to [3]. Show a table: query, answer, chunks cited.
+3. **The not-in-corpus query (1 mark).** Add one question whose answer is not in the 14 documents (for example, about a sport, or a drug the corpus never mentions). Run it through the same retrieval, reranking and prompt. Show its 3 chunks and the reply `Not found in the documents`.
 
-**Test:** every answer with a claim carries at least one `[n]`, where n is 1 to 3.
+**If the Assignment 1 model fails.** If it ignores the chunks, never cites, or never says "Not found", the brief allows switching to an instruct model such as `Qwen/Qwen2.5-7B-Instruct` or `meta-llama/Llama-3.1-8B-Instruct`. Then:
 
-## Step 6: Part D2, LLM judge (4 marks)
+- Name the model you used.
+- Show one example of the problem: the Assignment 1 model's answer next to the chunks it ignored.
+- Choose the judge in D2 so it is still a different model.
 
-Use a judge model different from the generator, such as `Qwen/Qwen2.5-7B-Instruct`. Name it, and set `do_sample=False` so verdicts repeat.
+**Show:** the prompt, the generator name, the 10 answers, the not-in-corpus query with its reply, and the failure example if you switched.
 
-- **D2.1 Judge prompt and results (1 mark).** One prompt that returns fixed lines per answer:
+**Check:** each answer either cites at least one of [1], [2] or [3], or is exactly "Not found in the documents".
+
+## Step 7: Part D2, LLM judge (4 marks)
+
+**Inputs:** the 10 answers, their 3 chunks, the expected answers from Step 1.
+
+**Choose the judge.** It must differ from the generator. If the generator is the Assignment 1 Mistral model, use `Qwen/Qwen2.5-7B-Instruct`. If you switched the generator to Qwen, use `meta-llama/Llama-3.1-8B-Instruct`. Free the generator first (`del model`, `gc.collect()`, `torch.cuda.empty_cache()`), load the judge in 4-bit, and use its own chat template. Use greedy decoding (`do_sample=False`), which is temperature 0. Name the judge in the notebook.
+
+1. **D2.1 Judge prompt and results (1 mark).** One prompt that checks both things and follows every hint in the brief:
 
 ```text
-You are grading an answer about Type 2 Diabetes.
+You are grading one answer about Type 2 Diabetes.
 
 Question: {question}
 Expected answer (reference): {expected}
@@ -189,40 +285,94 @@ Retrieved chunks:
 [3] {chunk_3}
 Model answer: {answer}
 
-CORRECT: one of CORRECT, PARTLY CORRECT, WRONG.
-  CORRECT = the model answer gives the same key fact as the reference.
-  PARTLY CORRECT = it gives part of the key fact, or the right fact with a missing detail.
-  WRONG = it gives a different fact, or says "Not found" when the reference has an answer.
-SUPPORTED: YES or NO. YES only if every statement in the model answer appears in the chunks above.
+Check 1, CORRECT: compare the model answer with the expected answer.
+  CORRECT = it states the same key fact as the expected answer.
+  PARTLY CORRECT = it states only part of the key fact, or the right fact with a detail missing or wrong.
+  WRONG = it states a different fact, contradicts the expected answer, or says "Not found in the documents".
+Check 2, SUPPORTED: can every statement in the model answer be found in the 3 chunks above?
+  YES = every statement is in the chunks. NO = at least one statement is not.
+  A "Not found in the documents" reply makes no claims, so it is SUPPORTED: YES.
 REASON: one sentence. If SUPPORTED is NO, quote the unsupported statement.
+
+Reply in exactly this format, with nothing else:
+CORRECT: <CORRECT | PARTLY CORRECT | WRONG>
+SUPPORTED: <YES | NO>
+REASON: <one sentence>
 ```
 
-Show one table: query, correct, supported, reason. Fill the summary counts with `Counter`. Parse with a regex on `^CORRECT:`, `^SUPPORTED:`, `^REASON:`; if a line fails to parse, print the raw output and count it separately.
+Run it on the 10 answers (not on the not-in-corpus query). Parse the three lines with regular expressions on `^CORRECT:`, `^SUPPORTED:` and `^REASON:`. Show one table with a row per query: query, correct, supported, reason. Then fill the summary:
 
-- **D2.2 Spot-check (1 mark).** Pick 3 answers and read their chunks yourself. Say how many verdicts you agree with, and explain one disagreement.
-- **D2.3 Find the cause (1 mark).** Pick one answer that is wrong or unsupported and show its 3 chunks. Decide whether retrieval caused it (the needed fact is in none of the chunks; compare with the Step 1 span) or generation did (the fact is in a chunk but unused, or the model added content).
-- **D2.4 Suggest one fix (1 mark).** Match the fix to the cause: a different chunk size if the span was split, hybrid search if an exact term was missed, more chunks if the fact sat at rank 4 or 5, or a stricter prompt if the model invented content. Explain why it would help.
+| Check | Count out of 10 |
+| --- | --- |
+| Correct | |
+| Partly correct | |
+| Wrong | |
+| Supported by the chunks | |
 
-**Test:** the parser reads all 10 verdicts with no fallbacks, and a second run gives the same verdicts.
+2. **D2.2 Spot-check (1 mark).** Pick 3 answers, ideally with different verdicts. Read each answer and its 3 chunks yourself, and write your own CORRECT and SUPPORTED. Say how many of the judge's verdicts you agree with (out of 3), and explain one disagreement if there is one.
+3. **D2.3 Find the cause (1 mark).** Pick one answer the judge marked WRONG or SUPPORTED: NO. Show its 3 chunks and say which caused it:
+    - **Retrieval:** the needed fact is not in any of the 3 chunks. Check with `is_hit` against the Step 1 span.
+    - **Generation:** the fact is in a chunk, but the model did not use it, or added something the chunks do not say.
 
-## Step 7: Submission checklist
+    If no answer is wrong or unsupported, pick the weakest one (partly correct), and say so.
+4. **D2.4 Suggest a fix (1 mark).** Propose one change that matches the cause, and explain why it would help:
+    - The span was split across chunks: a different chunk size, or overlap.
+    - An exact term was missed: hybrid or BM25 search.
+    - The fact ranked 4th or 5th: rerank more candidates, or pass more chunks.
+    - The model ignored or added content: stricter prompt wording, or an instruct model.
 
-Run the notebook top to bottom with outputs saved, then run `jupyter nbconvert --to html Assignment2B.ipynb`.
+**Show:** the judge name, the judge prompt, the per-query table, the summary counts, the spot-check, the failed answer with its 3 chunks, the cause and the fix.
 
-- [ ] Notebook `.ipynb` with all outputs visible
-- [ ] HTML export of the same notebook
-- [ ] Part A: 10 spans; A1 model, vector size, similarity, batch size, build time; A2 table (100 and 400, plus 500 with a note); chosen size and why
-- [ ] Part B: Dense, BM25, Hybrid table; best method and why, with an example query
-- [ ] Part C: top 3 before and after for each query; reranking table; whether it helped
-- [ ] Part D1: prompt, all 10 answers, "Not found" query and reply; generator model name, plus the failure example if you switched
-- [ ] Part D2: judge model name and prompt; per-query table and summary counts; spot-check of 3 verdicts; one failed answer with its chunks, cause, and fix
+**Check:** all 10 verdicts parse with no fallback. Running the judge twice gives the same verdicts.
+
+## Step 8: Export and submit
+
+1. Restart the kernel and run all cells on the lab server.
+2. Make sure every output is visible: no errors, no empty cells, no cleared outputs.
+3. Export: `jupyter nbconvert --to html Ass-2/Assignment2B.ipynb`.
+4. Open the HTML and check that every table and model answer shows.
+
+### Submission checklist (from the brief)
+
+**Files**
+
+- [ ] Notebook (.ipynb) with all outputs visible (Step 8)
+- [ ] HTML export of the same notebook (Step 8)
+
+**Part A**
+
+- [ ] Answer span marked for each of the 10 queries (Step 1)
+- [ ] A1: embedding model name, vector size, similarity measure, batch size, index build time (Steps 2 and 3)
+- [ ] A2: chunk size table (100 and 400 tokens) and the chosen size with its reason (Step 3)
+
+**Part B**
+
+- [ ] Search comparison table: Dense, BM25, Hybrid (Step 4)
+- [ ] Best method and why, with an example query (Step 4)
+
+**Part C**
+
+- [ ] Top 3 before and after reranking for each query (Step 5)
+- [ ] Reranking table: rank change rate, time per query, hit rate@1 before and after (Step 5)
+- [ ] Whether reranking helped, weighing accuracy against time (Step 5)
+
+**Part D**
+
+- [ ] D1: generation prompt, all 10 answers, the "Not found" query and its answer (Step 6)
+- [ ] D1: generator model used, plus one example of the problem if you switched from the Assignment 1 model (Step 6)
+- [ ] D2: judge model name and judge prompt (Step 7)
+- [ ] D2: judge results table per query, and the summary counts (Step 7)
+- [ ] D2: spot-check of 3 verdicts, with one disagreement explained if any (Step 7)
+- [ ] D2: one failed answer with its 3 chunks, its cause and a suggested fix (Step 7)
 
 ## Sources
 
 - Assignment brief: `Ass-2/Assignment 2B — RAG Pipeline.pdf`
-- Structure reference: `Ass-1/Assignment1A.ipynb`
-- Reused data: `Ass-1/domain_corpus/`, `Ass-1/instruction_eval.jsonl`, `Ass-1/instruction_source_pairs.json`
+- Structure and code to reuse: `Ass-1/Assignment1A.ipynb` (cells 1, 3, 5, 6, 9, 18, 49, 50, 51)
+- Data: `Ass-1/domain_corpus/`, `Ass-1/instruction_dataset.jsonl` (last 80 rows = eval set), `Ass-1/instruction_source_pairs.json`
+- Model files on the lab server: `Ass-1/persistent/cpt_ckpt`, `Ass-1/persistent/adapter`
 
 ## Not verified here
 
-- The Ass-1 README points to `Ass-1/SPRINT-PLAN.md` for the team's execution sequence. That file was not in the clone I read.
+- The model folders could not be checked from this clone, because they are not in git. Confirm they exist on the lab server in Step 0.
+- The Ass-1 README points to `Ass-1/SPRINT-PLAN.md` for the team's execution sequence. That file is not in the clone.
