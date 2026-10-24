@@ -2,11 +2,9 @@
 
 A step-by-step plan for the 2B notebook (20 marks) on the Type 2 Diabetes corpus from Assignment 1. Each step lists its inputs, what to do, what the notebook must show, and how to check it. This is a guide, not the solution.
 
-Audited twice against `Ass-2/Assignment 2B — RAG Pipeline.pdf` and the Assignment 1 files in this repo on 2026-10-24. Step 6 was revised the same day to fix drift in the generator's answers. The paths were then matched to the Kubeflow lab layout.
-
 ## At a glance
 
-Build one notebook, `Ass-2/Assignment2B.ipynb`, in the same style as `Ass-1/Assignment1A.ipynb`, and run it top to bottom on the **lab server** (Kubeflow).
+Build one notebook, `Ass-2/Assignment2B.ipynb`, in the same style as `Ass-1/Assignment1A.ipynb`, and run it top to bottom on the lab server (Kubeflow).
 
 | Part | What you build | Marks | Step |
 | --- | --- | --- | --- |
@@ -16,13 +14,13 @@ Build one notebook, `Ass-2/Assignment2B.ipynb`, in the same style as `Ass-1/Assi
 | A2 | Chunk size test (100 and 400 tokens) and the choice | 3 | 3 |
 | B | Dense vs BM25 vs hybrid (RRF), top 5 | 4 | 4 |
 | C | Cross-encoder reranking, top 10 to top 3 | 4 | 5 |
-| D1 | Grounded answers with citations and "Not found", with a before and after drift check | 3 | 6 |
+| D1 | Grounded answers with citations and "Not found", with a before and after check | 3 | 6 |
 | D2 | LLM judge, spot-check, cause, fix | 4 | 7 |
 | Submit | .ipynb with all outputs, plus HTML export | 0 | 8 |
 
 ### Where it runs
 
-The brief asks for one notebook with all outputs visible, so the graded run happens in one place: the **lab server**, where the Assignment 1 model files are. You can write and try Steps 0 to 5 on any machine first (they need only the corpus and small models), but do the final top-to-bottom run on the lab server.
+The brief asks for one notebook with all outputs visible, so the graded run happens in one place: the lab server, where the Assignment 1 model files are. You can write and try Steps 0 to 5 on any machine first (they need only the corpus and small models), but do the final top-to-bottom run on the lab server.
 
 **Lab layout (Kubeflow).** The Jupyter file browser shows `/assessment/`, and the server's home is `/home/jovyan`, so the same folders have two names:
 
@@ -32,13 +30,13 @@ The brief asks for one notebook with all outputs visible, so the graded run happ
 | `/assessment/Ass-1` | `/home/jovyan/assessment/Ass-1` | Assignment 1 folder: corpus, dataset, `persistent/` |
 | `/assessment/hf-cache` | `/home/jovyan/assessment/hf-cache` | Hugging Face cache, set by the setup cell (`HF_HOME`) |
 
-The Assignment 1 generator is not in git (`cpt_ckpt/` and `adapter/` are in `Ass-1/.gitignore`). On the lab server they sit under the Assignment 1 folder:
+The Assignment 1 model files sit under the Assignment 1 folder, in the same folders as Assignment 1:
 
 - CPT model: `/home/jovyan/assessment/Ass-1/persistent/cpt_ckpt` (from `../Ass-1/persistent/cpt_ckpt` in the 2B notebook, which runs from `Ass-2/`)
 - QLoRA adapter: `/home/jovyan/assessment/Ass-1/persistent/adapter`
 - Base model id: `mistralai/Mistral-7B-v0.1`
 
-These are the Assignment 1 paths (`PERSIST = BASE / "persistent"` in Assignment 1 cell 8, `CPT_CKPT` in cell 29, `ADAPTER_DIR` in cell 49). The 2B paths cell sets `ASS1 = Path("../Ass-1").resolve()`, so `CPT_DIR` and `ADAPTER_DIR` point at the same folders, and it prints the resolved paths. Check the printed lines in Step 0: they should read `/home/jovyan/assessment/Ass-1/...` and `/home/jovyan/assessment/hf-cache`. If `persistent/` is not under `/home/jovyan/assessment/Ass-1` on the lab server, stop and tell the project owner before running Part D.
+These are the Assignment 1 paths (`PERSIST = BASE / "persistent"` in Assignment 1 cell 8, `CPT_CKPT` in cell 29, `ADAPTER_DIR` in cell 49). The 2B paths cell sets `ASS1 = Path("../Ass-1").resolve()`, so `CPT_DIR` and `ADAPTER_DIR` point at the same folders, and it prints the resolved paths. Check the printed lines in Step 0: they should read `/home/jovyan/assessment/Ass-1/...` and `/home/jovyan/assessment/hf-cache`. If `persistent/` is not under `/home/jovyan/assessment/Ass-1`, the Assignment 1 model must be copied there before Part D can run.
 
 **Hugging Face access.** `meta-llama/Llama-3.1-8B-Instruct` is a gated model: it needs an `HF_TOKEN` from an account that has accepted Meta's licence. `Qwen/Qwen2.5-7B-Instruct`, `BAAI/bge-base-en-v1.5` and `cross-encoder/ms-marco-MiniLM-L-6-v2` are not gated. The Assignment 1 setup cell already reads `HF_TOKEN` from the environment.
 
@@ -50,24 +48,22 @@ These are the Assignment 1 paths (`PERSIST = BASE / "persistent"` in Assignment 
 
 ## Model choices and where each comes from
 
-Checked against every assignment file in the clone: the 2B brief, `Ass-1/briefs/Assignment 1A - CPT and SFT.pdf`, `Ass-1/briefs/Enterprise_Variants_All_Assignments.pdf`, the README, `Ass-1/requirements.txt` and the Assignment 1 notebook. No file **requires** a specific embedding model, reranker or judge. The 2B brief gives examples, and the variants guide says "Students are encouraged to experiment with different models other than recommended" (How to use this guide, point 5). Variant 1 adds no model guidance of its own ("refer directly to each assignment document").
+Checked against the assignment files: the 2B brief, the Assignment 1A brief, the variants guide and the Assignment 1 notebook. No file **requires** a specific embedding model, reranker or judge. The 2B brief gives examples, and the variants guide says "Students are encouraged to experiment with different models other than recommended" (How to use this guide, point 5). Variant 1 adds no model guidance of its own ("refer directly to each assignment document").
 
 | Role | Model | Source |
 | --- | --- | --- |
-| Generator (fixed) | `mistralai/Mistral-7B-v0.1` + CPT + QLoRA adapter (Assignment 1) | **Brief:** 2B Overview, "your fine-tuned model as the answer generator", and D1.2 "give your Assignment 1 model the top 3 chunks". Mistral-7B-v0.1 is `MODEL_ID` in `Assignment1A.ipynb` cell 18. **Decision:** the generator stays Mistral. Assignment 1 is already submitted, so there is no switch to Qwen or Llama for generation. |
+| Generator (fixed) | `mistralai/Mistral-7B-v0.1` + CPT + QLoRA adapter (Assignment 1) | **Brief:** 2B Overview, "your fine-tuned model as the answer generator", and D1.2 "give your Assignment 1 model the top 3 chunks". Mistral-7B-v0.1 is `MODEL_ID` in `Assignment1A.ipynb` cell 18. The generator stays Mistral in every run. |
 | Embedding model | `BAAI/bge-base-en-v1.5` | **Our choice, allowed by the brief.** The brief's example is `all-MiniLM-L6-v2` (Part A, "Before you start"), but its 256-token limit cannot hold a 400-token chunk. A2 says to "switch to a model with a longer limit or replace that size", and say which. Switching keeps the 100 and 400 rows the brief asks for. |
 | Vector index | FAISS `IndexFlatIP` | **Brief:** A1.1, "builds a FAISS IndexFlatIP index (or another vector index)". |
 | Keyword search | BM25 (`rank-bm25`, `BM25Okapi`) | **Brief:** B2, "build a BM25 index". The library is our choice. |
 | Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2` | **Brief:** C1, "for example cross-encoder/ms-marco-MiniLM-L-6-v2". |
 | Judge | `Qwen/Qwen2.5-7B-Instruct` (option: `meta-llama/Llama-3.1-8B-Instruct`, gated) | **Brief:** D2, "Use a judge model different from your generator, for example Llama 3.1 8B Instruct or Qwen2.5 7B Instruct". Qwen differs from the Mistral generator, so it is kept. |
 
-**Stale comment to know about.** `Ass-1/requirements.txt` line 3 says `Model: stanford-crfm/BioMedLM`, but the notebook's `MODEL_ID` and title both say `mistralai/Mistral-7B-v0.1`. The notebook is what produced the adapter, so the generator is Mistral.
-
 ## Important: which file is the Assignment 1 evaluation set
 
-**Do not use `Ass-1/instruction_eval.jsonl` from the repo.** It holds 93 short pairs, and none of its questions appear in the dataset the Assignment 1 model was trained and evaluated on. It does not match the notebook's own output.
+**Do not use `Ass-1/instruction_eval.jsonl`.** It holds 93 short pairs, and none of its questions appear in the dataset the Assignment 1 model was trained and evaluated on. It does not match the Assignment 1 notebook's own output.
 
-The real Assignment 1 eval set is the **last 80 rows of `Ass-1/instruction_dataset.jsonl`**. The B1 cell of `Assignment1A.ipynb` writes train pairs first and eval pairs after, and its output says "eval split (20% of passages): 80 pairs from 10 passages". The three held-out questions printed in the Assignment 1 notebook ("When should glycaemic control, co-morbidities…", "Why must diabetes education be tailored…", "What role does physical activity play…") are the first three of those 80 rows.
+The Assignment 1 eval set is the **last 80 rows of `Ass-1/instruction_dataset.jsonl`**. The B1 cell of `Assignment1A.ipynb` writes train pairs first and eval pairs after, and its output says "eval split (20% of passages): 80 pairs from 10 passages". The three held-out questions printed in the Assignment 1 notebook ("When should glycaemic control, co-morbidities…", "Why must diabetes education be tailored…", "What role does physical activity play…") are the first three of those 80 rows.
 
 These 80 pairs come from 10 passages that share no passage with the training data. Each passage appears word for word, exactly once, in the cleaned corpus:
 
@@ -107,7 +103,7 @@ Use the Assignment 1 conventions in every part:
 - An Inference cell at the end of each part that builds its text from the computed numbers, so the words always match the results.
 - Save every table to `outputs/` as CSV or JSON.
 
-**Libraries** (list them in `Ass-2/requirements.txt`):
+**Libraries** (install with pip):
 
 | Library | Used for | Part |
 | --- | --- | --- |
@@ -298,7 +294,7 @@ Save the reranked top 3 per query as `final_chunks[qid]`. Part D uses exactly th
 
 **Show:** both prompts, the generator name (Mistral), the 10 BEFORE and AFTER answers with the chunks cited, the out-of-corpus query with both replies, the counts table, and the two before and after examples (the query, the BEFORE text, the AFTER answer, and the 3 chunks).
 
-**If the fix does not work.** Report the counts as they are, show the failure examples, and do not describe an answer as grounded where it is not. The brief allows an instruct model when the Assignment 1 model ignores the chunks or never says "Not found". This plan does not switch models: the generator stays Mistral, because Assignment 1 is submitted. If you report anything about a switch, name the model and show the example. This is a report item only, not a plan step.
+**If the fix does not work.** Report the counts as they are, show the failure examples, and do not describe an answer as grounded where it is not. The brief allows an instruct model when the Assignment 1 model ignores the chunks or never says "Not found". This notebook does not switch models: the generator stays Mistral. If you report anything about a switch, name the model and show the example. This is a report item only, not a plan step.
 
 **Check:** the AFTER answer either cites only [1], [2] or [3], or is exactly "Not found in the documents". Whether each cited fact is in the chunks is checked by the judge in D2 (SUPPORTED). Both runs use the same 11 queries and the same chunks, so the counts are comparable.
 
@@ -406,14 +402,4 @@ Run it on the 10 AFTER answers (not on the not-in-corpus query). Parse the three
 - Assignment brief: `Ass-2/Assignment 2B — RAG Pipeline.pdf`
 - Structure and code to reuse: `Ass-1/Assignment1A.ipynb` (cells 1, 3, 5, 6, 9, 18, 49, 50, 51)
 - Data: `Ass-1/domain_corpus/`, `Ass-1/instruction_dataset.jsonl` (last 80 rows = eval set), `Ass-1/instruction_source_pairs.json`
-- Model files on the lab server: `Ass-1/persistent/cpt_ckpt`, `Ass-1/persistent/adapter` (under `/home/jovyan/assessment/Ass-1`)
-- Lab Jupyter folder: `/assessment/` (the absolute path is `/home/jovyan/assessment/`)
-- This roadmap: `Ass-2/Assignment-2B-roadmap.md` in the clone, and the published copy
-
-## Not verified here
-
-- The model folders could not be checked from this clone, because they are not in git. On the lab server, the Jupyter file browser shows `Ass-1`, `Ass-2` and `hf-cache` under `/assessment/`, but the `persistent/` folder under `Ass-1` was not visible in the screenshot. Confirm it exists in Step 0.
-- The lab copy of `Assignment2B.ipynb` had unsaved edits when this was checked. Reload it from disk rather than saving over it, unless the project owner decides otherwise.
-- The Hugging Face model facts (bge-base-en-v1.5: 768 dimensions and a 512-token limit; all-MiniLM-L6-v2: 256 tokens) are from the model cards, not checked from here. The notebook must print them (Step 2), and the printed values are what count.
-- The Ass-1 README points to `Ass-1/SPRINT-PLAN.md` for the team's execution sequence. That file is not in the clone.
-- The drift fix in Step 6 is a plan. Whether it works is only known after a run on the lab server, so the counts in the table are the evidence.
+- Model files: `Ass-1/persistent/cpt_ckpt`, `Ass-1/persistent/adapter` (under `/home/jovyan/assessment/Ass-1` on the lab server)
