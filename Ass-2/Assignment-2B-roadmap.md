@@ -2,7 +2,7 @@
 
 A step-by-step plan for the 2B notebook (20 marks) on the Type 2 Diabetes corpus from Assignment 1. Each step lists its inputs, what to do, what the notebook must show, and how to check it. This is a guide, not the solution.
 
-Audited against `Ass-2/Assignment 2B — RAG Pipeline.pdf` and the Assignment 1 files in this repo on 2026-10-24.
+Audited twice against `Ass-2/Assignment 2B — RAG Pipeline.pdf` and the Assignment 1 files in this repo on 2026-10-24.
 
 ## At a glance
 
@@ -29,6 +29,10 @@ The Assignment 1 generator is not in git (`cpt_ckpt/` and `adapter/` are in `Ass
 - CPT model: `Ass-1/persistent/cpt_ckpt` (from `../Ass-1/persistent/cpt_ckpt` in the 2B notebook)
 - QLoRA adapter: `Ass-1/persistent/adapter`
 - Base model id: `mistralai/Mistral-7B-v0.1`
+
+These paths are relative to the folder the Assignment 1 notebook ran in (`PERSIST = Path(".") / "persistent"` in its cell 8). If Assignment 1 ran from a different folder on the lab server, set two variables in the 2B setup cell, `CPT_DIR` and `ADAPTER_DIR`, to the real paths, and use them everywhere.
+
+**Hugging Face access.** `meta-llama/Llama-3.1-8B-Instruct` is a gated model: it needs an `HF_TOKEN` from an account that has accepted Meta's licence. `Qwen/Qwen2.5-7B-Instruct`, `BAAI/bge-base-en-v1.5` and `cross-encoder/ms-marco-MiniLM-L-6-v2` are not gated. The Assignment 1 setup cell already reads `HF_TOKEN` from the environment.
 
 ### Fixes to the brief to handle openly
 
@@ -75,6 +79,7 @@ Taking one query per passage gives exactly 10 queries, and you already know whic
 Use the Assignment 1 conventions in every part:
 
 - A markdown cell per part with **Goal**, **What we do**, and the marks.
+- A small heading for every numbered step in the brief, with its marks, for example "A1.1 Dense search function (1 mark)". The brief grades each numbered step on its own, so the marker should find each one at a glance.
 - A header comment on every code cell: "What this cell does", "Why", "Output".
 - An Inference cell at the end of each part that builds its text from the computed numbers, so the words always match the results.
 - Save every table to `outputs/` as CSV or JSON.
@@ -84,7 +89,7 @@ Use the Assignment 1 conventions in every part:
 | Library | Used for | Part |
 | --- | --- | --- |
 | `sentence-transformers` | Embedding model and `CrossEncoder` | A, B, C |
-| `faiss-cpu` or `faiss-gpu` | `IndexFlatIP` vector index | A, B |
+| `faiss-cpu` | `IndexFlatIP` vector index (a few thousand vectors, so CPU is fast enough and installs with pip) | A, B |
 | `transformers` | Tokenizers, generator and judge models | A, D |
 | `rank-bm25` | `BM25Okapi` keyword index | B |
 | `peft`, `bitsandbytes`, `accelerate`, `torch` | Load the CPT model and adapter in 4-bit | D |
@@ -165,7 +170,7 @@ The cache keeps Parts A, B and C from rebuilding the same index. Normalised vect
 | 400 | | | |
 | 500 (header typo) | | | |
 
-**A2.2 Choose the size (1 mark).** Two or three sentences weighing hit rate, tokens per query, and how much context the Assignment 1 model can take. Facts to use: the adapter was trained with `SFT_MAX_LEN = 512` on prompts with no context, and Mistral's window is far larger. Measure the full Part D prompt length with the **Mistral** tokenizer for your chosen size, since it counts differently from the embedding tokenizer. Let the numbers decide, and quote them.
+**A2.2 Choose the size (1 mark).** Two or three sentences weighing hit rate, tokens per query, and how much context the Assignment 1 model can take. Facts to use, from the Assignment 1 notebook: the adapter was trained with `SFT_MAX_LEN = 512` on prompts with no context (cell 49), and the model's context window is 4,096 tokens (printed by cell 18). Three 400-token chunks plus the prompt come to roughly 1,300 tokens, which fits the window but is well beyond the 512 tokens the adapter saw in training. Measure the full Part D prompt length with the **Mistral** tokenizer for your chosen size, since it counts differently from the embedding tokenizer. Let the numbers decide, and quote them.
 
 **Show:** the table, the chosen size with the reason, and then the A1.2 report.
 
@@ -213,7 +218,7 @@ How to compute the columns:
 
 1. **C1 Rerank (1 mark).** Retrieve the top **10** with the best method. Score each (query, chunk text) pair with `CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2", max_length=512)` using `ce.predict(pairs)`. Sort by score and keep the top 3. Say whether it ran on GPU or CPU.
 2. **C2 Compare rankings (1 mark).** For each query, show the top 3 before reranking (the best method's own order) and after. Show the chunk id, the first 80 characters, and a hit marker. **Rank change rate** = share of the 10 queries whose first result changes.
-3. **C3 Measure (1 mark).** Time only the `predict` call, after one warm-up, and average over the 10 queries.
+3. **C3 Measure (1 mark).** Time only the `predict` call, after one warm-up, and average over the 10 queries. On GPU, call `torch.cuda.synchronize()` before stopping the timer, so the time is not cut short.
 
 | Measure | Value |
 | --- | --- |
@@ -234,7 +239,7 @@ Save the reranked top 3 per query as `final_chunks[qid]`. Part D uses exactly th
 
 **Inputs:** `final_chunks`, the 10 queries, the Assignment 1 generator.
 
-**Load the generator.** Load the CPT model from `../Ass-1/persistent/cpt_ckpt` in 4-bit with the same `BitsAndBytesConfig` as Assignment 1 B2, add the adapter with `PeftModel.from_pretrained(model, "../Ass-1/persistent/adapter")`, and call `model.eval()`. Set the same chat template as Assignment 1 (`Instruction: … Response:`). Greedy decoding (`do_sample=False`), about 150 new tokens.
+**Load the generator.** Load the CPT model from `../Ass-1/persistent/cpt_ckpt` in 4-bit with the same `BitsAndBytesConfig` as Assignment 1 B2, add the adapter with `PeftModel.from_pretrained(model, "../Ass-1/persistent/adapter")`, and call `model.eval()`. Load the tokenizer from the adapter folder (`AutoTokenizer.from_pretrained("../Ass-1/persistent/adapter")`): Assignment 1 saved it there after setting the chat template (cells 49 and 50), so the `Instruction: … Response:` format comes with it. Use greedy decoding (`do_sample=False`) and about 150 new tokens.
 
 1. **Prompt (1 mark).** Show the prompt in the notebook. One template for all queries:
 
@@ -270,7 +275,7 @@ Put this whole text in the user turn, so the model sees `Instruction: <prompt> R
 
 **Inputs:** the 10 answers, their 3 chunks, the expected answers from Step 1.
 
-**Choose the judge.** It must differ from the generator. If the generator is the Assignment 1 Mistral model, use `Qwen/Qwen2.5-7B-Instruct`. If you switched the generator to Qwen, use `meta-llama/Llama-3.1-8B-Instruct`. Free the generator first (`del model`, `gc.collect()`, `torch.cuda.empty_cache()`), load the judge in 4-bit, and use its own chat template. Use greedy decoding (`do_sample=False`), which is temperature 0. Name the judge in the notebook.
+**Choose the judge.** It must differ from the generator. If the generator is the Assignment 1 Mistral model, use `Qwen/Qwen2.5-7B-Instruct`. If you switched the generator to Qwen, use `meta-llama/Llama-3.1-8B-Instruct` (gated: needs `HF_TOKEN`, see "Where it runs"). Free the generator first (`del model`, `gc.collect()`, `torch.cuda.empty_cache()`), load the judge in 4-bit, and use its own chat template. Use greedy decoding (`do_sample=False`), which is temperature 0. Name the judge in the notebook.
 
 1. **D2.1 Judge prompt and results (1 mark).** One prompt that checks both things and follows every hint in the brief:
 
@@ -371,8 +376,10 @@ Run it on the 10 answers (not on the not-in-corpus query). Parse the three lines
 - Structure and code to reuse: `Ass-1/Assignment1A.ipynb` (cells 1, 3, 5, 6, 9, 18, 49, 50, 51)
 - Data: `Ass-1/domain_corpus/`, `Ass-1/instruction_dataset.jsonl` (last 80 rows = eval set), `Ass-1/instruction_source_pairs.json`
 - Model files on the lab server: `Ass-1/persistent/cpt_ckpt`, `Ass-1/persistent/adapter`
+- This roadmap: `Ass-2/Assignment-2B-roadmap.md` in the clone, and the published copy
 
 ## Not verified here
 
 - The model folders could not be checked from this clone, because they are not in git. Confirm they exist on the lab server in Step 0.
+- The Hugging Face model facts (bge-base-en-v1.5: 768 dimensions and a 512-token limit; all-MiniLM-L6-v2: 256 tokens) are from the model cards, not checked from here. The notebook must print them (Step 2), and the printed values are what count.
 - The Ass-1 README points to `Ass-1/SPRINT-PLAN.md` for the team's execution sequence. That file is not in the clone.
