@@ -2,11 +2,11 @@
 
 A step-by-step plan for the 2B notebook (20 marks) on the Type 2 Diabetes corpus from Assignment 1. Each step lists its inputs, what to do, what the notebook must show, and how to check it. This is a guide, not the solution.
 
-Audited twice against `Ass-2/Assignment 2B — RAG Pipeline.pdf` and the Assignment 1 files in this repo on 2026-10-24. Step 6 was revised the same day to fix drift in the generator's answers.
+Audited twice against `Ass-2/Assignment 2B — RAG Pipeline.pdf` and the Assignment 1 files in this repo on 2026-10-24. Step 6 was revised the same day to fix drift in the generator's answers. The paths were then matched to the Kubeflow lab layout.
 
 ## At a glance
 
-Build one notebook, `Ass-2/Assignment2B.ipynb`, in the same style as `Ass-1/Assignment1A.ipynb`, and run it top to bottom on the **lab server**.
+Build one notebook, `Ass-2/Assignment2B.ipynb`, in the same style as `Ass-1/Assignment1A.ipynb`, and run it top to bottom on the **lab server** (Kubeflow).
 
 | Part | What you build | Marks | Step |
 | --- | --- | --- | --- |
@@ -24,13 +24,21 @@ Build one notebook, `Ass-2/Assignment2B.ipynb`, in the same style as `Ass-1/Assi
 
 The brief asks for one notebook with all outputs visible, so the graded run happens in one place: the **lab server**, where the Assignment 1 model files are. You can write and try Steps 0 to 5 on any machine first (they need only the corpus and small models), but do the final top-to-bottom run on the lab server.
 
-The Assignment 1 generator is not in git (`cpt_ckpt/` and `adapter/` are in `Ass-1/.gitignore`). On the lab server they sit next to the Assignment 1 notebook:
+**Lab layout (Kubeflow).** The Jupyter file browser shows `/assessment/`, and the server's home is `/home/jovyan`, so the same folders have two names:
 
-- CPT model: `Ass-1/persistent/cpt_ckpt` (from `../Ass-1/persistent/cpt_ckpt` in the 2B notebook)
-- QLoRA adapter: `Ass-1/persistent/adapter`
+| Jupyter file browser | Absolute path on the server | What it holds |
+| --- | --- | --- |
+| `/assessment/Ass-2/Assignment2B.ipynb` | `/home/jovyan/assessment/Ass-2/Assignment2B.ipynb` | This notebook |
+| `/assessment/Ass-1` | `/home/jovyan/assessment/Ass-1` | Assignment 1 folder: corpus, dataset, `persistent/` |
+| `/assessment/hf-cache` | `/home/jovyan/assessment/hf-cache` | Hugging Face cache, set by the setup cell (`HF_HOME`) |
+
+The Assignment 1 generator is not in git (`cpt_ckpt/` and `adapter/` are in `Ass-1/.gitignore`). On the lab server they sit under the Assignment 1 folder:
+
+- CPT model: `/home/jovyan/assessment/Ass-1/persistent/cpt_ckpt` (from `../Ass-1/persistent/cpt_ckpt` in the 2B notebook, which runs from `Ass-2/`)
+- QLoRA adapter: `/home/jovyan/assessment/Ass-1/persistent/adapter`
 - Base model id: `mistralai/Mistral-7B-v0.1`
 
-These are the Assignment 1 paths (`PERSIST = BASE / "persistent"` in Assignment 1 cell 8, `CPT_CKPT` in cell 29, `ADAPTER_DIR` in cell 49). The 2B paths cell sets `CPT_DIR` and `ADAPTER_DIR` to the same folders. On the lab server the CPT checkpoint and adapter sit in the same folder as in Assignment 1, confirmed by the project owner, so the paths need no change.
+These are the Assignment 1 paths (`PERSIST = BASE / "persistent"` in Assignment 1 cell 8, `CPT_CKPT` in cell 29, `ADAPTER_DIR` in cell 49). The 2B paths cell sets `ASS1 = Path("../Ass-1").resolve()`, so `CPT_DIR` and `ADAPTER_DIR` point at the same folders, and it prints the resolved paths. Check the printed lines in Step 0: they should read `/home/jovyan/assessment/Ass-1/...` and `/home/jovyan/assessment/hf-cache`. If `persistent/` is not under `/home/jovyan/assessment/Ass-1` on the lab server, stop and tell the project owner before running Part D.
 
 **Hugging Face access.** `meta-llama/Llama-3.1-8B-Instruct` is a gated model: it needs an `HF_TOKEN` from an account that has accepted Meta's licence. `Qwen/Qwen2.5-7B-Instruct`, `BAAI/bge-base-en-v1.5` and `cross-encoder/ms-marco-MiniLM-L-6-v2` are not gated. The Assignment 1 setup cell already reads `HF_TOKEN` from the environment.
 
@@ -85,8 +93,8 @@ Taking one query per passage gives exactly 10 queries, and you already know whic
 **Do:**
 
 1. Create `Ass-2/Assignment2B.ipynb` with a title cell: assignment name, domain (Type 2 Diabetes), variant 1, generator model.
-2. Copy cell 1 of Assignment 1 (`detect_env()` and `setup()`): it finds the storage folder, sets `HF_HOME` before `transformers` is imported, and picks the GPU and dtype.
-3. Add a folder cell that creates `data/` and `outputs/` and checks the inputs: 14 corpus files, `instruction_dataset.jsonl` with 400 rows, `instruction_source_pairs.json` with 50 passages, and both model folders. Print OK or MISSING for each, like Assignment 1 cell 3.
+2. Copy cell 1 of Assignment 1 (`detect_env()` and `setup()`): it finds the storage folder, sets `HF_HOME` before `transformers` is imported, and picks the GPU and dtype. On Kubeflow it uses `/home/jovyan/assessment` as the storage root, so the cache is `/home/jovyan/assessment/hf-cache`.
+3. Add a folder cell that creates `data/` and `outputs/` and checks the inputs: 14 corpus files, `instruction_dataset.jsonl` with 400 rows, `instruction_source_pairs.json` with 50 passages, and both model folders. Print OK or MISSING for each, like Assignment 1 cell 3. The paths cell prints the resolved folders, so check them against the lab layout above.
 4. Add an install cell and a versions cell (Python, packages, torch, GPU), like Assignment 1 cells 5 and 6.
 5. Copy the helpers `print_table()` (cell 9), `md_safe()` and `working` (cell 18).
 6. Fix the random seed (`SEED = 42`) for `random`, `numpy` and `torch`.
@@ -111,9 +119,9 @@ Use the Assignment 1 conventions in every part:
 | `pandas`, `numpy` | Tables and scores | all |
 | `nbconvert` | HTML export | submit |
 
-**Show:** the environment line, the input checks, the versions table.
+**Show:** the environment line, the input checks, the printed paths, the versions table.
 
-**Check:** every input check prints OK on the lab server before you write any RAG code.
+**Check:** every input check prints OK on the lab server before you write any RAG code, and the printed paths match the lab layout.
 
 ## Step 1: Pick 10 queries and mark answer spans (needed for A, B, C)
 
@@ -398,12 +406,14 @@ Run it on the 10 AFTER answers (not on the not-in-corpus query). Parse the three
 - Assignment brief: `Ass-2/Assignment 2B — RAG Pipeline.pdf`
 - Structure and code to reuse: `Ass-1/Assignment1A.ipynb` (cells 1, 3, 5, 6, 9, 18, 49, 50, 51)
 - Data: `Ass-1/domain_corpus/`, `Ass-1/instruction_dataset.jsonl` (last 80 rows = eval set), `Ass-1/instruction_source_pairs.json`
-- Model files on the lab server: `Ass-1/persistent/cpt_ckpt`, `Ass-1/persistent/adapter`
+- Model files on the lab server: `Ass-1/persistent/cpt_ckpt`, `Ass-1/persistent/adapter` (under `/home/jovyan/assessment/Ass-1`)
+- Lab Jupyter folder: `/assessment/` (the absolute path is `/home/jovyan/assessment/`)
 - This roadmap: `Ass-2/Assignment-2B-roadmap.md` in the clone, and the published copy
 
 ## Not verified here
 
-- The model folders could not be checked from this clone, because they are not in git. Confirm they exist on the lab server in Step 0.
+- The model folders could not be checked from this clone, because they are not in git. On the lab server, the Jupyter file browser shows `Ass-1`, `Ass-2` and `hf-cache` under `/assessment/`, but the `persistent/` folder under `Ass-1` was not visible in the screenshot. Confirm it exists in Step 0.
+- The lab copy of `Assignment2B.ipynb` had unsaved edits when this was checked. Reload it from disk rather than saving over it, unless the project owner decides otherwise.
 - The Hugging Face model facts (bge-base-en-v1.5: 768 dimensions and a 512-token limit; all-MiniLM-L6-v2: 256 tokens) are from the model cards, not checked from here. The notebook must print them (Step 2), and the printed values are what count.
 - The Ass-1 README points to `Ass-1/SPRINT-PLAN.md` for the team's execution sequence. That file is not in the clone.
 - The drift fix in Step 6 is a plan. Whether it works is only known after a run on the lab server, so the counts in the table are the evidence.
