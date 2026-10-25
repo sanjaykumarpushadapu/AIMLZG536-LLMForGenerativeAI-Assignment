@@ -2,7 +2,7 @@
 
 A step-by-step plan for the 2B notebook (20 marks) on the Type 2 Diabetes corpus from Assignment 1. Each step lists its inputs, what to do, what the notebook must show, and how to check it. This is a guide, not the solution.
 
-Items marked **Our choice** are not required by the brief. Each one says where it comes from.
+Items marked **Our choice** are not required by the brief. Each one says where it comes from. Anything not marked as coming from the brief is our working plan, not a brief requirement.
 
 ## At a glance
 
@@ -24,7 +24,7 @@ Part totals from the brief: A 5, B 4, C 4, D 7, total 20.
 
 ### Where it runs
 
-The brief asks for one notebook with all outputs visible. **Our choice:** the graded run happens in one place: the lab server, where the Assignment 1 model files are. You can write and try Steps 0 to 5 on any machine first (they need only the corpus and small models), but do the final top-to-bottom run on the lab server.
+The brief asks for one notebook for the whole assignment, with all outputs visible (submission checklist). **Our choice:** the graded run happens in one place: the lab server, where the Assignment 1 model files are. You can write and try Steps 0 to 5 on any machine first (they need only the corpus and small models), but do the final top-to-bottom run on the lab server.
 
 **Lab layout (Kubeflow).** The Jupyter file browser shows `/assessment/`, and the server's home is `/home/jovyan`, so the same folders have two names:
 
@@ -52,14 +52,14 @@ The generator is the Assignment 1 model. Its files sit in the Assignment 1 folde
 
 ## Model choices and where each comes from
 
-No file in the course requires a specific embedding model, reranker or judge. The 2B brief gives examples, and the variants guide says "Students are encouraged to experiment with different models other than recommended" (How to use this guide, point 5).
+The 2B brief gives examples for the embedding model (Part A), the reranker (C1) and the judge (D2). It does not require any of them.
 
 | Role | Model | Source |
 | --- | --- | --- |
-| Generator (fixed) | `mistralai/Mistral-7B-v0.1` + CPT + QLoRA adapter (Assignment 1) | **Brief:** 2B Overview, "your fine-tuned model as the answer generator", and D1.2 "give your Assignment 1 model the top 3 chunks". Mistral-7B-v0.1 is `MODEL_ID` in `Assignment1A.ipynb` cell 18. The generator stays Mistral in every run. |
+| Generator (fixed) | `mistralai/Mistral-7B-v0.1` + CPT + QLoRA adapter (Assignment 1) | **Brief:** 2B Overview, "your fine-tuned model as the answer generator", and D1.2 "give your Assignment 1 model the top 3 chunks". Mistral-7B-v0.1 is `MODEL_ID` in `Assignment1A.ipynb` cell 18 (Assignment 1 code, not the brief). The generator stays Mistral in every run. |
 | Embedding model | `BAAI/bge-base-en-v1.5` | **Our choice, allowed by the brief.** The brief's example is `all-MiniLM-L6-v2` (Part A, "Before you start"), but its 256-token limit cannot hold a 400-token chunk. A2 says to "switch to a model with a longer limit or replace that size", and say which. |
 | Vector index | FAISS `IndexFlatIP` | **Brief:** A1.1, "builds a FAISS IndexFlatIP index (or another vector index)". |
-| Keyword search | BM25 (`rank-bm25`, `BM25Okapi`) | **Brief:** B2, "build a BM25 index". The library is **our choice**. |
+| Keyword search | BM25 (**our choice:** `rank-bm25`, `BM25Okapi`) | **Brief:** B2, "build a BM25 index" (no library named). The library is **our choice**. |
 | Reranker | `cross-encoder/ms-marco-MiniLM-L-6-v2` | **Brief:** C1, "for example cross-encoder/ms-marco-MiniLM-L-6-v2". |
 | Judge | `Qwen/Qwen2.5-7B-Instruct` (option: `meta-llama/Llama-3.1-8B-Instruct`, gated) | **Brief:** D2, "Use a judge model different from your generator, for example Llama 3.1 8B Instruct or Qwen2.5 7B Instruct". Qwen differs from the Mistral generator, so it is kept. |
 
@@ -76,7 +76,7 @@ These are working choices. Each one is labelled where it appears.
 
 ## Important: which file is the Assignment 1 evaluation set
 
-**Do not use `Ass-1/instruction_eval.jsonl`.** It holds 93 short pairs, and none of its questions appear in the dataset the Assignment 1 model was trained and evaluated on. It does not match the Assignment 1 notebook's own output.
+**Do not use `Ass-1/instruction_eval.jsonl`.** It holds 93 pairs with an average answer of 16 words. The Assignment 1 B1 output says the eval split is 80 pairs from 10 passages, and none of this file's 93 questions appear in `instruction_dataset.jsonl`. Its modification time is also later than the dataset's, so it is not from the same run.
 
 The Assignment 1 eval set is the **last 80 rows of `Ass-1/instruction_dataset.jsonl`**. The B1 cell of `Assignment1A.ipynb` writes train pairs first and eval pairs after, and its output says "eval split (20% of passages): 80 pairs from 10 passages". The three held-out questions printed in the Assignment 1 notebook ("When should glycaemic control, co-morbidities…", "Why must diabetes education be tailored…", "What role does physical activity play…") are the first three of those 80 rows.
 
@@ -90,7 +90,7 @@ The dataset does not record which passage each row came from. Step 1 links each 
 
 **Do:**
 
-1. Create `Ass-2/Assignment2B.ipynb` with a title cell: assignment name, domain (Type 2 Diabetes), variant 1, generator model.
+1. Create `Ass-2/Assignment2B.ipynb` with a title cell: assignment name, domain (Type 2 Diabetes), generator model.
 2. Copy cell 1 of Assignment 1 (`detect_env()` and `setup()`): it finds the storage folder, sets `HF_HOME` before `transformers` is imported, and picks the GPU and dtype. On Kubeflow it uses `/home/jovyan/assessment` as the storage root, so the cache is `/home/jovyan/assessment/hf-cache`.
 3. Add a folder cell that creates `data/` and `outputs/` and checks the inputs: 14 corpus files, `instruction_dataset.jsonl` with 400 rows, and both model folders. Print OK or MISSING for each, like Assignment 1 cell 3. The paths cell prints the resolved folders, so check them against the lab layout above.
 4. Add an install cell and a versions cell (Python, packages, torch, GPU), like Assignment 1 cells 5 and 6.
@@ -123,7 +123,7 @@ The dataset does not record which passage each row came from. Step 1 links each 
 
 ## Step 1: Pick 10 queries and mark answer spans (needed for A, B, C)
 
-**Our choice, not in the brief.** The brief says the 10 queries come from the Assignment 1 evaluation set and each needs an answer span from the corpus. Neither the brief nor `instruction_dataset.jsonl` says which passage each question came from. This step links them by matching the answer text to the corpus. The course may not accept this method, so confirm it before the final run.
+**Our choice, not in the brief.** The brief says the 10 queries come from your Assignment 1 evaluation set, with their expected answers, and that for each query you mark the answer span: the sentence or short passage in your corpus that answers it. Neither the brief nor `instruction_dataset.jsonl` says which passage each question came from. This step links them by matching the answer text to the corpus. The course may not accept this method, so confirm it before the final run.
 
 **Inputs:** the last 80 rows of `instruction_dataset.jsonl`, the 14 corpus files.
 
@@ -208,9 +208,9 @@ The cache keeps Parts A, B and C from rebuilding the same index. Normalised vect
 | 100 | | | |
 | 400 | | | |
 
-**A2.2 Choose the size (1 mark).** Two or three sentences that name the chosen size, say it is used in Parts B, C and D, and give the reason. Quote the hit rate@3 and the tokens sent per query for both sizes, and how much context the Assignment 1 model can handle: its adapter was trained with `SFT_MAX_LEN = 512` on prompts with no context (Assignment 1, cell 49). Measure one full Part D prompt with the **Mistral** tokenizer at the chosen size, since it counts differently from the embedding tokenizer. **Our rule:** the highest hit rate@3 wins, and a tie goes to the smaller size, which sends fewer tokens (the notebook's `CHUNK_SIZE` cell).
+**A2.2 Choose the size (1 mark).** Two or three sentences that name the chosen size, say it is used in Parts B, C and D, and give the reason. Quote the hit rate@3 and the tokens sent per query for both sizes, and how much context the Assignment 1 model can handle: its adapter was trained with `SFT_MAX_LEN = min(512, context window)`, which is 512, on prompts with no context (Assignment 1, cell 49). Our method: measure one full Part D prompt with the **Mistral** tokenizer at the chosen size, since it counts differently from the embedding tokenizer. **Our rule:** the highest hit rate@3 wins, and a tie goes to the smaller size, which sends fewer tokens (the notebook's `CHUNK_SIZE` cell).
 
-**A1.2 Report the setup (1 mark).** The brief asks for this "for your final chunk set", so print it after A2.2 picks the size: model name, vector size, similarity measure, batch size, number of chunks, and index build time (encoding plus `index.add`, timed with `time.perf_counter()`).
+**A1.2 Report the setup (1 mark).** The brief asks for this "for your final chunk set", so print it after A2.2 picks the size: model name, vector size, similarity measure, batch size, and index build time (the brief's list; we also print the number of chunks) (encoding plus `index.add`, timed with `time.perf_counter()`).
 
 **Show:** the A2 table, the chosen size with the reason, and the A1.2 report.
 
@@ -230,7 +230,7 @@ All three methods return the top 5 and share one `evaluate(search_fn)` helper, s
 \mathrm{RRF}(d) = \frac{1}{60 + r_{\text{dense}}(d)} + \frac{1}{60 + r_{\text{BM25}}(d)}
 ```
 
-Ranks start at 1, and a chunk missing from one list gets nothing from that list. Sort by score and keep the top 5. Write it as `rrf_fuse(dense_ids, bm25_ids, k=60, top=5)` and test it on a toy case: a chunk ranked 2nd and 3rd should beat a chunk ranked 1st in only one list.
+Ranks start at 1, and a chunk missing from one list gets nothing from that list. Sort by score and keep the top 5. Write it as `rrf_fuse(dense_ids, bm25_ids, k=60, top=5)` and test it on a toy case (our check): a chunk ranked 2nd and 3rd should beat a chunk ranked 1st in only one list.
 
 **Table to fill:**
 
@@ -246,7 +246,7 @@ How to compute the columns:
 - **Hit rate@1:** share of queries whose rank-1 chunk contains the span.
 - **Hit rate@3:** share with the span in any of the top 3.
 
-4. **B4 Best method (1 mark).** Two or three sentences naming the method that works best for your queries and why, using **one query** as the example. Pick a query where the answer chunk ranks differently across the methods, and show its rank under each method.
+4. **B4 Best method (1 mark).** Two or three sentences naming the method that works best for your queries and why, using **one query** as the example. Our choice: pick a query where the answer chunk ranks differently across the methods, and show its rank under each method.
 
 **Show:** the table, a per-query table of the answer chunk's rank under each method, and the B4 text.
 
@@ -267,7 +267,7 @@ How to compute the columns:
 | Hit rate@1 before reranking (from Part B, same method) | |
 | Hit rate@1 after reranking | |
 
-4. **C4 Did it help? (1 mark).** Two or three sentences that weigh the hit rate@1 before and after against the time added. Only if there is no gain, note that ms-marco was trained on web search, not clinical text.
+4. **C4 Did it help? (1 mark).** Two or three sentences that weigh the hit rate@1 before and after against the time added. Our note, only if there is no gain: ms-marco was trained on web search, not clinical text.
 
 Save the reranked top 3 per query as `final_chunks[qid]`. Part D uses exactly these.
 
@@ -285,7 +285,7 @@ The brief asks for three D1 steps, and each is one mark:
 2. **D1.2 All 10 answers (1 mark).** For each of the 10 queries, give the Assignment 1 model the top 3 chunks after reranking, each labelled with a number. Show all 10 answers.
 3. **D1.3 Not-in-corpus query (1 mark).** Add one query whose answer is not in the corpus, and show that the model replies that it cannot find it.
 
-If the Assignment 1 model ignores the chunks or never says "Not found", the brief allows switching to an instruct model such as Llama 3.1 8B Instruct or Qwen2.5 7B Instruct. Decide after the first run: if you switch, name the model and show one example of the problem.
+If the Assignment 1 model ignores the chunks or never says "Not found", you may switch to an instruct model such as Llama 3.1 8B Instruct or Qwen2.5 7B Instruct. Name the model you used and show one example of the problem you saw. Decide after the first run.
 
 **Load the generator. Our choice,** taken from Assignment 1 code (cells 50 and 51): load the CPT model from `../Ass-1/persistent/cpt_ckpt` in 4-bit with the same `BitsAndBytesConfig` as Assignment 1 B2, add the adapter with `PeftModel.from_pretrained(model, "../Ass-1/persistent/adapter")`, and call `model.eval()`. Load the tokenizer from the adapter folder (`AutoTokenizer.from_pretrained("../Ass-1/persistent/adapter")`): Assignment 1 saved it there after setting the chat template (cells 49 and 50), so the `Instruction: … Response:` format comes with it. Use greedy decoding (`do_sample=False`) and `max_new_tokens=120`, the same as Assignment 1 (`SFT_MAX_NEW_TOKENS`, cell 51).
 
@@ -340,13 +340,14 @@ Run it on the 10 answers from D1.2 (**our choice:** not on the not-in-corpus que
 | Wrong | |
 | Supported by the chunks | |
 
-2. **D2.2 Spot-check (1 mark).** Pick 3 answers, ideally with different verdicts. Read each answer and its 3 chunks yourself, and write your own CORRECT and SUPPORTED in the notes cell under them. Say how many of the judge's verdicts you agree with (out of 3), and explain one disagreement if there is one.
+2. **D2.2 Spot-check (1 mark).** Pick 3 answers (our choice: ideally with different verdicts). Read each answer and its 3 chunks yourself, and write your own CORRECT and SUPPORTED in the notes cell under them. Say how many of the judge's verdicts you agree with (out of 3), and explain one disagreement if there is one.
 3. **D2.3 Find the cause (1 mark).** Pick one answer the judge marked WRONG or SUPPORTED: NO. Show its 3 chunks in full and say which caused it:
+    Our definitions, using the brief's question (was the needed information in the chunks or not):
     - **Retrieval:** the needed fact is not in any of the 3 chunks. Check with `is_hit` against the Step 1 span.
     - **Generation:** the fact is in a chunk, but the model did not use it, or added something the chunks do not say.
 
-    If no answer is wrong or unsupported, pick the weakest one (partly correct), and say so. Add one or two sentences in your own words in the notes cell.
-4. **D2.4 Suggest a fix (1 mark).** Propose **one** change that matches where the fact was lost, and explain why it would help:
+    Our rule: if no answer is wrong or unsupported, pick the weakest one (partly correct), and say so. Add one or two sentences in your own words in the notes cell.
+4. **D2.4 Suggest a fix (1 mark).** Propose **one** change that matches where the fact was lost, and explain why it would help. The brief's examples are a different chunk size, search method, reranking or prompt wording. Our options below match the cause:
     - Fact in the 3 chunks (generation): stricter prompt wording.
     - Fact in the top 10 but not the top 3: pass the top 5 reranked chunks.
     - Fact in a chunk but not in the top 10: rerank the top 20.
