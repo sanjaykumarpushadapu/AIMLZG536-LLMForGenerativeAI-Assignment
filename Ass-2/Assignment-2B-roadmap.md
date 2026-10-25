@@ -46,7 +46,7 @@ The generator is the Assignment 1 model. Its files sit in the Assignment 1 folde
 
 ### Fixes to the brief to handle openly
 
-- The A2 text and the submission checklist say 100 and 400 tokens, but the table header says 500. Run 100 and 400, and write one line noting the header.
+- The A2 text and the submission checklist say 100 and 400 tokens, but the second row of the A2 table says 500. Run 100 and 400, and write one line noting the header.
 - "Total chunks (1M)" in the A2 table is a stray label. Use the header "Total chunks".
 - The B question about the best method is numbered "4" under three numbered steps. Treat it as B4.
 
@@ -56,7 +56,7 @@ The 2B brief gives examples for the embedding model (Part A), the reranker (C1) 
 
 | Role | Model | Source |
 | --- | --- | --- |
-| Generator (fixed) | `mistralai/Mistral-7B-v0.1` + CPT + QLoRA adapter (Assignment 1) | **Brief:** 2B Overview, "your fine-tuned model as the answer generator", and D1.2 "give your Assignment 1 model the top 3 chunks". Mistral-7B-v0.1 is `MODEL_ID` in `Assignment1A.ipynb` cell 18 (Assignment 1 code, not the brief). The generator stays Mistral in every run. |
+| Generator (fixed) | `mistralai/Mistral-7B-v0.1` + CPT + QLoRA adapter (Assignment 1) | **Brief:** 2B Overview, "your fine-tuned model as the answer generator", and D1.2 "give your Assignment 1 model the top 3 chunks". Mistral-7B-v0.1 is `MODEL_ID` in `Assignment1A.ipynb` cell 18 (Assignment 1 code, not the brief). The generator stays Mistral unless D1 shows the problem the brief describes. |
 | Embedding model | `BAAI/bge-base-en-v1.5` | **Our choice, allowed by the brief.** The brief's example is `all-MiniLM-L6-v2` (Part A, "Before you start"), but its 256-token limit cannot hold a 400-token chunk. A2 says to "switch to a model with a longer limit or replace that size", and say which. |
 | Vector index | FAISS `IndexFlatIP` | **Brief:** A1.1, "builds a FAISS IndexFlatIP index (or another vector index)". |
 | Keyword search | BM25 (**our choice:** `rank-bm25`, `BM25Okapi`) | **Brief:** B2, "build a BM25 index" (no library named). The library is **our choice**. |
