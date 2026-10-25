@@ -24,7 +24,7 @@ Part totals from the brief: A 5, B 4, C 4, D 7, total 20.
 
 ### Where it runs
 
-The brief asks for one notebook with all outputs visible, so the graded run happens in one place: the lab server, where the Assignment 1 model files are. You can write and try Steps 0 to 5 on any machine first (they need only the corpus and small models), but do the final top-to-bottom run on the lab server.
+The brief asks for one notebook with all outputs visible. **Our choice:** the graded run happens in one place: the lab server, where the Assignment 1 model files are. You can write and try Steps 0 to 5 on any machine first (they need only the corpus and small models), but do the final top-to-bottom run on the lab server.
 
 **Lab layout (Kubeflow).** The Jupyter file browser shows `/assessment/`, and the server's home is `/home/jovyan`, so the same folders have two names:
 
@@ -46,7 +46,7 @@ The generator is the Assignment 1 model. Its files sit in the Assignment 1 folde
 
 ### Fixes to the brief to handle openly
 
-- The A2 text says 100 and 400 tokens, but the table header says 100 and 500. Run 100 and 400 as the text says, add a 500 row, and write one line explaining why.
+- The A2 text and the submission checklist say 100 and 400 tokens, but the table header says 500. Run 100 and 400, and write one line noting the header.
 - "Total chunks (1M)" in the A2 table is a stray label. Use the header "Total chunks".
 - The B question about the best method is numbered "4" under three numbered steps. Treat it as B4.
 
@@ -72,7 +72,6 @@ These are working choices. Each one is labelled where it appears.
 | Setup cells: detect environment, folder checks, install, versions table, helpers | Step 0 | **Assignment 1 conventions.** The brief does not ask for them. |
 | Linking each eval question to its passage, and choosing the 10 queries | Step 1 | **Our choice.** Neither the brief nor the dataset gives this link. The course may not accept this method. |
 | Generator settings: 4-bit config, 120 new tokens, greedy decoding, repetition penalty 1.1, stop strings, cleanup | Step 6 | **Our choice,** taken from Assignment 1 code (cells 50 and 51). The brief does not ask for them. |
-| BEFORE and AFTER runs and the drift counts | Step 6 | **Our check,** added after the Assignment 1 model drifted on grounded prompts. It has no separate mark. |
 | Eval set = last 80 rows of `instruction_dataset.jsonl` | Step 1 | **Source:** the Assignment 1 B1 cell writes train pairs first and eval pairs last. The brief says "your Assignment 1 evaluation set". |
 
 ## Important: which file is the Assignment 1 evaluation set
@@ -133,9 +132,10 @@ The dataset does not record which passage each row came from. Step 1 links each 
 1. Load the last 80 rows. Assert there are 80.
 2. For each row, score every corpus sentence of 8 to 40 words against the row's `response`. Words are lowercase `[a-z0-9]+` tokens, without common stop words (`the`, `of`, `and`, and so on). Score = overlap / √(sentence tokens). Ties go to the shorter sentence. The best sentence is the row's **span**, and its file is the row's **passage**.
 3. Keep only rows whose span occurs exactly once in the whole corpus, after whitespace normalisation.
-4. Keep the best row per file. Take the 10 files with the highest overlap. Each file gives one query.
+4. Keep the best row per file. Take the 10 files with the highest overlap. Each file gives one query (**our choice**).
 5. Query = the row's `instruction`. Expected answer = its `response`. Span = the sentence from step 2.
-6. Save `data/answer_spans.json` with `qid`, `query`, `expected_answer`, `source_file`, `span`.
+6. Human check: read each span against its query and replace any that does not answer it (`HUMAN_CHECK` in the notebook).
+7. Save `data/answer_spans.json` with `qid`, `query`, `expected_answer`, `source_file`, `span`.
 
 ```python
 def norm(t): return " ".join(t.lower().split())
@@ -144,39 +144,39 @@ def is_hit(chunk_text, span): return norm(span) in norm(chunk_text)
 
 Use `is_hit` for every hit rate in Parts A, B and C. A span split across two chunks counts as a miss, which is a real effect of chunk size.
 
-**The 10 queries this method picks** (from the run on the 80 eval rows; the spans are whole sentences from the corpus):
+**The 10 queries this method picks** (from the run on the 80 eval rows), after the human check:
 
 | Qid | Passage file | Query | Span (corpus sentence) |
 | --- | --- | --- | --- |
 | Q1 | `idf-clinical-practice-recommendations-2025.txt` | What should be considered when planning detection of undiagnosed T2DM and prevention programmes in low- and middle-income countries? | GLOBAL CONSIDERATIONS The capacity to detect individuals with undiagnosed T2DM and IH and implement diabetes prevention programmes varies considerably between countries and health services and systems, especially in low- and middle-income countries (LMIC). |
 | Q2 | `icmr-type2-diabetes-guidelines-2018.txt` | Which foods should people with diabetes and dyslipidaemia restrict because of their saturated and trans fats? | (b) Dyslipidaemia : Saturated and trans fats food sources like vanaspati, butter, ghee, margarine, coconut oil, red meats like sausages, ham, bacon, egg yellow, whole milk and its products should be restricted. |
 | Q3 | `moh-malaysia-type2-diabetes-cpg-2020.txt` | How should glycaemic targets be set for people with T2DM? | Therapy in most patients with T2DM should be targeted to achieve an HbA1c≤7.0% or 6.5% (where appropriate), if achievable without significant hypoglycaemia. |
-| Q4 | `sign154-pharmacological-glycaemic-control.txt` | How should people starting a sulphonylurea be counselled about hypoglycaemia warning signs? | The warning signs of hypoglycaemia, which should be outlined to people taking these agents, include (early signs) tremor, sweating, shaking, irritability, and (later signs) lack of concentration and co-ordination. |
-| Q5 | `idf-atlas-global-diabetes-prevalence-2021.txt` | How many data sources underpinned the IDF diabetes prevalence estimates, and what period did the research cover? | Methods: A total of 219 data sources meeting pre-established quality criteria reporting research conducted between 2005 and 2020 and representing 215 countries and territories were identified. |
-| Q6 | `hse-ireland-nutrition-dietetic-type2-diabetes-2020.txt` | What teaching should be given to people with diabetes who drink alcohol while on insulin or sulphonylureas? | Educating people with diabetes abou t the signs, symptoms, and self – management of delayed hypoglycaemia after drinking alcohol, especially when using insulin or sulphonylureas is recommended. |
+| Q4 | `idf-atlas-global-diabetes-prevalence-2021.txt` | How many data sources underpinned the IDF diabetes prevalence estimates, and what period did the research cover? | Methods: A total of 219 data sources meeting pre-established quality criteria reporting research conducted between 2005 and 2020 and representing 215 countries and territories were identified. |
+| Q5 | `sign154-pharmacological-glycaemic-control.txt` | How should people starting a sulphonylurea be counselled about hypoglycaemia warning signs? | The warning signs of hypoglycaemia, which should be outlined to people taking these agents, include (early signs) tremor, sweating, shaking, irritability, and (later signs) lack of concentration and co-ordination. |
+| Q6 | `hse-ireland-nutrition-dietetic-type2-diabetes-2020.txt` | At what daily alcohol intake is blood pressure reduction most evident when hypertensive people cut back on drinking? | A reduction in alcohol intake in hypertensive individuals has been shown to reduce blood pressure especially if more than 28g alcohol is consumed daily (Dyson et al., 2018). |
 | Q7 | `waikato-gp-type2-diabetes-manual-2024.txt` | What hypoglycaemia risk follows evening alcohol consumption in people with diabetes? | Alcohol can cause hypoglycaemia shortly after drinking and for up to 24 hours after drinking. |
 | Q8 | `sign116-management-of-diabetes-qrg.txt` | What supportive approaches should be considered within a multidisciplinary lifestyle intervention programme for diabetes? | A Computer-assisted education packages and telephone prompting should be considered as part of a multidisciplinary lifestyle intervention programme. |
-| Q9 | `who-global-report-diabetes-2016.txt` | What behavioural changes should be advised as part of lifestyle goals in diabetes? | These people should receive (as a minimum) repeat counselling on weight loss, diet, physical activity and smoking. |
-| Q10 | `nice-ng28-type2-diabetes-management.txt` | How should diet be tailored in people with diabetes who have complications or other conditions? | It is particularly important to choose the technology that best supports a person's diabetes care. |
+| Q9 | `icmr-type2-diabetes-guidelines-2018.txt` (replaced) | What behavioural changes should be advised as part of lifestyle goals in diabetes? | Advise other behavioural changes for: smoking, other tobacco products and alcohol |
+| Q10 | `icmr-type2-diabetes-guidelines-2018.txt` (replaced) | How should diet be tailored in people with diabetes who have complications or other conditions? | To individualise the diet according to complications and co-morbidities |
 
-**Weak matches to check by hand.** The method is word overlap, so it can pick a sentence that shares words without answering the question. Q10's span (about technology) does not answer the diet question, and Q9's span only partly does. Before the final run, read each span against its query and replace any that does not answer it. Record each replacement as a choice.
+**Human check.** The method is word overlap, so it can pick a sentence that shares words without answering the question. The word-overlap match for Q9 (WHO report, "repeat counselling on weight loss...") and Q10 (NICE, "choose the technology...") did not answer the question. Their expected answers are lines of the "6.1 Lifestyle Goals in Diabetes" list in the ICMR guideline, so those lines are their spans, set in the notebook's `HUMAN_CHECK`. Q2, Q9 and Q10 now share one file. Read all 10 spans again before the final run.
 
 **Show:** the table of 10 queries with passage file, span and expected answer. This is a graded checklist item ("Answer span marked for each of the 10 queries").
 
-**Check:** the 10 spans each occur exactly once in the corpus, the 10 passage files are all different, and a human has read each span and confirmed it answers its query.
+**Check:** the 10 spans each occur exactly once in the corpus, and a human has read each span and confirmed it answers its query.
 
 ## Step 2: Part A1.1, one reusable dense search function (1 mark)
 
 **Inputs:** the corpus, the embedding model.
 
-**Choose the embedding model first.** `all-MiniLM-L6-v2` cuts input at 256 tokens, so 400-token chunks would be truncated. The brief asks you to switch models or change the size, and say which. Recommended: switch to `BAAI/bge-base-en-v1.5` (768 dimensions, 512-token limit), so 100, 400 and 500 all fit with room for the 2 special tokens. Write one sentence saying you switched and why, and print `model.max_seq_length`.
+**Choose the embedding model first.** `all-MiniLM-L6-v2` cuts input at 256 tokens, so 400-token chunks would be truncated. The brief asks you to switch models or change the size, and say which. Recommended: switch to `BAAI/bge-base-en-v1.5` (768 dimensions, 512-token limit), so 100 and 400 both fit with room for the 2 special tokens. Write one sentence saying you switched and why, and print `model.max_seq_length`.
 
 **A1.1 One reusable function (1 mark).** The brief asks for **one** function that embeds the chunks, builds the index, and returns the top k for a query. For example:
 
 ```python
-def dense_search(chunks, queries, k, model, batch_size=64, cache={}):
+def dense_search(chunks, queries, k):
     """Embed the chunks, build a FAISS IndexFlatIP, return the top k chunks for each query."""
-    # 1. If this chunk set is not cached: encode with normalize_embeddings=True,
+    # 1. If this chunk set is not cached: encode (batch size 64) with normalize_embeddings=True,
     #    build faiss.IndexFlatIP(dim), index.add(...), record the build time.
     # 2. Encode the queries the same way, index.search(q, k).
     # 3. Return, per query, a list of (rank, chunk_id, score, text), ranks starting at 1.
@@ -194,8 +194,8 @@ The cache keeps Parts A, B and C from rebuilding the same index. Normalised vect
 
 **A2.1 Chunk and test (2 marks).**
 
-1. Chunk each document separately, so no chunk spans two files.
-2. Use fixed-size chunks with no overlap, at 100 and 400 tokens (plus 500, see the typo note).
+1. Chunk each document separately, so no chunk spans two files (**our choice**).
+2. Use fixed-size chunks with no overlap, at 100 and 400 tokens.
 3. Count tokens with the **embedding model's** tokenizer: `tok(text, add_special_tokens=False, return_offsets_mapping=True)`. Slice the original text with the offsets, because decoding token ids lowercases it and the generator needs the original wording.
 4. Keep `doc`, `chunk_id`, `text`, `n_tokens` for each chunk.
 5. For each size, run `dense_search` on the 10 queries with k=3.
@@ -207,9 +207,8 @@ The cache keeps Parts A, B and C from rebuilding the same index. Normalised vect
 | --- | --- | --- | --- |
 | 100 | | | |
 | 400 | | | |
-| 500 (header typo) | | | |
 
-**A2.2 Choose the size (1 mark).** Two or three sentences weighing hit rate, tokens per query, and how much context the Assignment 1 model can take. Facts to use, from the Assignment 1 notebook: the adapter was trained with `SFT_MAX_LEN = 512` on prompts with no context (cell 49), and the model's context window is 4,096 tokens (printed by cell 18). Measure the full Part D prompt length with the **Mistral** tokenizer for your chosen size, since it counts differently from the embedding tokenizer. Let the numbers decide, and quote them.
+**A2.2 Choose the size (1 mark).** Two or three sentences that name the chosen size, say it is used in Parts B, C and D, and give the reason. Quote the hit rate@3 and the tokens sent per query for both sizes, and how much context the Assignment 1 model can handle: its adapter was trained with `SFT_MAX_LEN = 512` on prompts with no context (Assignment 1, cell 49). Measure one full Part D prompt with the **Mistral** tokenizer at the chosen size, since it counts differently from the embedding tokenizer. **Our rule:** the highest hit rate@3 wins, and a tie goes to the smaller size, which sends fewer tokens (the notebook's `CHUNK_SIZE` cell).
 
 **A1.2 Report the setup (1 mark).** The brief asks for this "for your final chunk set", so print it after A2.2 picks the size: model name, vector size, similarity measure, batch size, number of chunks, and index build time (encoding plus `index.add`, timed with `time.perf_counter()`).
 
@@ -224,7 +223,7 @@ The cache keeps Parts A, B and C from rebuilding the same index. Normalised vect
 All three methods return the top 5 and share one `evaluate(search_fn)` helper, so the rows are comparable.
 
 1. **B1 Dense (1 mark).** Call `dense_search(..., k=5)`.
-2. **B2 BM25 (1 mark).** Build `BM25Okapi` once over the chunks. Tokenise chunks and queries the same way: lowercase, `re.findall(r"[a-z0-9]+", text)`. This keeps domain terms like `hba1c` and `sglt2` whole. Per query: `bm25.get_scores(tokens)`, then `np.argsort(-scores)[:k]`.
+2. **B2 BM25 (1 mark).** Build `BM25Okapi` once over the chunks. **Our choice:** tokenise chunks and queries the same way: lowercase, `re.findall(r"[a-z0-9]+", text)`. This keeps domain terms like `hba1c` and `sglt2` whole. Per query: `bm25.get_scores(tokens)`, then `np.argsort(-scores)[:k]`.
 3. **B3 Hybrid with RRF (1 mark).** Take the top **20** from dense and from BM25, then score each chunk:
 
 ```latex
@@ -247,7 +246,7 @@ How to compute the columns:
 - **Hit rate@1:** share of queries whose rank-1 chunk contains the span.
 - **Hit rate@3:** share with the span in any of the top 3.
 
-4. **B4 Best method (1 mark).** Two or three sentences naming the method that works best for your queries and why, using **one query** as the example. Show where the answer chunk ranked under each of the three methods for that query.
+4. **B4 Best method (1 mark).** Two or three sentences naming the method that works best for your queries and why, using **one query** as the example. Pick a query where the answer chunk ranks differently across the methods, and show its rank under each method.
 
 **Show:** the table, a per-query table of the answer chunk's rank under each method, and the B4 text.
 
@@ -257,7 +256,7 @@ How to compute the columns:
 
 **Inputs:** the best method from B4, the chunks, the 10 queries and spans.
 
-1. **C1 Rerank (1 mark).** Retrieve the top **10** with the best method. Score each (query, chunk text) pair with `CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2", max_length=512)` using `ce.predict(pairs)`. Sort by score and keep the top 3. Say whether it ran on GPU or CPU.
+1. **C1 Rerank (1 mark).** Retrieve the top **10** with the best method. Score each (query, chunk text) pair with `CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2", max_length=512)` using `ce.predict(pairs)`. **Our choice:** `max_length=512`. Sort by score and keep the top 3. Say whether it ran on GPU or CPU.
 2. **C2 Compare rankings (1 mark).** For each query, show the top 3 before reranking (the best method's own order) and after. Show the chunk id, the first 80 characters, and a hit marker. **Rank change rate** = share of the 10 queries whose first result changes.
 3. **C3 Measure (1 mark).** Time only the `predict` call, after one warm-up, and average over the 10 queries. On GPU, call `torch.cuda.synchronize()` before stopping the timer, so the time is not cut short.
 
@@ -268,7 +267,7 @@ How to compute the columns:
 | Hit rate@1 before reranking (from Part B, same method) | |
 | Hit rate@1 after reranking | |
 
-4. **C4 Did it help? (1 mark).** Two or three sentences that weigh the hit rate@1 before and after against the time added. If the gain is small, note that ms-marco was trained on web search, not clinical text.
+4. **C4 Did it help? (1 mark).** Two or three sentences that weigh the hit rate@1 before and after against the time added. Only if there is no gain, note that ms-marco was trained on web search, not clinical text.
 
 Save the reranked top 3 per query as `final_chunks[qid]`. Part D uses exactly these.
 
@@ -286,34 +285,17 @@ The brief asks for three D1 steps, and each is one mark:
 2. **D1.2 All 10 answers (1 mark).** For each of the 10 queries, give the Assignment 1 model the top 3 chunks after reranking, each labelled with a number. Show all 10 answers.
 3. **D1.3 Not-in-corpus query (1 mark).** Add one query whose answer is not in the corpus, and show that the model replies that it cannot find it.
 
-If the Assignment 1 model ignores the chunks or never says "Not found", the brief allows switching to an instruct model. **Report only:** this plan does not switch, so the generator stays Mistral. Show one example of the problem and report the counts.
+If the Assignment 1 model ignores the chunks or never says "Not found", the brief allows switching to an instruct model such as Llama 3.1 8B Instruct or Qwen2.5 7B Instruct. Decide after the first run: if you switch, name the model and show one example of the problem.
 
 **Load the generator. Our choice,** taken from Assignment 1 code (cells 50 and 51): load the CPT model from `../Ass-1/persistent/cpt_ckpt` in 4-bit with the same `BitsAndBytesConfig` as Assignment 1 B2, add the adapter with `PeftModel.from_pretrained(model, "../Ass-1/persistent/adapter")`, and call `model.eval()`. Load the tokenizer from the adapter folder (`AutoTokenizer.from_pretrained("../Ass-1/persistent/adapter")`): Assignment 1 saved it there after setting the chat template (cells 49 and 50), so the `Instruction: … Response:` format comes with it. Use greedy decoding (`do_sample=False`) and `max_new_tokens=120`, the same as Assignment 1 (`SFT_MAX_NEW_TOKENS`, cell 51).
 
-**Our check (not in the brief, no separate mark): the drift test.** The Assignment 1 adapter was trained on prompts with no chunks and answers of 1 to 3 sentences. A long grounded prompt can make the model keep writing: a new `Instruction:` block, a heading or bold block, or a citation such as [7] when only 3 chunks were given. To measure this, run the same 10 queries and the not-in-corpus query twice, with the same chunks:
+**Our choice:** `repetition_penalty=1.1`, stop strings at `Instruction:` and `Question:`, and a cleanup that cuts at the first stop string and drops a trailing heading or bold block. The Assignment 1 adapter was trained on prompts with no chunks, so without these the model can keep writing after its answer.
 
-- **BEFORE:** the plain first draft, with no rules about citations or "Not found". Greedy, 120 tokens, cut only at `Instruction:`, as Assignment 1 does.
-- **AFTER:** the strict prompt in the `Instruction: … Response:` format. It uses **our choice** settings: `repetition_penalty=1.1`, stop strings at `Instruction:` and `Question:`, and a cleanup that cuts at the first stop string and drops a trailing heading or bold block.
+**"Not found" check:** a reply counts as Not found if it is "Not found in the documents", with or without a final full stop.
 
-Count these on the 11 queries (10 plus the not-in-corpus query):
+**Show:** the prompt, the generator name, the 10 answers with the chunks cited, and the not-in-corpus query with its 3 chunks and its reply.
 
-- **Valid citation:** the answer cites at least one of [1], [2], [3], and no other number.
-- **Grounded:** a valid citation, or exactly "Not found in the documents".
-- **Drift flag:** on the raw text before cleanup, a stop string appears, a heading or bold line appears, or a number outside 1 to 3 is cited.
-
-| Measure | BEFORE | AFTER |
-| --- | --- | --- |
-| Grounded answers (of 11) | | |
-| Valid citations (of 10) | | |
-| Not-found replies on the 10 queries | | |
-| Drift flags (of 11) | | |
-| Not-in-corpus query: Not found (1 = yes) | | |
-
-Show the two examples where BEFORE drifted and AFTER did not, with the query, the BEFORE text, the AFTER answer and the 3 chunks. This check is part of the D1 output, but it earns no extra marks.
-
-**Show:** both prompts, the generator name (Mistral), the 10 answers with the chunks cited, the not-in-corpus query and its reply, and the drift table with its two examples.
-
-**Check:** each AFTER answer either cites only [1], [2] or [3], or is exactly "Not found in the documents". Whether each cited fact is in the chunks is checked by the judge in D2 (SUPPORTED).
+**Check:** each answer either cites only [1], [2] or [3], or says "Not found in the documents". Whether each cited fact is in the chunks is checked by the judge in D2 (SUPPORTED).
 
 ## Step 7: Part D2, LLM judge (4 marks)
 
@@ -349,7 +331,7 @@ SUPPORTED: <YES | NO>
 REASON: <one sentence>
 ```
 
-Run it on the 10 AFTER answers (not on the not-in-corpus query). Parse the three lines with regular expressions on `^CORRECT:`, `^SUPPORTED:` and `^REASON:`. Show one table with a row per query: query, correct, supported, reason. Then fill the summary:
+Run it on the 10 answers from D1.2 (**our choice:** not on the not-in-corpus query). Parse the three lines with regular expressions on `^CORRECT:`, `^SUPPORTED:` and `^REASON:`. Show one table with a row per query: query, correct, supported, reason. Then fill the summary:
 
 | Check | Count out of 10 |
 | --- | --- |
@@ -358,17 +340,17 @@ Run it on the 10 AFTER answers (not on the not-in-corpus query). Parse the three
 | Wrong | |
 | Supported by the chunks | |
 
-2. **D2.2 Spot-check (1 mark).** Pick 3 answers, ideally with different verdicts. Read each answer and its 3 chunks yourself, and write your own CORRECT and SUPPORTED. Say how many of the judge's verdicts you agree with (out of 3), and explain one disagreement if there is one.
-3. **D2.3 Find the cause (1 mark).** Pick one answer the judge marked WRONG or SUPPORTED: NO. Show its 3 chunks and say which caused it:
+2. **D2.2 Spot-check (1 mark).** Pick 3 answers, ideally with different verdicts. Read each answer and its 3 chunks yourself, and write your own CORRECT and SUPPORTED in the notes cell under them. Say how many of the judge's verdicts you agree with (out of 3), and explain one disagreement if there is one.
+3. **D2.3 Find the cause (1 mark).** Pick one answer the judge marked WRONG or SUPPORTED: NO. Show its 3 chunks in full and say which caused it:
     - **Retrieval:** the needed fact is not in any of the 3 chunks. Check with `is_hit` against the Step 1 span.
     - **Generation:** the fact is in a chunk, but the model did not use it, or added something the chunks do not say.
 
-    If no answer is wrong or unsupported, pick the weakest one (partly correct), and say so.
-4. **D2.4 Suggest a fix (1 mark).** Propose one change that matches the cause, and explain why it would help:
-    - The span was split across chunks: a different chunk size, or overlap.
-    - An exact term was missed: hybrid or BM25 search.
-    - The fact ranked 4th or 5th: rerank more candidates, or pass more chunks.
-    - The model ignored or added content: stricter prompt wording, or an instruct model.
+    If no answer is wrong or unsupported, pick the weakest one (partly correct), and say so. Add one or two sentences in your own words in the notes cell.
+4. **D2.4 Suggest a fix (1 mark).** Propose **one** change that matches where the fact was lost, and explain why it would help:
+    - Fact in the 3 chunks (generation): stricter prompt wording.
+    - Fact in the top 10 but not the top 3: pass the top 5 reranked chunks.
+    - Fact in a chunk but not in the top 10: rerank the top 20.
+    - Span split across two chunks: add a 50-token overlap.
 
 **Show:** the judge name, the judge prompt, the per-query table, the summary counts, the spot-check, the failed answer with its 3 chunks, the cause and the fix.
 
@@ -377,9 +359,10 @@ Run it on the 10 AFTER answers (not on the not-in-corpus query). Parse the three
 ## Step 8: Export and submit
 
 1. Restart the kernel and run all cells on the lab server.
-2. Make sure every output is visible: no errors, no empty cells, no cleared outputs.
-3. Export: `jupyter nbconvert --to html Ass-2/Assignment2B.ipynb`.
-4. Open the HTML and check that every table and model answer shows.
+2. Fill in the D2.2 and D2.3 notes cells from what the run shows, and save.
+3. Make sure every output is visible: no errors, no empty cells, no cleared outputs.
+4. Export: `jupyter nbconvert --to html Ass-2/Assignment2B.ipynb`.
+5. Open the HTML and check that every table and model answer shows.
 
 ### Submission checklist (from the brief)
 
@@ -408,7 +391,7 @@ Run it on the 10 AFTER answers (not on the not-in-corpus query). Parse the three
 **Part D**
 
 - [ ] D1: prompt, all 10 answers, and the not-in-corpus query with its answer (Step 6)
-- [ ] D1: generator model used (Mistral, the Assignment 1 model), with a problem example if the answers drifted (Step 6)
+- [ ] D1: generator model used, plus one example of the problem if you switched from your Assignment 1 model (Step 6)
 - [ ] D2: judge model name and judge prompt (Step 7)
 - [ ] D2: judge results table (per query) and summary counts (Step 7)
 - [ ] D2: spot-check of 3 verdicts, with one disagreement explained if any (Step 7)
